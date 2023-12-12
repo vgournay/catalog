@@ -4,6 +4,15 @@
 
 
 
+## [webtop-6.0.203](https://github.com/truecharts/charts/compare/webtop-6.0.202...webtop-6.0.203) (2023-12-12)
+
+### Chore
+
+- update container image lscr.io/linuxserver/webtop to arch-i3[@4b6d776](https://github.com/4b6d776) ([#15979](https://github.com/truecharts/charts/issues/15979))
+  
+  
+
+
 ## [webtop-6.0.202](https://github.com/truecharts/charts/compare/webtop-6.0.193...webtop-6.0.202) (2023-12-08)
 
 ### Chore
@@ -88,12 +97,3 @@
   - update container image lscr.io/linuxserver/webtop to alpine-openbox[@a3dd940](https://github.com/a3dd940) ([#15200](https://github.com/truecharts/charts/issues/15200))
   - update container image lscr.io/linuxserver/webtop to arch-xfce[@a55de64](https://github.com/a55de64) ([#15342](https://github.com/truecharts/charts/issues/15342))
   - update container image lscr.io/linuxserver/webtop to arch-openbox[@f08016d](https://github.com/f08016d) ([#15341](https://github.com/truecharts/charts/issues/15341))
-  - update container image lscr.io/linuxserver/webtop to arch-mate[@c1739db](https://github.com/c1739db) ([#15340](https://github.com/truecharts/charts/issues/15340))
-  - update container image lscr.io/linuxserver/webtop to arch-kde[@9b3ea1d](https://github.com/9b3ea1d) ([#15339](https://github.com/truecharts/charts/issues/15339))
-  - update container image lscr.io/linuxserver/webtop to arch-i3[@55baf92](https://github.com/55baf92) ([#15337](https://github.com/truecharts/charts/issues/15337))
-  
-  
-
-
-## [webtop-6.0.188](https://github.com/truecharts/charts/compare/webtop-6.0.187...webtop-6.0.188) (2023-11-24)
-
