@@ -4,6 +4,15 @@
 
 
 
+## [webtop-6.0.219](https://github.com/truecharts/charts/compare/webtop-6.0.203...webtop-6.0.219) (2023-12-12)
+
+### Chore
+
+- update webtop ([#15987](https://github.com/truecharts/charts/issues/15987))
+  
+  
+
+
 ## [webtop-6.0.203](https://github.com/truecharts/charts/compare/webtop-6.0.202...webtop-6.0.203) (2023-12-12)
 
 ### Chore
@@ -88,12 +97,3 @@
 ### Chore
 
 - update container image lscr.io/linuxserver/webtop to alpine-i3[@b430d47](https://github.com/b430d47) ([#15450](https://github.com/truecharts/charts/issues/15450))
-  - update container image lscr.io/linuxserver/webtop to latest[@8f486a4](https://github.com/8f486a4) ([#15209](https://github.com/truecharts/charts/issues/15209))
-  - update container image lscr.io/linuxserver/webtop to ubuntu-mate[@a85f259](https://github.com/a85f259) ([#15213](https://github.com/truecharts/charts/issues/15213))
-  - update container image lscr.io/linuxserver/webtop to arch-icewm[@e8f4088](https://github.com/e8f4088) ([#15338](https://github.com/truecharts/charts/issues/15338))
-  - update container image lscr.io/linuxserver/webtop to ubuntu-xfce[@ae83f95](https://github.com/ae83f95) ([#15215](https://github.com/truecharts/charts/issues/15215))
-  - update container image lscr.io/linuxserver/webtop to ubuntu-icewm[@add62c8](https://github.com/add62c8) ([#15211](https://github.com/truecharts/charts/issues/15211))
-  - update container image lscr.io/linuxserver/webtop to fedora-openbox[@47f53b2](https://github.com/47f53b2) ([#15207](https://github.com/truecharts/charts/issues/15207))
-  - update container image lscr.io/linuxserver/webtop to alpine-openbox[@a3dd940](https://github.com/a3dd940) ([#15200](https://github.com/truecharts/charts/issues/15200))
-  - update container image lscr.io/linuxserver/webtop to arch-xfce[@a55de64](https://github.com/a55de64) ([#15342](https://github.com/truecharts/charts/issues/15342))
-  - update container image lscr.io/linuxserver/webtop to arch-openbox[@f08016d](https://github.com/f08016d) ([#15341](https://github.com/truecharts/charts/issues/15341))
