@@ -4,6 +4,15 @@
 
 
 
+## [boinc-6.0.28](https://github.com/truecharts/charts/compare/boinc-6.0.27...boinc-6.0.28) (2023-12-12)
+
+### Chore
+
+- update container image ghcr.io/linuxserver/boinc to latest[@741b3c6](https://github.com/741b3c6) ([#15989](https://github.com/truecharts/charts/issues/15989))
+  
+  
+
+
 ## [boinc-6.0.27](https://github.com/truecharts/charts/compare/boinc-6.0.26...boinc-6.0.27) (2023-12-05)
 
 ### Chore
@@ -85,15 +94,6 @@
 
 
 ## [boinc-6.0.18](https://github.com/truecharts/charts/compare/boinc-6.0.17...boinc-6.0.18) (2023-11-05)
-
-### Chore
-
-- update helm general non-major ([#14365](https://github.com/truecharts/charts/issues/14365))
-  
-  
-
-
-## [boinc-6.0.17](https://github.com/truecharts/charts/compare/boinc-6.0.16...boinc-6.0.17) (2023-11-03)
 
 ### Chore
 

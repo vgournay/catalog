@@ -1,23 +1,22 @@
-kubeVersion: ">=1.24.0"
+kubeVersion: ">=1.24.0-0"
 apiVersion: v2
-name: metube
-version: 8.1.1
-appVersion: 2023.12.10
-description: Web GUI for youtube-dl.
-home: https://truecharts.org/charts/stable/metube
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/metube.png
+name: omada-controller
+version: 10.1.4
+appVersion: "5.13"
+description: Omada is a SDN tool for TP-Link Omada hardware
+home: https://truecharts.org/charts/stable/omada-controller
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/omada-controller.png
 deprecated: false
 sources:
-  - https://github.com/alexta69/metube
-  - https://github.com/truecharts/charts/tree/master/charts/stable/metube
-  - https://hub.docker.com/r/alexta69/metube
+  - https://github.com/mbentley/docker-omada-controller
+  - https://github.com/truecharts/charts/tree/master/charts/stable/omada-controller
+  - https://hub.docker.com/r/mbentley/omada-controller
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
 keywords:
-  - metube
-  - media
+  - omada-controller
 dependencies:
   - name: common
     version: 14.3.5
@@ -34,3 +33,4 @@ annotations:
   truecharts.org/max_helm_version: "3.13"
   truecharts.org/min_helm_version: "3.12"
   truecharts.org/train: stable
+type: application
