@@ -1,0 +1,31 @@
+**Important:**
+*for the complete changelog, please refer to the website*
+
+
+
+
+## [dockerregistry-3.0.4](https://github.com/truecharts/charts/compare/dockerregistry-2.0.15...dockerregistry-3.0.4) (2023-12-16)
+
+### Chore
+
+- fix move mistake and cleanup metadata
+  
+  
+
+
+## [dockerregistry-3.0.4](https://github.com/truecharts/charts/compare/dockerregistry-2.0.15...dockerregistry-3.0.4) (2023-12-16)
+
+### Chore
+
+- fix move mistake and cleanup metadata
+  
+  
+
+
+## [dockerregistry-3.0.4](https://github.com/truecharts/charts/compare/dockerregistry-2.0.15...dockerregistry-3.0.4) (2023-12-16)
+
+### Chore
+
+- fix move mistake and cleanup metadata
+  
+  
