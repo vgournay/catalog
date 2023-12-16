@@ -4,6 +4,15 @@
 
 
 
+## [kitchenowl-6.0.30](https://github.com/truecharts/charts/compare/kitchenowl-6.0.29...kitchenowl-6.0.30) (2023-12-16)
+
+### Chore
+
+- update container image tombursch/kitchenowl to latest[@cd959a5](https://github.com/cd959a5) ([#16045](https://github.com/truecharts/charts/issues/16045))
+  
+  
+
+
 ## [kitchenowl-6.0.29](https://github.com/truecharts/charts/compare/kitchenowl-6.0.27...kitchenowl-6.0.29) (2023-12-16)
 
 ### Chore
@@ -88,12 +97,3 @@
 - update container image tombursch/kitchenowl to latest ([#15062](https://github.com/truecharts/charts/issues/15062))
   
   
-
-
-## [kitchenowl-6.0.22](https://github.com/truecharts/charts/compare/kitchenowl-6.0.21...kitchenowl-6.0.22) (2023-11-18)
-
-
-
-
-## [kitchenowl-6.0.21](https://github.com/truecharts/charts/compare/kitchenowl-6.0.20...kitchenowl-6.0.21) (2023-11-17)
-
