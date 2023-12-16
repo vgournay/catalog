@@ -4,6 +4,15 @@
 
 
 
+## [ipfs-7.1.0](https://github.com/truecharts/charts/compare/ipfs-7.0.17...ipfs-7.1.0) (2023-12-16)
+
+### Chore
+
+- update container image ipfs/kubo to v0.25.0[@9d91782](https://github.com/9d91782) ([#16081](https://github.com/truecharts/charts/issues/16081))
+  
+  
+
+
 ## [ipfs-7.0.17](https://github.com/truecharts/charts/compare/ipfs-7.0.15...ipfs-7.0.17) (2023-12-16)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [ipfs-7.0.10](https://github.com/truecharts/charts/compare/ipfs-7.0.9...ipfs-7.0.10) (2023-11-05)
-
-### Chore
-
-- update helm general non-major ([#14365](https://github.com/truecharts/charts/issues/14365))
-  
-  
-
-
-## [ipfs-7.0.9](https://github.com/truecharts/charts/compare/ipfs-7.0.8...ipfs-7.0.9) (2023-11-03)
 
 ### Chore
