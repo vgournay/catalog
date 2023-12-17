@@ -1,28 +1,30 @@
 kubeVersion: ">=1.24.0-0"
 apiVersion: v2
-name: xwiki
-version: 8.1.7
-appVersion: 15.10.1
+name: yourls
+version: 3.0.8
+appVersion: latest
 description:
-  XWiki is a free wiki software platform written in Java with a design
-  emphasis on extensibility
-home: https://truecharts.org/charts/stable/xwiki
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/xwiki.png
+  YOURLS is a set of PHP scripts that will allow you to run Your Own URL
+  Shortener.
+home: https://truecharts.org/charts/incubator/yourls
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/yourls.png
 deprecated: false
 sources:
-  - https://github.com/xwiki/xwiki-docker
-  - https://github.com/truecharts/charts/tree/master/charts/stable/xwiki
-  - https://hub.docker.com/_/xwiki
+  - https://github.com/truecharts/charts/tree/master/charts/incubator/yourls
+  - https://hub.docker.com/_/yourls
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
 keywords:
-  - xwiki
-  - wiki
+  - yourls
+  - Cloud
+  - Tools-Utilities
+  - Network-Web
+  - Network-Other
 dependencies:
   - name: common
-    version: 14.5.0
+    version: 16.2.6
     repository: https://library-charts.truecharts.org
     condition: ""
     alias: ""
@@ -32,8 +34,8 @@ annotations:
   max_scale_version: 23.10.1
   min_scale_version: 22.12.4
   truecharts.org/SCALE-support: "true"
-  truecharts.org/category: productivity
+  truecharts.org/category: Cloud
   truecharts.org/max_helm_version: "3.13"
   truecharts.org/min_helm_version: "3.12"
-  truecharts.org/train: stable
+  truecharts.org/train: incubator
 type: application
