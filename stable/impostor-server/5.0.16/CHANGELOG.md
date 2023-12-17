@@ -4,6 +4,15 @@
 
 
 
+## [impostor-server-5.0.16](https://github.com/truecharts/charts/compare/impostor-server-5.0.15...impostor-server-5.0.16) (2023-12-17)
+
+### Chore
+
+- update container image aeonlucid/impostor to nightly[@a717ec0](https://github.com/a717ec0) ([#16187](https://github.com/truecharts/charts/issues/16187))
+  
+  
+
+
 ## [impostor-server-5.0.15](https://github.com/truecharts/charts/compare/impostor-server-5.0.14...impostor-server-5.0.15) (2023-12-16)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Chore
 
 - update helm general non-major ([#14365](https://github.com/truecharts/charts/issues/14365))
-  
-  
-
-
-## [impostor-server-5.0.6](https://github.com/truecharts/charts/compare/impostor-server-5.0.5...impostor-server-5.0.6) (2023-11-03)
-
-### Chore
-
-- update helm general non-major ([#14287](https://github.com/truecharts/charts/issues/14287))
   
   
