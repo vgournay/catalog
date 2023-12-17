@@ -143,12 +143,6 @@ questions:
                                         schema:
                                           type: string
                                           default: ""
-                                      - variable: UMASK
-                                        label: "UMASK"
-                                        description: "Container Variable UMASK"
-                                        schema:
-                                          type: string
-                                          default: "0000"
   - variable: service
     group: Networking and Services
     label: Configure Service(s)
