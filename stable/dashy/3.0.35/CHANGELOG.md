@@ -4,6 +4,15 @@
 
 
 
+## [dashy-3.0.35](https://github.com/truecharts/charts/compare/dashy-3.0.34...dashy-3.0.35) (2023-12-18)
+
+### Chore
+
+- update container image lissy93/dashy to 2.1.1[@1efc63a](https://github.com/1efc63a) by renovate ([#16226](https://github.com/truecharts/charts/issues/16226))
+  
+  
+
+
 ## [dashy-3.0.34](https://github.com/truecharts/charts/compare/dashy-3.0.32...dashy-3.0.34) (2023-12-16)
 
 ### Chore
@@ -85,15 +94,6 @@
 
 
 ## [dashy-3.0.27](https://github.com/truecharts/charts/compare/dashy-3.0.26...dashy-3.0.27) (2023-11-08)
-
-### Chore
-
-- update helm general non-major ([#14465](https://github.com/truecharts/charts/issues/14465))
-  
-  
-
-
-## [dashy-3.0.26](https://github.com/truecharts/charts/compare/dashy-3.0.25...dashy-3.0.26) (2023-11-08)
 
 ### Chore
 

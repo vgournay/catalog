@@ -1,36 +1,33 @@
 kubeVersion: ">=1.24.0-0"
 apiVersion: v2
-name: rsshub
-version: 8.0.296
-appVersion: latest
-description: RSSHub can generate RSS feeds from pretty much everything
-home: https://truecharts.org/charts/stable/rsshub
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/rsshub.png
+name: babybuddy
+version: 13.0.31
+appVersion: 2.1.2
+description:
+  Helps caregivers track sleep, feedings, diaper changes, tummy time and
+  more to learn about and predict baby's needs without (as much) guess work.
+home: https://truecharts.org/charts/stable/babybuddy
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/babybuddy.png
 deprecated: false
 sources:
-  - https://docs.rsshub.app/en/install/
-  - https://github.com/DIYgod/RSSHub
-  - https://github.com/truecharts/charts/tree/master/charts/stable/rsshub
-  - https://hub.docker.com/r/diygod/rsshub
+  - https://github.com/babybuddy/babybuddy
+  - https://github.com/truecharts/charts/tree/master/charts/stable/babybuddy
+  - https://ghcr.io/linuxserver/babybuddy
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
 keywords:
-  - rsshub
-  - rss
+  - baby
+  - buddy
+  - tracker
+  - parents
+  - parenting
 dependencies:
   - name: common
     version: 14.5.0
     repository: https://library-charts.truecharts.org
     condition: ""
-    alias: ""
-    tags: []
-    import-values: []
-  - name: redis
-    version: 6.0.66
-    repository: https://deps.truecharts.org
-    condition: redis.enabled
     alias: ""
     tags: []
     import-values: []
