@@ -4,6 +4,15 @@
 
 
 
+## [neko-3.0.5](https://github.com/truecharts/charts/compare/neko-3.0.4...neko-3.0.5) (2023-12-18)
+
+### Chore
+
+- update container image m1k1o/neko to brave[@5d853c2](https://github.com/5d853c2) by renovate ([#16291](https://github.com/truecharts/charts/issues/16291))
+  
+  
+
+
 ## [neko-3.0.4](https://github.com/truecharts/charts/compare/neko-3.0.3...neko-3.0.4) (2023-12-18)
 
 ### Chore
@@ -88,12 +97,3 @@
   
   
 
-
-## [neko-3.0.2](https://github.com/truecharts/charts/compare/neko-2.0.30...neko-3.0.2) (2023-12-15)
-
-### Chore
-
-- make things work with new common part 3 ([#15994](https://github.com/truecharts/charts/issues/15994))
-  - BREAKING CHANGE move to latest common ([#15841](https://github.com/truecharts/charts/issues/15841))
-  
-  
