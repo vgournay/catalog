@@ -1,4 +1,4 @@
-HumHub is a free social network software and framework built to give you the tools to make communication and collaboration easy and successful. The Database is at 'localhost', username is 'humhub', the database name is 'humhub', there are no password (local user)
+A feature rich and highly flexible OpenSource Social Network Kit written in PHP.
 
 This App is supplied by TrueCharts, for more information visit the manual: [https://truecharts.org/charts/stable/humhub](https://truecharts.org/charts/stable/humhub)
 
