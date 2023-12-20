@@ -3,9 +3,9 @@ name: Sync multiple branches
 concurrency: catalog-test
 
 on:
-  push:
-    branches:
-      - 'staging'
+  #push:
+  #  branches:
+  #    - 'staging'
   workflow_dispatch:
 
 jobs:
