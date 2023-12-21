@@ -4,6 +4,15 @@
 
 
 
+## [clusterissuer-5.0.2](https://github.com/truecharts/charts/compare/clusterissuer-5.0.1...clusterissuer-5.0.2) (2023-12-21)
+
+### Fix
+
+- fix acmednsJson ([#16338](https://github.com/truecharts/charts/issues/16338))
+  
+  
+
+
 ## [clusterissuer-5.0.1](https://github.com/truecharts/charts/compare/clusterissuer-5.0.0...clusterissuer-5.0.1) (2023-12-20)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 ## [clusterissuer-4.2.9](https://github.com/truecharts/charts/compare/clusterissuer-4.2.8...clusterissuer-4.2.9) (2023-11-08)
 
-
-
-
-## [clusterissuer-4.2.8](https://github.com/truecharts/charts/compare/clusterissuer-4.2.7...clusterissuer-4.2.8) (2023-11-08)
-
-
-
-
-## [clusterissuer-4.2.7](https://github.com/truecharts/charts/compare/clusterissuer-4.2.6...clusterissuer-4.2.7) (2023-11-08)
