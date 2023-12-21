@@ -4,6 +4,15 @@
 
 
 
+## [emulatorjs-7.0.2](https://github.com/truecharts/charts/compare/emulatorjs-7.0.1...emulatorjs-7.0.2) (2023-12-21)
+
+### Fix
+
+- link non-primary ingress - add port to non-ingress gitea's url ([#16336](https://github.com/truecharts/charts/issues/16336))
+  
+  
+
+
 ## [emulatorjs-7.0.1](https://github.com/truecharts/charts/compare/emulatorjs-7.0.0...emulatorjs-7.0.1) (2023-12-20)
 
 ### Chore
@@ -59,15 +68,6 @@
 
 - fix move mistake and cleanup metadata
   - update container image ghcr.io/linuxserver/emulatorjs to 1.7.3[@83eb76a](https://github.com/83eb76a) ([#16071](https://github.com/truecharts/charts/issues/16071))
-  
-  
-
-
-## [emulatorjs-6.0.24](https://github.com/truecharts/charts/compare/emulatorjs-6.0.23...emulatorjs-6.0.24) (2023-12-15)
-
-### Chore
-
-- update container image ghcr.io/linuxserver/emulatorjs to 1.7.3[@83eb76a](https://github.com/83eb76a) ([#16071](https://github.com/truecharts/charts/issues/16071))
   
   
 

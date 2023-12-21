@@ -4,6 +4,15 @@
 
 
 
+## [wg-easy-6.0.2](https://github.com/truecharts/charts/compare/wg-easy-6.0.1...wg-easy-6.0.2) (2023-12-21)
+
+### Fix
+
+- link non-primary ingress - add port to non-ingress gitea's url ([#16336](https://github.com/truecharts/charts/issues/16336))
+  
+  
+
+
 ## [wg-easy-6.0.1](https://github.com/truecharts/charts/compare/wg-easy-6.0.0...wg-easy-6.0.1) (2023-12-20)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [wg-easy-5.0.8](https://github.com/truecharts/charts/compare/wg-easy-5.0.7...wg-easy-5.0.8) (2023-11-08)
-
-### Chore
-
-- update helm general non-major ([#14465](https://github.com/truecharts/charts/issues/14465))
-  
-  
-
-
-## [wg-easy-5.0.7](https://github.com/truecharts/charts/compare/wg-easy-5.0.6...wg-easy-5.0.7) (2023-11-08)
 
 ### Chore
