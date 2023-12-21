@@ -4,6 +4,15 @@
 
 
 
+## [prometheus-operator-2.0.2](https://github.com/truecharts/charts/compare/prometheus-operator-2.0.1...prometheus-operator-2.0.2) (2023-12-21)
+
+### Fix
+
+- fix last appVersion's ([#16335](https://github.com/truecharts/charts/issues/16335))
+  
+  
+
+
 ## [prometheus-operator-2.0.1](https://github.com/truecharts/charts/compare/prometheus-operator-2.0.0...prometheus-operator-2.0.1) (2023-12-20)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 
 
-
-## [prometheus-operator-1.0.11](https://github.com/truecharts/charts/compare/prometheus-operator-1.0.10...prometheus-operator-1.0.11) (2023-11-08)
-
-### Chore
-
-- update helm general non-major ([#14454](https://github.com/truecharts/charts/issues/14454))
-  - update container image tccr.io/truecharts/prometheus-config-reloader to v0.69.0 ([#14396](https://github.com/truecharts/charts/issues/14396))
-  
-  
