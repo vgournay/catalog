@@ -1,0 +1,99 @@
+**Important:**
+*for the complete changelog, please refer to the website*
+
+
+
+
+## [fleet-9.0.10](https://github.com/truecharts/charts/compare/fleet-9.0.9...fleet-9.0.10) (2023-12-23)
+
+### Chore
+
+- update helm general non-major by renovate ([#16373](https://github.com/truecharts/charts/issues/16373))
+  
+  
+
+
+## [fleet-9.0.9](https://github.com/truecharts/charts/compare/fleet-9.0.8...fleet-9.0.9) (2023-12-23)
+
+### Chore
+
+- update helm general non-major by renovate ([#16369](https://github.com/truecharts/charts/issues/16369))
+  
+  
+
+
+## [fleet-9.0.8](https://github.com/truecharts/charts/compare/fleet-9.0.7...fleet-9.0.8) (2023-12-23)
+
+### Chore
+
+- update helm general non-major by renovate ([#16361](https://github.com/truecharts/charts/issues/16361))
+  
+  
+
+
+## [fleet-9.0.7](https://github.com/truecharts/charts/compare/fleet-9.0.6...fleet-9.0.7) (2023-12-22)
+
+### Chore
+
+- update helm general non-major by renovate ([#16359](https://github.com/truecharts/charts/issues/16359))
+  
+  
+
+
+## [fleet-9.0.6](https://github.com/truecharts/charts/compare/fleet-9.0.5...fleet-9.0.6) (2023-12-22)
+
+### Fix
+
+- expose custom options for homepage integration
+  
+  
+
+
+## [fleet-9.0.5](https://github.com/truecharts/charts/compare/fleet-9.0.4...fleet-9.0.5) (2023-12-21)
+
+### Fix
+
+- bump to release middleware fix
+  
+  
+
+
+## [fleet-9.0.4](https://github.com/truecharts/charts/compare/fleet-9.0.3...fleet-9.0.4) (2023-12-21)
+
+### Chore
+
+- update helm general non-major by renovate ([#16346](https://github.com/truecharts/charts/issues/16346))
+  
+  
+
+
+## [fleet-9.0.3](https://github.com/truecharts/charts/compare/fleet-9.0.2...fleet-9.0.3) (2023-12-21)
+
+### Chore
+
+- bump everything to ensure patches are applied globally
+  
+  
+
+
+## [fleet-9.0.2](https://github.com/truecharts/charts/compare/fleet-9.0.1...fleet-9.0.2) (2023-12-21)
+
+### Chore
+
+- update helm general non-major by renovate ([#16341](https://github.com/truecharts/charts/issues/16341))
+  
+  
+
+
+## [fleet-9.0.1](https://github.com/truecharts/charts/compare/fleet-9.0.0...fleet-9.0.1) (2023-12-20)
+
+### Chore
+
+- bump patch versions on all charts for new GUI release
+  
+  
+
+
+## [fleet-9.0.0](https://github.com/truecharts/charts/compare/fleet-8.0.15...fleet-9.0.0) (2023-12-20)
+
+### Chore
