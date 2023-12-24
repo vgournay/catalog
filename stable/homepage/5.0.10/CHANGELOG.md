@@ -4,6 +4,15 @@
 
 
 
+## [homepage-5.0.10](https://github.com/truecharts/charts/compare/homepage-5.0.9...homepage-5.0.10) (2023-12-24)
+
+### Fix
+
+- set ndots to 3 to ensure it can render svc without .cluster.local
+  
+  
+
+
 ## [homepage-5.0.9](https://github.com/truecharts/charts/compare/homepage-5.0.8...homepage-5.0.9) (2023-12-23)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [homepage-5.0.0](https://github.com/truecharts/charts/compare/homepage-4.0.27...homepage-5.0.0) (2023-12-20)
-
-### Chore
-
-- update helm general major by renovate (major) ([#14631](https://github.com/truecharts/charts/issues/14631))
-  
-  
-
-
-## [homepage-4.0.27](https://github.com/truecharts/charts/compare/homepage-4.0.26...homepage-4.0.27) (2023-12-20)
 
 ### Chore

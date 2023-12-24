@@ -1269,15 +1269,22 @@ questions:
                                     type: boolean
                                     default: false
                                 - variable: name
-                                  label: Name
-                                  description: defaults to chartname
+                                  label: Name (Optional)
+                                  description: Defaults to chart name
                                   schema:
                                     type: string
                                     default: ""
                                     show_if: [["enabled", "=", true]]
                                 - variable: description
-                                  label: Description
-                                  description: defaults to chart description
+                                  label: Description (Optional)
+                                  description: Defaults to chart description
+                                  schema:
+                                    type: string
+                                    default: ""
+                                    show_if: [["enabled", "=", true]]
+                                - variable: icon
+                                  label: Icon (Optional)
+                                  description: Defaults to chart icon
                                   schema:
                                     type: string
                                     default: ""
