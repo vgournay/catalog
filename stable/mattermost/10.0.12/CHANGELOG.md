@@ -1,0 +1,99 @@
+**Important:**
+*for the complete changelog, please refer to the website*
+
+
+
+
+## [mattermost-10.0.12](https://github.com/truecharts/charts/compare/mattermost-10.0.11...mattermost-10.0.12) (2023-12-25)
+
+### Chore
+
+- update container image mattermost/mattermost-enterprise-edition to release-9.4[@46dda99](https://github.com/46dda99) by renovate ([#16435](https://github.com/truecharts/charts/issues/16435))
+  
+  
+
+
+## [mattermost-10.0.11](https://github.com/truecharts/charts/compare/mattermost-10.0.10...mattermost-10.0.11) (2023-12-24)
+
+### Chore
+
+- update helm general non-major by renovate ([#16384](https://github.com/truecharts/charts/issues/16384))
+  
+  
+
+
+## [mattermost-10.0.10](https://github.com/truecharts/charts/compare/mattermost-10.0.9...mattermost-10.0.10) (2023-12-24)
+
+### Chore
+
+- update helm general non-major by renovate ([#16376](https://github.com/truecharts/charts/issues/16376))
+  
+  
+
+
+## [mattermost-10.0.9](https://github.com/truecharts/charts/compare/mattermost-10.0.8...mattermost-10.0.9) (2023-12-23)
+
+### Chore
+
+- update helm general non-major by renovate ([#16373](https://github.com/truecharts/charts/issues/16373))
+  
+  
+
+
+## [mattermost-10.0.8](https://github.com/truecharts/charts/compare/mattermost-10.0.7...mattermost-10.0.8) (2023-12-23)
+
+### Chore
+
+- update helm general non-major by renovate ([#16369](https://github.com/truecharts/charts/issues/16369))
+  
+  
+
+
+## [mattermost-10.0.7](https://github.com/truecharts/charts/compare/mattermost-10.0.6...mattermost-10.0.7) (2023-12-23)
+
+### Chore
+
+- update helm general non-major by renovate ([#16361](https://github.com/truecharts/charts/issues/16361))
+  
+  
+
+
+## [mattermost-10.0.6](https://github.com/truecharts/charts/compare/mattermost-10.0.5...mattermost-10.0.6) (2023-12-22)
+
+### Chore
+
+- update helm general non-major by renovate ([#16359](https://github.com/truecharts/charts/issues/16359))
+  
+  
+
+
+## [mattermost-10.0.5](https://github.com/truecharts/charts/compare/mattermost-10.0.4...mattermost-10.0.5) (2023-12-22)
+
+### Fix
+
+- expose custom options for homepage integration
+  
+  
+
+
+## [mattermost-10.0.4](https://github.com/truecharts/charts/compare/mattermost-10.0.3...mattermost-10.0.4) (2023-12-21)
+
+### Fix
+
+- bump to release middleware fix
+  
+  
+
+
+## [mattermost-10.0.3](https://github.com/truecharts/charts/compare/mattermost-10.0.2...mattermost-10.0.3) (2023-12-21)
+
+### Chore
+
+- bump everything to ensure patches are applied globally
+  
+  ### Fix
+
+- ensure the cnpg GUI is included on CNPG apps
+  
+  
+
