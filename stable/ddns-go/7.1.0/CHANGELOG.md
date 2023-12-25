@@ -4,6 +4,15 @@
 
 
 
+## [ddns-go-7.1.0](https://github.com/truecharts/charts/compare/ddns-go-7.0.12...ddns-go-7.1.0) (2023-12-25)
+
+### Chore
+
+- update container image jeessy/ddns-go to v5.7.0[@e3210da](https://github.com/e3210da) by renovate ([#16493](https://github.com/truecharts/charts/issues/16493))
+  
+  
+
+
 ## [ddns-go-7.0.12](https://github.com/truecharts/charts/compare/ddns-go-7.0.11...ddns-go-7.0.12) (2023-12-25)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [ddns-go-7.0.3](https://github.com/truecharts/charts/compare/ddns-go-7.0.2...ddns-go-7.0.3) (2023-12-21)
-
-### Chore
-
-- bump everything to ensure patches are applied globally
-  
-  
-
-
-## [ddns-go-7.0.2](https://github.com/truecharts/charts/compare/ddns-go-7.0.1...ddns-go-7.0.2) (2023-12-21)
 
 ### Chore
