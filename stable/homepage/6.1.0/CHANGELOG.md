@@ -4,6 +4,15 @@
 
 
 
+## [homepage-6.1.0](https://github.com/truecharts/charts/compare/homepage-6.0.0...homepage-6.1.0) (2023-12-25)
+
+### Feat
+
+- always enable kubernetes config ([#16537](https://github.com/truecharts/charts/issues/16537))
+  
+  
+
+
 ## [homepage-6.0.0](https://github.com/truecharts/charts/compare/homepage-5.0.12...homepage-6.0.0) (2023-12-25)
 
 ### Chore
@@ -88,12 +97,3 @@
 ## [homepage-5.0.4](https://github.com/truecharts/charts/compare/homepage-5.0.3...homepage-5.0.4) (2023-12-21)
 
 ### Fix
-
-- bump to release middleware fix
-  
-  
-
-
-## [homepage-5.0.3](https://github.com/truecharts/charts/compare/homepage-5.0.2...homepage-5.0.3) (2023-12-21)
-
-### Chore
