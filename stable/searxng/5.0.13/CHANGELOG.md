@@ -4,6 +4,15 @@
 
 
 
+## [searxng-5.0.13](https://github.com/truecharts/charts/compare/searxng-5.0.12...searxng-5.0.13) (2023-12-25)
+
+### Chore
+
+- update container image searxng/searxng to latest[@9ddcc1c](https://github.com/9ddcc1c) by renovate ([#16525](https://github.com/truecharts/charts/issues/16525))
+  
+  
+
+
 ## [searxng-5.0.12](https://github.com/truecharts/charts/compare/searxng-5.0.11...searxng-5.0.12) (2023-12-25)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [searxng-5.0.3](https://github.com/truecharts/charts/compare/searxng-5.0.2...searxng-5.0.3) (2023-12-21)
-
-### Chore
-
-- bump everything to ensure patches are applied globally
-  
-  
-
-
-## [searxng-5.0.2](https://github.com/truecharts/charts/compare/searxng-5.0.1...searxng-5.0.2) (2023-12-21)
 
 ### Chore
