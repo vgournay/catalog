@@ -4,6 +4,15 @@
 
 
 
+## [velero-3.0.1](https://github.com/truecharts/charts/compare/velero-3.0.0...velero-3.0.1) (2023-12-25)
+
+### Fix
+
+- hide redundant, unused and disabled stuff
+  
+  
+
+
 ## [velero-3.0.0](https://github.com/truecharts/charts/compare/velero-2.0.14...velero-3.0.0) (2023-12-25)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [velero-2.0.6](https://github.com/truecharts/charts/compare/velero-2.0.5...velero-2.0.6) (2023-12-21)
-
-### Chore
-
-- bump everything to ensure patches are applied globally
-  
-  
-
-
-## [velero-2.0.5](https://github.com/truecharts/charts/compare/velero-2.0.4...velero-2.0.5) (2023-12-21)
 
 ### Chore
