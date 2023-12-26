@@ -4,6 +4,15 @@
 
 
 
+## [clusterissuer-6.0.2](https://github.com/truecharts/charts/compare/clusterissuer-6.0.1...clusterissuer-6.0.2) (2023-12-26)
+
+### Fix
+
+- fix clusterconfig tojson ([#16555](https://github.com/truecharts/charts/issues/16555))
+  
+  
+
+
 ## [clusterissuer-6.0.1](https://github.com/truecharts/charts/compare/clusterissuer-6.0.0...clusterissuer-6.0.1) (2023-12-25)
 
 ### Chore
@@ -85,15 +94,6 @@
 ### Fix
 
 - expose custom options for homepage integration
-  
-  
-
-
-## [clusterissuer-5.0.5](https://github.com/truecharts/charts/compare/clusterissuer-5.0.4...clusterissuer-5.0.5) (2023-12-21)
-
-### Fix
-
-- bump to release middleware fix
   
   
 
