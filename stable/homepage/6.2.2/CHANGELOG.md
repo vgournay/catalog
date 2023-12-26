@@ -4,6 +4,15 @@
 
 
 
+## [homepage-6.2.2](https://github.com/truecharts/charts/compare/homepage-6.2.1...homepage-6.2.2) (2023-12-26)
+
+### Fix
+
+- temproary fix due to common rendering issue
+  
+  
+
+
 ## [homepage-6.2.1](https://github.com/truecharts/charts/compare/homepage-6.2.0...homepage-6.2.1) (2023-12-26)
 
 
@@ -85,15 +94,6 @@
 ### Chore
 
 - update helm general non-major by renovate ([#16373](https://github.com/truecharts/charts/issues/16373))
-  
-  
-
-
-## [homepage-5.0.8](https://github.com/truecharts/charts/compare/homepage-5.0.7...homepage-5.0.8) (2023-12-23)
-
-### Chore
-
-- update helm general non-major by renovate ([#16369](https://github.com/truecharts/charts/issues/16369))
   
   
 
