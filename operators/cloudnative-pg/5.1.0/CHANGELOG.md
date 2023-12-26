@@ -4,6 +4,15 @@
 
 
 
+## [cloudnative-pg-5.1.0](https://github.com/truecharts/charts/compare/cloudnative-pg-5.0.0...cloudnative-pg-5.1.0) (2023-12-26)
+
+### Chore
+
+- update helm chart cloudnative-pg to 0.20.0 by renovate ([#16546](https://github.com/truecharts/charts/issues/16546))
+  
+  
+
+
 ## [cloudnative-pg-5.0.0](https://github.com/truecharts/charts/compare/cloudnative-pg-4.0.11...cloudnative-pg-5.0.0) (2023-12-25)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [cloudnative-pg-4.0.3](https://github.com/truecharts/charts/compare/cloudnative-pg-4.0.2...cloudnative-pg-4.0.3) (2023-12-21)
-
-### Chore
-
-- bump everything to ensure patches are applied globally
-  
-  
-
-
-## [cloudnative-pg-4.0.2](https://github.com/truecharts/charts/compare/cloudnative-pg-4.0.1...cloudnative-pg-4.0.2) (2023-12-21)
 
 ### Chore
