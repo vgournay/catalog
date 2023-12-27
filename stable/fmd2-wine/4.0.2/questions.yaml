@@ -101,18 +101,171 @@ questions:
                               type: dict
                               attrs:
 
-                                - variable: env
-                                  label: Image Environment
+
+                                - variable: envList
+                                  label: Extra Environment Variables
+                                  description: "Please be aware that some variables are set in the background, adding duplicates here might cause issues or prevent the app from starting..."
                                   schema:
-                                    additional_attrs: true
-                                    type: dict
-                                    attrs:
-                                      - variable: UMASK
-                                        label: "UMASK"
-                                        description: "Container Variable UMASK"
+                                    type: list
+                                    default: []
+                                    items:
+                                      - variable: envItem
+                                        label: Environment Variable
+                                        schema:
+                                          additional_attrs: true
+                                          type: dict
+                                          attrs:
+                                            - variable: name
+                                              label: Name
+                                              schema:
+                                                type: string
+                                            - variable: value
+                                              label: Value
+                                              schema:
+                                                type: string
+                                - variable: extraArgs
+                                  label: Extra Args
+                                  schema:
+                                    type: list
+                                    default: []
+                                    items:
+                                      - variable: arg
+                                        label: Arg
                                         schema:
                                           type: string
-                                          default: "002"
+                                - variable: advanced
+                                  label: Show Advanced Settings
+                                  description: Advanced settings are not covered by TrueCharts Support
+                                  schema:
+                                    type: boolean
+                                    default: false
+                                    show_subquestions_if: true
+                                    subquestions:
+                                      - variable: command
+                                        label: Command
+                                        schema:
+                                          type: list
+                                          default: []
+                                          items:
+                                            - variable: param
+                                              label: Param
+                                              schema:
+                                                type: string
+
+  - variable: TZ
+    label: Timezone
+    group: "General Settings"
+    schema:
+      type: string
+      default: "Etc/UTC"
+      $ref:
+        - "definitions/timezone"
+  - variable: podOptions
+    group: "General Settings"
+    label: "Global Pod Options (Advanced)"
+    schema:
+      additional_attrs: true
+      type: dict
+      attrs:
+        - variable: expertPodOpts
+          label: "Expert - Pod Options"
+          schema:
+            type: boolean
+            default: false
+            show_subquestions_if: true
+            subquestions:
+              - variable: hostNetwork
+                label: "Host Networking"
+                schema:
+                  type: boolean
+                  default: false
+              - variable: dnsConfig
+                label: "DNS Configuration"
+                schema:
+                  type: dict
+                  additional_attrs: true
+                  attrs:
+                    - variable: options
+                      label: "Options"
+                      schema:
+                        type: list
+                        default: [{"name": "ndots", "value": "1"}]
+                        items:
+                          - variable: optionsEntry
+                            label: "Option Entry"
+                            schema:
+                              type: dict
+                              additional_attrs: true
+                              attrs:
+                                - variable: name
+                                  label: "Name"
+                                  schema:
+                                    type: string
+                                    required: true
+                                - variable: value
+                                  label: "Value"
+                                  schema:
+                                    type: string
+                    - variable: nameservers
+                      label: "Nameservers"
+                      schema:
+                        type: list
+                        default: []
+                        items:
+                          - variable: nsEntry
+                            label: "Nameserver Entry"
+                            schema:
+                              type: string
+                              required: true
+                    - variable: searches
+                      label: "Searches"
+                      schema:
+                        type: list
+                        default: []
+                        items:
+                          - variable: searchEntry
+                            label: "Search Entry"
+                            schema:
+                              type: string
+                              required: true
+
+  - variable: imagePullSecretList
+    group: "General Settings"
+    label: "Image Pull Secrets"
+    schema:
+      type: list
+      default: []
+      items:
+        - variable: pullsecretentry
+          label: "Pull Secret"
+          schema:
+            type: dict
+            additional_attrs: true
+            attrs:
+              - variable: registry
+                label: "Registry"
+                schema:
+                  type: string
+                  required: true
+                  default: "https://index.docker.io/v1/"
+              - variable: username
+                label: "Username"
+                schema:
+                  type: string
+                  required: true
+                  default: ""
+              - variable: password
+                label: "Password"
+                schema:
+                  type: string
+                  required: true
+                  default: ""
+              - variable: email
+                label: "Email"
+                schema:
+                  type: string
+                  required: true
+                  default: ""
   - variable: service
     group: Networking and Services
     label: Configure Service(s)
