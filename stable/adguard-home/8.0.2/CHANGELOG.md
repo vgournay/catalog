@@ -4,6 +4,15 @@
 
 
 
+## [adguard-home-8.0.2](https://github.com/truecharts/charts/compare/adguard-home-8.0.1...adguard-home-8.0.2) (2023-12-28)
+
+### Fix
+
+- fix homepage widget type ([#16577](https://github.com/truecharts/charts/issues/16577))
+  
+  
+
+
 ## [adguard-home-8.0.1](https://github.com/truecharts/charts/compare/adguard-home-8.0.0...adguard-home-8.0.1) (2023-12-26)
 
 ### Chore
@@ -88,12 +97,3 @@
 ## [adguard-home-7.0.4](https://github.com/truecharts/charts/compare/adguard-home-7.0.3...adguard-home-7.0.4) (2023-12-21)
 
 ### Fix
-
-- bump to release middleware fix
-  
-  
-
-
-## [adguard-home-7.0.3](https://github.com/truecharts/charts/compare/adguard-home-7.0.2...adguard-home-7.0.3) (2023-12-21)
-
-### Chore
