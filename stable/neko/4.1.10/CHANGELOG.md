@@ -1,18 +1,33 @@
-**Important:**
-*for the complete changelog, please refer to the website*
-
+---
 title: Changelog
 ---
+
+
+
+## [neko-4.1.10](https://github.com/truecharts/charts/compare/neko-4.1.1...neko-4.1.10) (2023-12-31)
+
+### Chore
+  
+- update neko by renovate ([#16703](https://github.com/truecharts/charts/issues/16703))---
+title: Changelog
+---
+
+
+
+## [neko-4.1.10](https://github.com/truecharts/charts/compare/neko-4.1.1...neko-4.1.10) (2023-12-31)
+
+### Chore
+
+- update neko by renovate ([#16703](https://github.com/truecharts/charts/issues/16703))
 
 
 
 ## [neko-4.1.1](https://github.com/truecharts/charts/compare/neko-4.1.0...neko-4.1.1) (2023-12-31)
 
 ### Chore
-  
+
 - update container image m1k1o/neko to brave[@09f4cfc](https://github.com/09f4cfc) by renovate ([#16625](https://github.com/truecharts/charts/issues/16625))
-- lints some docs, uses front-matter instead of # h1, and fix list items in changelog ([#16589](https://github.com/truecharts/charts/issues/16589))title: Changelog
----
+- lints some docs, uses front-matter instead of # h1, and fix list items in changelog ([#16589](https://github.com/truecharts/charts/issues/16589))
 
 ## [neko-4.1.0](https://github.com/truecharts/charts/compare/neko-4.0.1...neko-4.1.0) (2023-12-30)
 
@@ -82,18 +97,3 @@ title: Changelog
 
 - update helm general non-major by renovate ([#16361](https://github.com/truecharts/charts/issues/16361))
 
-## [neko-3.0.14](https://github.com/truecharts/charts/compare/neko-3.0.13...neko-3.0.14) (2023-12-22)
-
-### Chore
-
-- update helm general non-major by renovate ([#16359](https://github.com/truecharts/charts/issues/16359))
-
-## [neko-3.0.13](https://github.com/truecharts/charts/compare/neko-3.0.12...neko-3.0.13) (2023-12-22)
-
-### Fix
-
-- expose custom options for homepage integration
-
-## [neko-3.0.12](https://github.com/truecharts/charts/compare/neko-3.0.11...neko-3.0.12) (2023-12-21)
-
-### Fix
