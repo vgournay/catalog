@@ -1,7 +1,14 @@
-**Important:**
-*for the complete changelog, please refer to the website*
-
+---
 title: Changelog
+---
+
+
+
+## [searxng-6.1.2](https://github.com/truecharts/charts/compare/searxng-6.1.1...searxng-6.1.2) (2023-12-31)
+
+### Chore
+  
+- update container image searxng/searxng to latest[@a75e11b](https://github.com/a75e11b) by renovate ([#16702](https://github.com/truecharts/charts/issues/16702))title: Changelog
 ---
 
 
@@ -9,10 +16,9 @@ title: Changelog
 ## [searxng-6.1.1](https://github.com/truecharts/charts/compare/searxng-6.1.0...searxng-6.1.1) (2023-12-31)
 
 ### Chore
-  
+
 - update container image searxng/searxng to latest[@17c36da](https://github.com/17c36da) by renovate ([#16642](https://github.com/truecharts/charts/issues/16642))
-- lints some docs, uses front-matter instead of # h1, and fix list items in changelog ([#16589](https://github.com/truecharts/charts/issues/16589))title: Changelog
----
+- lints some docs, uses front-matter instead of # h1, and fix list items in changelog ([#16589](https://github.com/truecharts/charts/issues/16589))
 
 ## [searxng-6.1.0](https://github.com/truecharts/charts/compare/searxng-6.0.1...searxng-6.1.0) (2023-12-30)
 
@@ -91,9 +97,3 @@ title: Changelog
 ### Fix
 
 - bump to release middleware fix
-
-## [searxng-5.0.3](https://github.com/truecharts/charts/compare/searxng-5.0.2...searxng-5.0.3) (2023-12-21)
-
-### Chore
-
-- bump everything to ensure patches are applied globally
