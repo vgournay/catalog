@@ -4,6 +4,15 @@
 
 
 
+## [baikal-4.2.0](https://github.com/truecharts/charts/compare/baikal-4.1.0...baikal-4.2.0) (2023-12-31)
+
+### Feat
+
+- Add Skip chown command in startup script ([#16584](https://github.com/truecharts/charts/issues/16584))
+  
+  
+
+
 ## [baikal-4.1.0](https://github.com/truecharts/charts/compare/baikal-4.0.1...baikal-4.1.0) (2023-12-30)
 
 ### Chore
@@ -88,12 +97,3 @@
 ## [baikal-3.0.12](https://github.com/truecharts/charts/compare/baikal-3.0.11...baikal-3.0.12) (2023-12-22)
 
 ### Chore
-
-- update helm general non-major by renovate ([#16359](https://github.com/truecharts/charts/issues/16359))
-  
-  
-
-
-## [baikal-3.0.11](https://github.com/truecharts/charts/compare/baikal-3.0.10...baikal-3.0.11) (2023-12-22)
-
-### Fix

@@ -4,6 +4,15 @@
 
 
 
+## [xmrig-4.1.1](https://github.com/truecharts/charts/compare/xmrig-4.1.0...xmrig-4.1.1) (2023-12-31)
+
+### Fix
+
+- Remove extra env vars ([#16587](https://github.com/truecharts/charts/issues/16587))
+  
+  
+
+
 ## [xmrig-4.1.0](https://github.com/truecharts/charts/compare/xmrig-4.0.1...xmrig-4.1.0) (2023-12-30)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [xmrig-3.0.11](https://github.com/truecharts/charts/compare/xmrig-3.0.10...xmrig-3.0.11) (2023-12-22)
-
-### Fix
-
-- expose custom options for homepage integration
-  
-  
-
-
-## [xmrig-3.0.10](https://github.com/truecharts/charts/compare/xmrig-3.0.9...xmrig-3.0.10) (2023-12-21)
 
 ### Fix
