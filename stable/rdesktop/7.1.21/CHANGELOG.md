@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [rdesktop-7.1.21](https://github.com/truecharts/charts/compare/rdesktop-7.1.10...rdesktop-7.1.21) (2024-01-02)
+
+### Chore
+
+
+
+- update rdesktop by renovate ([#16715](https://github.com/truecharts/charts/issues/16715))
+
+
 ## [rdesktop-7.1.10](https://github.com/truecharts/charts/compare/rdesktop-7.1.9...rdesktop-7.1.10) (2024-01-01)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 ## [rdesktop-6.0.11](https://github.com/truecharts/charts/compare/rdesktop-6.0.10...rdesktop-6.0.11) (2023-12-24)
 
 ### Chore
-
-- update helm general non-major by renovate ([#16384](https://github.com/truecharts/charts/issues/16384))
-
-## [rdesktop-6.0.10](https://github.com/truecharts/charts/compare/rdesktop-6.0.9...rdesktop-6.0.10) (2023-12-24)
-
-### Chore
-
-- update helm general non-major by renovate ([#16376](https://github.com/truecharts/charts/issues/16376))
-
