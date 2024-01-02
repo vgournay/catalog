@@ -1,22 +1,23 @@
 kubeVersion: ">=1.24.0-0"
 apiVersion: v2
-name: plex-meta-manager
-version: 5.1.6
-appVersion: 1.19.1
-description: Python script to update metadata and automatically build collections.
-home: https://truecharts.org/charts/incubator/plex-meta-manager
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/plex-meta-manager.png
+name: arma3
+version: 4.1.6
+appVersion: arma3
+description: This Chart will download and install SteamCMD. It will also install ArmA III and run it.
+home: https://truecharts.org/charts/incubator/arma3
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/arma3.png
 deprecated: false
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/incubator/plex-meta-manager
-  - https://hub.docker.com/r/meisnate12/plex-meta-manager
-  - https://github.com/meisnate12/Plex-Meta-Manager
+  - https://arma3.com/
+  - https://github.com/truecharts/charts/tree/master/charts/incubator/arma3
+  - https://hub.docker.com/r/ich777/steamcmd
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
 keywords:
-  - plex-meta-manager
+  - arma3
+  - GameServers
 dependencies:
   - name: common
     version: 17.2.21
@@ -29,7 +30,7 @@ annotations:
   max_scale_version: 23.10.2
   min_scale_version: 23.10.0
   truecharts.org/SCALE-support: "true"
-  truecharts.org/category: media
+  truecharts.org/category: GameServers
   truecharts.org/max_helm_version: "3.13"
   truecharts.org/min_helm_version: "3.12"
   truecharts.org/train: incubator

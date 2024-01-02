@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [arma3-4.1.6](https://github.com/truecharts/charts/compare/arma3-4.1.5...arma3-4.1.6) (2024-01-02)
+
+### Chore
+
+
+
+- update container image ich777/steamcmd to arma3[@92104ad](https://github.com/92104ad) by renovate ([#16778](https://github.com/truecharts/charts/issues/16778))
+
+
 ## [arma3-4.1.5](https://github.com/truecharts/charts/compare/arma3-4.1.4...arma3-4.1.5) (2024-01-02)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 ## [arma3-3.0.16](https://github.com/truecharts/charts/compare/arma3-3.0.15...arma3-3.0.16) (2023-12-24)
 
 ### Chore
-
-- update helm general non-major by renovate ([#16376](https://github.com/truecharts/charts/issues/16376))
-
-## [arma3-3.0.15](https://github.com/truecharts/charts/compare/arma3-3.0.14...arma3-3.0.15) (2023-12-23)
-
-### Chore
-
-- update helm general non-major by renovate ([#16373](https://github.com/truecharts/charts/issues/16373))
-

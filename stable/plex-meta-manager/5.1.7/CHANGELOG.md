@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [plex-meta-manager-5.1.7](https://github.com/truecharts/charts/compare/plex-meta-manager-5.1.6...plex-meta-manager-5.1.7) (2024-01-02)
+
+### Chore
+
+
+
+- update container image meisnate12/plex-meta-manager to v1.19.1[@25dd08a](https://github.com/25dd08a) by renovate ([#16786](https://github.com/truecharts/charts/issues/16786))
+
+
 ## [plex-meta-manager-5.1.6](https://github.com/truecharts/charts/compare/plex-meta-manager-5.1.4...plex-meta-manager-5.1.6) (2024-01-02)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 ## [plex-meta-manager-4.0.10](https://github.com/truecharts/charts/compare/plex-meta-manager-4.0.9...plex-meta-manager-4.0.10) (2023-12-24)
 
 ### Chore
-
-- update helm general non-major by renovate ([#16376](https://github.com/truecharts/charts/issues/16376))
-
-## [plex-meta-manager-4.0.9](https://github.com/truecharts/charts/compare/plex-meta-manager-4.0.8...plex-meta-manager-4.0.9) (2023-12-23)
-
-### Chore
-
-- update helm general non-major by renovate ([#16373](https://github.com/truecharts/charts/issues/16373))
-
