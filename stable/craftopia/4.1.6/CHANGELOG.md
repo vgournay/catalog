@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [craftopia-4.1.6](https://github.com/truecharts/charts/compare/craftopia-4.1.5...craftopia-4.1.6) (2024-01-02)
+
+### Chore
+
+
+
+- update container image ich777/steamcmd to craftopia[@73bde05](https://github.com/73bde05) by renovate ([#16712](https://github.com/truecharts/charts/issues/16712))
+
+
 ## [craftopia-4.1.5](https://github.com/truecharts/charts/compare/craftopia-4.1.4...craftopia-4.1.5) (2024-01-02)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 ## [craftopia-3.0.16](https://github.com/truecharts/charts/compare/craftopia-3.0.15...craftopia-3.0.16) (2023-12-24)
 
 ### Chore
-
-- update helm general non-major by renovate ([#16376](https://github.com/truecharts/charts/issues/16376))
-
-## [craftopia-3.0.15](https://github.com/truecharts/charts/compare/craftopia-3.0.14...craftopia-3.0.15) (2023-12-23)
-
-### Chore
-
-- update helm general non-major by renovate ([#16373](https://github.com/truecharts/charts/issues/16373))
-
