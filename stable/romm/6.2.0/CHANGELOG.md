@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [romm-6.2.0](https://github.com/truecharts/charts/compare/romm-6.1.5...romm-6.2.0) (2024-01-02)
+
+### Chore
+
+
+
+- update container image ghcr.io/zurdi15/romm to v2.2.1[@4068f58](https://github.com/4068f58) by renovate ([#16718](https://github.com/truecharts/charts/issues/16718))
+
+
 ## [romm-6.1.5](https://github.com/truecharts/charts/compare/romm-6.1.4...romm-6.1.5) (2024-01-01)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 ## [romm-6.0.0](https://github.com/truecharts/charts/compare/romm-5.0.0...romm-6.0.0) (2023-12-26)
 
 ### Chore
-
-- update helm general major by renovate (major) ([#16547](https://github.com/truecharts/charts/issues/16547))
-
-## [romm-5.0.0](https://github.com/truecharts/charts/compare/romm-4.0.12...romm-5.0.0) (2023-12-25)
-
-### Chore
-
-- update helm chart common to 17.1.0 by renovate ([#16532](https://github.com/truecharts/charts/issues/16532))
-
