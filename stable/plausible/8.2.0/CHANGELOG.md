@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [plausible-8.2.0](https://github.com/truecharts/charts/compare/plausible-8.1.4...plausible-8.2.0) (2024-01-02)
+
+### Chore
+
+
+
+- update helm chart clickhouse to 10.2.5 by renovate ([#16735](https://github.com/truecharts/charts/issues/16735))
+
+
 ## [plausible-8.1.4](https://github.com/truecharts/charts/compare/plausible-8.1.3...plausible-8.1.4) (2024-01-01)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 
 - update helm chart common to 17.1.0 by renovate ([#16532](https://github.com/truecharts/charts/issues/16532))
 
-## [plausible-6.0.12](https://github.com/truecharts/charts/compare/plausible-6.0.11...plausible-6.0.12) (2023-12-24)
-
-### Chore
-
-- update helm general non-major by renovate ([#16384](https://github.com/truecharts/charts/issues/16384))
-
-## [plausible-6.0.11](https://github.com/truecharts/charts/compare/plausible-6.0.10...plausible-6.0.11) (2023-12-24)
-
-### Chore
