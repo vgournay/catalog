@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [neverwinternights-ee-4.1.5](https://github.com/truecharts/charts/compare/neverwinternights-ee-4.1.4...neverwinternights-ee-4.1.5) (2024-01-02)
+
+### Chore
+
+
+
+- update container image ich777/nwnee-server to latest[@6adc2ce](https://github.com/6adc2ce) by renovate ([#16777](https://github.com/truecharts/charts/issues/16777))
+
+
 ## [neverwinternights-ee-4.1.4](https://github.com/truecharts/charts/compare/neverwinternights-ee-4.1.3...neverwinternights-ee-4.1.4) (2024-01-01)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 
 - update helm general non-major by renovate ([#16376](https://github.com/truecharts/charts/issues/16376))
 
-## [neverwinternights-ee-3.0.15](https://github.com/truecharts/charts/compare/neverwinternights-ee-3.0.14...neverwinternights-ee-3.0.15) (2023-12-23)
-
-### Chore
-
-- update helm general non-major by renovate ([#16373](https://github.com/truecharts/charts/issues/16373))
-
-## [neverwinternights-ee-3.0.14](https://github.com/truecharts/charts/compare/neverwinternights-ee-3.0.13...neverwinternights-ee-3.0.14) (2023-12-23)
-
-### Chore
