@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [ghostfolio-3.3.0](https://github.com/truecharts/charts/compare/ghostfolio-3.2.8...ghostfolio-3.3.0) (2024-01-03)
+
+### Chore
+
+
+
+- update container image ghostfolio/ghostfolio to v2.34.0[@a939a35](https://github.com/a939a35) by renovate ([#16833](https://github.com/truecharts/charts/issues/16833))
+
+
 ## [ghostfolio-3.2.8](https://github.com/truecharts/charts/compare/ghostfolio-3.2.7...ghostfolio-3.2.8) (2024-01-02)
 
 ### Chore
@@ -87,13 +96,4 @@ title: Changelog
 ## [ghostfolio-3.2.0](https://github.com/truecharts/charts/compare/ghostfolio-3.1.0...ghostfolio-3.2.0) (2023-12-31)
 
 ### Chore
-
-- update container image ghostfolio/ghostfolio to v2.33.0[@35b3387](https://github.com/35b3387) by renovate ([#16681](https://github.com/truecharts/charts/issues/16681))
-- lints some docs, uses front-matter instead of # h1, and fix list items in changelog ([#16589](https://github.com/truecharts/charts/issues/16589))
-
-## [ghostfolio-3.1.0](https://github.com/truecharts/charts/compare/ghostfolio-3.0.2...ghostfolio-3.1.0) (2023-12-30)
-
-### Chore
-
-- update helm general minor by renovate ([#16579](https://github.com/truecharts/charts/issues/16579))
 
