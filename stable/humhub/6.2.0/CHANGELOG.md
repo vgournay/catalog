@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [humhub-6.2.0](https://github.com/truecharts/charts/compare/humhub-6.1.8...humhub-6.2.0) (2024-01-03)
+
+### Fix
+
+
+
+- split containers and fix bug ([#16858](https://github.com/truecharts/charts/issues/16858))
+
+
 ## [humhub-6.1.8](https://github.com/truecharts/charts/compare/humhub-6.1.7...humhub-6.1.8) (2024-01-02)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 - standardize ./img references ([#16704](https://github.com/truecharts/charts/issues/16704))
 
 - lints some docs, uses front-matter instead of # h1, and fix list items in changelog ([#16589](https://github.com/truecharts/charts/issues/16589))
-## [humhub-6.1.0](https://github.com/truecharts/charts/compare/humhub-6.0.2...humhub-6.1.0) (2023-12-30)
-
-### Chore
-
-- update helm general minor by renovate ([#16579](https://github.com/truecharts/charts/issues/16579))
-
-## [humhub-6.0.2](https://github.com/truecharts/charts/compare/humhub-6.0.1...humhub-6.0.2) (2023-12-27)
-
-### Chore
