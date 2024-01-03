@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [tasmoadmin-6.2.0](https://github.com/truecharts/charts/compare/tasmoadmin-6.1.7...tasmoadmin-6.2.0) (2024-01-03)
+
+### Chore
+
+
+
+- update container image ghcr.io/tasmoadmin/tasmoadmin to v3.3.1[@1077de2](https://github.com/1077de2) by renovate ([#16811](https://github.com/truecharts/charts/issues/16811))
+
+
 ## [tasmoadmin-6.1.7](https://github.com/truecharts/charts/compare/tasmoadmin-6.1.6...tasmoadmin-6.1.7) (2024-01-02)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 
 - update helm chart common to 17.1.0 by renovate ([#16532](https://github.com/truecharts/charts/issues/16532))
 
-## [tasmoadmin-5.0.11](https://github.com/truecharts/charts/compare/tasmoadmin-5.0.10...tasmoadmin-5.0.11) (2023-12-24)
-
-### Chore
-
-- update helm general non-major by renovate ([#16384](https://github.com/truecharts/charts/issues/16384))
-
-## [tasmoadmin-5.0.10](https://github.com/truecharts/charts/compare/tasmoadmin-5.0.9...tasmoadmin-5.0.10) (2023-12-24)
-
-### Chore
