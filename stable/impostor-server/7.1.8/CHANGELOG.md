@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [impostor-server-7.1.8](https://github.com/truecharts/charts/compare/impostor-server-7.1.7...impostor-server-7.1.8) (2024-01-03)
+
+### Chore
+
+
+
+- update container image aeonlucid/impostor to nightly[@727310a](https://github.com/727310a) by renovate ([#16753](https://github.com/truecharts/charts/issues/16753))
+
+
 ## [impostor-server-7.1.7](https://github.com/truecharts/charts/compare/impostor-server-7.1.6...impostor-server-7.1.7) (2024-01-02)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 
 - update helm chart common to 17.1.0 by renovate ([#16532](https://github.com/truecharts/charts/issues/16532))
 
-## [impostor-server-6.0.11](https://github.com/truecharts/charts/compare/impostor-server-6.0.10...impostor-server-6.0.11) (2023-12-24)
-
-### Chore
-
-- update helm general non-major by renovate ([#16384](https://github.com/truecharts/charts/issues/16384))
-
-## [impostor-server-6.0.10](https://github.com/truecharts/charts/compare/impostor-server-6.0.9...impostor-server-6.0.10) (2023-12-24)
-
-### Chore
