@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [automatic-ripping-machine-2.1.10](https://github.com/truecharts/charts/compare/automatic-ripping-machine-2.1.9...automatic-ripping-machine-2.1.10) (2024-01-03)
+
+### Chore
+
+
+
+- update container image automaticrippingmachine/automatic-ripping-machine to 2.6.67[@94776ec](https://github.com/94776ec) by renovate ([#16862](https://github.com/truecharts/charts/issues/16862))
+
+
 ## [automatic-ripping-machine-2.1.9](https://github.com/truecharts/charts/compare/automatic-ripping-machine-2.1.8...automatic-ripping-machine-2.1.9) (2024-01-03)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 - standardize ./img references ([#16704](https://github.com/truecharts/charts/issues/16704))
 
 - lints some docs, uses front-matter instead of # h1, and fix list items in changelog ([#16589](https://github.com/truecharts/charts/issues/16589))
-## [automatic-ripping-machine-2.1.0](https://github.com/truecharts/charts/compare/automatic-ripping-machine-2.0.1...automatic-ripping-machine-2.1.0) (2023-12-30)
-
-### Chore
-
-- update helm general minor by renovate ([#16579](https://github.com/truecharts/charts/issues/16579))
-
-## [automatic-ripping-machine-2.0.1](https://github.com/truecharts/charts/compare/automatic-ripping-machine-2.0.0...automatic-ripping-machine-2.0.1) (2023-12-26)
-
-### Chore
