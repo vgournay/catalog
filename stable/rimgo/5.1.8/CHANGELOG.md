@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [rimgo-5.1.8](https://github.com/truecharts/charts/compare/rimgo-5.1.7...rimgo-5.1.8) (2024-01-03)
+
+### Chore
+
+
+
+- update container image quay.io/pussthecatorg/rimgo to latest[@a67a3ac](https://github.com/a67a3ac) by renovate ([#16789](https://github.com/truecharts/charts/issues/16789))
+
+
 ## [rimgo-5.1.7](https://github.com/truecharts/charts/compare/rimgo-5.1.6...rimgo-5.1.7) (2024-01-02)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 
 - update helm chart common to 17.1.0 by renovate ([#16532](https://github.com/truecharts/charts/issues/16532))
 
-## [rimgo-4.0.11](https://github.com/truecharts/charts/compare/rimgo-4.0.10...rimgo-4.0.11) (2023-12-24)
-
-### Chore
-
-- update helm general non-major by renovate ([#16384](https://github.com/truecharts/charts/issues/16384))
-
-## [rimgo-4.0.10](https://github.com/truecharts/charts/compare/rimgo-4.0.9...rimgo-4.0.10) (2023-12-24)
-
-### Chore
