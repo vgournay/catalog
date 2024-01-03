@@ -1,0 +1,46 @@
+image:
+  repository: xwiki
+  tag: 15.10.4-postgres-tomcat@sha256:0d8686c516b3d58901850a4858abac9aaafa55ce523e1b2d037b6c1f8b4529a6
+  pullPolicy: IfNotPresent
+service:
+  main:
+    ports:
+      main:
+        port: 10208
+        targetPort: 8080
+persistence:
+  config:
+    enabled: true
+    mountPath: "/usr/local/xwiki"
+cnpg:
+  main:
+    enabled: true
+    user: xwiki
+    database: xwiki
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsNonRoot: false
+    runAsUser: 0
+    runAsGroup: 0
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            DB_USER: "{{ .Values.cnpg.main.user }}"
+            DB_DATABASE: "{{ .Values.cnpg.main.database }}"
+            # User Defined
+            JAVA_OPTS: ""
+            DB_HOST:
+              secretKeyRef:
+                name: cnpg-main-urls
+                key: host
+            DB_PASSWORD:
+              secretKeyRef:
+                name: cnpg-main-user
+                key: password
