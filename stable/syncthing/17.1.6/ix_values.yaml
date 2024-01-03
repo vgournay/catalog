@@ -1,0 +1,52 @@
+image:
+  repository: syncthing/syncthing
+  pullPolicy: IfNotPresent
+  tag: 1.27.2@sha256:72d4569a11371e1eac4aa9351f7e07c6ff96f384e59e96dce9458e3a7bbd3627
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              path: /rest/noauth/health
+            readiness:
+              path: /rest/noauth/health
+            startup:
+              path: /rest/noauth/health
+service:
+  main:
+    ports:
+      main:
+        port: 8384
+        targetPort: 8384
+  listeners:
+    enabled: true
+    ports:
+      tcp:
+        enabled: true
+        port: 22000
+        targetPort: 22000
+  listeners-udp:
+    enabled: true
+    ports:
+      udp:
+        enabled: true
+        port: 22000
+        targetPort: 22000
+        protocol: udp
+  discovery:
+    enabled: true
+    ports:
+      discovery:
+        enabled: true
+        port: 21027
+        targetPort: 21027
+        protocol: udp
+persistence:
+  config:
+    enabled: true
+    mountPath: "/var/syncthing"
+portal:
+  open:
+    enabled: true
