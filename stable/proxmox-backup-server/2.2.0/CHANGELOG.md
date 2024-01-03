@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [proxmox-backup-server-2.2.0](https://github.com/truecharts/charts/compare/proxmox-backup-server-2.1.8...proxmox-backup-server-2.2.0) (2024-01-03)
+
+### Chore
+
+
+
+- update container image ayufan/proxmox-backup-server to v3.1.2[@eacdd4b](https://github.com/eacdd4b) by renovate ([#16808](https://github.com/truecharts/charts/issues/16808))
+
+
 ## [proxmox-backup-server-2.1.8](https://github.com/truecharts/charts/compare/proxmox-backup-server-2.1.7...proxmox-backup-server-2.1.8) (2024-01-03)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 ## [proxmox-backup-server-2.0.1](https://github.com/truecharts/charts/compare/proxmox-backup-server-2.0.0...proxmox-backup-server-2.0.1) (2023-12-26)
 
 ### Chore
-
-- update helm general non-major by renovate ([#16545](https://github.com/truecharts/charts/issues/16545))
-
-## [proxmox-backup-server-2.0.0](https://github.com/truecharts/charts/compare/proxmox-backup-server-1.0.11...proxmox-backup-server-2.0.0) (2023-12-25)
-
-### Chore
-
-- update helm chart common to 17.1.0 by renovate ([#16532](https://github.com/truecharts/charts/issues/16532))
-
