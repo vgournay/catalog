@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [watcharr-3.2.0](https://github.com/truecharts/charts/compare/watcharr-3.1.9...watcharr-3.2.0) (2024-01-03)
+
+### Chore
+
+
+
+- update container image ghcr.io/sbondco/watcharr to v1.30.0[@e2f9e6a](https://github.com/e2f9e6a) by renovate ([#16810](https://github.com/truecharts/charts/issues/16810))
+
+
 ## [watcharr-3.1.9](https://github.com/truecharts/charts/compare/watcharr-3.1.8...watcharr-3.1.9) (2024-01-03)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 - standardize ./img references ([#16704](https://github.com/truecharts/charts/issues/16704))
 
 - lints some docs, uses front-matter instead of # h1, and fix list items in changelog ([#16589](https://github.com/truecharts/charts/issues/16589))
-## [watcharr-3.1.0](https://github.com/truecharts/charts/compare/watcharr-3.0.1...watcharr-3.1.0) (2023-12-30)
-
-### Chore
-
-- update helm general minor by renovate ([#16579](https://github.com/truecharts/charts/issues/16579))
-
-## [watcharr-3.0.1](https://github.com/truecharts/charts/compare/watcharr-3.0.0...watcharr-3.0.1) (2023-12-26)
-
-### Chore
