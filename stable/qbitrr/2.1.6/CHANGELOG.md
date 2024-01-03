@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [qbitrr-2.1.6](https://github.com/truecharts/charts/compare/qbitrr-2.1.5...qbitrr-2.1.6) (2024-01-03)
+
+### Chore
+
+
+
+- update container image feramance/qbitrr to v3.8.10[@277ca1b](https://github.com/277ca1b) by renovate ([#16838](https://github.com/truecharts/charts/issues/16838))
+
+
 ## [qbitrr-2.1.5](https://github.com/truecharts/charts/compare/qbitrr-2.1.4...qbitrr-2.1.5) (2024-01-02)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 ## [qbitrr-1.0.10](https://github.com/truecharts/charts/compare/qbitrr-1.0.9...qbitrr-1.0.10) (2023-12-24)
 
 ### Chore
-
-- update helm general non-major by renovate ([#16376](https://github.com/truecharts/charts/issues/16376))
-
-## [qbitrr-1.0.9](https://github.com/truecharts/charts/compare/qbitrr-1.0.8...qbitrr-1.0.9) (2023-12-23)
-
-### Chore
-
-- update helm general non-major by renovate ([#16373](https://github.com/truecharts/charts/issues/16373))
-
