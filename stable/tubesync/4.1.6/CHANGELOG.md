@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [tubesync-4.1.6](https://github.com/truecharts/charts/compare/tubesync-4.1.5...tubesync-4.1.6) (2024-01-03)
+
+### Fix
+
+
+
+- disable varrun
+
+
 ## [tubesync-4.1.5](https://github.com/truecharts/charts/compare/tubesync-4.1.4...tubesync-4.1.5) (2024-01-02)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 ## [tubesync-3.0.17](https://github.com/truecharts/charts/compare/tubesync-3.0.16...tubesync-3.0.17) (2023-12-24)
 
 ### Chore
-
-- update helm general non-major by renovate ([#16376](https://github.com/truecharts/charts/issues/16376))
-
-## [tubesync-3.0.16](https://github.com/truecharts/charts/compare/tubesync-3.0.15...tubesync-3.0.16) (2023-12-23)
-
-### Chore
-
-- update helm general non-major by renovate ([#16373](https://github.com/truecharts/charts/issues/16373))
-
