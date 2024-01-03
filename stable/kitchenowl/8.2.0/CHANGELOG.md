@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [kitchenowl-8.2.0](https://github.com/truecharts/charts/compare/kitchenowl-8.1.5...kitchenowl-8.2.0) (2024-01-03)
+
+### Feat
+
+
+
+- Add OIDC providers ([#16748](https://github.com/truecharts/charts/issues/16748))
+
+
 ## [kitchenowl-8.1.5](https://github.com/truecharts/charts/compare/kitchenowl-8.1.4...kitchenowl-8.1.5) (2024-01-02)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 ## [kitchenowl-7.0.10](https://github.com/truecharts/charts/compare/kitchenowl-7.0.9...kitchenowl-7.0.10) (2023-12-24)
 
 ### Chore
-
-- update helm general non-major by renovate ([#16376](https://github.com/truecharts/charts/issues/16376))
-
-## [kitchenowl-7.0.9](https://github.com/truecharts/charts/compare/kitchenowl-7.0.8...kitchenowl-7.0.9) (2023-12-23)
-
-### Chore
-
-- update helm general non-major by renovate ([#16373](https://github.com/truecharts/charts/issues/16373))
-
