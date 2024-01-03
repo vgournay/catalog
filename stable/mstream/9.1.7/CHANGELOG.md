@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [mstream-9.1.7](https://github.com/truecharts/charts/compare/mstream-9.1.6...mstream-9.1.7) (2024-01-03)
+
+### Chore
+
+
+
+- update container image ghcr.io/linuxserver/mstream to 5.11.4[@24ee3e6](https://github.com/24ee3e6) by renovate ([#16836](https://github.com/truecharts/charts/issues/16836))
+
+
 ## [mstream-9.1.6](https://github.com/truecharts/charts/compare/mstream-9.1.5...mstream-9.1.6) (2024-01-02)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 
 - update container image ghcr.io/linuxserver/mstream to 5.11.4[@d7810b6](https://github.com/d7810b6) by renovate ([#16418](https://github.com/truecharts/charts/issues/16418))
 
-## [mstream-8.0.11](https://github.com/truecharts/charts/compare/mstream-8.0.10...mstream-8.0.11) (2023-12-24)
-
-### Chore
-
-- update helm general non-major by renovate ([#16384](https://github.com/truecharts/charts/issues/16384))
-
-## [mstream-8.0.10](https://github.com/truecharts/charts/compare/mstream-8.0.9...mstream-8.0.10) (2023-12-24)
-
-### Chore

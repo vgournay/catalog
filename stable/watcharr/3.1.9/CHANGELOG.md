@@ -7,16 +7,25 @@ title: Changelog
 
 
 
-## [pastey-5.1.8](https://github.com/truecharts/charts/compare/pastey-5.1.7...pastey-5.1.8) (2024-01-03)
+## [watcharr-3.1.9](https://github.com/truecharts/charts/compare/watcharr-3.1.8...watcharr-3.1.9) (2024-01-03)
 
 ### Chore
 
 
 
-- update container image cesura/pastey to 0.5.1[@4c4f6e7](https://github.com/4c4f6e7) by renovate ([#16758](https://github.com/truecharts/charts/issues/16758))
+- update container image ghcr.io/sbondco/watcharr to v1.20.1[@bbf535d](https://github.com/bbf535d) by renovate ([#16804](https://github.com/truecharts/charts/issues/16804))
 
 
-## [pastey-5.1.7](https://github.com/truecharts/charts/compare/pastey-5.1.6...pastey-5.1.7) (2024-01-02)
+## [watcharr-3.1.8](https://github.com/truecharts/charts/compare/watcharr-3.1.7...watcharr-3.1.8) (2024-01-03)
+
+### Chore
+
+
+
+- update container image ghcr.io/sbondco/watcharr to v[@448a443](https://github.com/448a443) by renovate ([#16771](https://github.com/truecharts/charts/issues/16771))
+
+
+## [watcharr-3.1.7](https://github.com/truecharts/charts/compare/watcharr-3.1.6...watcharr-3.1.7) (2024-01-02)
 
 ### Chore
 
@@ -25,7 +34,7 @@ title: Changelog
 - force bump to ensure up-to-date catalogs
 
 
-## [pastey-5.1.6](https://github.com/truecharts/charts/compare/pastey-5.1.4...pastey-5.1.6) (2024-01-02)
+## [watcharr-3.1.6](https://github.com/truecharts/charts/compare/watcharr-3.1.4...watcharr-3.1.6) (2024-01-02)
 
 ### Chore
 
@@ -34,7 +43,7 @@ title: Changelog
 - fix some refs ([#16749](https://github.com/truecharts/charts/issues/16749))
 
 
-## [pastey-5.1.4](https://github.com/truecharts/charts/compare/pastey-5.1.3...pastey-5.1.4) (2024-01-01)
+## [watcharr-3.1.4](https://github.com/truecharts/charts/compare/watcharr-3.1.3...watcharr-3.1.4) (2024-01-01)
 
 ### Chore
 
@@ -45,7 +54,7 @@ title: Changelog
 - remove non-existent template refs ([#16738](https://github.com/truecharts/charts/issues/16738))
 
 
-## [pastey-5.1.3](https://github.com/truecharts/charts/compare/pastey-5.1.0...pastey-5.1.3) (2024-01-01)
+## [watcharr-3.1.3](https://github.com/truecharts/charts/compare/watcharr-3.1.0...watcharr-3.1.3) (2024-01-01)
 
 ### Chore
 
@@ -64,7 +73,7 @@ title: Changelog
 - lints some docs, uses front-matter instead of # h1, and fix list items in changelog ([#16589](https://github.com/truecharts/charts/issues/16589))
 
 
-## [pastey-5.1.2](https://github.com/truecharts/charts/compare/pastey-5.1.0...pastey-5.1.2) (2024-01-01)
+## [watcharr-3.1.2](https://github.com/truecharts/charts/compare/watcharr-3.1.0...watcharr-3.1.2) (2024-01-01)
 
 ### Chore
 
@@ -79,21 +88,12 @@ title: Changelog
 - standardize ./img references ([#16704](https://github.com/truecharts/charts/issues/16704))
 
 - lints some docs, uses front-matter instead of # h1, and fix list items in changelog ([#16589](https://github.com/truecharts/charts/issues/16589))
-## [pastey-5.1.0](https://github.com/truecharts/charts/compare/pastey-5.0.1...pastey-5.1.0) (2023-12-30)
+## [watcharr-3.1.0](https://github.com/truecharts/charts/compare/watcharr-3.0.1...watcharr-3.1.0) (2023-12-30)
 
 ### Chore
 
 - update helm general minor by renovate ([#16579](https://github.com/truecharts/charts/issues/16579))
 
-## [pastey-5.0.1](https://github.com/truecharts/charts/compare/pastey-5.0.0...pastey-5.0.1) (2023-12-26)
+## [watcharr-3.0.1](https://github.com/truecharts/charts/compare/watcharr-3.0.0...watcharr-3.0.1) (2023-12-26)
 
 ### Chore
-
-- update helm general non-major by renovate ([#16545](https://github.com/truecharts/charts/issues/16545))
-
-## [pastey-5.0.0](https://github.com/truecharts/charts/compare/pastey-4.0.12...pastey-5.0.0) (2023-12-25)
-
-### Chore
-
-- update helm chart common to 17.1.0 by renovate ([#16532](https://github.com/truecharts/charts/issues/16532))
-

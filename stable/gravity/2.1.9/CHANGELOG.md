@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [gravity-2.1.9](https://github.com/truecharts/charts/compare/gravity-2.1.8...gravity-2.1.9) (2024-01-03)
+
+### Chore
+
+
+
+- update container image ghcr.io/beryju/gravity to v0.6.19[@f70c4b8](https://github.com/f70c4b8) by renovate ([#16801](https://github.com/truecharts/charts/issues/16801))
+
+
 ## [gravity-2.1.8](https://github.com/truecharts/charts/compare/gravity-2.1.7...gravity-2.1.8) (2024-01-03)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 ## [gravity-2.0.1](https://github.com/truecharts/charts/compare/gravity-2.0.0...gravity-2.0.1) (2023-12-26)
 
 ### Chore
-
-- update helm general non-major by renovate ([#16545](https://github.com/truecharts/charts/issues/16545))
-
-## [gravity-2.0.0](https://github.com/truecharts/charts/compare/gravity-1.0.11...gravity-2.0.0) (2023-12-25)
-
-### Chore
-
-- update helm chart common to 17.1.0 by renovate ([#16532](https://github.com/truecharts/charts/issues/16532))
-

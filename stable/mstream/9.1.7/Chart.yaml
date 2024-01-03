@@ -1,23 +1,25 @@
 kubeVersion: ">=1.24.0-0"
 apiVersion: v2
-name: watcharr
-version: 3.1.8
-appVersion: 1.20.0
-description: Open source, self-hostable watched list
-home: https://truecharts.org/charts/stable/watcharr
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/watcharr.png
+name: mstream
+version: 9.1.7
+appVersion: 5.11.4
+description: A personal music streaming server
+home: https://truecharts.org/charts/stable/mstream
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/mstream.png
 deprecated: false
 sources:
-  - https://ghcr.io/sbondco/watcharr
-  - https://github.com/sbondCo/Watcharr
-  - https://github.com/truecharts/charts/tree/master/charts/stable/watcharr
+  - https://github.com/truecharts/charts/tree/master/charts/stable/mstream
+  - https://ghcr.io/linuxserver/mstream
+  - https://github.com/linuxserver/docker-mstream
+  - https://mstream.io/
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
 keywords:
-  - watcharr
-  - media
+  - mstream
+  - server
+  - music
 dependencies:
   - name: common
     version: 17.2.21

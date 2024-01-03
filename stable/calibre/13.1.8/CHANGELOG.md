@@ -7,16 +7,16 @@ title: Changelog
 
 
 
-## [watcharr-3.1.8](https://github.com/truecharts/charts/compare/watcharr-3.1.7...watcharr-3.1.8) (2024-01-03)
+## [calibre-13.1.8](https://github.com/truecharts/charts/compare/calibre-13.1.7...calibre-13.1.8) (2024-01-03)
 
 ### Chore
 
 
 
-- update container image ghcr.io/sbondco/watcharr to v[@448a443](https://github.com/448a443) by renovate ([#16771](https://github.com/truecharts/charts/issues/16771))
+- update container image ghcr.io/linuxserver/calibre to 7.2.0[@b4636ba](https://github.com/b4636ba) by renovate ([#16835](https://github.com/truecharts/charts/issues/16835))
 
 
-## [watcharr-3.1.7](https://github.com/truecharts/charts/compare/watcharr-3.1.6...watcharr-3.1.7) (2024-01-02)
+## [calibre-13.1.7](https://github.com/truecharts/charts/compare/calibre-13.1.6...calibre-13.1.7) (2024-01-02)
 
 ### Chore
 
@@ -25,16 +25,16 @@ title: Changelog
 - force bump to ensure up-to-date catalogs
 
 
-## [watcharr-3.1.6](https://github.com/truecharts/charts/compare/watcharr-3.1.4...watcharr-3.1.6) (2024-01-02)
+## [calibre-13.1.6](https://github.com/truecharts/charts/compare/calibre-13.1.5...calibre-13.1.6) (2024-01-02)
 
 ### Chore
 
 
 
-- fix some refs ([#16749](https://github.com/truecharts/charts/issues/16749))
+- bump common ([#16751](https://github.com/truecharts/charts/issues/16751))
 
 
-## [watcharr-3.1.4](https://github.com/truecharts/charts/compare/watcharr-3.1.3...watcharr-3.1.4) (2024-01-01)
+## [calibre-13.1.5](https://github.com/truecharts/charts/compare/calibre-13.1.4...calibre-13.1.5) (2024-01-01)
 
 ### Chore
 
@@ -45,7 +45,7 @@ title: Changelog
 - remove non-existent template refs ([#16738](https://github.com/truecharts/charts/issues/16738))
 
 
-## [watcharr-3.1.3](https://github.com/truecharts/charts/compare/watcharr-3.1.0...watcharr-3.1.3) (2024-01-01)
+## [calibre-13.1.4](https://github.com/truecharts/charts/compare/calibre-13.1.1...calibre-13.1.4) (2024-01-01)
 
 ### Chore
 
@@ -61,10 +61,8 @@ title: Changelog
 
 - standardize ./img references ([#16704](https://github.com/truecharts/charts/issues/16704))
 
-- lints some docs, uses front-matter instead of # h1, and fix list items in changelog ([#16589](https://github.com/truecharts/charts/issues/16589))
 
-
-## [watcharr-3.1.2](https://github.com/truecharts/charts/compare/watcharr-3.1.0...watcharr-3.1.2) (2024-01-01)
+## [calibre-13.1.3](https://github.com/truecharts/charts/compare/calibre-13.1.1...calibre-13.1.3) (2024-01-01)
 
 ### Chore
 
@@ -77,23 +75,25 @@ title: Changelog
 - update container image common to v17.2.18[@085ba3c](https://github.com/085ba3c) by renovate ([#16732](https://github.com/truecharts/charts/issues/16732))
 
 - standardize ./img references ([#16704](https://github.com/truecharts/charts/issues/16704))
+## [calibre-13.1.1](https://github.com/truecharts/charts/compare/calibre-13.1.0...calibre-13.1.1) (2023-12-31)
 
+### Chore
+
+- update container image ghcr.io/linuxserver/calibre to 7.2.0[@3d4ae84](https://github.com/3d4ae84) by renovate ([#16601](https://github.com/truecharts/charts/issues/16601))
 - lints some docs, uses front-matter instead of # h1, and fix list items in changelog ([#16589](https://github.com/truecharts/charts/issues/16589))
-## [watcharr-3.1.0](https://github.com/truecharts/charts/compare/watcharr-3.0.1...watcharr-3.1.0) (2023-12-30)
+
+## [calibre-13.1.0](https://github.com/truecharts/charts/compare/calibre-13.0.2...calibre-13.1.0) (2023-12-30)
 
 ### Chore
 
 - update helm general minor by renovate ([#16579](https://github.com/truecharts/charts/issues/16579))
 
-## [watcharr-3.0.1](https://github.com/truecharts/charts/compare/watcharr-3.0.0...watcharr-3.0.1) (2023-12-26)
+## [calibre-13.0.2](https://github.com/truecharts/charts/compare/calibre-13.0.1...calibre-13.0.2) (2023-12-26)
 
 ### Chore
 
 - update helm general non-major by renovate ([#16545](https://github.com/truecharts/charts/issues/16545))
 
-## [watcharr-3.0.0](https://github.com/truecharts/charts/compare/watcharr-2.0.11...watcharr-3.0.0) (2023-12-25)
+## [calibre-13.0.1](https://github.com/truecharts/charts/compare/calibre-13.0.0...calibre-13.0.1) (2023-12-26)
 
-### Chore
-
-- update helm chart common to 17.1.0 by renovate ([#16532](https://github.com/truecharts/charts/issues/16532))
-
+### Fix
