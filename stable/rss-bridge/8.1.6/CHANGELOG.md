@@ -7,16 +7,16 @@ title: Changelog
 
 
 
-## [plextraktsync-6.1.8](https://github.com/truecharts/charts/compare/plextraktsync-6.1.7...plextraktsync-6.1.8) (2024-01-03)
+## [rss-bridge-8.1.6](https://github.com/truecharts/charts/compare/rss-bridge-8.1.5...rss-bridge-8.1.6) (2024-01-03)
 
-### Chore
-
-
-
-- update container image ghcr.io/taxel/plextraktsync to v[@ccc9d99](https://github.com/ccc9d99) by renovate ([#16773](https://github.com/truecharts/charts/issues/16773))
+### Fix
 
 
-## [plextraktsync-6.1.7](https://github.com/truecharts/charts/compare/plextraktsync-6.1.6...plextraktsync-6.1.7) (2024-01-02)
+
+- disable varrun vol ([#16856](https://github.com/truecharts/charts/issues/16856))
+
+
+## [rss-bridge-8.1.5](https://github.com/truecharts/charts/compare/rss-bridge-8.1.4...rss-bridge-8.1.5) (2024-01-02)
 
 ### Chore
 
@@ -25,16 +25,7 @@ title: Changelog
 - force bump to ensure up-to-date catalogs
 
 
-## [plextraktsync-6.1.6](https://github.com/truecharts/charts/compare/plextraktsync-6.1.4...plextraktsync-6.1.6) (2024-01-02)
-
-### Chore
-
-
-
-- fix some refs ([#16749](https://github.com/truecharts/charts/issues/16749))
-
-
-## [plextraktsync-6.1.4](https://github.com/truecharts/charts/compare/plextraktsync-6.1.3...plextraktsync-6.1.4) (2024-01-01)
+## [rss-bridge-8.1.4](https://github.com/truecharts/charts/compare/rss-bridge-8.1.3...rss-bridge-8.1.4) (2024-01-01)
 
 ### Chore
 
@@ -45,7 +36,7 @@ title: Changelog
 - remove non-existent template refs ([#16738](https://github.com/truecharts/charts/issues/16738))
 
 
-## [plextraktsync-6.1.3](https://github.com/truecharts/charts/compare/plextraktsync-6.1.0...plextraktsync-6.1.3) (2024-01-01)
+## [rss-bridge-8.1.3](https://github.com/truecharts/charts/compare/rss-bridge-8.1.0...rss-bridge-8.1.3) (2024-01-01)
 
 ### Chore
 
@@ -64,7 +55,7 @@ title: Changelog
 - lints some docs, uses front-matter instead of # h1, and fix list items in changelog ([#16589](https://github.com/truecharts/charts/issues/16589))
 
 
-## [plextraktsync-6.1.2](https://github.com/truecharts/charts/compare/plextraktsync-6.1.0...plextraktsync-6.1.2) (2024-01-01)
+## [rss-bridge-8.1.2](https://github.com/truecharts/charts/compare/rss-bridge-8.1.0...rss-bridge-8.1.2) (2024-01-01)
 
 ### Chore
 
@@ -79,21 +70,30 @@ title: Changelog
 - standardize ./img references ([#16704](https://github.com/truecharts/charts/issues/16704))
 
 - lints some docs, uses front-matter instead of # h1, and fix list items in changelog ([#16589](https://github.com/truecharts/charts/issues/16589))
-## [plextraktsync-6.1.0](https://github.com/truecharts/charts/compare/plextraktsync-6.0.1...plextraktsync-6.1.0) (2023-12-30)
+## [rss-bridge-8.1.0](https://github.com/truecharts/charts/compare/rss-bridge-8.0.1...rss-bridge-8.1.0) (2023-12-30)
 
 ### Chore
 
 - update helm general minor by renovate ([#16579](https://github.com/truecharts/charts/issues/16579))
 
-## [plextraktsync-6.0.1](https://github.com/truecharts/charts/compare/plextraktsync-6.0.0...plextraktsync-6.0.1) (2023-12-26)
+## [rss-bridge-8.0.1](https://github.com/truecharts/charts/compare/rss-bridge-8.0.0...rss-bridge-8.0.1) (2023-12-26)
 
 ### Chore
 
 - update helm general non-major by renovate ([#16545](https://github.com/truecharts/charts/issues/16545))
 
-## [plextraktsync-6.0.0](https://github.com/truecharts/charts/compare/plextraktsync-5.0.11...plextraktsync-6.0.0) (2023-12-25)
+## [rss-bridge-8.0.0](https://github.com/truecharts/charts/compare/rss-bridge-7.0.11...rss-bridge-8.0.0) (2023-12-25)
 
 ### Chore
 
 - update helm chart common to 17.1.0 by renovate ([#16532](https://github.com/truecharts/charts/issues/16532))
 
+## [rss-bridge-7.0.11](https://github.com/truecharts/charts/compare/rss-bridge-7.0.10...rss-bridge-7.0.11) (2023-12-24)
+
+### Chore
+
+- update helm general non-major by renovate ([#16384](https://github.com/truecharts/charts/issues/16384))
+
+## [rss-bridge-7.0.10](https://github.com/truecharts/charts/compare/rss-bridge-7.0.9...rss-bridge-7.0.10) (2023-12-24)
+
+### Chore
