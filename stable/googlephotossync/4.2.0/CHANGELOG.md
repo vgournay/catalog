@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [googlephotossync-4.2.0](https://github.com/truecharts/charts/compare/googlephotossync-4.1.5...googlephotossync-4.2.0) (2024-01-03)
+
+### Chore
+
+
+
+- update container image ghcr.io/gilesknap/gphotos-sync to v3.2.0[@c67e0cb](https://github.com/c67e0cb) by renovate ([#16676](https://github.com/truecharts/charts/issues/16676))
+
+
 ## [googlephotossync-4.1.5](https://github.com/truecharts/charts/compare/googlephotossync-4.1.4...googlephotossync-4.1.5) (2024-01-02)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 ## [googlephotossync-3.0.16](https://github.com/truecharts/charts/compare/googlephotossync-3.0.15...googlephotossync-3.0.16) (2023-12-24)
 
 ### Chore
-
-- update helm general non-major by renovate ([#16376](https://github.com/truecharts/charts/issues/16376))
-
-## [googlephotossync-3.0.15](https://github.com/truecharts/charts/compare/googlephotossync-3.0.14...googlephotossync-3.0.15) (2023-12-23)
-
-### Chore
-
-- update helm general non-major by renovate ([#16373](https://github.com/truecharts/charts/issues/16373))
-
