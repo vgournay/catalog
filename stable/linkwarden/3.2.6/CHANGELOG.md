@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [linkwarden-3.2.6](https://github.com/truecharts/charts/compare/linkwarden-3.2.5...linkwarden-3.2.6) (2024-01-03)
+
+### Chore
+
+
+
+- update container image ghcr.io/linkwarden/linkwarden to v2.4.8[@ee344d6](https://github.com/ee344d6) by renovate ([#16717](https://github.com/truecharts/charts/issues/16717))
+
+
 ## [linkwarden-3.2.5](https://github.com/truecharts/charts/compare/linkwarden-3.2.4...linkwarden-3.2.5) (2024-01-02)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 - update helm general non-major by renovate ([#16384](https://github.com/truecharts/charts/issues/16384))
 
 ## [linkwarden-2.0.10](https://github.com/truecharts/charts/compare/linkwarden-2.0.9...linkwarden-2.0.10) (2023-12-24)
-
-### Chore
-
-- update helm general non-major by renovate ([#16376](https://github.com/truecharts/charts/issues/16376))
-
-## [linkwarden-2.0.9](https://github.com/truecharts/charts/compare/linkwarden-2.0.8...linkwarden-2.0.9) (2023-12-23)
-
-### Chore
-
