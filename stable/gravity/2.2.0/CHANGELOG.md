@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [gravity-2.2.0](https://github.com/truecharts/charts/compare/gravity-2.1.9...gravity-2.2.0) (2024-01-03)
+
+### Chore
+
+
+
+- update container image ghcr.io/beryju/gravity to v0.8.1[@14ddf7b](https://github.com/14ddf7b) by renovate ([#16809](https://github.com/truecharts/charts/issues/16809))
+
+
 ## [gravity-2.1.9](https://github.com/truecharts/charts/compare/gravity-2.1.8...gravity-2.1.9) (2024-01-03)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 - standardize ./img references ([#16704](https://github.com/truecharts/charts/issues/16704))
 
 - lints some docs, uses front-matter instead of # h1, and fix list items in changelog ([#16589](https://github.com/truecharts/charts/issues/16589))
-## [gravity-2.1.0](https://github.com/truecharts/charts/compare/gravity-2.0.1...gravity-2.1.0) (2023-12-30)
-
-### Chore
-
-- update helm general minor by renovate ([#16579](https://github.com/truecharts/charts/issues/16579))
-
-## [gravity-2.0.1](https://github.com/truecharts/charts/compare/gravity-2.0.0...gravity-2.0.1) (2023-12-26)
-
-### Chore
