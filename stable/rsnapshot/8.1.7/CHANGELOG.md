@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [rsnapshot-8.1.7](https://github.com/truecharts/charts/compare/rsnapshot-8.1.6...rsnapshot-8.1.7) (2024-01-04)
+
+### Chore
+
+
+
+- update container image ghcr.io/linuxserver/rsnapshot to 1.4.5[@63a5164](https://github.com/63a5164) by renovate ([#16867](https://github.com/truecharts/charts/issues/16867))
+
+
 ## [rsnapshot-8.1.6](https://github.com/truecharts/charts/compare/rsnapshot-8.1.5...rsnapshot-8.1.6) (2024-01-02)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 
 - update helm general non-major by renovate ([#16384](https://github.com/truecharts/charts/issues/16384))
 
-## [rsnapshot-7.0.10](https://github.com/truecharts/charts/compare/rsnapshot-7.0.9...rsnapshot-7.0.10) (2023-12-24)
-
-### Chore
-
-- update helm general non-major by renovate ([#16376](https://github.com/truecharts/charts/issues/16376))
-
-## [rsnapshot-7.0.9](https://github.com/truecharts/charts/compare/rsnapshot-7.0.8...rsnapshot-7.0.9) (2023-12-23)
-
-### Chore
