@@ -1,7 +1,7 @@
 kubeVersion: ">=1.24.0-0"
 apiVersion: v2
 name: webtop
-version: 8.1.45
+version: 8.1.49
 appVersion: latest
 description: Webtop full desktop environments in officially supported flavors accessible via any modern web browser.
 home: https://truecharts.org/charts/stable/webtop
@@ -10,9 +10,9 @@ deprecated: false
 sources:
   - https://github.com/orgs/linuxserver/packages/container/package/webtop
   - https://github.com/linuxserver/docker-webtop#readme
+  - https://github.com/linuxserver/gclient
   - https://github.com/truecharts/charts/tree/master/charts/stable/webtop
   - https://fleet.linuxserver.io/image?name=linuxserver/webtop
-  - https://github.com/linuxserver/gclient
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org

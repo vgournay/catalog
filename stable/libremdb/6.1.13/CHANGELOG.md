@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [libremdb-6.1.13](https://github.com/truecharts/charts/compare/libremdb-6.1.12...libremdb-6.1.13) (2024-01-04)
+
+### Chore
+
+
+
+- update container image quay.io/pussthecatorg/libremdb to latest[@aa31465](https://github.com/aa31465) by renovate ([#16868](https://github.com/truecharts/charts/issues/16868))
+
+
 ## [libremdb-6.1.12](https://github.com/truecharts/charts/compare/libremdb-6.1.11...libremdb-6.1.12) (2024-01-03)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 
 
 - bump all charts for OCI test push
-
-- move everything to consume OCI-hosted common-chart dependency
-
-- update container image common to v17.2.19[@4ebb688](https://github.com/4ebb688) by renovate ([#16733](https://github.com/truecharts/charts/issues/16733))
-
-- update container image common to v17.2.18[@085ba3c](https://github.com/085ba3c) by renovate ([#16732](https://github.com/truecharts/charts/issues/16732))
-
-- standardize ./img references ([#16704](https://github.com/truecharts/charts/issues/16704))
-

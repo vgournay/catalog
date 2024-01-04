@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [rimgo-5.1.11](https://github.com/truecharts/charts/compare/rimgo-5.1.10...rimgo-5.1.11) (2024-01-04)
+
+### Chore
+
+
+
+- update container image quay.io/pussthecatorg/rimgo to latest[@c2899b5](https://github.com/c2899b5) by renovate ([#16869](https://github.com/truecharts/charts/issues/16869))
+
+
 ## [rimgo-5.1.10](https://github.com/truecharts/charts/compare/rimgo-5.1.9...rimgo-5.1.10) (2024-01-03)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 
 
 
-- bump all charts for OCI test push
-
-- move everything to consume OCI-hosted common-chart dependency
-
-- update container image common to v17.2.18[@085ba3c](https://github.com/085ba3c) by renovate ([#16732](https://github.com/truecharts/charts/issues/16732))
-
-- standardize ./img references ([#16704](https://github.com/truecharts/charts/issues/16704))
-
-- lints some docs, uses front-matter instead of # h1, and fix list items in changelog ([#16589](https://github.com/truecharts/charts/issues/16589))

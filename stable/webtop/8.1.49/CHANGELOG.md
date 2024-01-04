@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [webtop-8.1.49](https://github.com/truecharts/charts/compare/webtop-8.1.45...webtop-8.1.49) (2024-01-04)
+
+### Chore
+
+
+
+- update webtop by renovate ([#16870](https://github.com/truecharts/charts/issues/16870))
+
+
 ## [webtop-8.1.45](https://github.com/truecharts/charts/compare/webtop-8.1.44...webtop-8.1.45) (2024-01-02)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 ## [webtop-8.0.0](https://github.com/truecharts/charts/compare/webtop-7.0.29...webtop-8.0.0) (2023-12-25)
 
 ### Chore
-
-- update helm chart common to 17.1.0 by renovate ([#16532](https://github.com/truecharts/charts/issues/16532))
-
-## [webtop-7.0.29](https://github.com/truecharts/charts/compare/webtop-7.0.11...webtop-7.0.29) (2023-12-25)
-
-### Chore
-
-- update webtop by renovate ([#16455](https://github.com/truecharts/charts/issues/16455))
-

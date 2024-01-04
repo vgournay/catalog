@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [automatic-ripping-machine-2.1.11](https://github.com/truecharts/charts/compare/automatic-ripping-machine-2.1.10...automatic-ripping-machine-2.1.11) (2024-01-04)
+
+### Chore
+
+
+
+- update container image automaticrippingmachine/automatic-ripping-machine to 2.6.67[@95fc219](https://github.com/95fc219) by renovate ([#16865](https://github.com/truecharts/charts/issues/16865))
+
+
 ## [automatic-ripping-machine-2.1.10](https://github.com/truecharts/charts/compare/automatic-ripping-machine-2.1.9...automatic-ripping-machine-2.1.10) (2024-01-03)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 
 
 
-- bump all charts for OCI test push
-
-- move everything to consume OCI-hosted common-chart dependency
-
-- update container image common to v17.2.18[@085ba3c](https://github.com/085ba3c) by renovate ([#16732](https://github.com/truecharts/charts/issues/16732))
-
-- standardize ./img references ([#16704](https://github.com/truecharts/charts/issues/16704))
-
-- lints some docs, uses front-matter instead of # h1, and fix list items in changelog ([#16589](https://github.com/truecharts/charts/issues/16589))
