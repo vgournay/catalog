@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [humhub-6.2.1](https://github.com/truecharts/charts/compare/humhub-6.2.0...humhub-6.2.1) (2024-01-05)
+
+### Fix
+
+
+
+- select correct pods ([#16881](https://github.com/truecharts/charts/issues/16881))
+
+
 ## [humhub-6.2.0](https://github.com/truecharts/charts/compare/humhub-6.1.8...humhub-6.2.0) (2024-01-03)
 
 ### Fix
@@ -88,12 +97,3 @@ title: Changelog
 
 
 
-- bump all charts for OCI test push
-
-- move everything to consume OCI-hosted common-chart dependency
-
-- update container image common to v17.2.18[@085ba3c](https://github.com/085ba3c) by renovate ([#16732](https://github.com/truecharts/charts/issues/16732))
-
-- standardize ./img references ([#16704](https://github.com/truecharts/charts/issues/16704))
-
-- lints some docs, uses front-matter instead of # h1, and fix list items in changelog ([#16589](https://github.com/truecharts/charts/issues/16589))
