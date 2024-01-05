@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [prometheus-operator-4.1.0](https://github.com/truecharts/charts/compare/prometheus-operator-4.0.0...prometheus-operator-4.1.0) (2024-01-05)
+
+### Chore
+
+
+
+- update helm chart kube-prometheus-stack to 55.6.0 by renovate ([#16897](https://github.com/truecharts/charts/issues/16897))
+
+
 ## [prometheus-operator-4.0.0](https://github.com/truecharts/charts/compare/prometheus-operator-3.1.7...prometheus-operator-4.0.0) (2024-01-02)
 
 ### Feat
@@ -88,12 +97,3 @@ title: Changelog
 - lints some docs, uses front-matter instead of # h1, and fix list items in changelog ([#16589](https://github.com/truecharts/charts/issues/16589))
 ## [prometheus-operator-3.1.0](https://github.com/truecharts/charts/compare/prometheus-operator-3.0.1...prometheus-operator-3.1.0) (2023-12-30)
 
-### Chore
-
-- update helm general minor by renovate ([#16579](https://github.com/truecharts/charts/issues/16579))
-
-## [prometheus-operator-3.0.1](https://github.com/truecharts/charts/compare/prometheus-operator-3.0.0...prometheus-operator-3.0.1) (2023-12-26)
-
-### Chore
-
-- update helm general non-major by renovate ([#16545](https://github.com/truecharts/charts/issues/16545))
