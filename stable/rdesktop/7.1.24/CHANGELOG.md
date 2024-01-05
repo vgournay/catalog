@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [rdesktop-7.1.24](https://github.com/truecharts/charts/compare/rdesktop-7.1.23...rdesktop-7.1.24) (2024-01-05)
+
+### Chore
+
+
+
+- Update digests of tags ([#16879](https://github.com/truecharts/charts/issues/16879))
+
+
 ## [rdesktop-7.1.23](https://github.com/truecharts/charts/compare/rdesktop-7.1.22...rdesktop-7.1.23) (2024-01-04)
 
 ### Fix
@@ -88,12 +97,3 @@ title: Changelog
 
 - update helm general minor by renovate ([#16579](https://github.com/truecharts/charts/issues/16579))
 
-## [rdesktop-7.0.1](https://github.com/truecharts/charts/compare/rdesktop-7.0.0...rdesktop-7.0.1) (2023-12-26)
-
-### Chore
-
-- update helm general non-major by renovate ([#16545](https://github.com/truecharts/charts/issues/16545))
-
-## [rdesktop-7.0.0](https://github.com/truecharts/charts/compare/rdesktop-6.0.30...rdesktop-7.0.0) (2023-12-25)
-
-### Chore
