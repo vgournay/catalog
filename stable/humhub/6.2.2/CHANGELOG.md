@@ -7,6 +7,17 @@ title: Changelog
 
 
 
+## [humhub-6.2.2](https://github.com/truecharts/charts/compare/humhub-6.2.1...humhub-6.2.2) (2024-01-05)
+
+### Chore
+
+
+
+- update container image ghcr.io/mriedmann/humhub-phponly to v1.15.2[@9987a9e](https://github.com/9987a9e) by renovate ([#16889](https://github.com/truecharts/charts/issues/16889))
+
+- update container image ghcr.io/mriedmann/humhub-nginx to v1.15.2[@9a34e13](https://github.com/9a34e13) by renovate ([#16888](https://github.com/truecharts/charts/issues/16888))
+
+
 ## [humhub-6.2.1](https://github.com/truecharts/charts/compare/humhub-6.2.0...humhub-6.2.1) (2024-01-05)
 
 ### Fix
@@ -85,15 +96,4 @@ title: Changelog
 - update container image common to v17.2.19[@4ebb688](https://github.com/4ebb688) by renovate ([#16733](https://github.com/truecharts/charts/issues/16733))
 
 - update container image common to v17.2.18[@085ba3c](https://github.com/085ba3c) by renovate ([#16732](https://github.com/truecharts/charts/issues/16732))
-
-- standardize ./img references ([#16704](https://github.com/truecharts/charts/issues/16704))
-
-- lints some docs, uses front-matter instead of # h1, and fix list items in changelog ([#16589](https://github.com/truecharts/charts/issues/16589))
-
-
-## [humhub-6.1.2](https://github.com/truecharts/charts/compare/humhub-6.1.0...humhub-6.1.2) (2024-01-01)
-
-### Chore
-
-
 

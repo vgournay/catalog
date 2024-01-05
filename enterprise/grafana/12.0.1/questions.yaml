@@ -99,6 +99,46 @@ questions:
                               additional_attrs: true
                               type: dict
                               attrs:
+                                - variable: env
+                                  label: "Image Environment"
+                                  schema:
+                                    additional_attrs: true
+                                    type: dict
+                                    attrs:
+                                      - variable: GF_SECURITY_ADMIN_USER
+                                        label: "Admin User"
+                                        schema:
+                                          type: string
+                                          required: true
+                                          default: "admin"
+                                      - variable: GF_SECURITY_ADMIN_PASSWORD
+                                        label: "Admin Password"
+                                        schema:
+                                          type: string
+                                          required: true
+                                          private: true
+                                          default: "REPLACETHIS"
+                                      - variable: GF_INSTALL_PLUGINS
+                                        label: "Extra Plugins to Install"
+                                        description: "comma seperated"
+                                        schema:
+                                          type: string
+                                          default: ""
+                                      - variable: GF_AUTH_LDAP_ENABLED
+                                        label: "enable LDAP"
+                                        schema:
+                                          type: boolean
+                                          default: false
+                                      - variable: GF_AUTH_LDAP_ALLOW_SIGN_UP
+                                        label: "Allow LDAP Signup"
+                                        schema:
+                                          type: boolean
+                                          default: false
+                                      - variable: GF_AUTH_LDAP_CONFIG_FILE
+                                        label: "LDAP Config Path"
+                                        schema:
+                                          type: string
+                                          default: "/opt/bitnami/grafana/conf/ldap.toml"
                                 - variable: envList
                                   label: Extra Environment Variables
                                   description: "Please be aware that some variables are set in the background, adding duplicates here might cause issues or prevent the app from starting..."
@@ -148,43 +188,6 @@ questions:
                                               label: Param
                                               schema:
                                                 type: string
-  - variable: aria2
-    group: App Configuration
-    label: Aria2 Configuration
-    schema:
-      additional_attrs: true
-      type: dict
-      attrs:
-        - variable: enabled
-          label: Enable Aria2 Container
-          schema:
-            type: boolean
-            default: false
-            show_subquestions_if: true
-            subquestions:
-              - variable: rpc_secret
-                label: RPC Secret
-                schema:
-                  type: string
-                  private: true
-                  required: true
-                  default: ""
-              - variable: disk_cache
-                label: Disk Cache
-                schema:
-                  type: string
-                  default: "64M"
-              - variable: update_trackers
-                label: Update Trackers
-                schema:
-                  type: boolean
-                  default: true
-              - variable: custom_trackers_url
-                label: Custom Trackers URL
-                description: Custom BT Trackers List URL.
-                schema:
-                  type: string
-                  default: "https://trackerslist.com/all_aria2.txt"
   - variable: TZ
     label: Timezone
     group: "General Settings"
@@ -275,30 +278,42 @@ questions:
             type: dict
             additional_attrs: true
             attrs:
-              - variable: registry
-                label: "Registry"
+              - variable: enabled
+                label: Enabled
                 schema:
-                  type: string
-                  required: true
-                  default: "https://index.docker.io/v1/"
-              - variable: username
-                label: "Username"
+                  type: boolean
+                  default: true
+              - variable: data
+                label: Data
                 schema:
-                  type: string
-                  required: true
-                  default: ""
-              - variable: password
-                label: "Password"
-                schema:
-                  type: string
-                  required: true
-                  default: ""
-              - variable: email
-                label: "Email"
-                schema:
-                  type: string
-                  required: true
-                  default: ""
+                  type: dict
+                  additional_attrs: true
+                  attrs:
+                    - variable: registry
+                      label: "Registry"
+                      schema:
+                        type: string
+                        required: true
+                        default: "https://index.docker.io/v1/"
+                    - variable: username
+                      label: "Username"
+                      schema:
+                        type: string
+                        required: true
+                        default: ""
+                    - variable: password
+                      label: "Password"
+                      schema:
+                        type: string
+                        required: true
+                        private: true
+                        default: ""
+                    - variable: email
+                      label: "Email"
+                      schema:
+                        type: string
+                        required: true
+                        default: ""
   - variable: service
     group: Networking and Services
     label: Configure Service(s)
@@ -354,7 +369,7 @@ questions:
                             description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 6500
+                              default: 10038
                               required: true
   - variable: serviceexpert
     group: Networking and Services
@@ -584,9 +599,9 @@ questions:
       additional_attrs: true
       type: dict
       attrs:
-        - variable: db
-          label: "App DB Storage"
-          description: "Stores the Application DB."
+        - variable: config
+          label: "App Config Storage"
+          description: "Stores the Application Configuration."
           schema:
             additional_attrs: true
             type: dict
@@ -1707,13 +1722,13 @@ questions:
                 description: "The UserID of the user running the application"
                 schema:
                   type: int
-                  default: 0
+                  default: 568
               - variable: runAsGroup
                 label: "runAsGroup"
                 description: "The groupID of the user running the application"
                 schema:
                   type: int
-                  default: 0
+                  default: 568
               # Settings from questions.yaml get appended here on a per-app basis
               - variable: PUID
                 label: Process User ID - PUID
@@ -1898,6 +1913,41 @@ questions:
                   type: string
                   default: workaround
                   hidden: true
+  - variable: metrics
+    group: Metrics
+    label: Prometheus Metrics
+    schema:
+      additional_attrs: true
+      type: dict
+      attrs:
+        - variable: main
+          label: Main Metrics
+          schema:
+            additional_attrs: true
+            type: dict
+            attrs:
+              - variable: enabled
+                label: Enabled
+                description: Enable Prometheus Metrics
+                schema:
+                  type: boolean
+                  default: false
+                  show_subquestions_if: true
+                  subquestions:
+                    - variable: prometheusRule
+                      label: PrometheusRule
+                      description: Enable and configure Prometheus Rules for the App.
+                      schema:
+                        additional_attrs: true
+                        type: dict
+                        attrs:
+                          - variable: enabled
+                            label: Enabled
+                            description: Enable Prometheus Metrics
+                            schema:
+                              type: boolean
+                              default: false
+                          # TODO: Rule List section
 #  - variable: horizontalPodAutoscaler
 #    group: Advanced
 #    label: (Advanced) Horizontal Pod Autoscaler
