@@ -7,6 +7,9 @@ title: Changelog
 
 
 
+## [prometheus-operator-4.2.0](https://github.com/truecharts/charts/compare/prometheus-operator-4.1.0...prometheus-operator-4.2.0) (2024-01-07)
+
+
 ## [prometheus-operator-4.1.0](https://github.com/truecharts/charts/compare/prometheus-operator-4.0.0...prometheus-operator-4.1.0) (2024-01-05)
 
 ### Chore
@@ -93,7 +96,4 @@ title: Changelog
 - update container image common to v17.2.18[@085ba3c](https://github.com/085ba3c) by renovate ([#16732](https://github.com/truecharts/charts/issues/16732))
 
 - standardize ./img references ([#16704](https://github.com/truecharts/charts/issues/16704))
-
-- lints some docs, uses front-matter instead of # h1, and fix list items in changelog ([#16589](https://github.com/truecharts/charts/issues/16589))
-## [prometheus-operator-3.1.0](https://github.com/truecharts/charts/compare/prometheus-operator-3.0.1...prometheus-operator-3.1.0) (2023-12-30)
 
