@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [stationeers-4.1.7](https://github.com/truecharts/charts/compare/stationeers-4.1.6...stationeers-4.1.7) (2024-01-08)
+
+### Chore
+
+
+
+- update container image ich777/steamcmd to stationeers[@f8258be](https://github.com/f8258be) by renovate ([#17038](https://github.com/truecharts/charts/issues/17038))
+
+
 ## [stationeers-4.1.6](https://github.com/truecharts/charts/compare/stationeers-4.1.5...stationeers-4.1.6) (2024-01-08)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 
 - update helm chart common to 17.1.0 by renovate ([#16532](https://github.com/truecharts/charts/issues/16532))
 
-## [stationeers-3.0.17](https://github.com/truecharts/charts/compare/stationeers-3.0.16...stationeers-3.0.17) (2023-12-24)
-
-### Chore
-
-- update helm general non-major by renovate ([#16384](https://github.com/truecharts/charts/issues/16384))
-
-## [stationeers-3.0.16](https://github.com/truecharts/charts/compare/stationeers-3.0.15...stationeers-3.0.16) (2023-12-24)
-
-### Chore
