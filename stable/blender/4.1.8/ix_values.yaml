@@ -1,0 +1,31 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: lscr.io/linuxserver/blender
+  tag: latest@sha256:fcd142403273fad86664b1b68726f8f2b5c0f22210e15729749ad37dc9846e7b
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 3000
+        protocol: tcp
+        targetPort: 3000
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            KEYBOARD: ""
+            SUBFOLDER: ""
