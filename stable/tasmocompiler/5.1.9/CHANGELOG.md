@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [tasmocompiler-5.1.9](https://github.com/truecharts/charts/compare/tasmocompiler-5.1.8...tasmocompiler-5.1.9) (2024-01-08)
+
+### Chore
+
+
+
+- update container image benzino77/tasmocompiler to latest[@3d8a61a](https://github.com/3d8a61a) by renovate ([#16922](https://github.com/truecharts/charts/issues/16922))
+
+
 ## [tasmocompiler-5.1.8](https://github.com/truecharts/charts/compare/tasmocompiler-5.1.7...tasmocompiler-5.1.8) (2024-01-03)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 ## [tasmocompiler-5.0.1](https://github.com/truecharts/charts/compare/tasmocompiler-5.0.0...tasmocompiler-5.0.1) (2023-12-26)
 
 ### Chore
-
-- update helm general non-major by renovate ([#16545](https://github.com/truecharts/charts/issues/16545))
-
-## [tasmocompiler-5.0.0](https://github.com/truecharts/charts/compare/tasmocompiler-4.0.11...tasmocompiler-5.0.0) (2023-12-25)
-
-### Chore
-
-- update helm chart common to 17.1.0 by renovate ([#16532](https://github.com/truecharts/charts/issues/16532))
-
