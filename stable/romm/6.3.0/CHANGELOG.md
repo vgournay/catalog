@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [romm-6.3.0](https://github.com/truecharts/charts/compare/romm-6.2.3...romm-6.3.0) (2024-01-08)
+
+### Chore
+
+
+
+- update container image ghcr.io/zurdi15/romm to v2.3.0[@0c3dc6a](https://github.com/0c3dc6a) by renovate ([#17046](https://github.com/truecharts/charts/issues/17046))
+
+
 ## [romm-6.2.3](https://github.com/truecharts/charts/compare/romm-6.2.2...romm-6.2.3) (2024-01-02)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 
 
 
-- bump all charts for OCI test push
-
-- move everything to consume OCI-hosted common-chart dependency
-
-- update container image common to v17.2.18[@085ba3c](https://github.com/085ba3c) by renovate ([#16732](https://github.com/truecharts/charts/issues/16732))
-
-- standardize ./img references ([#16704](https://github.com/truecharts/charts/issues/16704))
-
-- lints some docs, uses front-matter instead of # h1, and fix list items in changelog ([#16589](https://github.com/truecharts/charts/issues/16589))
