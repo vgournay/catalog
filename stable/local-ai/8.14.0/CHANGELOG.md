@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [local-ai-8.14.0](https://github.com/truecharts/charts/compare/local-ai-8.8.6...local-ai-8.14.0) (2024-01-08)
+
+### Chore
+
+
+
+- update container image docker.io/localai/localai to v2.5.0 by renovate ([#17044](https://github.com/truecharts/charts/issues/17044))
+
+
 ## [local-ai-8.8.6](https://github.com/truecharts/charts/compare/local-ai-8.8.0...local-ai-8.8.6) (2024-01-08)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 
 - update helm general non-major by renovate ([#16545](https://github.com/truecharts/charts/issues/16545))
 
-## [local-ai-8.0.0](https://github.com/truecharts/charts/compare/local-ai-7.6.0...local-ai-8.0.0) (2023-12-25)
-
-### Chore
-
-- update helm chart common to 17.1.0 by renovate ([#16532](https://github.com/truecharts/charts/issues/16532))
-
-## [local-ai-7.6.0](https://github.com/truecharts/charts/compare/local-ai-7.0.11...local-ai-7.6.0) (2023-12-25)
-
-### Chore

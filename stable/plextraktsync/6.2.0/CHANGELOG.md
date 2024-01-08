@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [plextraktsync-6.2.0](https://github.com/truecharts/charts/compare/plextraktsync-6.1.10...plextraktsync-6.2.0) (2024-01-08)
+
+### Chore
+
+
+
+- update container image ghcr.io/taxel/plextraktsync to v0.28.0[@ee38022](https://github.com/ee38022) by renovate ([#17045](https://github.com/truecharts/charts/issues/17045))
+
+
 ## [plextraktsync-6.1.10](https://github.com/truecharts/charts/compare/plextraktsync-6.1.9...plextraktsync-6.1.10) (2024-01-08)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 - lints some docs, uses front-matter instead of # h1, and fix list items in changelog ([#16589](https://github.com/truecharts/charts/issues/16589))
 
 
-## [plextraktsync-6.1.2](https://github.com/truecharts/charts/compare/plextraktsync-6.1.0...plextraktsync-6.1.2) (2024-01-01)
-
-### Chore
-
-
-
-- bump all charts for OCI test push
-
-- move everything to consume OCI-hosted common-chart dependency
