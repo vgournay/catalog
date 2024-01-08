@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [webtop-8.1.55](https://github.com/truecharts/charts/compare/webtop-8.1.49...webtop-8.1.55) (2024-01-08)
+
+### Chore
+
+
+
+- update webtop by renovate ([#16978](https://github.com/truecharts/charts/issues/16978))
+
+
 ## [webtop-8.1.49](https://github.com/truecharts/charts/compare/webtop-8.1.45...webtop-8.1.49) (2024-01-04)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 
 - update helm general minor by renovate ([#16579](https://github.com/truecharts/charts/issues/16579))
 
-## [webtop-8.0.1](https://github.com/truecharts/charts/compare/webtop-8.0.0...webtop-8.0.1) (2023-12-26)
-
-### Chore
-
-- update helm general non-major by renovate ([#16545](https://github.com/truecharts/charts/issues/16545))
-
-## [webtop-8.0.0](https://github.com/truecharts/charts/compare/webtop-7.0.29...webtop-8.0.0) (2023-12-25)
-
-### Chore
