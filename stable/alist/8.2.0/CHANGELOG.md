@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [alist-8.2.0](https://github.com/truecharts/charts/compare/alist-8.1.6...alist-8.2.0) (2024-01-08)
+
+### Chore
+
+
+
+- update container image xhofe/alist to v3.30.0[@084ba82](https://github.com/084ba82) by renovate ([#17024](https://github.com/truecharts/charts/issues/17024))
+
+
 ## [alist-8.1.6](https://github.com/truecharts/charts/compare/alist-8.1.5...alist-8.1.6) (2024-01-02)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 
 - update helm chart common to 17.1.0 by renovate ([#16532](https://github.com/truecharts/charts/issues/16532))
 
-## [alist-7.0.11](https://github.com/truecharts/charts/compare/alist-7.0.10...alist-7.0.11) (2023-12-24)
-
-### Chore
-
-- update helm general non-major by renovate ([#16384](https://github.com/truecharts/charts/issues/16384))
-
-## [alist-7.0.10](https://github.com/truecharts/charts/compare/alist-7.0.9...alist-7.0.10) (2023-12-24)
-
-### Chore

@@ -29,14 +29,7 @@ groups:
     description: Postgresql
   - name: Documentation
     description: Documentation
-portals:
-  open:
-    protocols:
-      - "$kubernetes-resource_configmap_tcportal-open_protocol"
-    host:
-      - "$kubernetes-resource_configmap_tcportal-open_host"
-    ports:
-      - "$kubernetes-resource_configmap_tcportal-open_port"
+portals: {}
 questions:
   - variable: global
     group: General Settings
@@ -100,18 +93,42 @@ questions:
                               type: dict
                               attrs:
                                 - variable: env
-                                  label: Image Environment
+                                  group: "App Configuration"
+                                  label: "Image Environment"
                                   schema:
                                     additional_attrs: true
                                     type: dict
                                     attrs:
-                                      - variable: ALPHA_VANTAGE_API_KEY
-                                        label: "Alpha Vantage API Key"
-                                        description: "https://www.alphavantage.co/ API key"
+                                      - variable: DEFAULT_DOMAIN
+                                        label: "Default Domain"
+                                        description: "The default short domain used for this shlink instance. For example doma.in."
                                         schema:
                                           type: string
-                                          private: true
                                           default: ""
+                                      - variable: GEOLITE_LICENSE_KEY
+                                        label: "GeoLite2 License Key"
+                                        description: "The license key used to download new GeoLite2 database files."
+                                        schema:
+                                          type: string
+                                          default: ""
+                                      - variable: ANONYMIZE_REMOTE_ADDR
+                                        label: "Anonymize Remote Address"
+                                        description: "Tells if IP addresses from visitors should be obfuscated before storing them in the database"
+                                        schema:
+                                          type: boolean
+                                          default: true
+                                      - variable: ENABLE_PERIODIC_VISIT_LOCATE
+                                        label: "Enable Periodic visit:locate"
+                                        description: "it schedules the visit:locate command to be run every hour inside the container using crontab"
+                                        schema:
+                                          type: boolean
+                                          default: true
+                                      - variable: IS_HTTPS_ENABLED
+                                        label: "Served over HTTPS"
+                                        description: "Tells if Shlink is served with https or not"
+                                        schema:
+                                          type: boolean
+                                          default: true
                                 - variable: envList
                                   label: Extra Environment Variables
                                   description: "Please be aware that some variables are set in the background, adding duplicates here might cause issues or prevent the app from starting..."
@@ -169,6 +186,124 @@ questions:
       default: "Etc/UTC"
       $ref:
         - "definitions/timezone"
+  - variable: podOptions
+    group: "General Settings"
+    label: "Global Pod Options (Advanced)"
+    schema:
+      additional_attrs: true
+      type: dict
+      attrs:
+        - variable: expertPodOpts
+          label: "Expert - Pod Options"
+          schema:
+            type: boolean
+            default: false
+            show_subquestions_if: true
+            subquestions:
+              - variable: hostNetwork
+                label: "Host Networking"
+                schema:
+                  type: boolean
+                  default: false
+              - variable: dnsConfig
+                label: "DNS Configuration"
+                schema:
+                  type: dict
+                  additional_attrs: true
+                  attrs:
+                    - variable: options
+                      label: "Options"
+                      schema:
+                        type: list
+                        default: [{"name": "ndots", "value": "1"}]
+                        items:
+                          - variable: optionsEntry
+                            label: "Option Entry"
+                            schema:
+                              type: dict
+                              additional_attrs: true
+                              attrs:
+                                - variable: name
+                                  label: "Name"
+                                  schema:
+                                    type: string
+                                    required: true
+                                - variable: value
+                                  label: "Value"
+                                  schema:
+                                    type: string
+                    - variable: nameservers
+                      label: "Nameservers"
+                      schema:
+                        type: list
+                        default: []
+                        items:
+                          - variable: nsEntry
+                            label: "Nameserver Entry"
+                            schema:
+                              type: string
+                              required: true
+                    - variable: searches
+                      label: "Searches"
+                      schema:
+                        type: list
+                        default: []
+                        items:
+                          - variable: searchEntry
+                            label: "Search Entry"
+                            schema:
+                              type: string
+                              required: true
+
+  - variable: imagePullSecretList
+    group: "General Settings"
+    label: "Image Pull Secrets"
+    schema:
+      type: list
+      default: []
+      items:
+        - variable: pullsecretentry
+          label: "Pull Secret"
+          schema:
+            type: dict
+            additional_attrs: true
+            attrs:
+              - variable: enabled
+                label: Enabled
+                schema:
+                  type: boolean
+                  default: true
+              - variable: data
+                label: Data
+                schema:
+                  type: dict
+                  additional_attrs: true
+                  attrs:
+                    - variable: registry
+                      label: "Registry"
+                      schema:
+                        type: string
+                        required: true
+                        default: "https://index.docker.io/v1/"
+                    - variable: username
+                      label: "Username"
+                      schema:
+                        type: string
+                        required: true
+                        default: ""
+                    - variable: password
+                      label: "Password"
+                      schema:
+                        type: string
+                        required: true
+                        private: true
+                        default: ""
+                    - variable: email
+                      label: "Email"
+                      schema:
+                        type: string
+                        required: true
+                        default: ""
   - variable: service
     group: Networking and Services
     label: Configure Service(s)
@@ -214,17 +349,17 @@ questions:
                   type: dict
                   attrs:
                     - variable: main
-                      label: Main Service Port Configuration
+                      label: "Main Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict
                         attrs:
                           - variable: port
-                            label: Port
-                            description: This port exposes the container port on the service
+                            label: "Port"
+                            description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 3333
+                              default: 10153
                               required: true
   - variable: serviceexpert
     group: Networking and Services
@@ -743,7 +878,7 @@ questions:
       type: dict
       attrs:
         - variable: main
-          label: Main Ingress
+          label: "Main Ingress"
           schema:
             additional_attrs: true
             type: dict
@@ -1292,14 +1427,14 @@ questions:
             attrs:
               # Settings from questions.yaml get appended here on a per-app basis
               - variable: runAsUser
-                label: runAsUser
-                description: The UserID of the user running the application
+                label: "runAsUser"
+                description: "The UserID of the user running the application"
                 schema:
                   type: int
                   default: 0
               - variable: runAsGroup
-                label: runAsGroup
-                description: The groupID this App of the user running the application
+                label: "runAsGroup"
+                description: "The groupID this App of the user running the application"
                 schema:
                   type: int
                   default: 0
@@ -1363,8 +1498,8 @@ questions:
                         type: int
               # Settings from questions.yaml get appended here on a per-app basis
               - variable: fsGroup
-                label: fsGroup
-                description: The group that should own ALL storage.
+                label: "fsGroup"
+                description: "The group that should own ALL storage."
                 schema:
                   type: int
                   default: 568
@@ -1529,7 +1664,7 @@ questions:
                       label: Instances
                       schema:
                         type: int
-                        default: 2
+                        default: 1
                     - variable: singleNode
                       label: singleNode
                       schema:
@@ -1584,7 +1719,7 @@ questions:
                       label: Instances
                       schema:
                         type: int
-                        default: 2
+                        default: 1
                     - variable: createRO
                       label: "Create ReadOnly Instance"
                       schema:
