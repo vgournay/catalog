@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [docker-3.1.8](https://github.com/truecharts/charts/compare/docker-3.1.7...docker-3.1.8) (2024-01-08)
+
+### Chore
+
+
+
+- update container image docker to 24.0.7-dind[@eb59696](https://github.com/eb59696) by renovate ([#17028](https://github.com/truecharts/charts/issues/17028))
+
+
 ## [docker-3.1.7](https://github.com/truecharts/charts/compare/docker-3.1.6...docker-3.1.7) (2024-01-05)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 ## [docker-3.0.1](https://github.com/truecharts/charts/compare/docker-3.0.0...docker-3.0.1) (2023-12-26)
 
 ### Chore
-
-- update helm general non-major by renovate ([#16545](https://github.com/truecharts/charts/issues/16545))
-
-## [docker-3.0.0](https://github.com/truecharts/charts/compare/docker-2.0.11...docker-3.0.0) (2023-12-25)
-
-### Chore
-
-- update helm chart common to 17.1.0 by renovate ([#16532](https://github.com/truecharts/charts/issues/16532))
-

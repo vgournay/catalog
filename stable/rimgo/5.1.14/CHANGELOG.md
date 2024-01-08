@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [rimgo-5.1.14](https://github.com/truecharts/charts/compare/rimgo-5.1.13...rimgo-5.1.14) (2024-01-08)
+
+### Chore
+
+
+
+- update container image quay.io/pussthecatorg/rimgo to latest[@84a3004](https://github.com/84a3004) by renovate ([#17030](https://github.com/truecharts/charts/issues/17030))
+
+
 ## [rimgo-5.1.13](https://github.com/truecharts/charts/compare/rimgo-5.1.12...rimgo-5.1.13) (2024-01-08)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 - increase common version for oci fixes
 
 - remove non-existent template refs ([#16738](https://github.com/truecharts/charts/issues/16738))
-
-
-## [rimgo-5.1.3](https://github.com/truecharts/charts/compare/rimgo-5.1.0...rimgo-5.1.3) (2024-01-01)
-
-### Chore
-
-
-
-- bump all charts for OCI test push
