@@ -7,6 +7,9 @@ title: Changelog
 
 
 
+## [requestrr-8.2.0](https://github.com/truecharts/charts/compare/requestrr-8.1.6...requestrr-8.2.0) (2024-01-09)
+
+
 ## [requestrr-8.1.6](https://github.com/truecharts/charts/compare/requestrr-8.1.5...requestrr-8.1.6) (2024-01-09)
 
 ### Chore
@@ -94,6 +97,3 @@ title: Changelog
 
 - update helm general non-major by renovate ([#16384](https://github.com/truecharts/charts/issues/16384))
 
-## [requestrr-7.0.10](https://github.com/truecharts/charts/compare/requestrr-7.0.9...requestrr-7.0.10) (2023-12-24)
-
-### Chore
