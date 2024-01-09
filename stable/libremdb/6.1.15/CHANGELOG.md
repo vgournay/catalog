@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [libremdb-6.1.15](https://github.com/truecharts/charts/compare/libremdb-6.1.14...libremdb-6.1.15) (2024-01-09)
+
+### Chore
+
+
+
+- update container image quay.io/pussthecatorg/libremdb to latest[@24a90e7](https://github.com/24a90e7) by renovate ([#16962](https://github.com/truecharts/charts/issues/16962))
+
+
 ## [libremdb-6.1.14](https://github.com/truecharts/charts/compare/libremdb-6.1.13...libremdb-6.1.14) (2024-01-05)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 - increase common version for oci fixes
 
 
-## [libremdb-6.1.5](https://github.com/truecharts/charts/compare/libremdb-6.1.4...libremdb-6.1.5) (2024-01-01)
-
-### Chore
-
-
-
-- update helm general non-major by renovate ([#16734](https://github.com/truecharts/charts/issues/16734))
-
-- remove non-existent template refs ([#16738](https://github.com/truecharts/charts/issues/16738))
