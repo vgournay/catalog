@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [kitchenowl-8.3.0](https://github.com/truecharts/charts/compare/kitchenowl-8.2.2...kitchenowl-8.3.0) (2024-01-12)
+
+### Fix
+
+
+
+- assign backend environment variables ([#17050](https://github.com/truecharts/charts/issues/17050))
+
+
 ## [kitchenowl-8.2.2](https://github.com/truecharts/charts/compare/kitchenowl-8.2.1...kitchenowl-8.2.2) (2024-01-09)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 - update container image common to v17.2.18[@085ba3c](https://github.com/085ba3c) by renovate ([#16732](https://github.com/truecharts/charts/issues/16732))
 
 - standardize ./img references ([#16704](https://github.com/truecharts/charts/issues/16704))
-
-- lints some docs, uses front-matter instead of # h1, and fix list items in changelog ([#16589](https://github.com/truecharts/charts/issues/16589))
-## [kitchenowl-8.1.0](https://github.com/truecharts/charts/compare/kitchenowl-8.0.1...kitchenowl-8.1.0) (2023-12-30)
-
-### Chore
-
-- update helm general minor by renovate ([#16579](https://github.com/truecharts/charts/issues/16579))
-
-## [kitchenowl-8.0.1](https://github.com/truecharts/charts/compare/kitchenowl-8.0.0...kitchenowl-8.0.1) (2023-12-26)
