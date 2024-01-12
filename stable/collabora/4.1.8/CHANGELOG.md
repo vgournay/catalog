@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [collabora-4.1.8](https://github.com/truecharts/charts/compare/collabora-4.1.7...collabora-4.1.8) (2024-01-12)
+
+### Chore
+
+
+
+- update container image collabora/code to v23.05.7.2.1[@f465087](https://github.com/f465087) by renovate ([#16985](https://github.com/truecharts/charts/issues/16985))
+
+
 ## [collabora-4.1.7](https://github.com/truecharts/charts/compare/collabora-4.1.6...collabora-4.1.7) (2024-01-09)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 - update helm general non-major by renovate ([#16545](https://github.com/truecharts/charts/issues/16545))
 
 ## [collabora-4.0.1](https://github.com/truecharts/charts/compare/collabora-4.0.0...collabora-4.0.1) (2023-12-26)
-
-### Chore
-
-- update container image collabora/code to v23.05.6.4.1[@46534fe](https://github.com/46534fe) by renovate ([#16463](https://github.com/truecharts/charts/issues/16463))
-
-## [collabora-4.0.0](https://github.com/truecharts/charts/compare/collabora-3.0.11...collabora-4.0.0) (2023-12-25)
-
-### Chore
-
