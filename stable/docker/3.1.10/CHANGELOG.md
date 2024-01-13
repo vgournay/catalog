@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [docker-3.1.10](https://github.com/truecharts/charts/compare/docker-3.1.9...docker-3.1.10) (2024-01-13)
+
+### Chore
+
+
+
+- update container image docker to 24.0.7-dind[@a293bf8](https://github.com/a293bf8) by renovate ([#17095](https://github.com/truecharts/charts/issues/17095))
+
+
 ## [docker-3.1.9](https://github.com/truecharts/charts/compare/docker-3.1.8...docker-3.1.9) (2024-01-09)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 
 
 
-- bump all charts for OCI test push
-
-- move everything to consume OCI-hosted common-chart dependency
-
-- update container image common to v17.2.18[@085ba3c](https://github.com/085ba3c) by renovate ([#16732](https://github.com/truecharts/charts/issues/16732))
-
-- standardize ./img references ([#16704](https://github.com/truecharts/charts/issues/16704))
-
-- lints some docs, uses front-matter instead of # h1, and fix list items in changelog ([#16589](https://github.com/truecharts/charts/issues/16589))
