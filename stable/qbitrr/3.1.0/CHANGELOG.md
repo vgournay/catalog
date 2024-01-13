@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [qbitrr-3.1.0](https://github.com/truecharts/charts/compare/qbitrr-3.0.2...qbitrr-3.1.0) (2024-01-13)
+
+### Chore
+
+
+
+- update container image feramance/qbitrr to v4.1.1[@25f874f](https://github.com/25f874f) by renovate ([#17107](https://github.com/truecharts/charts/issues/17107))
+
+
 ## [qbitrr-3.0.2](https://github.com/truecharts/charts/compare/qbitrr-3.0.1...qbitrr-3.0.2) (2024-01-13)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 
 ## [qbitrr-2.1.2](https://github.com/truecharts/charts/compare/qbitrr-2.1.0...qbitrr-2.1.2) (2024-01-01)
 
-### Chore
-
-
-
-- bump all charts for OCI test push
-
-- move everything to consume OCI-hosted common-chart dependency
-
-- update container image common to v17.2.18[@085ba3c](https://github.com/085ba3c) by renovate ([#16732](https://github.com/truecharts/charts/issues/16732))
