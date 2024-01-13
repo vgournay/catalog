@@ -471,7 +471,7 @@ questions:
                   additional_attrs: true
                   type: dict
                   attrs:
-                    - variable: main
+                    - variable: query
                       label: "Query Service Port Configuration"
                       schema:
                         additional_attrs: true

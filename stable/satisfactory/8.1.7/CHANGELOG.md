@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [satisfactory-8.1.7](https://github.com/truecharts/charts/compare/satisfactory-8.1.6...satisfactory-8.1.7) (2024-01-13)
+
+### Fix
+
+
+
+- fix wrong variable name for query port ([#17091](https://github.com/truecharts/charts/issues/17091))
+
+
 ## [satisfactory-8.1.6](https://github.com/truecharts/charts/compare/satisfactory-8.1.5...satisfactory-8.1.6) (2024-01-09)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 
 - update helm chart common to 17.1.0 by renovate ([#16532](https://github.com/truecharts/charts/issues/16532))
 
-## [satisfactory-7.0.11](https://github.com/truecharts/charts/compare/satisfactory-7.0.10...satisfactory-7.0.11) (2023-12-24)
-
-### Chore
-
-- update helm general non-major by renovate ([#16384](https://github.com/truecharts/charts/issues/16384))
-
-## [satisfactory-7.0.10](https://github.com/truecharts/charts/compare/satisfactory-7.0.9...satisfactory-7.0.10) (2023-12-24)
-
-### Chore
