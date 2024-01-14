@@ -7,6 +7,9 @@ title: Changelog
 
 
 
+## [autoscan-7.1.8](https://github.com/truecharts/charts/compare/autoscan-7.1.7...autoscan-7.1.8) (2024-01-14)
+
+
 
 
 ## [autoscan-7.1.7](https://github.com/truecharts/charts/compare/autoscan-7.1.6...autoscan-7.1.7) (2024-01-09)
@@ -94,6 +97,3 @@ title: Changelog
 - update helm general non-major by renovate ([#16545](https://github.com/truecharts/charts/issues/16545))
 
 ## [autoscan-7.0.0](https://github.com/truecharts/charts/compare/autoscan-6.0.11...autoscan-7.0.0) (2023-12-25)
-
-### Chore
-
