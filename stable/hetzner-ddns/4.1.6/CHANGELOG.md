@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [hetzner-ddns-4.1.6](https://github.com/truecharts/charts/compare/hetzner-ddns-4.1.5...hetzner-ddns-4.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [hetzner-ddns-3.0.16](https://github.com/truecharts/charts/compare/hetzner-ddns-3.0.15...hetzner-ddns-3.0.16) (2023-12-24)
 
-### Chore

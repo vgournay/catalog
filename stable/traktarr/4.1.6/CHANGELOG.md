@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [traktarr-4.1.6](https://github.com/truecharts/charts/compare/traktarr-4.1.5...traktarr-4.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [traktarr-3.0.16](https://github.com/truecharts/charts/compare/traktarr-3.0.15...traktarr-3.0.16) (2023-12-24)
 
-### Chore

@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [wallos-3.1.6](https://github.com/truecharts/charts/compare/wallos-3.1.5...wallos-3.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [wallos-2.0.10](https://github.com/truecharts/charts/compare/wallos-2.0.9...wallos-2.0.10) (2023-12-24)
 
-### Chore

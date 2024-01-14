@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [hedgedoc-11.1.6](https://github.com/truecharts/charts/compare/hedgedoc-11.1.5...hedgedoc-11.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [hedgedoc-10.0.10](https://github.com/truecharts/charts/compare/hedgedoc-10.0.9...hedgedoc-10.0.10) (2023-12-24)
 
-### Chore

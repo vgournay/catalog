@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [wg-easy-8.1.6](https://github.com/truecharts/charts/compare/wg-easy-8.1.5...wg-easy-8.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [wg-easy-6.0.12](https://github.com/truecharts/charts/compare/wg-easy-6.0.11...wg-easy-6.0.12) (2023-12-24)
 
-### Chore

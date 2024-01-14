@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [whisparr-8.1.8](https://github.com/truecharts/charts/compare/whisparr-8.1.7...whisparr-8.1.8) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [whisparr-8.0.1](https://github.com/truecharts/charts/compare/whisparr-8.0.0...whisparr-8.0.1) (2023-12-26)
 
-### Chore

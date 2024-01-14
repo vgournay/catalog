@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [weblate-12.1.9](https://github.com/truecharts/charts/compare/weblate-12.1.8...weblate-12.1.9) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 - standardize ./img references ([#16704](https://github.com/truecharts/charts/issues/16704))
 
-- lints some docs, uses front-matter instead of # h1, and fix list items in changelog ([#16589](https://github.com/truecharts/charts/issues/16589))

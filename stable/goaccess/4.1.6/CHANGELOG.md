@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [goaccess-4.1.6](https://github.com/truecharts/charts/compare/goaccess-4.1.5...goaccess-4.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [goaccess-3.0.16](https://github.com/truecharts/charts/compare/goaccess-3.0.15...goaccess-3.0.16) (2023-12-24)
 
-### Chore

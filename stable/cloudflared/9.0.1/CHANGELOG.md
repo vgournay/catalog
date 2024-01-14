@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [cloudflared-9.0.1](https://github.com/truecharts/charts/compare/cloudflared-9.0.0...cloudflared-9.0.1) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [cloudflared-8.0.1](https://github.com/truecharts/charts/compare/cloudflared-8.0.0...cloudflared-8.0.1) (2023-12-26)
 
-### Chore

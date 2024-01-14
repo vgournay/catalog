@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [theme-park-8.1.6](https://github.com/truecharts/charts/compare/theme-park-8.1.5...theme-park-8.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [theme-park-7.0.10](https://github.com/truecharts/charts/compare/theme-park-7.0.9...theme-park-7.0.10) (2023-12-24)
 
-### Chore

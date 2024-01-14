@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [sickchill-10.0.0](https://github.com/truecharts/charts/compare/sickchill-9.1.7...sickchill-10.0.0) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 - update helm general non-major by renovate ([#16545](https://github.com/truecharts/charts/issues/16545))
 
-## [sickchill-9.0.0](https://github.com/truecharts/charts/compare/sickchill-8.0.12...sickchill-9.0.0) (2023-12-25)

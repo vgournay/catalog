@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [phoronix-test-suite-4.1.6](https://github.com/truecharts/charts/compare/phoronix-test-suite-4.1.5...phoronix-test-suite-4.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [phoronix-test-suite-3.0.16](https://github.com/truecharts/charts/compare/phoronix-test-suite-3.0.15...phoronix-test-suite-3.0.16) (2023-12-24)
 
-### Chore

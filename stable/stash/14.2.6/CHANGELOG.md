@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [stash-14.2.6](https://github.com/truecharts/charts/compare/stash-14.2.5...stash-14.2.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 ### Chore
 
 - update helm general non-major by renovate ([#16384](https://github.com/truecharts/charts/issues/16384))
-

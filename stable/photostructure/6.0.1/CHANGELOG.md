@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [photostructure-6.0.1](https://github.com/truecharts/charts/compare/photostructure-6.0.0...photostructure-6.0.1) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 - standardize ./img references ([#16704](https://github.com/truecharts/charts/issues/16704))
 
-- lints some docs, uses front-matter instead of # h1, and fix list items in changelog ([#16589](https://github.com/truecharts/charts/issues/16589))

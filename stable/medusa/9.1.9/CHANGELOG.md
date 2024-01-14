@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [medusa-9.1.9](https://github.com/truecharts/charts/compare/medusa-9.1.8...medusa-9.1.9) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 ### Chore
 
 - update helm general minor by renovate ([#16579](https://github.com/truecharts/charts/issues/16579))
-

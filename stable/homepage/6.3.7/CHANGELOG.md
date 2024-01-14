@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [homepage-6.3.7](https://github.com/truecharts/charts/compare/homepage-6.3.6...homepage-6.3.7) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 ## [homepage-6.2.0](https://github.com/truecharts/charts/compare/homepage-6.1.1...homepage-6.2.0) (2023-12-26)
 
 ### Docs
-

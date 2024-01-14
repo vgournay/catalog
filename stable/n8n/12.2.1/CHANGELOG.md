@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [n8n-12.2.1](https://github.com/truecharts/charts/compare/n8n-12.2.0...n8n-12.2.1) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 - update container image common to v17.2.18[@085ba3c](https://github.com/085ba3c) by renovate ([#16732](https://github.com/truecharts/charts/issues/16732))
 
 - standardize ./img references ([#16704](https://github.com/truecharts/charts/issues/16704))
-

@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [xteve-12.1.6](https://github.com/truecharts/charts/compare/xteve-12.1.5...xteve-12.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [xteve-11.0.10](https://github.com/truecharts/charts/compare/xteve-11.0.9...xteve-11.0.10) (2023-12-24)
 
-### Chore

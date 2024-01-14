@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [fotosho-4.1.6](https://github.com/truecharts/charts/compare/fotosho-4.1.5...fotosho-4.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [fotosho-3.0.16](https://github.com/truecharts/charts/compare/fotosho-3.0.15...fotosho-3.0.16) (2023-12-24)
 
-### Chore

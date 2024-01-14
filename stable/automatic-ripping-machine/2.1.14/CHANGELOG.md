@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [automatic-ripping-machine-2.1.14](https://github.com/truecharts/charts/compare/automatic-ripping-machine-2.1.13...automatic-ripping-machine-2.1.14) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 - increase common version for oci fixes
 
-- remove non-existent template refs ([#16738](https://github.com/truecharts/charts/issues/16738))

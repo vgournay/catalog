@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [babybuddy-15.1.8](https://github.com/truecharts/charts/compare/babybuddy-15.1.7...babybuddy-15.1.8) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [babybuddy-15.0.1](https://github.com/truecharts/charts/compare/babybuddy-15.0.0...babybuddy-15.0.1) (2023-12-26)
 
-### Chore

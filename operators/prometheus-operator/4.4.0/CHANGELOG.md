@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [prometheus-operator-4.4.0](https://github.com/truecharts/charts/compare/prometheus-operator-4.3.1...prometheus-operator-4.4.0) (2024-01-13)
 
 ### Chore
@@ -94,6 +95,5 @@ title: Changelog
 ## [prometheus-operator-3.1.3](https://github.com/truecharts/charts/compare/prometheus-operator-3.1.0...prometheus-operator-3.1.3) (2024-01-01)
 
 ### Chore
-
 
 

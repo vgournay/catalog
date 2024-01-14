@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [traggo-5.1.6](https://github.com/truecharts/charts/compare/traggo-5.1.5...traggo-5.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 - update helm general non-major by renovate ([#16376](https://github.com/truecharts/charts/issues/16376))
 
-## [traggo-4.0.9](https://github.com/truecharts/charts/compare/traggo-4.0.8...traggo-4.0.9) (2023-12-23)

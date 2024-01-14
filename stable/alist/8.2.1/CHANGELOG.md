@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [alist-8.2.1](https://github.com/truecharts/charts/compare/alist-8.2.0...alist-8.2.1) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [alist-8.0.1](https://github.com/truecharts/charts/compare/alist-8.0.0...alist-8.0.1) (2023-12-26)
 
-### Chore

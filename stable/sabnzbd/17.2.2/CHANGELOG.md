@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [sabnzbd-17.2.2](https://github.com/truecharts/charts/compare/sabnzbd-17.2.1...sabnzbd-17.2.2) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [sabnzbd-17.0.1](https://github.com/truecharts/charts/compare/sabnzbd-17.0.0...sabnzbd-17.0.1) (2023-12-26)
 
-### Chore

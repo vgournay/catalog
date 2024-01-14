@@ -1,4 +1,4 @@
-Introducing Storm
+A Modern Deluge Interface.
 
 This App is supplied by TrueCharts, for more information visit the manual: [https://truecharts.org/charts/stable/storm](https://truecharts.org/charts/stable/storm)
 

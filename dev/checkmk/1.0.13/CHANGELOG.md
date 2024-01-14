@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [checkmk-1.0.13](https://github.com/truecharts/charts/compare/checkmk-1.0.12...checkmk-1.0.13) (2024-01-02)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 - bump patch versions on all charts for new GUI release
 
-## [checkmk-1.0.5](https://github.com/truecharts/charts/compare/checkmk-1.0.4...checkmk-1.0.5) (2023-12-20)

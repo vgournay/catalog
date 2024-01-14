@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [adguardhome-sync-5.1.8](https://github.com/truecharts/charts/compare/adguardhome-sync-5.1.7...adguardhome-sync-5.1.8) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [adguardhome-sync-5.0.1](https://github.com/truecharts/charts/compare/adguardhome-sync-5.0.0...adguardhome-sync-5.0.1) (2023-12-26)
 
-### Chore

@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [static-web-server-3.1.7](https://github.com/truecharts/charts/compare/static-web-server-3.1.6...static-web-server-3.1.7) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 - update helm general non-major by renovate ([#16384](https://github.com/truecharts/charts/issues/16384))
 
-## [static-web-server-2.0.10](https://github.com/truecharts/charts/compare/static-web-server-2.0.9...static-web-server-2.0.10) (2023-12-24)

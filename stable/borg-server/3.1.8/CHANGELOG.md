@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [borg-server-3.1.8](https://github.com/truecharts/charts/compare/borg-server-3.1.7...borg-server-3.1.8) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [borg-server-3.0.0](https://github.com/truecharts/charts/compare/borg-server-2.0.11...borg-server-3.0.0) (2023-12-25)
 
-### Chore

@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [smokeping-9.1.8](https://github.com/truecharts/charts/compare/smokeping-9.1.7...smokeping-9.1.8) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [smokeping-9.0.0](https://github.com/truecharts/charts/compare/smokeping-8.0.11...smokeping-9.0.0) (2023-12-25)
 
-### Chore

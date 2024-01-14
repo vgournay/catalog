@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [tvheadend-18.1.7](https://github.com/truecharts/charts/compare/tvheadend-18.1.6...tvheadend-18.1.7) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 ### Chore
 
 - update helm general non-major by renovate ([#16384](https://github.com/truecharts/charts/issues/16384))
-

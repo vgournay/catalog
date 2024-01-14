@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [noisedash-3.0.14](https://github.com/truecharts/charts/compare/noisedash-3.0.13...noisedash-3.0.14) (2024-01-03)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 ### Fix
 
 - bump to release middleware fix
-

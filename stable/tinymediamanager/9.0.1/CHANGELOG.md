@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [tinymediamanager-9.0.1](https://github.com/truecharts/charts/compare/tinymediamanager-9.0.0...tinymediamanager-9.0.1) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 ### Chore
 
 - update helm chart common to 17.1.0 by renovate ([#16532](https://github.com/truecharts/charts/issues/16532))
-

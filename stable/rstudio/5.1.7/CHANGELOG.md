@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [rstudio-5.1.7](https://github.com/truecharts/charts/compare/rstudio-5.1.6...rstudio-5.1.7) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 ### Chore
 
 - update container image rocker/rstudio to 4.3.2[@7dcbb18](https://github.com/7dcbb18) by renovate ([#16448](https://github.com/truecharts/charts/issues/16448))
-

@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [misskey-7.1.10](https://github.com/truecharts/charts/compare/misskey-7.1.9...misskey-7.1.10) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 ## [misskey-7.1.1](https://github.com/truecharts/charts/compare/misskey-7.1.0...misskey-7.1.1) (2023-12-31)
 
 ### Chore
-

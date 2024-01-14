@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [zerotier-8.1.6](https://github.com/truecharts/charts/compare/zerotier-8.1.5...zerotier-8.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [zerotier-7.0.10](https://github.com/truecharts/charts/compare/zerotier-7.0.9...zerotier-7.0.10) (2023-12-24)
 
-### Chore

@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [rsnapshot-8.1.8](https://github.com/truecharts/charts/compare/rsnapshot-8.1.7...rsnapshot-8.1.8) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [rsnapshot-8.0.0](https://github.com/truecharts/charts/compare/rsnapshot-7.0.11...rsnapshot-8.0.0) (2023-12-25)
 
-### Chore

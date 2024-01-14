@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [linkding-8.1.6](https://github.com/truecharts/charts/compare/linkding-8.1.5...linkding-8.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [linkding-7.0.10](https://github.com/truecharts/charts/compare/linkding-7.0.9...linkding-7.0.10) (2023-12-24)
 
-### Chore

@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [valheim-9.1.6](https://github.com/truecharts/charts/compare/valheim-9.1.5...valheim-9.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [valheim-8.0.10](https://github.com/truecharts/charts/compare/valheim-8.0.9...valheim-8.0.10) (2023-12-24)
 
-### Chore

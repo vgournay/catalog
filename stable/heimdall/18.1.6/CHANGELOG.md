@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [heimdall-18.1.6](https://github.com/truecharts/charts/compare/heimdall-18.1.5...heimdall-18.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [heimdall-17.0.10](https://github.com/truecharts/charts/compare/heimdall-17.0.9...heimdall-17.0.10) (2023-12-24)
 
-### Chore

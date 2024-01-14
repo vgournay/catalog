@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [notifiarr-3.1.6](https://github.com/truecharts/charts/compare/notifiarr-3.1.5...notifiarr-3.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [notifiarr-2.0.10](https://github.com/truecharts/charts/compare/notifiarr-2.0.9...notifiarr-2.0.10) (2023-12-24)
 
-### Chore

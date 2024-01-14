@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [metabase-2.1.7](https://github.com/truecharts/charts/compare/metabase-2.1.6...metabase-2.1.7) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 ## [metabase-1.0.12](https://github.com/truecharts/charts/compare/metabase-1.0.11...metabase-1.0.12) (2023-12-25)
 
 ### Chore
-

@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [mc-router-3.1.6](https://github.com/truecharts/charts/compare/mc-router-3.1.5...mc-router-3.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [mc-router-2.0.10](https://github.com/truecharts/charts/compare/mc-router-2.0.9...mc-router-2.0.10) (2023-12-24)
 
-### Chore

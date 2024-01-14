@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [plexripper-7.1.6](https://github.com/truecharts/charts/compare/plexripper-7.1.5...plexripper-7.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [plexripper-6.0.10](https://github.com/truecharts/charts/compare/plexripper-6.0.9...plexripper-6.0.10) (2023-12-24)
 
-### Chore

@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [shiori-15.1.6](https://github.com/truecharts/charts/compare/shiori-15.1.5...shiori-15.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [shiori-14.0.10](https://github.com/truecharts/charts/compare/shiori-14.0.9...shiori-14.0.10) (2023-12-24)
 
-### Chore

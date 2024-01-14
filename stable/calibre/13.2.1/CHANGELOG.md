@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [calibre-13.2.1](https://github.com/truecharts/charts/compare/calibre-13.2.0...calibre-13.2.1) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 ## [calibre-13.1.1](https://github.com/truecharts/charts/compare/calibre-13.1.0...calibre-13.1.1) (2023-12-31)
 
 ### Chore
-

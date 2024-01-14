@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [readarr-19.1.8](https://github.com/truecharts/charts/compare/readarr-19.1.7...readarr-19.1.8) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [readarr-19.0.0](https://github.com/truecharts/charts/compare/readarr-18.0.12...readarr-19.0.0) (2023-12-25)
 
-### Chore

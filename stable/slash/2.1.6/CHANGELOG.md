@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [slash-2.1.6](https://github.com/truecharts/charts/compare/slash-2.1.5...slash-2.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [slash-1.0.11](https://github.com/truecharts/charts/compare/slash-1.0.10...slash-1.0.11) (2023-12-24)
 
-### Chore

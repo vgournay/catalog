@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [nextcloud-28.1.14](https://github.com/truecharts/charts/compare/nextcloud-28.1.13...nextcloud-28.1.14) (2024-01-13)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 - increase common version for oci fixes
 
 
-## [nextcloud-28.1.5](https://github.com/truecharts/charts/compare/nextcloud-28.1.4...nextcloud-28.1.5) (2024-01-01)

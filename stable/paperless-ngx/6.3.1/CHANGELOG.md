@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [paperless-ngx-6.3.1](https://github.com/truecharts/charts/compare/paperless-ngx-6.3.0...paperless-ngx-6.3.1) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 
 - bump all charts for OCI test push
-

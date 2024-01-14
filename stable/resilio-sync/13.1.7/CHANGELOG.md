@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [resilio-sync-13.1.7](https://github.com/truecharts/charts/compare/resilio-sync-13.1.6...resilio-sync-13.1.7) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 ### Chore
 
 - update container image ghcr.io/linuxserver/resilio-sync to 2.7.3[@d383739](https://github.com/d383739) by renovate ([#16423](https://github.com/truecharts/charts/issues/16423))
-

@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [fileflows-8.1.7](https://github.com/truecharts/charts/compare/fileflows-8.1.6...fileflows-8.1.7) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 ### Chore
 
 - update container image revenz/fileflows to 23.12[@23743aa](https://github.com/23743aa) by renovate ([#16447](https://github.com/truecharts/charts/issues/16447))
-

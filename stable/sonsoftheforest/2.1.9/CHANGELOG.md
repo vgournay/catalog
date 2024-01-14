@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [sonsoftheforest-2.1.9](https://github.com/truecharts/charts/compare/sonsoftheforest-2.1.8...sonsoftheforest-2.1.9) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [sonsoftheforest-2.0.1](https://github.com/truecharts/charts/compare/sonsoftheforest-2.0.0...sonsoftheforest-2.0.1) (2023-12-26)
 
-### Chore

@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [jdownloader2-14.2.6](https://github.com/truecharts/charts/compare/jdownloader2-14.2.5...jdownloader2-14.2.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 ### Fix
 
 - homepage widget ([#16543](https://github.com/truecharts/charts/issues/16543))
-

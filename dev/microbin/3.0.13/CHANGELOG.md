@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [microbin-3.0.13](https://github.com/truecharts/charts/compare/microbin-3.0.12...microbin-3.0.13) (2024-01-02)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [microbin-3.0.6](https://github.com/truecharts/charts/compare/microbin-3.0.5...microbin-3.0.6) (2023-12-20)
 
-### Chore

@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [sftpgo-5.1.6](https://github.com/truecharts/charts/compare/sftpgo-5.1.5...sftpgo-5.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [sftpgo-4.0.11](https://github.com/truecharts/charts/compare/sftpgo-4.0.10...sftpgo-4.0.11) (2023-12-24)
 
-### Chore

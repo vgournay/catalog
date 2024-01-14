@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [openaudible-4.1.6](https://github.com/truecharts/charts/compare/openaudible-4.1.5...openaudible-4.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [openaudible-3.0.16](https://github.com/truecharts/charts/compare/openaudible-3.0.15...openaudible-3.0.16) (2023-12-24)
 
-### Chore

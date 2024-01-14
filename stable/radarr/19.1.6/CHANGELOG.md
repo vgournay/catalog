@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [radarr-19.1.6](https://github.com/truecharts/charts/compare/radarr-19.1.5...radarr-19.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [radarr-18.0.11](https://github.com/truecharts/charts/compare/radarr-18.0.10...radarr-18.0.11) (2023-12-24)
 
-### Chore

@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [quake3-4.1.6](https://github.com/truecharts/charts/compare/quake3-4.1.5...quake3-4.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [quake3-3.0.17](https://github.com/truecharts/charts/compare/quake3-3.0.16...quake3-3.0.17) (2023-12-24)
 
-### Chore

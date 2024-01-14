@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [guide2go-4.1.6](https://github.com/truecharts/charts/compare/guide2go-4.1.5...guide2go-4.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [guide2go-3.0.16](https://github.com/truecharts/charts/compare/guide2go-3.0.15...guide2go-3.0.16) (2023-12-24)
 
-### Chore

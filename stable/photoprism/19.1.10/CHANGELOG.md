@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [photoprism-19.1.10](https://github.com/truecharts/charts/compare/photoprism-19.1.9...photoprism-19.1.10) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 - move everything to consume OCI-hosted common-chart dependency
 
 - update container image common to v17.2.18[@085ba3c](https://github.com/085ba3c) by renovate ([#16732](https://github.com/truecharts/charts/issues/16732))
-

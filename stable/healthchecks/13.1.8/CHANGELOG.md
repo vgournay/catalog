@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [healthchecks-13.1.8](https://github.com/truecharts/charts/compare/healthchecks-13.1.7...healthchecks-13.1.8) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [healthchecks-13.0.0](https://github.com/truecharts/charts/compare/healthchecks-12.0.12...healthchecks-13.0.0) (2023-12-25)
 
-### Chore

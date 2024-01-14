@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [libremdb-6.1.16](https://github.com/truecharts/charts/compare/libremdb-6.1.15...libremdb-6.1.16) (2024-01-09)
 
 ### Chore
@@ -95,5 +96,4 @@ title: Changelog
 
 
 - update helm general non-major by renovate ([#16743](https://github.com/truecharts/charts/issues/16743))
-
 

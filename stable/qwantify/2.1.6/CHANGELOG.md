@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [qwantify-2.1.6](https://github.com/truecharts/charts/compare/qwantify-2.1.5...qwantify-2.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [qwantify-1.0.16](https://github.com/truecharts/charts/compare/qwantify-1.0.15...qwantify-1.0.16) (2023-12-24)
 
-### Chore

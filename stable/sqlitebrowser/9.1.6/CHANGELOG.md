@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [sqlitebrowser-9.1.6](https://github.com/truecharts/charts/compare/sqlitebrowser-9.1.5...sqlitebrowser-9.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [sqlitebrowser-8.0.10](https://github.com/truecharts/charts/compare/sqlitebrowser-8.0.9...sqlitebrowser-8.0.10) (2023-12-24)
 
-### Chore

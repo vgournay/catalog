@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [traefik-25.1.10](https://github.com/truecharts/charts/compare/traefik-25.1.9...traefik-25.1.10) (2024-01-09)
 
 ### Chore
@@ -95,5 +96,4 @@ title: Changelog
 - standardize ./img references ([#16704](https://github.com/truecharts/charts/issues/16704))
 
 - lints some docs, uses front-matter instead of # h1, and fix list items in changelog ([#16589](https://github.com/truecharts/charts/issues/16589))
-
 

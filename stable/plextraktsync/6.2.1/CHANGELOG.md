@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [plextraktsync-6.2.1](https://github.com/truecharts/charts/compare/plextraktsync-6.2.0...plextraktsync-6.2.1) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 - bump all charts for OCI test push
 
 - move everything to consume OCI-hosted common-chart dependency
-

@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [smtp-relay-2.1.8](https://github.com/truecharts/charts/compare/smtp-relay-2.1.7...smtp-relay-2.1.8) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 ### Chore
 
 - update helm chart common to 17.1.0 by renovate ([#16532](https://github.com/truecharts/charts/issues/16532))
-

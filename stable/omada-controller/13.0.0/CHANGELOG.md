@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [omada-controller-13.0.0](https://github.com/truecharts/charts/compare/omada-controller-12.1.7...omada-controller-13.0.0) (2024-01-12)
 
 ### Major
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [omada-controller-12.0.1](https://github.com/truecharts/charts/compare/omada-controller-12.0.0...omada-controller-12.0.1) (2023-12-26)
 
-### Chore

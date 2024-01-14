@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [xmrig-4.1.7](https://github.com/truecharts/charts/compare/xmrig-4.1.6...xmrig-4.1.7) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [xmrig-3.0.17](https://github.com/truecharts/charts/compare/xmrig-3.0.16...xmrig-3.0.17) (2023-12-24)
 
-### Chore

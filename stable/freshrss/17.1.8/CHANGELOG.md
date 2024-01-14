@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [freshrss-17.1.8](https://github.com/truecharts/charts/compare/freshrss-17.1.7...freshrss-17.1.8) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [freshrss-17.0.0](https://github.com/truecharts/charts/compare/freshrss-16.1.0...freshrss-17.0.0) (2023-12-25)
 
-### Chore

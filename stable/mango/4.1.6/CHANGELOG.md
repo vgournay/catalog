@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [mango-4.1.6](https://github.com/truecharts/charts/compare/mango-4.1.5...mango-4.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [mango-3.0.16](https://github.com/truecharts/charts/compare/mango-3.0.15...mango-3.0.16) (2023-12-24)
 
-### Chore

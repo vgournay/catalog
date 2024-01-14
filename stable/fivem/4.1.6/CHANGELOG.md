@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [fivem-4.1.6](https://github.com/truecharts/charts/compare/fivem-4.1.5...fivem-4.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [fivem-3.0.16](https://github.com/truecharts/charts/compare/fivem-3.0.15...fivem-3.0.16) (2023-12-24)
 
-### Chore

@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [speedtest-exporter-9.1.6](https://github.com/truecharts/charts/compare/speedtest-exporter-9.1.5...speedtest-exporter-9.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [speedtest-exporter-8.0.10](https://github.com/truecharts/charts/compare/speedtest-exporter-8.0.9...speedtest-exporter-8.0.10) (2023-12-24)
 
-### Chore

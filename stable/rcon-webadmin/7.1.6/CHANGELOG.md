@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [rcon-webadmin-7.1.6](https://github.com/truecharts/charts/compare/rcon-webadmin-7.1.5...rcon-webadmin-7.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [rcon-webadmin-6.0.10](https://github.com/truecharts/charts/compare/rcon-webadmin-6.0.9...rcon-webadmin-6.0.10) (2023-12-24)
 
-### Chore

@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [piaware-11.1.6](https://github.com/truecharts/charts/compare/piaware-11.1.5...piaware-11.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [piaware-10.0.16](https://github.com/truecharts/charts/compare/piaware-10.0.15...piaware-10.0.16) (2023-12-24)
 
-### Chore

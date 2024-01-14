@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [minecraft-java-7.1.6](https://github.com/truecharts/charts/compare/minecraft-java-7.1.5...minecraft-java-7.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [minecraft-java-6.0.11](https://github.com/truecharts/charts/compare/minecraft-java-6.0.10...minecraft-java-6.0.11) (2023-12-24)
 
-### Chore

@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [blocky-12.2.1](https://github.com/truecharts/charts/compare/blocky-12.2.0...blocky-12.2.1) (2024-01-09)
 
 ### Chore
@@ -94,6 +95,5 @@ title: Changelog
 ## [blocky-12.1.2](https://github.com/truecharts/charts/compare/blocky-12.1.0...blocky-12.1.2) (2024-01-01)
 
 ### Chore
-
 
 

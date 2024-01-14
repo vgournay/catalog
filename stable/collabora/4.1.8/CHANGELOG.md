@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [collabora-4.1.8](https://github.com/truecharts/charts/compare/collabora-4.1.7...collabora-4.1.8) (2024-01-12)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 - update helm general non-major by renovate ([#16545](https://github.com/truecharts/charts/issues/16545))
 
-## [collabora-4.0.1](https://github.com/truecharts/charts/compare/collabora-4.0.0...collabora-4.0.1) (2023-12-26)

@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [actualserver-8.0.0](https://github.com/truecharts/charts/compare/actualserver-7.1.7...actualserver-8.0.0) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [actualserver-7.0.1](https://github.com/truecharts/charts/compare/actualserver-7.0.0...actualserver-7.0.1) (2023-12-26)
 
-### Chore

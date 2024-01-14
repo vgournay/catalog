@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [hastebin-4.1.6](https://github.com/truecharts/charts/compare/hastebin-4.1.5...hastebin-4.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [hastebin-3.0.16](https://github.com/truecharts/charts/compare/hastebin-3.0.15...hastebin-3.0.16) (2023-12-24)
 
-### Chore

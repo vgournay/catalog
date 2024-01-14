@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [teedy-docs-4.1.6](https://github.com/truecharts/charts/compare/teedy-docs-4.1.5...teedy-docs-4.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [teedy-docs-3.0.17](https://github.com/truecharts/charts/compare/teedy-docs-3.0.16...teedy-docs-3.0.17) (2023-12-24)
 
-### Chore

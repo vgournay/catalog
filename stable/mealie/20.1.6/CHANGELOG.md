@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [mealie-20.1.6](https://github.com/truecharts/charts/compare/mealie-20.1.5...mealie-20.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [mealie-19.0.10](https://github.com/truecharts/charts/compare/mealie-19.0.9...mealie-19.0.10) (2023-12-24)
 
-### Chore

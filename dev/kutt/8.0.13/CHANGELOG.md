@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [kutt-8.0.13](https://github.com/truecharts/charts/compare/kutt-8.0.12...kutt-8.0.13) (2024-01-02)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ### Fix
 
-- ensure the cnpg GUI is included on CNPG apps

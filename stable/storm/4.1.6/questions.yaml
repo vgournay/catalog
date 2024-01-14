@@ -99,6 +99,7 @@ questions:
                               additional_attrs: true
                               type: dict
                               attrs:
+
                                 - variable: env
                                   label: Image Environment
                                   schema:
@@ -106,35 +107,218 @@ questions:
                                     type: dict
                                     attrs:
                                       - variable: DELUGE_RPC_HOSTNAME
-                                        label: "DELUGE_RPC_HOSTNAME"
-                                        description: "Change this to the current name for the deluge container you want to connect storms webUI to"
+                                        label: Deluge RPC Hostname
+                                        description: "The Deluge RPC hostname."
                                         schema:
                                           type: string
                                           default: ""
+                                      - variable: DELUGE_RPC_PORT
+                                        label: Deluge RPC Port
+                                        description: "The Deluge RPC port."
+                                        schema:
+                                          type: int
+                                          default: 58846
                                       - variable: DELUGE_RPC_USERNAME
-                                        label: "DELUGE_RPC_USERNAME"
-                                        description: "The username storm will use to connect to the deluge container. Set this in appdatadelugeauth file"
+                                        label: Deluge RPC Username
+                                        description: "The username from Deluge auth."
                                         schema:
                                           type: string
                                           default: ""
                                       - variable: DELUGE_RPC_PASSWORD
-                                        label: "DELUGE_RPC_PASSWORD"
-                                        description: "The password storm will use to connect to the deluge container. Set this in appdatadelugeauth file"
+                                        label: Deluge RPC Password
+                                        description: "The password from Deluge auth."
                                         schema:
                                           type: string
                                           default: ""
                                       - variable: DELUGE_RPC_VERSION
-                                        label: "DELUGE_RPC_VERSION"
-                                        description: "RPC connection version to use.Depends on your deluge version."
+                                        label: Deluge RPC Version
+                                        description: "RPC connection version to use. (Depends on your deluge version)"
                                         schema:
                                           type: string
                                           default: "v2"
                                       - variable: STORM_API_KEY
-                                        label: "STORM_API_KEY"
-                                        description: "Set this to a reasonably secure password.Any requests made to Storm must now provide the API key in the request."
+                                        label: Storm API Key
+                                        description: "Enable authentication for the Storm API."
                                         schema:
                                           type: string
                                           default: ""
+
+                                - variable: envList
+                                  label: Extra Environment Variables
+                                  description: "Please be aware that some variables are set in the background, adding duplicates here might cause issues or prevent the app from starting..."
+                                  schema:
+                                    type: list
+                                    default: []
+                                    items:
+                                      - variable: envItem
+                                        label: Environment Variable
+                                        schema:
+                                          additional_attrs: true
+                                          type: dict
+                                          attrs:
+                                            - variable: name
+                                              label: Name
+                                              schema:
+                                                type: string
+                                            - variable: value
+                                              label: Value
+                                              schema:
+                                                type: string
+                                - variable: extraArgs
+                                  label: Extra Args
+                                  schema:
+                                    type: list
+                                    default: []
+                                    items:
+                                      - variable: arg
+                                        label: Arg
+                                        schema:
+                                          type: string
+                                - variable: advanced
+                                  label: Show Advanced Settings
+                                  description: Advanced settings are not covered by TrueCharts Support
+                                  schema:
+                                    type: boolean
+                                    default: false
+                                    show_subquestions_if: true
+                                    subquestions:
+                                      - variable: command
+                                        label: Command
+                                        schema:
+                                          type: list
+                                          default: []
+                                          items:
+                                            - variable: param
+                                              label: Param
+                                              schema:
+                                                type: string
+
+  - variable: TZ
+    label: Timezone
+    group: "General Settings"
+    schema:
+      type: string
+      default: "Etc/UTC"
+      $ref:
+        - "definitions/timezone"
+  - variable: podOptions
+    group: "General Settings"
+    label: "Global Pod Options (Advanced)"
+    schema:
+      additional_attrs: true
+      type: dict
+      attrs:
+        - variable: expertPodOpts
+          label: "Expert - Pod Options"
+          schema:
+            type: boolean
+            default: false
+            show_subquestions_if: true
+            subquestions:
+              - variable: hostNetwork
+                label: "Host Networking"
+                schema:
+                  type: boolean
+                  default: false
+              - variable: dnsConfig
+                label: "DNS Configuration"
+                schema:
+                  type: dict
+                  additional_attrs: true
+                  attrs:
+                    - variable: options
+                      label: "Options"
+                      schema:
+                        type: list
+                        default: [{"name": "ndots", "value": "1"}]
+                        items:
+                          - variable: optionsEntry
+                            label: "Option Entry"
+                            schema:
+                              type: dict
+                              additional_attrs: true
+                              attrs:
+                                - variable: name
+                                  label: "Name"
+                                  schema:
+                                    type: string
+                                    required: true
+                                - variable: value
+                                  label: "Value"
+                                  schema:
+                                    type: string
+                    - variable: nameservers
+                      label: "Nameservers"
+                      schema:
+                        type: list
+                        default: []
+                        items:
+                          - variable: nsEntry
+                            label: "Nameserver Entry"
+                            schema:
+                              type: string
+                              required: true
+                    - variable: searches
+                      label: "Searches"
+                      schema:
+                        type: list
+                        default: []
+                        items:
+                          - variable: searchEntry
+                            label: "Search Entry"
+                            schema:
+                              type: string
+                              required: true
+
+  - variable: imagePullSecretList
+    group: "General Settings"
+    label: "Image Pull Secrets"
+    schema:
+      type: list
+      default: []
+      items:
+        - variable: pullsecretentry
+          label: "Pull Secret"
+          schema:
+            type: dict
+            additional_attrs: true
+            attrs:
+              - variable: enabled
+                label: Enabled
+                schema:
+                  type: boolean
+                  default: true
+              - variable: data
+                label: Data
+                schema:
+                  type: dict
+                  additional_attrs: true
+                  attrs:
+                    - variable: registry
+                      label: "Registry"
+                      schema:
+                        type: string
+                        required: true
+                        default: "https://index.docker.io/v1/"
+                    - variable: username
+                      label: "Username"
+                      schema:
+                        type: string
+                        required: true
+                        default: ""
+                    - variable: password
+                      label: "Password"
+                      schema:
+                        type: string
+                        required: true
+                        private: true
+                        default: ""
+                    - variable: email
+                      label: "Email"
+                      schema:
+                        type: string
+                        required: true
+                        default: ""
   - variable: service
     group: Networking and Services
     label: Configure Service(s)

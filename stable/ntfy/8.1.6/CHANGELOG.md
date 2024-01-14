@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [ntfy-8.1.6](https://github.com/truecharts/charts/compare/ntfy-8.1.5...ntfy-8.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [ntfy-7.0.10](https://github.com/truecharts/charts/compare/ntfy-7.0.9...ntfy-7.0.10) (2023-12-24)
 
-### Chore

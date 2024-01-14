@@ -7,6 +7,7 @@ title: Changelog
 
 
 
+
 ## [notarius-4.1.6](https://github.com/truecharts/charts/compare/notarius-4.1.5...notarius-4.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ## [notarius-3.0.16](https://github.com/truecharts/charts/compare/notarius-3.0.15...notarius-3.0.16) (2023-12-24)
 
-### Chore
