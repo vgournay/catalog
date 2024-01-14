@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [telethon-downloader-4.1.7](https://github.com/truecharts/charts/compare/telethon-downloader-4.1.6...telethon-downloader-4.1.7) (2024-01-14)
+
+### Chore
+
+
+
+- update container image jsavargas/telethon_downloader to latest[@8aa2877](https://github.com/8aa2877) by renovate ([#17161](https://github.com/truecharts/charts/issues/17161))
+
+
 
 
 ## [telethon-downloader-4.1.6](https://github.com/truecharts/charts/compare/telethon-downloader-4.1.5...telethon-downloader-4.1.6) (2024-01-09)
@@ -88,12 +97,3 @@ title: Changelog
 
 ### Chore
 
-- update helm chart common to 17.1.0 by renovate ([#16532](https://github.com/truecharts/charts/issues/16532))
-
-## [telethon-downloader-3.0.17](https://github.com/truecharts/charts/compare/telethon-downloader-3.0.16...telethon-downloader-3.0.17) (2023-12-24)
-
-### Chore
-
-- update helm general non-major by renovate ([#16384](https://github.com/truecharts/charts/issues/16384))
-
-## [telethon-downloader-3.0.16](https://github.com/truecharts/charts/compare/telethon-downloader-3.0.15...telethon-downloader-3.0.16) (2023-12-24)
