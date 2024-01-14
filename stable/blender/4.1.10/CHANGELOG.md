@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [blender-4.1.10](https://github.com/truecharts/charts/compare/blender-4.1.9...blender-4.1.10) (2024-01-14)
+
+### Chore
+
+
+
+- update container image lscr.io/linuxserver/blender to latest[@6888c91](https://github.com/6888c91) by renovate ([#17164](https://github.com/truecharts/charts/issues/17164))
+
+
 
 
 ## [blender-4.1.9](https://github.com/truecharts/charts/compare/blender-4.1.8...blender-4.1.9) (2024-01-09)
@@ -87,13 +96,4 @@ title: Changelog
 
 - standardize ./img references ([#16704](https://github.com/truecharts/charts/issues/16704))
 ## [blender-4.1.1](https://github.com/truecharts/charts/compare/blender-4.1.0...blender-4.1.1) (2023-12-31)
-
-### Chore
-
-- update container image lscr.io/linuxserver/blender to latest[@bec3de1](https://github.com/bec3de1) by renovate ([#16622](https://github.com/truecharts/charts/issues/16622))
-- lints some docs, uses front-matter instead of # h1, and fix list items in changelog ([#16589](https://github.com/truecharts/charts/issues/16589))
-
-## [blender-4.1.0](https://github.com/truecharts/charts/compare/blender-4.0.2...blender-4.1.0) (2023-12-30)
-
-### Chore
 
