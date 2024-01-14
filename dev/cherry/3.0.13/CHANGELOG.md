@@ -8,6 +8,7 @@ title: Changelog
 
 
 
+
 ## [cherry-3.0.13](https://github.com/truecharts/charts/compare/cherry-3.0.12...cherry-3.0.13) (2024-01-02)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 - bump everything to ensure patches are applied globally
 
 ## [cherry-3.0.6](https://github.com/truecharts/charts/compare/cherry-3.0.5...cherry-3.0.6) (2023-12-20)
-

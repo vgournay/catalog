@@ -8,6 +8,7 @@ title: Changelog
 
 
 
+
 ## [openproject-4.0.14](https://github.com/truecharts/charts/compare/openproject-4.0.13...openproject-4.0.14) (2024-01-03)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ### Fix
 
-- bump to release middleware fix

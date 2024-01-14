@@ -8,6 +8,7 @@ title: Changelog
 
 
 
+
 ## [jellystat-2.1.6](https://github.com/truecharts/charts/compare/jellystat-2.1.5...jellystat-2.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 - update container image cyfershepard/jellystat to latest[@d321b59](https://github.com/d321b59) by renovate ([#16400](https://github.com/truecharts/charts/issues/16400))
 
 ## [jellystat-1.0.11](https://github.com/truecharts/charts/compare/jellystat-1.0.10...jellystat-1.0.11) (2023-12-24)
-

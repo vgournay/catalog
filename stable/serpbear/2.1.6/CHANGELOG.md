@@ -8,6 +8,7 @@ title: Changelog
 
 
 
+
 ## [serpbear-2.1.6](https://github.com/truecharts/charts/compare/serpbear-2.1.5...serpbear-2.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 - update helm general non-major by renovate ([#16384](https://github.com/truecharts/charts/issues/16384))
 
 ## [serpbear-1.0.16](https://github.com/truecharts/charts/compare/serpbear-1.0.15...serpbear-1.0.16) (2023-12-24)
-

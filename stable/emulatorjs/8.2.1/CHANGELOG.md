@@ -8,6 +8,7 @@ title: Changelog
 
 
 
+
 ## [emulatorjs-8.2.1](https://github.com/truecharts/charts/compare/emulatorjs-8.2.0...emulatorjs-8.2.1) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 - standardize ./img references ([#16704](https://github.com/truecharts/charts/issues/16704))
 ## [emulatorjs-8.1.1](https://github.com/truecharts/charts/compare/emulatorjs-8.1.0...emulatorjs-8.1.1) (2023-12-31)
 
-### Chore

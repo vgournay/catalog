@@ -8,6 +8,7 @@ title: Changelog
 
 
 
+
 ## [docusaurus-7.1.7](https://github.com/truecharts/charts/compare/docusaurus-7.1.6...docusaurus-7.1.7) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ### Chore
 
-- update helm chart common to 17.1.0 by renovate ([#16532](https://github.com/truecharts/charts/issues/16532))

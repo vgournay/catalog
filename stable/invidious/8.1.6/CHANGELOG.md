@@ -8,6 +8,7 @@ title: Changelog
 
 
 
+
 ## [invidious-8.1.6](https://github.com/truecharts/charts/compare/invidious-8.1.5...invidious-8.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 ## [invidious-7.0.13](https://github.com/truecharts/charts/compare/invidious-7.0.12...invidious-7.0.13) (2023-12-25)
 
 ### Fix
-

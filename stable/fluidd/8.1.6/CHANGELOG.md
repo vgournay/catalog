@@ -8,6 +8,7 @@ title: Changelog
 
 
 
+
 ## [fluidd-8.1.6](https://github.com/truecharts/charts/compare/fluidd-8.1.5...fluidd-8.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 - update container image ghcr.io/fluidd-core/fluidd to v1.27.1[@01e6dcf](https://github.com/01e6dcf) by renovate ([#16466](https://github.com/truecharts/charts/issues/16466))
 
 ## [fluidd-7.0.11](https://github.com/truecharts/charts/compare/fluidd-7.0.10...fluidd-7.0.11) (2023-12-24)
-

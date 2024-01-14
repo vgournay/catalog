@@ -8,6 +8,7 @@ title: Changelog
 
 
 
+
 ## [mylar-12.1.8](https://github.com/truecharts/charts/compare/mylar-12.1.7...mylar-12.1.8) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 - update helm general non-major by renovate ([#16545](https://github.com/truecharts/charts/issues/16545))
 
 ## [mylar-12.0.0](https://github.com/truecharts/charts/compare/mylar-11.0.12...mylar-12.0.0) (2023-12-25)
-

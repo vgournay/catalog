@@ -8,6 +8,7 @@ title: Changelog
 
 
 
+
 ## [redmine-10.1.6](https://github.com/truecharts/charts/compare/redmine-10.1.5...redmine-10.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 - update container image redmine to 5.1.1[@a935514](https://github.com/a935514) by renovate ([#16446](https://github.com/truecharts/charts/issues/16446))
 
 ## [redmine-9.0.11](https://github.com/truecharts/charts/compare/redmine-9.0.10...redmine-9.0.11) (2023-12-24)
-

@@ -8,6 +8,7 @@ title: Changelog
 
 
 
+
 ## [gaps-17.1.6](https://github.com/truecharts/charts/compare/gaps-17.1.5...gaps-17.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 - update helm general non-major by renovate ([#16384](https://github.com/truecharts/charts/issues/16384))
 
 ## [gaps-16.0.10](https://github.com/truecharts/charts/compare/gaps-16.0.9...gaps-16.0.10) (2023-12-24)
-

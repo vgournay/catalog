@@ -8,6 +8,7 @@ title: Changelog
 
 
 
+
 ## [firefox-10.0.2](https://github.com/truecharts/charts/compare/firefox-10.0.1...firefox-10.0.2) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 - update helm general minor by renovate ([#16579](https://github.com/truecharts/charts/issues/16579))
 
 ## [firefox-9.0.1](https://github.com/truecharts/charts/compare/firefox-9.0.0...firefox-9.0.1) (2023-12-26)
-

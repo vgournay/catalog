@@ -8,6 +8,7 @@ title: Changelog
 
 
 
+
 ## [kdenlive-4.1.8](https://github.com/truecharts/charts/compare/kdenlive-4.1.7...kdenlive-4.1.8) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 - update helm general minor by renovate ([#16579](https://github.com/truecharts/charts/issues/16579))
 
 ## [kdenlive-4.0.3](https://github.com/truecharts/charts/compare/kdenlive-4.0.2...kdenlive-4.0.3) (2023-12-27)
-

@@ -8,6 +8,7 @@ title: Changelog
 
 
 
+
 ## [unpoller-9.1.6](https://github.com/truecharts/charts/compare/unpoller-9.1.5...unpoller-9.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 - update container image ghcr.io/unpoller/unpoller to v2.9.5[@486a633](https://github.com/486a633) by renovate ([#16470](https://github.com/truecharts/charts/issues/16470))
 
 ## [unpoller-8.0.11](https://github.com/truecharts/charts/compare/unpoller-8.0.10...unpoller-8.0.11) (2023-12-24)
-

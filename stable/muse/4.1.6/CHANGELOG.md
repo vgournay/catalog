@@ -8,6 +8,7 @@ title: Changelog
 
 
 
+
 ## [muse-4.1.6](https://github.com/truecharts/charts/compare/muse-4.1.5...muse-4.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 - update container image codetheweb/muse to v2.4.4[@c3a6a01](https://github.com/c3a6a01) by renovate ([#16462](https://github.com/truecharts/charts/issues/16462))
 
 ## [muse-3.0.11](https://github.com/truecharts/charts/compare/muse-3.0.10...muse-3.0.11) (2023-12-24)
-

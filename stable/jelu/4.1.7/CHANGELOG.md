@@ -8,6 +8,7 @@ title: Changelog
 
 
 
+
 ## [jelu-4.1.7](https://github.com/truecharts/charts/compare/jelu-4.1.6...jelu-4.1.7) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ### Chore
 
-- update container image wabayang/jelu to latest[@5cd8181](https://github.com/5cd8181) by renovate ([#16451](https://github.com/truecharts/charts/issues/16451))

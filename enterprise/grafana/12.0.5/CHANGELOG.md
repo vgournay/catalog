@@ -8,6 +8,7 @@ title: Changelog
 
 
 
+
 ## [grafana-12.0.5](https://github.com/truecharts/charts/compare/grafana-12.0.4...grafana-12.0.5) (2024-01-07)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 
 - bump common ([#16751](https://github.com/truecharts/charts/issues/16751))
-

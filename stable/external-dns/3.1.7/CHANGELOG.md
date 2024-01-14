@@ -8,6 +8,7 @@ title: Changelog
 
 
 
+
 ## [external-dns-3.1.7](https://github.com/truecharts/charts/compare/external-dns-3.1.6...external-dns-3.1.7) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 - update helm chart common to 17.1.0 by renovate ([#16532](https://github.com/truecharts/charts/issues/16532))
 
-## [external-dns-2.0.11](https://github.com/truecharts/charts/compare/external-dns-2.0.10...external-dns-2.0.11) (2023-12-24)

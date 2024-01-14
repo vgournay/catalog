@@ -8,6 +8,7 @@ title: Changelog
 
 
 
+
 ## [tonido-4.1.6](https://github.com/truecharts/charts/compare/tonido-4.1.5...tonido-4.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 - update helm general non-major by renovate ([#16384](https://github.com/truecharts/charts/issues/16384))
 
 ## [tonido-3.0.16](https://github.com/truecharts/charts/compare/tonido-3.0.15...tonido-3.0.16) (2023-12-24)
-

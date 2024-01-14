@@ -8,6 +8,7 @@ title: Changelog
 
 
 
+
 ## [strapi-12.1.6](https://github.com/truecharts/charts/compare/strapi-12.1.5...strapi-12.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 - update helm general non-major by renovate ([#16384](https://github.com/truecharts/charts/issues/16384))
 
 ## [strapi-11.1.3](https://github.com/truecharts/charts/compare/strapi-11.1.2...strapi-11.1.3) (2023-12-24)
-

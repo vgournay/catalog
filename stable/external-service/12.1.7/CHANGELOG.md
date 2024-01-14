@@ -8,6 +8,7 @@ title: Changelog
 
 
 
+
 ## [external-service-12.1.7](https://github.com/truecharts/charts/compare/external-service-12.1.6...external-service-12.1.7) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ### Chore
 
-- ignore stop-all ([#16557](https://github.com/truecharts/charts/issues/16557))

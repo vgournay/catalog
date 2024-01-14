@@ -8,6 +8,7 @@ title: Changelog
 
 
 
+
 ## [chromium-4.1.8](https://github.com/truecharts/charts/compare/chromium-4.1.7...chromium-4.1.8) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 - update helm general minor by renovate ([#16579](https://github.com/truecharts/charts/issues/16579))
 
 ## [chromium-4.0.1](https://github.com/truecharts/charts/compare/chromium-4.0.0...chromium-4.0.1) (2023-12-26)
-

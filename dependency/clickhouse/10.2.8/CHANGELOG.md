@@ -8,6 +8,7 @@ title: Changelog
 
 
 
+
 ## [clickhouse-10.2.8](https://github.com/truecharts/charts/compare/clickhouse-10.2.7...clickhouse-10.2.8) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ### Chore
 
-- update helm chart common to 17.2.2 by renovate ([#16575](https://github.com/truecharts/charts/issues/16575))

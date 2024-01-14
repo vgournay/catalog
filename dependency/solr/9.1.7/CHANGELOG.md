@@ -8,6 +8,7 @@ title: Changelog
 
 
 
+
 ## [solr-9.1.7](https://github.com/truecharts/charts/compare/solr-9.1.6...solr-9.1.7) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ### Chore
 
-- update helm chart common to 17.1.2 by renovate ([#16556](https://github.com/truecharts/charts/issues/16556))

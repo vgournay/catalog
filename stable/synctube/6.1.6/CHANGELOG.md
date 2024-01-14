@@ -8,6 +8,7 @@ title: Changelog
 
 
 
+
 ## [synctube-6.1.6](https://github.com/truecharts/charts/compare/synctube-6.1.5...synctube-6.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 - update helm general non-major by renovate ([#16384](https://github.com/truecharts/charts/issues/16384))
 
 ## [synctube-5.0.10](https://github.com/truecharts/charts/compare/synctube-5.0.9...synctube-5.0.10) (2023-12-24)
-

@@ -8,6 +8,7 @@ title: Changelog
 
 
 
+
 ## [magicmirror2-3.0.13](https://github.com/truecharts/charts/compare/magicmirror2-3.0.12...magicmirror2-3.0.13) (2024-01-02)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 - bump everything to ensure patches are applied globally
 
 ## [magicmirror2-3.0.6](https://github.com/truecharts/charts/compare/magicmirror2-3.0.5...magicmirror2-3.0.6) (2023-12-20)
-

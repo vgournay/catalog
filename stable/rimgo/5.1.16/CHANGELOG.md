@@ -8,6 +8,7 @@ title: Changelog
 
 
 
+
 ## [rimgo-5.1.16](https://github.com/truecharts/charts/compare/rimgo-5.1.15...rimgo-5.1.16) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 
 - force bump to ensure up-to-date catalogs
-

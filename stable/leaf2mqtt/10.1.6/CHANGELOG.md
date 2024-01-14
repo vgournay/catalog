@@ -8,6 +8,7 @@ title: Changelog
 
 
 
+
 ## [leaf2mqtt-10.1.6](https://github.com/truecharts/charts/compare/leaf2mqtt-10.1.5...leaf2mqtt-10.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 - update helm general non-major by renovate ([#16384](https://github.com/truecharts/charts/issues/16384))
 
 ## [leaf2mqtt-9.0.10](https://github.com/truecharts/charts/compare/leaf2mqtt-9.0.9...leaf2mqtt-9.0.10) (2023-12-24)
-

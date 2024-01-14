@@ -8,6 +8,7 @@ title: Changelog
 
 
 
+
 ## [impostor-server-7.1.9](https://github.com/truecharts/charts/compare/impostor-server-7.1.8...impostor-server-7.1.9) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 - update helm general minor by renovate ([#16579](https://github.com/truecharts/charts/issues/16579))
 
 ## [impostor-server-7.0.1](https://github.com/truecharts/charts/compare/impostor-server-7.0.0...impostor-server-7.0.1) (2023-12-26)
-

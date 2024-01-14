@@ -8,6 +8,7 @@ title: Changelog
 
 
 
+
 ## [xmrig-4.1.7](https://github.com/truecharts/charts/compare/xmrig-4.1.6...xmrig-4.1.7) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 - update helm chart common to 17.1.0 by renovate ([#16532](https://github.com/truecharts/charts/issues/16532))
 
 ## [xmrig-3.0.17](https://github.com/truecharts/charts/compare/xmrig-3.0.16...xmrig-3.0.17) (2023-12-24)
-

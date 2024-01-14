@@ -8,6 +8,7 @@ title: Changelog
 
 
 
+
 ## [rsshub-11.1.15](https://github.com/truecharts/charts/compare/rsshub-11.1.14...rsshub-11.1.15) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 
 - increase common version for oci fixes
-

@@ -8,6 +8,7 @@ title: Changelog
 
 
 
+
 ## [mstream-9.1.8](https://github.com/truecharts/charts/compare/mstream-9.1.7...mstream-9.1.8) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 - update helm general non-major by renovate ([#16545](https://github.com/truecharts/charts/issues/16545))
 
 ## [mstream-9.0.0](https://github.com/truecharts/charts/compare/mstream-8.0.12...mstream-9.0.0) (2023-12-25)
-

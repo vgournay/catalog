@@ -8,6 +8,7 @@ title: Changelog
 
 
 
+
 ## [filebrowser-8.2.1](https://github.com/truecharts/charts/compare/filebrowser-8.2.0...filebrowser-8.2.1) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 - update helm general non-major by renovate ([#16545](https://github.com/truecharts/charts/issues/16545))
 
-## [filebrowser-8.0.0](https://github.com/truecharts/charts/compare/filebrowser-7.0.11...filebrowser-8.0.0) (2023-12-25)

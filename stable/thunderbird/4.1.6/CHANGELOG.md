@@ -8,6 +8,7 @@ title: Changelog
 
 
 
+
 ## [thunderbird-4.1.6](https://github.com/truecharts/charts/compare/thunderbird-4.1.5...thunderbird-4.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 - update container image ich777/thunderbird to latest[@dba18fa](https://github.com/dba18fa) by renovate ([#16428](https://github.com/truecharts/charts/issues/16428))
 
 ## [thunderbird-3.0.18](https://github.com/truecharts/charts/compare/thunderbird-3.0.17...thunderbird-3.0.18) (2023-12-24)
-

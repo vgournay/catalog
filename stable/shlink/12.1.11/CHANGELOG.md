@@ -8,6 +8,7 @@ title: Changelog
 
 
 
+
 ## [shlink-12.1.11](https://github.com/truecharts/charts/compare/shlink-12.1.10...shlink-12.1.11) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 
 
-- bump all charts for OCI test push

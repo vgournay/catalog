@@ -8,6 +8,7 @@ title: Changelog
 
 
 
+
 ## [sonarr-19.0.26](https://github.com/truecharts/charts/compare/sonarr-19.0.25...sonarr-19.0.26) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 ## [sonarr-19.0.13](https://github.com/truecharts/charts/compare/sonarr-19.0.12...sonarr-19.0.13) (2023-12-31)
 
 ### Chore
-

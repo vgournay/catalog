@@ -8,6 +8,7 @@ title: Changelog
 
 
 
+
 ## [yourls-4.1.7](https://github.com/truecharts/charts/compare/yourls-4.1.6...yourls-4.1.7) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ### Chore
 
-- update container image yourls to latest[@1000d12](https://github.com/1000d12) by renovate ([#16453](https://github.com/truecharts/charts/issues/16453))

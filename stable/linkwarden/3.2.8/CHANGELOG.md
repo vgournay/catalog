@@ -8,6 +8,7 @@ title: Changelog
 
 
 
+
 ## [linkwarden-3.2.8](https://github.com/truecharts/charts/compare/linkwarden-3.2.7...linkwarden-3.2.8) (2024-01-12)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 ### Chore
 
 - update helm general minor by renovate ([#16579](https://github.com/truecharts/charts/issues/16579))
-

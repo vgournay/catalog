@@ -8,6 +8,7 @@ title: Changelog
 
 
 
+
 ## [netbootxyz-3.1.6](https://github.com/truecharts/charts/compare/netbootxyz-3.1.5...netbootxyz-3.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 - update helm chart common to 17.1.0 by renovate ([#16532](https://github.com/truecharts/charts/issues/16532))
 
 ## [netbootxyz-1.0.11](https://github.com/truecharts/charts/compare/netbootxyz-1.0.10...netbootxyz-1.0.11) (2023-12-24)
-

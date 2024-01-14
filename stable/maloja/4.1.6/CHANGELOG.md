@@ -8,6 +8,7 @@ title: Changelog
 
 
 
+
 ## [maloja-4.1.6](https://github.com/truecharts/charts/compare/maloja-4.1.5...maloja-4.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 - update helm general non-major by renovate ([#16384](https://github.com/truecharts/charts/issues/16384))
 
 ## [maloja-3.0.17](https://github.com/truecharts/charts/compare/maloja-3.0.16...maloja-3.0.17) (2023-12-24)
-

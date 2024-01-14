@@ -8,6 +8,7 @@ title: Changelog
 
 
 
+
 ## [shapeshifter-obfuscator-4.1.6](https://github.com/truecharts/charts/compare/shapeshifter-obfuscator-4.1.5...shapeshifter-obfuscator-4.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 - update helm general non-major by renovate ([#16384](https://github.com/truecharts/charts/issues/16384))
 
 ## [shapeshifter-obfuscator-3.0.16](https://github.com/truecharts/charts/compare/shapeshifter-obfuscator-3.0.15...shapeshifter-obfuscator-3.0.16) (2023-12-24)
-

@@ -8,6 +8,7 @@ title: Changelog
 
 
 
+
 ## [neverwinternights-ee-4.1.7](https://github.com/truecharts/charts/compare/neverwinternights-ee-4.1.6...neverwinternights-ee-4.1.7) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 
 ### Chore
 
-- update helm general non-major by renovate ([#16545](https://github.com/truecharts/charts/issues/16545))

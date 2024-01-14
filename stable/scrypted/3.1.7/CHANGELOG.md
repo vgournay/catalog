@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [scrypted-3.1.7](https://github.com/truecharts/charts/compare/scrypted-3.1.6...scrypted-3.1.7) (2024-01-14)
+
+### Fix
+
+
+
+- Update outdate image and change appVersion ([#17113](https://github.com/truecharts/charts/issues/17113))
+
+
 
 ## [scrypted-3.1.6](https://github.com/truecharts/charts/compare/scrypted-3.1.5...scrypted-3.1.6) (2024-01-09)
 
@@ -88,12 +97,3 @@ title: Changelog
 ### Chore
 
 - update helm chart common to 17.1.0 by renovate ([#16532](https://github.com/truecharts/charts/issues/16532))
-
-## [scrypted-2.0.11](https://github.com/truecharts/charts/compare/scrypted-2.0.10...scrypted-2.0.11) (2023-12-24)
-
-### Chore
-
-- update helm general non-major by renovate ([#16384](https://github.com/truecharts/charts/issues/16384))
-
-## [scrypted-2.0.10](https://github.com/truecharts/charts/compare/scrypted-2.0.9...scrypted-2.0.10) (2023-12-24)
-

@@ -8,6 +8,7 @@ title: Changelog
 
 
 
+
 ## [venstar2mqtt-4.1.6](https://github.com/truecharts/charts/compare/venstar2mqtt-4.1.5...venstar2mqtt-4.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 - update helm general non-major by renovate ([#16384](https://github.com/truecharts/charts/issues/16384))
 
 ## [venstar2mqtt-3.0.16](https://github.com/truecharts/charts/compare/venstar2mqtt-3.0.15...venstar2mqtt-3.0.16) (2023-12-24)
-

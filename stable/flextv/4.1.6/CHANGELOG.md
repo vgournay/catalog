@@ -8,6 +8,7 @@ title: Changelog
 
 
 
+
 ## [flextv-4.1.6](https://github.com/truecharts/charts/compare/flextv-4.1.5...flextv-4.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 - update helm chart common to 17.1.0 by renovate ([#16532](https://github.com/truecharts/charts/issues/16532))
 
 ## [flextv-3.0.17](https://github.com/truecharts/charts/compare/flextv-3.0.16...flextv-3.0.17) (2023-12-24)
-

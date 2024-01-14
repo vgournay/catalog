@@ -8,6 +8,7 @@ title: Changelog
 
 
 
+
 ## [penpot-4.0.12](https://github.com/truecharts/charts/compare/penpot-4.0.11...penpot-4.0.12) (2024-01-02)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 - ensure the cnpg GUI is included on CNPG apps
 
 ## [penpot-4.0.5](https://github.com/truecharts/charts/compare/penpot-4.0.4...penpot-4.0.5) (2023-12-20)
-

@@ -8,6 +8,7 @@ title: Changelog
 
 
 
+
 ## [retrobot-7.1.6](https://github.com/truecharts/charts/compare/retrobot-7.1.5...retrobot-7.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 - update helm general non-major by renovate ([#16384](https://github.com/truecharts/charts/issues/16384))
 
 ## [retrobot-6.0.10](https://github.com/truecharts/charts/compare/retrobot-6.0.9...retrobot-6.0.10) (2023-12-24)
-

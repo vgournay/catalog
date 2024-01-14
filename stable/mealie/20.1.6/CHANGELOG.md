@@ -8,6 +8,7 @@ title: Changelog
 
 
 
+
 ## [mealie-20.1.6](https://github.com/truecharts/charts/compare/mealie-20.1.5...mealie-20.1.6) (2024-01-09)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 - update helm general non-major by renovate ([#16384](https://github.com/truecharts/charts/issues/16384))
 
 ## [mealie-19.0.10](https://github.com/truecharts/charts/compare/mealie-19.0.9...mealie-19.0.10) (2023-12-24)
-

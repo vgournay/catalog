@@ -8,6 +8,7 @@ title: Changelog
 
 
 
+
 ## [linkace-9.0.13](https://github.com/truecharts/charts/compare/linkace-9.0.12...linkace-9.0.13) (2024-01-02)
 
 ### Chore
@@ -96,4 +97,3 @@ title: Changelog
 - bump everything to ensure patches are applied globally
 
 ## [linkace-9.0.6](https://github.com/truecharts/charts/compare/linkace-9.0.5...linkace-9.0.6) (2023-12-20)
-
