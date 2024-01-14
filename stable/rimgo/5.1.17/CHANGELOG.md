@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [rimgo-5.1.17](https://github.com/truecharts/charts/compare/rimgo-5.1.16...rimgo-5.1.17) (2024-01-14)
+
+### Chore
+
+
+
+- update container image quay.io/pussthecatorg/rimgo to latest[@16c449f](https://github.com/16c449f) by renovate ([#17174](https://github.com/truecharts/charts/issues/17174))
+
+
 
 
 ## [rimgo-5.1.16](https://github.com/truecharts/charts/compare/rimgo-5.1.15...rimgo-5.1.16) (2024-01-09)
@@ -88,12 +97,3 @@ title: Changelog
 
 
 - update container image quay.io/pussthecatorg/rimgo to latest[@a67a3ac](https://github.com/a67a3ac) by renovate ([#16789](https://github.com/truecharts/charts/issues/16789))
-
-
-## [rimgo-5.1.7](https://github.com/truecharts/charts/compare/rimgo-5.1.6...rimgo-5.1.7) (2024-01-02)
-
-### Chore
-
-
-
-- force bump to ensure up-to-date catalogs

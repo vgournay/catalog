@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [emulatorjs-8.2.3](https://github.com/truecharts/charts/compare/emulatorjs-8.2.2...emulatorjs-8.2.3) (2024-01-14)
+
+### Chore
+
+
+
+- update container image ghcr.io/linuxserver/emulatorjs to v1.8.2[@40f4e8e](https://github.com/40f4e8e) by renovate ([#17216](https://github.com/truecharts/charts/issues/17216))
+
+
 ## [emulatorjs-8.2.2](https://github.com/truecharts/charts/compare/emulatorjs-8.2.1...emulatorjs-8.2.2) (2024-01-14)
 
 ### Chore
@@ -87,13 +96,4 @@ title: Changelog
 - update container image common to v17.2.19[@4ebb688](https://github.com/4ebb688) by renovate ([#16733](https://github.com/truecharts/charts/issues/16733))
 
 - update container image common to v17.2.18[@085ba3c](https://github.com/085ba3c) by renovate ([#16732](https://github.com/truecharts/charts/issues/16732))
-
-- standardize ./img references ([#16704](https://github.com/truecharts/charts/issues/16704))
-
-
-## [emulatorjs-8.1.3](https://github.com/truecharts/charts/compare/emulatorjs-8.1.1...emulatorjs-8.1.3) (2024-01-01)
-
-### Chore
-
-
 
