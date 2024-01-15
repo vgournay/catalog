@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [gamevault-backend-4.2.0](https://github.com/truecharts/charts/compare/gamevault-backend-4.1.8...gamevault-backend-4.2.0) (2024-01-15)
+
+### Chore
+
+
+
+- update container image phalcode/gamevault-backend to v10.1.0[@49cbc35](https://github.com/49cbc35) by renovate ([#17272](https://github.com/truecharts/charts/issues/17272))
+
+
 ## [gamevault-backend-4.1.8](https://github.com/truecharts/charts/compare/gamevault-backend-4.1.7...gamevault-backend-4.1.8) (2024-01-15)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 
 ### Chore
 
-- update helm general minor by renovate ([#16579](https://github.com/truecharts/charts/issues/16579))
-
-## [gamevault-backend-4.0.0](https://github.com/truecharts/charts/compare/gamevault-backend-3.0.1...gamevault-backend-4.0.0) (2023-12-26)
-
-### Chore
-
-- update container image phalcode/gamevault-backend to v10.0.1[@3123f5b](https://github.com/3123f5b) by renovate ([#16503](https://github.com/truecharts/charts/issues/16503))
-
-## [gamevault-backend-3.0.1](https://github.com/truecharts/charts/compare/gamevault-backend-3.0.0...gamevault-backend-3.0.1) (2023-12-26)
