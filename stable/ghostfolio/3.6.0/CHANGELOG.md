@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [ghostfolio-3.6.0](https://github.com/truecharts/charts/compare/ghostfolio-3.5.0...ghostfolio-3.6.0) (2024-01-15)
+
+### Chore
+
+
+
+- update container image ghostfolio/ghostfolio to v2.39.0[@d48e8a8](https://github.com/d48e8a8) by renovate ([#17250](https://github.com/truecharts/charts/issues/17250))
+
+
 ## [ghostfolio-3.5.0](https://github.com/truecharts/charts/compare/ghostfolio-3.4.1...ghostfolio-3.5.0) (2024-01-14)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 
 
 - update helm general non-major by renovate ([#16734](https://github.com/truecharts/charts/issues/16734))
-
-- remove non-existent template refs ([#16738](https://github.com/truecharts/charts/issues/16738))
-
-
-## [ghostfolio-3.2.3](https://github.com/truecharts/charts/compare/ghostfolio-3.2.0...ghostfolio-3.2.3) (2024-01-01)
-
-### Chore
-
-
