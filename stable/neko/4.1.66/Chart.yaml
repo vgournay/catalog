@@ -33,4 +33,4 @@ sources:
   - https://hub.docker.com/r/m1k1o/neko
   - https://github.com/truecharts/charts/tree/master/charts/incubator/neko
 type: application
-version: 4.1.56
+version: 4.1.66
