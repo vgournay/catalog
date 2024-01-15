@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [docker-3.1.11](https://github.com/truecharts/charts/compare/docker-3.1.10...docker-3.1.11) (2024-01-15)
+
+### Chore
+
+
+
+- update container image docker to 24.0.7-dind[@b42e6e3](https://github.com/b42e6e3) by renovate ([#17227](https://github.com/truecharts/charts/issues/17227))
+
+
 ## [docker-3.1.10](https://github.com/truecharts/charts/compare/docker-3.1.9...docker-3.1.10) (2024-01-13)
 
 ### Chore
@@ -87,13 +96,4 @@ title: Changelog
 - update container image common to v17.2.18[@085ba3c](https://github.com/085ba3c) by renovate ([#16732](https://github.com/truecharts/charts/issues/16732))
 
 - standardize ./img references ([#16704](https://github.com/truecharts/charts/issues/16704))
-
-- lints some docs, uses front-matter instead of # h1, and fix list items in changelog ([#16589](https://github.com/truecharts/charts/issues/16589))
-
-
-## [docker-3.1.2](https://github.com/truecharts/charts/compare/docker-3.1.0...docker-3.1.2) (2024-01-01)
-
-### Chore
-
-
 
