@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [plextraktsync-6.2.3](https://github.com/truecharts/charts/compare/plextraktsync-6.2.2...plextraktsync-6.2.3) (2024-01-15)
+
+### Chore
+
+
+
+- update container image ghcr.io/taxel/plextraktsync to v0.28.7[@ff622fc](https://github.com/ff622fc) by renovate ([#17247](https://github.com/truecharts/charts/issues/17247))
+
+
 ## [plextraktsync-6.2.2](https://github.com/truecharts/charts/compare/plextraktsync-6.2.1...plextraktsync-6.2.2) (2024-01-14)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 
 
 ## [plextraktsync-6.1.4](https://github.com/truecharts/charts/compare/plextraktsync-6.1.3...plextraktsync-6.1.4) (2024-01-01)
-
-### Chore
-
-
-
-- increase common version for oci fixes
-
-- remove non-existent template refs ([#16738](https://github.com/truecharts/charts/issues/16738))
-
