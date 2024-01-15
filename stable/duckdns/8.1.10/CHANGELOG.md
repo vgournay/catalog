@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [duckdns-8.1.10](https://github.com/truecharts/charts/compare/duckdns-8.1.9...duckdns-8.1.10) (2024-01-15)
+
+### Chore
+
+
+
+- update container image ghcr.io/linuxserver/duckdns to latest[@710930e](https://github.com/710930e) by renovate ([#17255](https://github.com/truecharts/charts/issues/17255))
+
+
 
 
 ## [duckdns-8.1.9](https://github.com/truecharts/charts/compare/duckdns-8.1.8...duckdns-8.1.9) (2024-01-09)
@@ -88,12 +97,3 @@ title: Changelog
 
 ### Chore
 
-
-
-- bump all charts for OCI test push
-
-- move everything to consume OCI-hosted common-chart dependency
-
-- update container image common to v17.2.18[@085ba3c](https://github.com/085ba3c) by renovate ([#16732](https://github.com/truecharts/charts/issues/16732))
-
-- standardize ./img references ([#16704](https://github.com/truecharts/charts/issues/16704))
