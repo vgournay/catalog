@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [jenkins-6.5.0](https://github.com/truecharts/charts/compare/jenkins-6.4.0...jenkins-6.5.0) (2024-01-19)
+
+### Chore
+
+
+
+- update container image jenkins/jenkins to v2.441-jdk17[@01e66c7](https://github.com/01e66c7) by renovate ([#17308](https://github.com/truecharts/charts/issues/17308))
+
+
 ## [jenkins-6.4.0](https://github.com/truecharts/charts/compare/jenkins-6.3.1...jenkins-6.4.0) (2024-01-13)
 
 ### Chore
@@ -87,13 +96,4 @@ title: Changelog
 ## [jenkins-6.2.0](https://github.com/truecharts/charts/compare/jenkins-6.1.0...jenkins-6.2.0) (2023-12-31)
 
 ### Chore
-
-- update container image jenkins/jenkins to v2.438-jdk17[@cf0b231](https://github.com/cf0b231) by renovate ([#16683](https://github.com/truecharts/charts/issues/16683))
-- lints some docs, uses front-matter instead of # h1, and fix list items in changelog ([#16589](https://github.com/truecharts/charts/issues/16589))
-
-## [jenkins-6.1.0](https://github.com/truecharts/charts/compare/jenkins-6.0.1...jenkins-6.1.0) (2023-12-30)
-
-### Chore
-
-- update helm general minor by renovate ([#16579](https://github.com/truecharts/charts/issues/16579))
 
