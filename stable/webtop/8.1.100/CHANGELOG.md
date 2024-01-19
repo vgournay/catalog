@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [webtop-8.1.100](https://github.com/truecharts/charts/compare/webtop-8.1.76...webtop-8.1.100) (2024-01-19)
+
+### Chore
+
+
+
+- update webtop by renovate ([#17298](https://github.com/truecharts/charts/issues/17298))
+
+
 ## [webtop-8.1.76](https://github.com/truecharts/charts/compare/webtop-8.1.56...webtop-8.1.76) (2024-01-13)
 
 ### Chore
@@ -87,13 +96,4 @@ title: Changelog
 - update container image common to v17.2.18[@085ba3c](https://github.com/085ba3c) by renovate ([#16732](https://github.com/truecharts/charts/issues/16732))
 
 - standardize ./img references ([#16704](https://github.com/truecharts/charts/issues/16704))
-
-
-## [webtop-8.1.25](https://github.com/truecharts/charts/compare/webtop-8.1.23...webtop-8.1.25) (2024-01-01)
-
-### Chore
-
-
-
-- bump all charts for OCI test push
 
