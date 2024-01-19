@@ -2,12 +2,12 @@ annotations:
   max_scale_version: 23.10.2
   min_scale_version: 23.10.0
   truecharts.org/SCALE-support: "true"
-  truecharts.org/category: media
+  truecharts.org/category: productivity
   truecharts.org/max_helm_version: "3.13"
   truecharts.org/min_helm_version: "3.12"
   truecharts.org/train: stable
 apiVersion: v2
-appVersion: 0.14.3
+appVersion: "17.0"
 dependencies:
   - name: common
     version: 17.2.22
@@ -17,20 +17,26 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Homarr is a simple and lightweight homepage for your server, that helps you easily access all of your services in one place.
-home: https://truecharts.org/charts/stable/homarr
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/homarr.png
+description: All-in-one business software. Beautiful. Easy-to-use. CRM, Accounting, PM, HR, Procurement, Point of Sale, MRP, Marketing, etc.
+home: https://truecharts.org/charts/stable/odoo
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/odoo.png
 keywords:
-  - dashboard
+  - odoo
+  - crm
+  - pm
+  - hr
+  - accounting
+  - mrp
+  - marketing
 kubeVersion: ">=1.24.0-0"
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: homarr
+name: odoo
 sources:
-  - https://github.com/ajnart/homarr
-  - https://github.com/truecharts/charts/tree/master/charts/stable/homarr
-  - https://ghcr.io/ajnart/homarr
+  - https://github.com/odoo/docker
+  - https://github.com/truecharts/charts/tree/master/charts/stable/odoo
+  - https://hub.docker.com/_/odoo
 type: application
-version: 9.1.7
+version: 16.1.8

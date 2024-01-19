@@ -2,12 +2,12 @@ annotations:
   max_scale_version: 23.10.2
   min_scale_version: 23.10.0
   truecharts.org/SCALE-support: "true"
-  truecharts.org/category: network
+  truecharts.org/category: media
   truecharts.org/max_helm_version: "3.13"
   truecharts.org/min_helm_version: "3.12"
   truecharts.org/train: stable
 apiVersion: v2
-appVersion: 2024.1.2
+appVersion: 4.6.2
 dependencies:
   - name: common
     version: 17.2.22
@@ -17,20 +17,21 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Client for Cloudflare Tunnel, a daemon that exposes private services through the Cloudflare edge.
-home: https://truecharts.org/charts/stable/cloudflared
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/cloudflared.png
+description: qBittorrent is a cross-platform free and open-source BitTorrent client
+home: https://truecharts.org/charts/stable/qbittorrent
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/qbittorrent.png
 keywords:
-  - cloudflared
-  - networking
+  - qbittorrent
+  - torrrent
 kubeVersion: ">=1.24.0-0"
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: cloudflared
+name: qbittorrent
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/cloudflared
-  - https://hub.docker.com/r/cloudflare/cloudflared
+  - https://github.com/qbittorrent/qBittorrent
+  - https://github.com/truecharts/charts/tree/master/charts/stable/qbittorrent
+  - https://hub.docker.com/r/mjmeli/qbittorrent-port-forward-gluetun-server
 type: application
-version: 9.0.2
+version: 18.1.7
