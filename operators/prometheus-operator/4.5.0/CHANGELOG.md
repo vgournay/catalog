@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [prometheus-operator-4.5.0](https://github.com/truecharts/charts/compare/prometheus-operator-4.4.0...prometheus-operator-4.5.0) (2024-01-19)
+
+### Chore
+
+
+
+- update helm general minor by renovate ([#17309](https://github.com/truecharts/charts/issues/17309))
+
+
 
 
 ## [prometheus-operator-4.4.0](https://github.com/truecharts/charts/compare/prometheus-operator-4.3.1...prometheus-operator-4.4.0) (2024-01-13)
@@ -85,15 +94,6 @@ title: Changelog
 
 
 ## [prometheus-operator-3.1.4](https://github.com/truecharts/charts/compare/prometheus-operator-3.1.3...prometheus-operator-3.1.4) (2024-01-01)
-
-### Chore
-
-
-
-- ensure everything is bumped into oci
-
-
-## [prometheus-operator-3.1.3](https://github.com/truecharts/charts/compare/prometheus-operator-3.1.0...prometheus-operator-3.1.3) (2024-01-01)
 
 ### Chore
 
