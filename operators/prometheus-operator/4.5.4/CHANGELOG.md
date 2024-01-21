@@ -1,0 +1,99 @@
+---
+title: Changelog
+---
+
+**Important:**
+*for the complete changelog, please refer to the website*
+
+
+
+## [prometheus-operator-4.5.4](https://github.com/truecharts/charts/compare/prometheus-operator-4.5.3...prometheus-operator-4.5.4) (2024-01-21)
+
+### Chore
+
+
+
+- update container image common to v17.2.28[@918b4c5](https://github.com/918b4c5) by renovate ([#17478](https://github.com/truecharts/charts/issues/17478))
+
+
+## [prometheus-operator-4.5.3](https://github.com/truecharts/charts/compare/prometheus-operator-4.5.2...prometheus-operator-4.5.3) (2024-01-21)
+
+### Chore
+
+
+
+- update container image tccr.io/tccr/alpine to latest[@14eaf3f](https://github.com/14eaf3f) by renovate ([#17470](https://github.com/truecharts/charts/issues/17470))
+
+
+## [prometheus-operator-4.5.2](https://github.com/truecharts/charts/compare/prometheus-operator-4.5.1...prometheus-operator-4.5.2) (2024-01-21)
+
+### Chore
+
+
+
+- update container image common to v17.2.26[@24c98f7](https://github.com/24c98f7) by renovate ([#17409](https://github.com/truecharts/charts/issues/17409))
+
+
+## [prometheus-operator-4.5.1](https://github.com/truecharts/charts/compare/prometheus-operator-4.5.0...prometheus-operator-4.5.1) (2024-01-21)
+
+### Chore
+
+
+
+- update metadata in chart.yaml ([#17457](https://github.com/truecharts/charts/issues/17457))
+
+
+## [prometheus-operator-4.5.0](https://github.com/truecharts/charts/compare/prometheus-operator-4.4.0...prometheus-operator-4.5.0) (2024-01-19)
+
+### Chore
+
+
+
+- update helm general minor by renovate ([#17309](https://github.com/truecharts/charts/issues/17309))
+
+
+
+
+## [prometheus-operator-4.4.0](https://github.com/truecharts/charts/compare/prometheus-operator-4.3.1...prometheus-operator-4.4.0) (2024-01-13)
+
+### Chore
+
+
+
+- update helm chart kube-prometheus-stack to 55.8.1 by renovate ([#17109](https://github.com/truecharts/charts/issues/17109))
+
+
+## [prometheus-operator-4.3.1](https://github.com/truecharts/charts/compare/prometheus-operator-4.3.0...prometheus-operator-4.3.1) (2024-01-09)
+
+### Chore
+
+
+
+- update container image common to v17.2.22[@e7c9056](https://github.com/e7c9056) by renovate ([#16986](https://github.com/truecharts/charts/issues/16986))
+
+
+## [prometheus-operator-4.3.0](https://github.com/truecharts/charts/compare/prometheus-operator-4.2.0...prometheus-operator-4.3.0) (2024-01-09)
+
+### Chore
+
+
+
+- update helm chart kube-prometheus-stack to 55.7.0 by renovate ([#17058](https://github.com/truecharts/charts/issues/17058))
+
+
+## [prometheus-operator-4.2.0](https://github.com/truecharts/charts/compare/prometheus-operator-4.1.0...prometheus-operator-4.2.0) (2024-01-07)
+
+
+## [prometheus-operator-4.1.0](https://github.com/truecharts/charts/compare/prometheus-operator-4.0.0...prometheus-operator-4.1.0) (2024-01-05)
+
+### Chore
+
+
+
+- update helm chart kube-prometheus-stack to 55.6.0 by renovate ([#16897](https://github.com/truecharts/charts/issues/16897))
+
+
+## [prometheus-operator-4.0.0](https://github.com/truecharts/charts/compare/prometheus-operator-3.1.7...prometheus-operator-4.0.0) (2024-01-02)
+
+### Feat
+

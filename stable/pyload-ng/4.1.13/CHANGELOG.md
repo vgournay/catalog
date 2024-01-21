@@ -1,0 +1,99 @@
+---
+title: Changelog
+---
+
+**Important:**
+*for the complete changelog, please refer to the website*
+
+
+
+## [pyload-ng-4.1.13](https://github.com/truecharts/charts/compare/pyload-ng-4.1.12...pyload-ng-4.1.13) (2024-01-21)
+
+### Chore
+
+
+
+- update container image common to v17.2.28[@918b4c5](https://github.com/918b4c5) by renovate ([#17478](https://github.com/truecharts/charts/issues/17478))
+
+
+## [pyload-ng-4.1.12](https://github.com/truecharts/charts/compare/pyload-ng-4.1.11...pyload-ng-4.1.12) (2024-01-21)
+
+### Chore
+
+
+
+- update container image common to v17.2.26[@24c98f7](https://github.com/24c98f7) by renovate ([#17409](https://github.com/truecharts/charts/issues/17409))
+
+
+## [pyload-ng-4.1.11](https://github.com/truecharts/charts/compare/pyload-ng-4.1.10...pyload-ng-4.1.11) (2024-01-21)
+
+### Chore
+
+
+
+- update metadata in chart.yaml ([#17457](https://github.com/truecharts/charts/issues/17457))
+
+
+## [pyload-ng-4.1.10](https://github.com/truecharts/charts/compare/pyload-ng-4.1.9...pyload-ng-4.1.10) (2024-01-21)
+
+### Chore
+
+
+
+- update container image lscr.io/linuxserver/pyload-ng to latest[@573e73a](https://github.com/573e73a) by renovate ([#17383](https://github.com/truecharts/charts/issues/17383))
+
+
+## [pyload-ng-4.1.9](https://github.com/truecharts/charts/compare/pyload-ng-4.1.8...pyload-ng-4.1.9) (2024-01-14)
+
+### Chore
+
+
+
+- update container image lscr.io/linuxserver/pyload-ng to latest[@40ec7a3](https://github.com/40ec7a3) by renovate ([#17165](https://github.com/truecharts/charts/issues/17165))
+
+
+
+
+## [pyload-ng-4.1.8](https://github.com/truecharts/charts/compare/pyload-ng-4.1.7...pyload-ng-4.1.8) (2024-01-09)
+
+### Chore
+
+
+
+- update container image common to v17.2.22[@e7c9056](https://github.com/e7c9056) by renovate ([#16986](https://github.com/truecharts/charts/issues/16986))
+
+
+## [pyload-ng-4.1.7](https://github.com/truecharts/charts/compare/pyload-ng-4.1.6...pyload-ng-4.1.7) (2024-01-08)
+
+### Chore
+
+
+
+- update container image lscr.io/linuxserver/pyload-ng to latest[@d7ed206](https://github.com/d7ed206) by renovate ([#16958](https://github.com/truecharts/charts/issues/16958))
+
+
+## [pyload-ng-4.1.6](https://github.com/truecharts/charts/compare/pyload-ng-4.1.5...pyload-ng-4.1.6) (2024-01-02)
+
+### Chore
+
+
+
+- force bump to ensure up-to-date catalogs
+
+
+## [pyload-ng-4.1.5](https://github.com/truecharts/charts/compare/pyload-ng-4.1.4...pyload-ng-4.1.5) (2024-01-01)
+
+### Chore
+
+
+
+- increase common version for oci fixes
+
+- remove non-existent template refs ([#16738](https://github.com/truecharts/charts/issues/16738))
+
+
+## [pyload-ng-4.1.4](https://github.com/truecharts/charts/compare/pyload-ng-4.1.1...pyload-ng-4.1.4) (2024-01-01)
+
+### Chore
+
+
