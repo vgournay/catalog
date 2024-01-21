@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [velero-3.1.14](https://github.com/truecharts/charts/compare/velero-3.1.13...velero-3.1.14) (2024-01-21)
+
+### Chore
+
+
+
+- update helm general non-major by renovate ([#17286](https://github.com/truecharts/charts/issues/17286))
+
+
 ## [velero-3.1.13](https://github.com/truecharts/charts/compare/velero-3.1.12...velero-3.1.13) (2024-01-21)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 - fix some refs ([#16749](https://github.com/truecharts/charts/issues/16749))
 
 
-## [velero-3.1.4](https://github.com/truecharts/charts/compare/velero-3.1.3...velero-3.1.4) (2024-01-01)
-
-### Chore
-
-
-
-- increase common version for oci fixes
-
-- remove non-existent template refs ([#16738](https://github.com/truecharts/charts/issues/16738))
