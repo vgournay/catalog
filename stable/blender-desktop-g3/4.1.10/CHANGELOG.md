@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [blender-desktop-g3-4.1.10](https://github.com/truecharts/charts/compare/blender-desktop-g3-4.1.9...blender-desktop-g3-4.1.10) (2024-01-21)
+
+### Chore
+
+
+
+- update container image accetto/ubuntu-vnc-xfce-blender-g3 to latest[@3213d60](https://github.com/3213d60) by renovate ([#17475](https://github.com/truecharts/charts/issues/17475))
+
+
 ## [blender-desktop-g3-4.1.9](https://github.com/truecharts/charts/compare/blender-desktop-g3-4.1.8...blender-desktop-g3-4.1.9) (2024-01-21)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 
 ### Chore
 
-
-
-- bump all charts for OCI test push
-
-- move everything to consume OCI-hosted common-chart dependency
-
-- update container image common to v17.2.18[@085ba3c](https://github.com/085ba3c) by renovate ([#16732](https://github.com/truecharts/charts/issues/16732))
-
-- standardize ./img references ([#16704](https://github.com/truecharts/charts/issues/16704))
