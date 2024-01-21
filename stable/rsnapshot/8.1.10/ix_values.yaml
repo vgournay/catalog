@@ -1,0 +1,37 @@
+image:
+  repository: ghcr.io/linuxserver/rsnapshot
+  pullPolicy: IfNotPresent
+  tag: 1.4.5@sha256:7c74f9e799a6b54b76da943c2e8264ea0f628d12f170bdfa0807000c2426e4c9
+service:
+  main:
+    enabled: false
+    ports:
+      main:
+        enabled: false
+persistence:
+  varrun:
+    enabled: true
+  config:
+    enabled: true
+    mountPath: "/config"
+portal:
+  open:
+    enabled: false
+securityContext:
+  container:
+    runAsNonRoot: false
+    readOnlyRootFilesystem: false
+    runAsUser: 0
+    runAsGroup: 0
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              enabled: false
+            readiness:
+              enabled: false
+            startup:
+              enabled: false
