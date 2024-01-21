@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [firefox-desktop-g3-4.1.7](https://github.com/truecharts/charts/compare/firefox-desktop-g3-4.1.6...firefox-desktop-g3-4.1.7) (2024-01-21)
+
+### Chore
+
+
+
+- update container image accetto/ubuntu-vnc-xfce-firefox-g3 to latest[@d7e96e1](https://github.com/d7e96e1) by renovate ([#17321](https://github.com/truecharts/charts/issues/17321))
+
+
 
 
 ## [firefox-desktop-g3-4.1.6](https://github.com/truecharts/charts/compare/firefox-desktop-g3-4.1.5...firefox-desktop-g3-4.1.6) (2024-01-09)
@@ -88,12 +97,3 @@ title: Changelog
 
 ### Chore
 
-- update helm chart common to 17.1.0 by renovate ([#16532](https://github.com/truecharts/charts/issues/16532))
-
-## [firefox-desktop-g3-3.0.18](https://github.com/truecharts/charts/compare/firefox-desktop-g3-3.0.17...firefox-desktop-g3-3.0.18) (2023-12-24)
-
-### Chore
-
-- update helm general non-major by renovate ([#16384](https://github.com/truecharts/charts/issues/16384))
-
-## [firefox-desktop-g3-3.0.17](https://github.com/truecharts/charts/compare/firefox-desktop-g3-3.0.16...firefox-desktop-g3-3.0.17) (2023-12-24)
