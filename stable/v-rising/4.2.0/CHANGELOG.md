@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [v-rising-4.2.0](https://github.com/truecharts/charts/compare/v-rising-4.1.6...v-rising-4.2.0) (2024-01-21)
+
+### Feat
+
+
+
+- Add Steam Query port ([#17313](https://github.com/truecharts/charts/issues/17313))
+
+
 
 
 ## [v-rising-4.1.6](https://github.com/truecharts/charts/compare/v-rising-4.1.5...v-rising-4.1.6) (2024-01-09)
@@ -88,12 +97,3 @@ title: Changelog
 
 ### Chore
 
-- update helm chart common to 17.1.0 by renovate ([#16532](https://github.com/truecharts/charts/issues/16532))
-
-## [v-rising-3.0.17](https://github.com/truecharts/charts/compare/v-rising-3.0.16...v-rising-3.0.17) (2023-12-24)
-
-### Chore
-
-- update helm general non-major by renovate ([#16384](https://github.com/truecharts/charts/issues/16384))
-
-## [v-rising-3.0.16](https://github.com/truecharts/charts/compare/v-rising-3.0.15...v-rising-3.0.16) (2023-12-24)
