@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [ntfy-8.2.0](https://github.com/truecharts/charts/compare/ntfy-8.1.6...ntfy-8.2.0) (2024-01-21)
+
+### Feat
+
+
+
+- Add nfty_upstream_base_url env var ([#17314](https://github.com/truecharts/charts/issues/17314))
+
+
 
 
 ## [ntfy-8.1.6](https://github.com/truecharts/charts/compare/ntfy-8.1.5...ntfy-8.1.6) (2024-01-09)
@@ -88,12 +97,3 @@ title: Changelog
 
 ### Chore
 
-- update helm chart common to 17.1.0 by renovate ([#16532](https://github.com/truecharts/charts/issues/16532))
-
-## [ntfy-7.0.11](https://github.com/truecharts/charts/compare/ntfy-7.0.10...ntfy-7.0.11) (2023-12-24)
-
-### Chore
-
-- update helm general non-major by renovate ([#16384](https://github.com/truecharts/charts/issues/16384))
-
-## [ntfy-7.0.10](https://github.com/truecharts/charts/compare/ntfy-7.0.9...ntfy-7.0.10) (2023-12-24)
