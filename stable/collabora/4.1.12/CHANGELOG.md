@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [collabora-4.1.12](https://github.com/truecharts/charts/compare/collabora-4.1.11...collabora-4.1.12) (2024-01-22)
+
+### Chore
+
+
+
+- update container image collabora/code to v23.05.7.5.1[@a11740e](https://github.com/a11740e) by renovate ([#17506](https://github.com/truecharts/charts/issues/17506))
+
+
 ## [collabora-4.1.11](https://github.com/truecharts/charts/compare/collabora-4.1.10...collabora-4.1.11) (2024-01-21)
 
 ### Chore
@@ -87,13 +96,4 @@ title: Changelog
 
 ### Chore
 
-
-
-- bump all charts for OCI test push
-
-- move everything to consume OCI-hosted common-chart dependency
-
-- update container image common to v17.2.19[@4ebb688](https://github.com/4ebb688) by renovate ([#16733](https://github.com/truecharts/charts/issues/16733))
-
-- update container image common to v17.2.18[@085ba3c](https://github.com/085ba3c) by renovate ([#16732](https://github.com/truecharts/charts/issues/16732))
 
