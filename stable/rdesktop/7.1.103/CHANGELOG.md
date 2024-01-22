@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [rdesktop-7.1.103](https://github.com/truecharts/charts/compare/rdesktop-7.1.93...rdesktop-7.1.103) (2024-01-22)
+
+### Chore
+
+
+
+- update rdesktop by renovate ([#17484](https://github.com/truecharts/charts/issues/17484))
+
+
 ## [rdesktop-7.1.93](https://github.com/truecharts/charts/compare/rdesktop-7.1.92...rdesktop-7.1.93) (2024-01-21)
 
 ### Chore
@@ -86,14 +95,5 @@ title: Changelog
 
 
 - update container image common to v17.2.22[@e7c9056](https://github.com/e7c9056) by renovate ([#16986](https://github.com/truecharts/charts/issues/16986))
-
-
-## [rdesktop-7.1.41](https://github.com/truecharts/charts/compare/rdesktop-7.1.24...rdesktop-7.1.41) (2024-01-08)
-
-### Chore
-
-
-
-- update rdesktop by renovate ([#16887](https://github.com/truecharts/charts/issues/16887))
 
 
