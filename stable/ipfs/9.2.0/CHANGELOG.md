@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [ipfs-9.2.0](https://github.com/truecharts/charts/compare/ipfs-9.1.9...ipfs-9.2.0) (2024-01-22)
+
+### Chore
+
+
+
+- update container image ipfs/kubo to v0.26.0[@cba0b2f](https://github.com/cba0b2f) by renovate ([#17519](https://github.com/truecharts/charts/issues/17519))
+
+
 ## [ipfs-9.1.9](https://github.com/truecharts/charts/compare/ipfs-9.1.8...ipfs-9.1.9) (2024-01-21)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 
 ### Chore
 
-
-
-- bump all charts for OCI test push
-
-- move everything to consume OCI-hosted common-chart dependency
-
-- update container image common to v17.2.18[@085ba3c](https://github.com/085ba3c) by renovate ([#16732](https://github.com/truecharts/charts/issues/16732))
-
-- standardize ./img references ([#16704](https://github.com/truecharts/charts/issues/16704))
