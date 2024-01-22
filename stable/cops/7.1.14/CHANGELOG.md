@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [cops-7.1.14](https://github.com/truecharts/charts/compare/cops-7.1.13...cops-7.1.14) (2024-01-22)
+
+### Chore
+
+
+
+- update container image lscr.io/linuxserver/cops to 2.2.1[@4fc2dfa](https://github.com/4fc2dfa) by renovate ([#17482](https://github.com/truecharts/charts/issues/17482))
+
+
 ## [cops-7.1.13](https://github.com/truecharts/charts/compare/cops-7.1.12...cops-7.1.13) (2024-01-21)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 
 
 - increase common version for oci fixes
-
-- remove non-existent template refs ([#16738](https://github.com/truecharts/charts/issues/16738))
-
-
-## [cops-7.1.4](https://github.com/truecharts/charts/compare/cops-7.1.1...cops-7.1.4) (2024-01-01)
-
-### Chore
-
-
