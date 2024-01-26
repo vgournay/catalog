@@ -2,12 +2,12 @@ annotations:
   max_scale_version: 23.10.2
   min_scale_version: 23.10.0
   truecharts.org/SCALE-support: "true"
-  truecharts.org/category: Cloud
+  truecharts.org/category: rss
   truecharts.org/max_helm_version: "3.14"
   truecharts.org/min_helm_version: "3.12"
-  truecharts.org/train: stable
+  truecharts.org/train: incubator
 apiVersion: v2
-appVersion: latest
+appVersion: 3.0.0
 dependencies:
   - name: common
     version: 17.2.29
@@ -17,21 +17,21 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: A fork of Mozilla's Firefox Send.Mozilla discontinued Send, this fork is a community effort to keep the project up-to-date and alive.
-home: https://truecharts.org/charts/stable/send
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/send.png
+description: Tiny Tiny RSS is a free and open source web-based news feed (RSS/Atom) reader and aggregator.
+home: https://truecharts.org/charts/stable/tt-rss
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/tt-rss.png
 keywords:
-  - send
-  - Cloud
-  - Tools-Utilities
+  - tt-rss
+  - rss
 kubeVersion: ">=1.24.0-0"
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: send
+name: tt-rss
 sources:
-  - https://gitlab.com/timvisee/send
-  - https://github.com/truecharts/charts/tree/master/charts/stable/send
+  - https://git.tt-rss.org/fox/tt-rss
+  - https://github.com/truecharts/charts/tree/master/charts/stable/tt-rss
+  - https://hub.docker.com/r/cthulhoo/ttrss-fpm-pgsql-static/tags
 type: application
-version: 4.1.10
+version: 15.0.0
