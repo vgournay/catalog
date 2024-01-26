@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [cloudflared-9.0.8](https://github.com/truecharts/charts/compare/cloudflared-9.0.7...cloudflared-9.0.8) (2024-01-26)
+
+### Chore
+
+
+
+- update container image cloudflare/cloudflared to v2024.1.5[@76f61ae](https://github.com/76f61ae) by renovate ([#17544](https://github.com/truecharts/charts/issues/17544))
+
+
 ## [cloudflared-9.0.7](https://github.com/truecharts/charts/compare/cloudflared-9.0.6...cloudflared-9.0.7) (2024-01-21)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 
 
 - force bump to ensure up-to-date catalogs
-
-
-## [cloudflared-8.1.5](https://github.com/truecharts/charts/compare/cloudflared-8.1.4...cloudflared-8.1.5) (2024-01-02)
-
-### Chore
-
-
-
-- bump common ([#16751](https://github.com/truecharts/charts/issues/16751))
