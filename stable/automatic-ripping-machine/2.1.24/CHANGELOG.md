@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [automatic-ripping-machine-2.1.24](https://github.com/truecharts/charts/compare/automatic-ripping-machine-2.1.23...automatic-ripping-machine-2.1.24) (2024-01-26)
+
+### Chore
+
+
+
+- update container image automaticrippingmachine/automatic-ripping-machine to 2.6.69[@e7c109c](https://github.com/e7c109c) by renovate ([#17538](https://github.com/truecharts/charts/issues/17538))
+
+
 ## [automatic-ripping-machine-2.1.23](https://github.com/truecharts/charts/compare/automatic-ripping-machine-2.1.22...automatic-ripping-machine-2.1.23) (2024-01-22)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 - update container image automaticrippingmachine/automatic-ripping-machine to 2.6.67[@ebbb521](https://github.com/ebbb521) by renovate ([#17115](https://github.com/truecharts/charts/issues/17115))
 
 
-
-
-## [automatic-ripping-machine-2.1.14](https://github.com/truecharts/charts/compare/automatic-ripping-machine-2.1.13...automatic-ripping-machine-2.1.14) (2024-01-09)
-
-### Chore
-
-
-
-- update container image common to v17.2.22[@e7c9056](https://github.com/e7c9056) by renovate ([#16986](https://github.com/truecharts/charts/issues/16986))
