@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [jenkins-6.6.0](https://github.com/truecharts/charts/compare/jenkins-6.5.3...jenkins-6.6.0) (2024-01-26)
+
+### Chore
+
+
+
+- update container image jenkins/jenkins to v2.442-jdk17[@9ab4468](https://github.com/9ab4468) by renovate ([#17552](https://github.com/truecharts/charts/issues/17552))
+
+
 ## [jenkins-6.5.3](https://github.com/truecharts/charts/compare/jenkins-6.5.2...jenkins-6.5.3) (2024-01-21)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 - increase common version for oci fixes
 
 - remove non-existent template refs ([#16738](https://github.com/truecharts/charts/issues/16738))
-
-
-## [jenkins-6.2.3](https://github.com/truecharts/charts/compare/jenkins-6.2.0...jenkins-6.2.3) (2024-01-01)
-
-### Chore
-
-
-
-- bump all charts for OCI test push
