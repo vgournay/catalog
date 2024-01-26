@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [ispy-agent-dvr-8.2.6](https://github.com/truecharts/charts/compare/ispy-agent-dvr-8.2.5...ispy-agent-dvr-8.2.6) (2024-01-26)
+
+### Chore
+
+
+
+- update container image doitandbedone/ispyagentdvr to v5.2.4.0[@9519d08](https://github.com/9519d08) by renovate ([#17546](https://github.com/truecharts/charts/issues/17546))
+
+
 ## [ispy-agent-dvr-8.2.5](https://github.com/truecharts/charts/compare/ispy-agent-dvr-8.2.4...ispy-agent-dvr-8.2.5) (2024-01-21)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 
 
 - force bump to ensure up-to-date catalogs
-
-
-## [ispy-agent-dvr-8.1.4](https://github.com/truecharts/charts/compare/ispy-agent-dvr-8.1.3...ispy-agent-dvr-8.1.4) (2024-01-01)
-
-### Chore
-
-
-
-- increase common version for oci fixes
