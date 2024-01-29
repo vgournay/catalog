@@ -7,6 +7,9 @@ title: Changelog
 
 
 
+## [speedtest-exporter-9.1.12](https://github.com/truecharts/charts/compare/speedtest-exporter-9.1.11...speedtest-exporter-9.1.12) (2024-01-29)
+
+
 ## [speedtest-exporter-9.1.11](https://github.com/truecharts/charts/compare/speedtest-exporter-9.1.10...speedtest-exporter-9.1.11) (2024-01-27)
 
 
@@ -94,6 +97,3 @@ title: Changelog
 - standardize ./img references ([#16704](https://github.com/truecharts/charts/issues/16704))
 
 - lints some docs, uses front-matter instead of # h1, and fix list items in changelog ([#16589](https://github.com/truecharts/charts/issues/16589))
-
-
-## [speedtest-exporter-9.1.2](https://github.com/truecharts/charts/compare/speedtest-exporter-9.1.0...speedtest-exporter-9.1.2) (2024-01-01)
