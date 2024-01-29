@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [impostor-server-7.2.1](https://github.com/truecharts/charts/compare/impostor-server-7.2.0...impostor-server-7.2.1) (2024-01-29)
+
+### Chore
+
+
+
+- update container image aeonlucid/impostor to nightly[@0b568b3](https://github.com/0b568b3) by renovate ([#17576](https://github.com/truecharts/charts/issues/17576))
+
+
 ## [impostor-server-7.2.0](https://github.com/truecharts/charts/compare/impostor-server-7.1.13...impostor-server-7.2.0) (2024-01-29)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 
 
 - fix some refs ([#16749](https://github.com/truecharts/charts/issues/16749))
-
-
-## [impostor-server-7.1.4](https://github.com/truecharts/charts/compare/impostor-server-7.1.3...impostor-server-7.1.4) (2024-01-01)
-
-### Chore
-
-
-
-- increase common version for oci fixes
