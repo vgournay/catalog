@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [rimgo-5.1.33](https://github.com/truecharts/charts/compare/rimgo-5.1.32...rimgo-5.1.33) (2024-01-29)
+
+### Chore
+
+
+
+- update container image quay.io/pussthecatorg/rimgo to latest[@c42bc1d](https://github.com/c42bc1d) by renovate ([#17732](https://github.com/truecharts/charts/issues/17732))
+
+
 ## [rimgo-5.1.32](https://github.com/truecharts/charts/compare/rimgo-5.1.31...rimgo-5.1.32) (2024-01-29)
 
 ### Chore
@@ -86,14 +95,5 @@ title: Changelog
 
 
 - update container image common to v17.2.26[@24c98f7](https://github.com/24c98f7) by renovate ([#17409](https://github.com/truecharts/charts/issues/17409))
-
-
-## [rimgo-5.1.23](https://github.com/truecharts/charts/compare/rimgo-5.1.22...rimgo-5.1.23) (2024-01-21)
-
-### Chore
-
-
-
-- update metadata in chart.yaml ([#17457](https://github.com/truecharts/charts/issues/17457))
 
 
