@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [local-ai-8.25.0](https://github.com/truecharts/charts/compare/local-ai-8.20.11...local-ai-8.25.0) (2024-01-29)
+
+### Chore
+
+
+
+- update container image docker.io/localai/localai to v2.7.0 by renovate ([#17733](https://github.com/truecharts/charts/issues/17733))
+
+
 ## [local-ai-8.20.11](https://github.com/truecharts/charts/compare/local-ai-8.20.5...local-ai-8.20.11) (2024-01-29)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 - update container image docker.io/localai/localai to v[@c9cb2cd](https://github.com/c9cb2cd) by renovate ([#17126](https://github.com/truecharts/charts/issues/17126))
 
 
-
-
-## [local-ai-8.14.1](https://github.com/truecharts/charts/compare/local-ai-8.14.0...local-ai-8.14.1) (2024-01-09)
-
-### Chore
-
-
-
-- update container image common to v17.2.22[@e7c9056](https://github.com/e7c9056) by renovate ([#16986](https://github.com/truecharts/charts/issues/16986))
