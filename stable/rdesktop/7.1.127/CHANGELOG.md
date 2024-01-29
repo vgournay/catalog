@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [rdesktop-7.1.127](https://github.com/truecharts/charts/compare/rdesktop-7.1.126...rdesktop-7.1.127) (2024-01-29)
+
+### Chore
+
+
+
+- update container image lscr.io/linuxserver/rdesktop to ubuntu-kde[@b7593e8](https://github.com/b7593e8) by renovate ([#17720](https://github.com/truecharts/charts/issues/17720))
+
+
 ## [rdesktop-7.1.126](https://github.com/truecharts/charts/compare/rdesktop-7.1.104...rdesktop-7.1.126) (2024-01-29)
 
 ### Chore
@@ -86,14 +95,5 @@ title: Changelog
 
 
 - update container image lscr.io/linuxserver/rdesktop to latest[@df6bc9e](https://github.com/df6bc9e) by renovate ([#17256](https://github.com/truecharts/charts/issues/17256))
-
-
-## [rdesktop-7.1.64](https://github.com/truecharts/charts/compare/rdesktop-7.1.48...rdesktop-7.1.64) (2024-01-15)
-
-### Chore
-
-
-
-- update rdesktop by renovate ([#17243](https://github.com/truecharts/charts/issues/17243))
 
 
