@@ -156,6 +156,31 @@ questions:
       default: "Etc/UTC"
       $ref:
         - "definitions/timezone"
+
+  - variable: autobrr
+    group: App Configuration
+    label: Autobrr Configuration
+    schema:
+      additional_attrs: true
+      type: dict
+      attrs:
+        - variable: log_level
+          label: Log Level
+          schema:
+            type: string
+            default: "DEBUG"
+            enum:
+              - value: "ERROR"
+                description: "Error"
+              - value: "DEBUG"
+                description: "Debug"
+              - value: "INFO"
+                description: "Info"
+              - value: "WARN"
+                description: "Warn"
+              - value: "TRACE"
+                description: "Trace"
+
   - variable: podOptions
     group: "General Settings"
     label: "Global Pod Options (Advanced)"

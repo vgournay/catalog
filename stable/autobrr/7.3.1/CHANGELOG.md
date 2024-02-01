@@ -7,6 +7,9 @@ title: Changelog
 
 
 
+## [autobrr-7.3.1](https://github.com/truecharts/charts/compare/autobrr-7.3.0...autobrr-7.3.1) (2024-02-01)
+
+
 ## [autobrr-7.3.0](https://github.com/truecharts/charts/compare/autobrr-7.2.4...autobrr-7.3.0) (2024-01-29)
 
 ### Chore
@@ -94,6 +97,3 @@ title: Changelog
 
 ### Chore
 
-
-
-- increase common version for oci fixes
