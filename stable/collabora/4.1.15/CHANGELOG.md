@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [collabora-4.1.15](https://github.com/truecharts/charts/compare/collabora-4.1.14...collabora-4.1.15) (2024-02-02)
+
+### Chore
+
+
+
+- update container image collabora/code to v23.05.8.4.1[@451616b](https://github.com/451616b) by renovate ([#17783](https://github.com/truecharts/charts/issues/17783))
+
+
 ## [collabora-4.1.14](https://github.com/truecharts/charts/compare/collabora-4.1.13...collabora-4.1.14) (2024-01-29)
 
 ### Chore
@@ -84,15 +93,6 @@ title: Changelog
 
 
 ## [collabora-4.1.6](https://github.com/truecharts/charts/compare/collabora-4.1.5...collabora-4.1.6) (2024-01-02)
-
-### Chore
-
-
-
-- force bump to ensure up-to-date catalogs
-
-
-## [collabora-4.1.5](https://github.com/truecharts/charts/compare/collabora-4.1.4...collabora-4.1.5) (2024-01-02)
 
 ### Chore
 
