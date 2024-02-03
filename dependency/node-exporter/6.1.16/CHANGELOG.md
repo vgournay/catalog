@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [node-exporter-6.1.16](https://github.com/truecharts/charts/compare/node-exporter-6.1.15...node-exporter-6.1.16) (2024-02-03)
+
+### Chore
+
+
+
+- update container image bitnami/node-exporter to 1.7.0[@5e3b4dd](https://github.com/5e3b4dd) by renovate ([#17794](https://github.com/truecharts/charts/issues/17794))
+
+
 ## [node-exporter-6.1.15](https://github.com/truecharts/charts/compare/node-exporter-6.1.14...node-exporter-6.1.15) (2024-01-31)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 
 
 - update container image bitnami/node-exporter to 1.7.0[@20965dc](https://github.com/20965dc) by renovate ([#16924](https://github.com/truecharts/charts/issues/16924))
-
-
-## [node-exporter-6.1.6](https://github.com/truecharts/charts/compare/node-exporter-6.1.5...node-exporter-6.1.6) (2024-01-02)
-
-### Chore
-
-
-
-- force bump to ensure up-to-date catalogs
