@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [xen-orchestra-7.3.0](https://github.com/truecharts/charts/compare/xen-orchestra-7.2.14...xen-orchestra-7.3.0) (2024-02-03)
+
+### Chore
+
+
+
+- update container image ronivay/xen-orchestra to v5.135.0[@75cce0f](https://github.com/75cce0f) by renovate ([#17803](https://github.com/truecharts/charts/issues/17803))
+
+
 ## [xen-orchestra-7.2.14](https://github.com/truecharts/charts/compare/xen-orchestra-7.2.13...xen-orchestra-7.2.14) (2024-01-29)
 
 ### Chore
@@ -86,14 +95,5 @@ title: Changelog
 
 
 - update container image ronivay/xen-orchestra to 5.132.0[@00d70f1](https://github.com/00d70f1) by renovate ([#16964](https://github.com/truecharts/charts/issues/16964))
-
-
-## [xen-orchestra-7.2.5](https://github.com/truecharts/charts/compare/xen-orchestra-7.2.4...xen-orchestra-7.2.5) (2024-01-02)
-
-### Chore
-
-
-
-- force bump to ensure up-to-date catalogs
 
 
