@@ -99,31 +99,238 @@ questions:
                               additional_attrs: true
                               type: dict
                               attrs:
-                                - variable: env
-                                  label: Image Environment
+                                - variable: envList
+                                  label: Extra Environment Variables
+                                  description: "Please be aware that some variables are set in the background, adding duplicates here might cause issues or prevent the app from starting..."
                                   schema:
-                                    additional_attrs: true
-                                    type: dict
-                                    attrs:
-                                      - variable: LIVEBOOK_PASSWORD
-                                        label: "Password (LIVEBOOK_PASSWORD)"
-                                        description: "Password needed to access livebook (must be at least 12 characters)"
+                                    type: list
+                                    default: []
+                                    items:
+                                      - variable: envItem
+                                        label: Environment Variable
+                                        schema:
+                                          additional_attrs: true
+                                          type: dict
+                                          attrs:
+                                            - variable: name
+                                              label: Name
+                                              schema:
+                                                type: string
+                                            - variable: value
+                                              label: Value
+                                              schema:
+                                                type: string
+                                - variable: extraArgs
+                                  label: Extra Args
+                                  schema:
+                                    type: list
+                                    default: []
+                                    items:
+                                      - variable: arg
+                                        label: Arg
                                         schema:
                                           type: string
-                                          required: true
-                                          private: true
-                                      - variable: LIVEBOOK_DEBUG
-                                        label: "Debug Logging (LIVEBOOK_DEBUG)"
-                                        description: >
-                                          enables verbose logging, when set to "true". Disabled by default.
+                                - variable: advanced
+                                  label: Show Advanced Settings
+                                  description: Advanced settings are not covered by TrueCharts Support
+                                  schema:
+                                    type: boolean
+                                    default: false
+                                    show_subquestions_if: true
+                                    subquestions:
+                                      - variable: command
+                                        label: Command
                                         schema:
-                                          type: boolean
-                                      - variable: LIVEBOOK_UPDATE_INSTRUCTIONS_URL
-                                        label: "Update instruction URL (LIVEBOOK_UPDATE_INSTRUCTIONS_URL)"
-                                        description: >
-                                          sets the URL to direct the user to for updating Livebook when a new version becomes available.
-                                        schema:
-                                          type: string
+                                          type: list
+                                          default: []
+                                          items:
+                                            - variable: param
+                                              label: Param
+                                              schema:
+                                                type: string
+  - variable: TZ
+    label: Timezone
+    group: "General Settings"
+    schema:
+      type: string
+      default: "Etc/UTC"
+      $ref:
+        - "definitions/timezone"
+  - variable: podOptions
+    group: "General Settings"
+    label: "Global Pod Options (Advanced)"
+    schema:
+      additional_attrs: true
+      type: dict
+      attrs:
+        - variable: expertPodOpts
+          label: "Expert - Pod Options"
+          schema:
+            type: boolean
+            default: false
+            show_subquestions_if: true
+            subquestions:
+              - variable: hostNetwork
+                label: "Host Networking"
+                schema:
+                  type: boolean
+                  default: false
+              - variable: dnsConfig
+                label: "DNS Configuration"
+                schema:
+                  type: dict
+                  additional_attrs: true
+                  attrs:
+                    - variable: options
+                      label: "Options"
+                      schema:
+                        type: list
+                        default: [{"name": "ndots", "value": "1"}]
+                        items:
+                          - variable: optionsEntry
+                            label: "Option Entry"
+                            schema:
+                              type: dict
+                              additional_attrs: true
+                              attrs:
+                                - variable: name
+                                  label: "Name"
+                                  schema:
+                                    type: string
+                                    required: true
+                                - variable: value
+                                  label: "Value"
+                                  schema:
+                                    type: string
+                    - variable: nameservers
+                      label: "Nameservers"
+                      schema:
+                        type: list
+                        default: []
+                        items:
+                          - variable: nsEntry
+                            label: "Nameserver Entry"
+                            schema:
+                              type: string
+                              required: true
+                    - variable: searches
+                      label: "Searches"
+                      schema:
+                        type: list
+                        default: []
+                        items:
+                          - variable: searchEntry
+                            label: "Search Entry"
+                            schema:
+                              type: string
+                              required: true
+
+  - variable: imagePullSecretList
+    group: "General Settings"
+    label: "Image Pull Secrets"
+    schema:
+      type: list
+      default: []
+      items:
+        - variable: pullsecretentry
+          label: "Pull Secret"
+          schema:
+            type: dict
+            additional_attrs: true
+            attrs:
+              - variable: enabled
+                label: Enabled
+                schema:
+                  type: boolean
+                  default: true
+              - variable: data
+                label: Data
+                schema:
+                  type: dict
+                  additional_attrs: true
+                  attrs:
+                    - variable: registry
+                      label: "Registry"
+                      schema:
+                        type: string
+                        required: true
+                        default: "https://index.docker.io/v1/"
+                    - variable: username
+                      label: "Username"
+                      schema:
+                        type: string
+                        required: true
+                        default: ""
+                    - variable: password
+                      label: "Password"
+                      schema:
+                        type: string
+                        required: true
+                        private: true
+                        default: ""
+                    - variable: email
+                      label: "Email"
+                      schema:
+                        type: string
+                        required: true
+                        default: ""
+  - variable: livebook
+    group: App Configuration
+    label: Livebook
+    schema:
+      additional_attrs: true
+      type: dict
+      attrs:
+        - variable: password
+          label: "Password (LIVEBOOK_PASSWORD)"
+          description: Password needed to access livebook (must be at least 12 characters)
+          schema:
+            type: string
+            min_length: 12
+            required: true
+            private: true
+        - variable: debug
+          label: "Debug Logging (LIVEBOOK_DEBUG)"
+          description: >
+            Enables verbose logging, when set to "true". Disabled by default.
+          schema:
+            type: boolean
+            default: false
+        - variable: updateInstructionsUrl
+          label: "Update instruction URL (LIVEBOOK_UPDATE_INSTRUCTIONS_URL)"
+          description: >
+            Sets the URL to direct the user to for updating Livebook when a new version becomes available.
+          schema:
+            type: string
+        - variable: awsCredentials
+          label: AWS Credentials
+          schema:
+            additional_attrs: true
+            type: dict
+            attrs:
+              - variable: enabled
+                label: "Set AWS Credentials"
+                description: >
+                  Enable Livebook to read AWS Credentials from environment variables,
+                  AWS Credentials, EC2/ECS metadata when configuring S3 buckets.
+                schema:
+                  type: boolean
+                  default: false
+                  show_subquestions_if: true
+                  subquestions:
+                    - variable: accessKeyId
+                      label: "AWS Access Key ID"
+                      description: >
+                        AWS Access Key ID in case you want to configure AWS S3 Storage inside Livebook
+                      schema:
+                        type: string
+                    - variable: secretAccessKey
+                      label: "AWS Secret Access Key"
+                      description: >
+                        AWS Secret Access Key in case you want to configure AWS S3 Storage inside Livebook
+                      schema:
+                        type: string
+                        private: true
   - variable: service
     group: Networking and Services
     label: Configure Service(s)
@@ -1532,13 +1739,13 @@ questions:
                 description: "The UserID of the user running the application"
                 schema:
                   type: int
-                  default: 0
+                  default: 568
               - variable: runAsGroup
                 label: "runAsGroup"
                 description: "The groupID of the user running the application"
                 schema:
                   type: int
-                  default: 0
+                  default: 568
               # Settings from questions.yaml get appended here on a per-app basis
               - variable: PUID
                 label: Process User ID - PUID
