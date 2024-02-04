@@ -523,6 +523,42 @@ questions:
                 schema:
                   type: boolean
                   default: false
+              - variable: public_ip
+                label: Public IP
+                schema:
+                  type: string
+                  default: ""
+                  show_if: [[update_public_ip, "!=", "true"]]
+              - variable: params
+                label: Game Params
+                schema:
+                  type: list
+                  default:
+                    - EpicApp=PalServer
+                  required: true
+                  items:
+                    - variable: param
+                      label: Param
+                      schema:
+                        type: string
+                        required: true
+                        default: ""
+              - variable: params_extra
+                label: Game Params Extra
+                schema:
+                  type: list
+                  default:
+                    - -useperfthreads
+                    - -NoAsyncLoadingThread
+                    - -UseMultithreadForDS
+                  required: true
+                  items:
+                    - variable: extra_param
+                      label: Extra Param
+                      schema:
+                        type: string
+                        required: true
+                        default: ""
         - variable: backup
           label: Backup Configuration
           schema:
@@ -558,124 +594,6 @@ questions:
       default: "Etc/UTC"
       $ref:
         - "definitions/timezone"
-  - variable: podOptions
-    group: "General Settings"
-    label: "Global Pod Options (Advanced)"
-    schema:
-      additional_attrs: true
-      type: dict
-      attrs:
-        - variable: expertPodOpts
-          label: "Expert - Pod Options"
-          schema:
-            type: boolean
-            default: false
-            show_subquestions_if: true
-            subquestions:
-              - variable: hostNetwork
-                label: "Host Networking"
-                schema:
-                  type: boolean
-                  default: false
-              - variable: dnsConfig
-                label: "DNS Configuration"
-                schema:
-                  type: dict
-                  additional_attrs: true
-                  attrs:
-                    - variable: options
-                      label: "Options"
-                      schema:
-                        type: list
-                        default: [{"name": "ndots", "value": "1"}]
-                        items:
-                          - variable: optionsEntry
-                            label: "Option Entry"
-                            schema:
-                              type: dict
-                              additional_attrs: true
-                              attrs:
-                                - variable: name
-                                  label: "Name"
-                                  schema:
-                                    type: string
-                                    required: true
-                                - variable: value
-                                  label: "Value"
-                                  schema:
-                                    type: string
-                    - variable: nameservers
-                      label: "Nameservers"
-                      schema:
-                        type: list
-                        default: []
-                        items:
-                          - variable: nsEntry
-                            label: "Nameserver Entry"
-                            schema:
-                              type: string
-                              required: true
-                    - variable: searches
-                      label: "Searches"
-                      schema:
-                        type: list
-                        default: []
-                        items:
-                          - variable: searchEntry
-                            label: "Search Entry"
-                            schema:
-                              type: string
-                              required: true
-
-  - variable: imagePullSecretList
-    group: "General Settings"
-    label: "Image Pull Secrets"
-    schema:
-      type: list
-      default: []
-      items:
-        - variable: pullsecretentry
-          label: "Pull Secret"
-          schema:
-            type: dict
-            additional_attrs: true
-            attrs:
-              - variable: enabled
-                label: Enabled
-                schema:
-                  type: boolean
-                  default: true
-              - variable: data
-                label: Data
-                schema:
-                  type: dict
-                  additional_attrs: true
-                  attrs:
-                    - variable: registry
-                      label: "Registry"
-                      schema:
-                        type: string
-                        required: true
-                        default: "https://index.docker.io/v1/"
-                    - variable: username
-                      label: "Username"
-                      schema:
-                        type: string
-                        required: true
-                        default: ""
-                    - variable: password
-                      label: "Password"
-                      schema:
-                        type: string
-                        required: true
-                        private: true
-                        default: ""
-                    - variable: email
-                      label: "Email"
-                      schema:
-                        type: string
-                        required: true
-                        default: ""
   - variable: service
     group: Networking and Services
     label: Configure Service(s)
@@ -684,8 +602,8 @@ questions:
       type: dict
       attrs:
         - variable: main
-          label: "Main Service"
-          description: "The Primary service on which the healthcheck runs, often the webUI"
+          label: Main Service
+          description: The Primary service on which the healthcheck runs, often the webUI
           schema:
             additional_attrs: true
             type: dict
@@ -721,21 +639,21 @@ questions:
                   type: dict
                   attrs:
                     - variable: main
-                      label: "Main Service Port Configuration"
+                      label: Main Service Port Configuration
                       schema:
                         additional_attrs: true
                         type: dict
                         attrs:
                           - variable: port
-                            label: "Port"
-                            description: "This port exposes the container port on the service"
+                            label: Port
+                            description: This port exposes the container port on the service
                             schema:
                               type: int
                               default: 8211
                               required: true
         - variable: rcon
-          label: RCON Service
-          description: The RCON service.
+          label: RCON service
+          description: RCON Service Port Configuration
           schema:
             additional_attrs: true
             type: dict
