@@ -1,0 +1,25 @@
+image:
+  repository: ghcr.io/linuxserver/grav
+  pullPolicy: IfNotPresent
+  tag: 1.7.44@sha256:7f93b4bf4fefadf3f76d79a73105eda9fab5b4bc62fa6640339ea11ed081d04b
+service:
+  main:
+    ports:
+      main:
+        port: 10012
+        targetPort: 80
+persistence:
+  config:
+    enabled: true
+    mountPath: "/config"
+  varrun:
+    enabled: true
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsNonRoot: false
+    runAsUser: 0
+    runAsGroup: 0

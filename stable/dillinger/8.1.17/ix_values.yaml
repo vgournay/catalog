@@ -1,0 +1,39 @@
+image:
+  repository: ghcr.io/linuxserver/dillinger
+  pullPolicy: IfNotPresent
+  tag: 3.39.1@sha256:1ca86a1d9d00b25d7cfff824a204422153680119e9126c371e43edc6e04b3284
+securityContext:
+  container:
+    runAsNonRoot: false
+    readOnlyRootFilesystem: false
+    runAsUser: 0
+    runAsGroup: 0
+service:
+  main:
+    ports:
+      main:
+        targetPort: 8080
+        port: 10143
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              type: http
+              path: /
+            readiness:
+              type: http
+              path: /
+            startup:
+              type: http
+              path: /
+          env: {}
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+portal:
+  open:
+    enabled: true
