@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [minecraft-java-7.1.14](https://github.com/truecharts/charts/compare/minecraft-java-7.1.13...minecraft-java-7.1.14) (2024-02-05)
+
+### Chore
+
+
+
+- update container image itzg/mc-backup to latest[@bd0854f](https://github.com/bd0854f) by renovate ([#17979](https://github.com/truecharts/charts/issues/17979))
+
+
 ## [minecraft-java-7.1.13](https://github.com/truecharts/charts/compare/minecraft-java-7.1.12...minecraft-java-7.1.13) (2024-02-03)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 
 
 - increase common version for oci fixes
-
-- remove non-existent template refs ([#16738](https://github.com/truecharts/charts/issues/16738))
-
-
-## [minecraft-java-7.1.3](https://github.com/truecharts/charts/compare/minecraft-java-7.1.0...minecraft-java-7.1.3) (2024-01-01)
-
-### Chore
-
-
