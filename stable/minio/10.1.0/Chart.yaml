@@ -7,7 +7,7 @@ annotations:
   truecharts.org/min_helm_version: "3.12"
   truecharts.org/train: stable
 apiVersion: v2
-appVersion: 24.01.0
+appVersion: 2024.02.04
 dependencies:
   - name: common
     version: 17.2.30
@@ -17,20 +17,22 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: An application that lets you automatically process files through a simple rule flow.
-home: https://truecharts.org/charts/stable/fileflows
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/fileflows.png
+description: Minio is a self-hosted S3 storage server
+home: https://truecharts.org/charts/stable/minio
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/minio.png
 keywords:
-  - fileflows
+  - minio
+  - s3
+  - storage
 kubeVersion: ">=1.24.0-0"
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: fileflows
+name: minio
 sources:
-  - https://github.com/revenz/FileFlows
-  - https://github.com/truecharts/charts/tree/master/charts/stable/fileflows
-  - https://hub.docker.com/r/revenz/fileflows
+  - https://github.com/minio/minio
+  - https://github.com/truecharts/charts/tree/master/charts/stable/minio
+  - https://hub.docker.com/r/minio/minio
 type: application
-version: 9.0.8
+version: 10.1.0

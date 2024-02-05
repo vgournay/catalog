@@ -1,0 +1,25 @@
+image:
+  repository: ghcr.io/linuxserver/sickchill
+  pullPolicy: IfNotPresent
+  tag: 2024.2.2@sha256:0915dee6b0bc71cc57e314f17880fff45486b56a6ae39d526d7cf1314c7d50df
+service:
+  main:
+    ports:
+      main:
+        port: 10067
+        targetPort: 8081
+persistence:
+  config:
+    enabled: true
+    mountPath: "/config"
+  varrun:
+    enabled: true
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsNonRoot: false
+    runAsUser: 0
+    runAsGroup: 0
