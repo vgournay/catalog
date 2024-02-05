@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [neko-4.1.101](https://github.com/truecharts/charts/compare/neko-4.1.91...neko-4.1.101) (2024-02-05)
+
+### Chore
+
+
+
+- update neko by renovate ([#17963](https://github.com/truecharts/charts/issues/17963))
+
+
 ## [neko-4.1.91](https://github.com/truecharts/charts/compare/neko-4.1.90...neko-4.1.91) (2024-02-03)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 
 
 - update container image common to v17.2.22[@e7c9056](https://github.com/e7c9056) by renovate ([#16986](https://github.com/truecharts/charts/issues/16986))
-
-
-## [neko-4.1.55](https://github.com/truecharts/charts/compare/neko-4.1.45...neko-4.1.55) (2024-01-08)
-
-### Chore
-
-
-
-- update neko by renovate ([#16977](https://github.com/truecharts/charts/issues/16977))
