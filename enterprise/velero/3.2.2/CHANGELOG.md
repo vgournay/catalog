@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [velero-3.2.2](https://github.com/truecharts/charts/compare/velero-3.2.1...velero-3.2.2) (2024-02-06)
+
+### Feat
+
+
+
+- add velero backup schedule to GUI templates ([#17993](https://github.com/truecharts/charts/issues/17993))
+
+
 ## [velero-3.2.1](https://github.com/truecharts/charts/compare/velero-3.2.0...velero-3.2.1) (2024-02-03)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 
 
 - update container image velero/velero-plugin-for-csi to v0.6.3[@6f6fe00](https://github.com/6f6fe00) by renovate ([#17104](https://github.com/truecharts/charts/issues/17104))
-
-
-## [velero-3.1.9](https://github.com/truecharts/charts/compare/velero-3.1.8...velero-3.1.9) (2024-01-09)
-
-### Chore
-
-
-
-- update container image common to v17.2.22[@e7c9056](https://github.com/e7c9056) by renovate ([#16986](https://github.com/truecharts/charts/issues/16986))
