@@ -7,6 +7,9 @@ title: Changelog
 
 
 
+## [velero-3.2.5](https://github.com/truecharts/charts/compare/velero-3.2.4...velero-3.2.5) (2024-02-07)
+
+
 ## [velero-3.2.4](https://github.com/truecharts/charts/compare/velero-3.2.3...velero-3.2.4) (2024-02-07)
 
 
@@ -94,6 +97,3 @@ title: Changelog
 
 
 - update metadata in chart.yaml ([#17457](https://github.com/truecharts/charts/issues/17457))
-
-
-## [velero-3.1.10](https://github.com/truecharts/charts/compare/velero-3.1.9...velero-3.1.10) (2024-01-13)
