@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [kube-state-metrics-6.1.21](https://github.com/truecharts/charts/compare/kube-state-metrics-6.1.20...kube-state-metrics-6.1.21) (2024-02-12)
+
+### Chore
+
+
+
+- update container image bitnami/kube-state-metrics to 2.10.1[@783e014](https://github.com/783e014) by renovate ([#18222](https://github.com/truecharts/charts/issues/18222))
+
+
 ## [kube-state-metrics-6.1.20](https://github.com/truecharts/charts/compare/kube-state-metrics-6.1.19...kube-state-metrics-6.1.20) (2024-02-12)
 
 ### Chore
@@ -86,14 +95,5 @@ title: Changelog
 
 
 - update container image common to v17.2.26[@24c98f7](https://github.com/24c98f7) by renovate ([#17409](https://github.com/truecharts/charts/issues/17409))
-
-
-## [kube-state-metrics-6.1.11](https://github.com/truecharts/charts/compare/kube-state-metrics-6.1.10...kube-state-metrics-6.1.11) (2024-01-21)
-
-### Chore
-
-
-
-- update metadata in chart.yaml ([#17457](https://github.com/truecharts/charts/issues/17457))
 
 
