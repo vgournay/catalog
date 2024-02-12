@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [qbitrr-3.3.1](https://github.com/truecharts/charts/compare/qbitrr-3.3.0...qbitrr-3.3.1) (2024-02-12)
+
+### Chore
+
+
+
+- update container image feramance/qbitrr to v4.3.2[@a085a66](https://github.com/a085a66) by renovate ([#18216](https://github.com/truecharts/charts/issues/18216))
+
+
 ## [qbitrr-3.3.0](https://github.com/truecharts/charts/compare/qbitrr-3.2.9...qbitrr-3.3.0) (2024-02-12)
 
 ### Chore
@@ -86,14 +95,5 @@ title: Changelog
 
 
 - update container image common to v17.2.26[@24c98f7](https://github.com/24c98f7) by renovate ([#17409](https://github.com/truecharts/charts/issues/17409))
-
-
-## [qbitrr-3.2.1](https://github.com/truecharts/charts/compare/qbitrr-3.2.0...qbitrr-3.2.1) (2024-01-21)
-
-### Chore
-
-
-
-- update metadata in chart.yaml ([#17457](https://github.com/truecharts/charts/issues/17457))
 
 
