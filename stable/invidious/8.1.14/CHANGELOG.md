@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [invidious-8.1.14](https://github.com/truecharts/charts/compare/invidious-8.1.13...invidious-8.1.14) (2024-02-12)
+
+### Chore
+
+
+
+- update container image quay.io/invidious/invidious to latest[@3b2e106](https://github.com/3b2e106) by renovate ([#18215](https://github.com/truecharts/charts/issues/18215))
+
+
 ## [invidious-8.1.13](https://github.com/truecharts/charts/compare/invidious-8.1.12...invidious-8.1.13) (2024-02-03)
 
 ### Chore
@@ -88,12 +97,3 @@ title: Changelog
 
 
 - force bump to ensure up-to-date catalogs
-
-
-## [invidious-8.1.4](https://github.com/truecharts/charts/compare/invidious-8.1.3...invidious-8.1.4) (2024-01-01)
-
-### Chore
-
-
-
-- increase common version for oci fixes

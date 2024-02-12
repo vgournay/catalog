@@ -2,7 +2,7 @@ annotations:
   max_scale_version: 23.10.2
   min_scale_version: 23.10.0
   truecharts.org/SCALE-support: "true"
-  truecharts.org/category: media
+  truecharts.org/category: MediaServer-Other
   truecharts.org/max_helm_version: "3.14"
   truecharts.org/min_helm_version: "3.12"
   truecharts.org/train: stable
@@ -17,23 +17,21 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Open source alternative front-end to YouTube.
-home: https://truecharts.org/charts/stable/invidious
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/invidious.png
+description: Media display for Plex, Sonarr and Radarr.
+home: https://truecharts.org/charts/stable/posterr
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/posterr.png
 keywords:
-  - invidious
-  - youtube
-  - media
+  - posterr
+  - MediaServer-Other
 kubeVersion: ">=1.24.0-0"
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: invidious
+name: posterr
 sources:
-  - https://github.com/iv-org/invidious
-  - https://docs.invidious.io/installation/#docker
-  - https://github.com/truecharts/charts/tree/master/charts/stable/invidious
-  - https://quay.io/invidious/invidious
+  - https://github.com/petersem/posterr
+  - https://github.com/truecharts/charts/tree/master/charts/stable/posterr
+  - https://hub.docker.com/r/petersem/posterr
 type: application
-version: 8.1.13
+version: 7.1.16
