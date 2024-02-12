@@ -2,12 +2,12 @@ annotations:
   max_scale_version: 23.10.2
   min_scale_version: 23.10.0
   truecharts.org/SCALE-support: "true"
-  truecharts.org/category: network
+  truecharts.org/category: ai
   truecharts.org/max_helm_version: "3.14"
   truecharts.org/min_helm_version: "3.12"
   truecharts.org/train: stable
 apiVersion: v2
-appVersion: 2024.1.5
+appVersion: 2.8.0
 dependencies:
   - name: common
     version: 17.2.30
@@ -17,20 +17,21 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Client for Cloudflare Tunnel, a daemon that exposes private services through the Cloudflare edge.
-home: https://truecharts.org/charts/stable/cloudflared
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/cloudflared.png
+description: Self-hosted, community-driven, local OpenAI-compatible API.
+home: https://truecharts.org/charts/stable/local-ai
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/local-ai.png
 keywords:
-  - cloudflared
-  - networking
+  - local-ai
+  - ai
 kubeVersion: ">=1.24.0-0"
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: cloudflared
+name: local-ai
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/cloudflared
-  - https://hub.docker.com/r/cloudflare/cloudflared
+  - https://github.com/go-skynet/LocalAI
+  - https://github.com/truecharts/charts/tree/master/charts/stable/local-ai
+  - https://hub.docker.com/r/localai/localai
 type: application
-version: 9.0.10
+version: 8.32.0

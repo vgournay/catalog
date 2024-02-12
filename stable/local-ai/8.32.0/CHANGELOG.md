@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [local-ai-8.32.0](https://github.com/truecharts/charts/compare/local-ai-8.26.2...local-ai-8.32.0) (2024-02-12)
+
+### Chore
+
+
+
+- update container image docker.io/localai/localai to v2.8.0 by renovate ([#18178](https://github.com/truecharts/charts/issues/18178))
+
+
 ## [local-ai-8.26.2](https://github.com/truecharts/charts/compare/local-ai-8.26.1...local-ai-8.26.2) (2024-02-05)
 
 ### Chore
@@ -86,14 +95,5 @@ title: Changelog
 
 
 - update container image common to v17.2.26[@24c98f7](https://github.com/24c98f7) by renovate ([#17409](https://github.com/truecharts/charts/issues/17409))
-
-
-## [local-ai-8.20.1](https://github.com/truecharts/charts/compare/local-ai-8.20.0...local-ai-8.20.1) (2024-01-21)
-
-### Chore
-
-
-
-- update metadata in chart.yaml ([#17457](https://github.com/truecharts/charts/issues/17457))
 
 
