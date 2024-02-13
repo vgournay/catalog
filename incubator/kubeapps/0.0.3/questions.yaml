@@ -60,7 +60,7 @@ questions:
       additional_attrs: true
       type: dict
       attrs:
-        - variable: main
+        - variable: kubeapps
           label: "Main Service"
           description: "The Primary service on which the healthcheck runs, often the webUI"
           schema:
@@ -97,7 +97,7 @@ questions:
                   additional_attrs: true
                   type: dict
                   attrs:
-                    - variable: main
+                    - variable: kubeapps
                       label: "Main Service Port Configuration"
                       schema:
                         additional_attrs: true
