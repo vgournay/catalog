@@ -35,11 +35,11 @@ maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: KubeApps
+name: kubeapps
 sources:
   - https://cert-manager.io/
   - https://github.com/cert-manager
   - https://github.com/truecharts/charts/tree/master/charts/incubator/KubeApps
   - https://github.com/truecharts/containers/tree/master/apps/alpine
 type: application
-version: 0.0.1
+version: 0.0.2
