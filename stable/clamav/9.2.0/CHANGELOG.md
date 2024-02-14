@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+## [clamav-9.2.0](https://github.com/truecharts/charts/compare/clamav-9.1.17...clamav-9.2.0) (2024-02-14)
+
+### Chore
+
+
+
+- update container image clamav/clamav to v1.3.0[@cb6da73](https://github.com/cb6da73) by renovate ([#18173](https://github.com/truecharts/charts/issues/18173))
+
+
 ## [clamav-9.1.17](https://github.com/truecharts/charts/compare/clamav-9.1.16...clamav-9.1.17) (2024-02-12)
 
 ### Chore
@@ -86,14 +95,5 @@ title: Changelog
 
 
 - update container image common to v17.2.26[@24c98f7](https://github.com/24c98f7) by renovate ([#17409](https://github.com/truecharts/charts/issues/17409))
-
-
-## [clamav-9.1.8](https://github.com/truecharts/charts/compare/clamav-9.1.7...clamav-9.1.8) (2024-01-21)
-
-### Chore
-
-
-
-- update metadata in chart.yaml ([#17457](https://github.com/truecharts/charts/issues/17457))
 
 
