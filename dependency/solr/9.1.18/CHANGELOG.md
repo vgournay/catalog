@@ -7,6 +7,9 @@ title: Changelog
 
 
 
+## [solr-9.1.18](https://github.com/truecharts/charts/compare/solr-9.1.17...solr-9.1.18) (2024-02-14)
+
+
 ## [solr-9.1.17](https://github.com/truecharts/charts/compare/solr-9.1.16...solr-9.1.17) (2024-02-12)
 
 ### Chore
@@ -92,8 +95,5 @@ title: Changelog
 
 ### Chore
 
-
-
-- update container image bitnami/solr to v9.4.1[@b1563d4](https://github.com/b1563d4) by renovate ([#17406](https://github.com/truecharts/charts/issues/17406))
 
 
