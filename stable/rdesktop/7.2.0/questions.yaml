@@ -1470,7 +1470,6 @@ questions:
                                     show_if: [["certificateIssuer", "=", ""]]
                                     type: string
                                     default: ""
-                                      - "definitions/certificate"
   - variable: ingressList
     label: Add Manual Custom Ingresses
     group: Ingress

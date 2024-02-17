@@ -3137,7 +3137,6 @@ questions:
                                     show_if: [["certificateIssuer", "=", ""]]
                                     type: string
                                     default: ""
-                                      - "definitions/certificate"
         - variable: proxy
           label: Proxy (HTTPS) Ingress
           schema:
@@ -3417,7 +3416,6 @@ questions:
                                     show_if: [["certificateIssuer", "=", ""]]
                                     type: string
                                     default: ""
-                                      - "definitions/certificate"
   - variable: ingressList
     label: Add Manual Custom Ingresses
     group: Ingress
