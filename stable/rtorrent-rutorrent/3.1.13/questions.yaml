@@ -23,6 +23,8 @@ groups:
     description: Metrics
   - name: Addons
     description: Addon Configuration
+  - name: Backup Configuration
+    description: Configure Velero Backup Schedule
   - name: Advanced
     description: Advanced Configuration
   - name: Postgresql
@@ -2203,12 +2205,6 @@ questions:
                                     show_if: [["certificateIssuer", "=", ""]]
                                     type: string
                                     default: ""
-                                - variable: scaleCert
-                                  label: 'Use TrueNAS SCALE Certificate (Deprecated)'
-                                  schema:
-                                    show_if: [["certificateIssuer", "=", ""]]
-                                    type: int
-                                    $ref:
                                       - "definitions/certificate"
   - variable: ingressList
     label: Add Manual Custom Ingresses
@@ -2327,13 +2323,6 @@ questions:
                             schema:
                               type: string
                               default: ""
-                          - variable: scaleCert
-                            label: Use TrueNAS SCALE Certificate (Deprecated)
-                            schema:
-                              show_if: [["certificateIssuer", "=", ""]]
-                              type: int
-                              $ref:
-                                - "definitions/certificate"
                           - variable: clusterCertificate
                             label:  'Cluster Certificate (Advanced)'
                             description: 'Add the name of your cluster-wide certificate, that you set up in the ClusterIssuer chart.'
@@ -2577,6 +2566,21 @@ questions:
                   type: string
                   default: 8Gi
                   valid_chars: '^(?!^0(e[0-9]|[EPTGMK]i?|)$)([0-9]+)(|[EPTGMK]i?|e[0-9]+)$'
+              - variable: 'intel.com/i915'
+                label: Add Intel i915 GPUs
+                schema:
+                  type: int
+                  default: 0
+              - variable: 'nvidia.com/gpu'
+                label: Add NVIDIA GPUs (Experimental)
+                schema:
+                  type: int
+                  default: 0
+              - variable: 'amd.com/gpu'
+                label: Add AMD GPUs
+                schema:
+                  type: int
+                  default: 0
         - variable: requests
           label: "Minimum Resources Required (request)"
           schema:
@@ -2669,6 +2673,41 @@ questions:
                   type: string
                   default: workaround
                   hidden: true
+  - variable: metrics
+    group: Metrics
+    label: Prometheus Metrics
+    schema:
+      additional_attrs: true
+      type: dict
+      attrs:
+        - variable: main
+          label: Main Metrics
+          schema:
+            additional_attrs: true
+            type: dict
+            attrs:
+              - variable: enabled
+                label: Enabled
+                description: Enable Prometheus Metrics
+                schema:
+                  type: boolean
+                  default: false
+                  show_subquestions_if: true
+                  subquestions:
+                    - variable: prometheusRule
+                      label: PrometheusRule
+                      description: Enable and configure Prometheus Rules for the App.
+                      schema:
+                        additional_attrs: true
+                        type: dict
+                        attrs:
+                          - variable: enabled
+                            label: Enabled
+                            description: Enable Prometheus Metrics
+                            schema:
+                              type: boolean
+                              default: false
+                          # TODO: Rule List section
 #  - variable: horizontalPodAutoscaler
 #    group: Advanced
 #    label: (Advanced) Horizontal Pod Autoscaler

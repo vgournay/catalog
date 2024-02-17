@@ -7,6 +7,15 @@ title: Changelog
 
 
 
+
+
+
+
+
+
+
+
+
 ## [rtorrent-rutorrent-3.1.11](https://github.com/truecharts/charts/compare/rtorrent-rutorrent-3.1.10...rtorrent-rutorrent-3.1.11) (2024-02-03)
 
 ### Chore
@@ -87,13 +96,4 @@ title: Changelog
 
 ### Chore
 
-
-
-- bump all charts for OCI test push
-
-- move everything to consume OCI-hosted common-chart dependency
-
-- update container image common to v17.2.19[@4ebb688](https://github.com/4ebb688) by renovate ([#16733](https://github.com/truecharts/charts/issues/16733))
-
-- update container image common to v17.2.18[@085ba3c](https://github.com/085ba3c) by renovate ([#16732](https://github.com/truecharts/charts/issues/16732))
 
