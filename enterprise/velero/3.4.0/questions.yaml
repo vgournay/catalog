@@ -31,6 +31,7 @@ groups:
     description: Postgresql
   - name: Documentation
     description: Documentation
+
 questions:
   - variable: global
     group: General Settings
@@ -45,6 +46,7 @@ questions:
           schema:
             type: boolean
             default: false
+
   - variable: backupStorageLocationList
     group: "App Configuration"
     label: "Backup Storage Locations"

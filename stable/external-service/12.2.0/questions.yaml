@@ -31,6 +31,7 @@ groups:
     description: Postgresql
   - name: Documentation
     description: Documentation
+
 portals:
   open:
     protocols:
@@ -39,6 +40,7 @@ portals:
       - "$kubernetes-resource_configmap_tcportal-open_host"
     ports:
       - "$kubernetes-resource_configmap_tcportal-open_port"
+
 questions:
   - variable: global
     group: General Settings
@@ -53,6 +55,7 @@ questions:
           schema:
             type: boolean
             default: false
+
   - variable: service
     group: Networking and Services
     label: Configure Service(s)
@@ -60,6 +63,7 @@ questions:
       additional_attrs: true
       type: dict
       attrs:
+
         - variable: main
           label: "Main Service"
           description: "The Primary service on which the healthcheck runs, often the webUI"
@@ -67,6 +71,7 @@ questions:
             additional_attrs: true
             type: dict
             attrs:
+
                                       - variable: enabled
                                         label: "Enable the service"
                                         schema:
@@ -143,6 +148,7 @@ questions:
       additional_attrs: true
       type: dict
       attrs:
+
         - variable: main
           label: "Main Ingress"
           schema:
@@ -198,6 +204,7 @@ questions:
                                                 type: string
                                                 required: true
                                                 default: Prefix
+
                     - variable: integrations
                       label: Integrations
                       description: Connect ingress with other charts
@@ -422,6 +429,7 @@ questions:
                                     show_if: [["certificateIssuer", "=", ""]]
                                     type: string
                                     default: ""
+
   - variable: ingressList
     label: Add Manual Custom Ingresses
     group: Ingress
@@ -664,3 +672,4 @@ questions:
                               required: true
                               default: "default"
                               show_if: [["enabled", "=", true]]
+

@@ -2,98 +2,178 @@
 title: Changelog
 ---
 
-**Important:**
-*for the complete changelog, please refer to the website*
-
-
-
-
-## [xen-orchestra-7.4.0](https://github.com/truecharts/charts/compare/xen-orchestra-7.3.1...xen-orchestra-7.4.0) (2024-02-12)
+## [xen-orchestra-1.0.0](https://github.com/truecharts/charts/compare/xen-orchestra-0.0.12...xen-orchestra-1.0.0) (2022-11-10)
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Major Change to GUI
+- update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+- update helm general non-major ([#4349](https://github.com/truecharts/charts/issues/4349))
+- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
-
-- update container image ronivay/xen-orchestra to v5.136.0[@975efa0](https://github.com/975efa0) by renovate ([#18196](https://github.com/truecharts/charts/issues/18196))
-
-
-## [xen-orchestra-7.3.1](https://github.com/truecharts/charts/compare/xen-orchestra-7.3.0...xen-orchestra-7.3.1) (2024-02-03)
-
-### Chore
-
-
-
-- update container image common to v17.2.30[@19ad5ec](https://github.com/19ad5ec) by renovate ([#17804](https://github.com/truecharts/charts/issues/17804))
-
-
-## [xen-orchestra-7.3.0](https://github.com/truecharts/charts/compare/xen-orchestra-7.2.14...xen-orchestra-7.3.0) (2024-02-03)
+## [xen-orchestra-0.0.15](https://github.com/truecharts/charts/compare/xen-orchestra-0.0.12...xen-orchestra-0.0.15) (2022-11-08)
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+- update helm general non-major ([#4349](https://github.com/truecharts/charts/issues/4349))
+- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
-
-- update container image ronivay/xen-orchestra to v5.135.0[@75cce0f](https://github.com/75cce0f) by renovate ([#17803](https://github.com/truecharts/charts/issues/17803))
-
-
-## [xen-orchestra-7.2.14](https://github.com/truecharts/charts/compare/xen-orchestra-7.2.13...xen-orchestra-7.2.14) (2024-01-29)
-
-### Chore
-
-
-
-- update container image ronivay/xen-orchestra to 5.132.0[@ddf10cf](https://github.com/ddf10cf) by renovate ([#17652](https://github.com/truecharts/charts/issues/17652))
-
-
-## [xen-orchestra-7.2.13](https://github.com/truecharts/charts/compare/xen-orchestra-7.2.12...xen-orchestra-7.2.13) (2024-01-26)
+## [xen-orchestra-0.0.14](https://github.com/truecharts/charts/compare/xen-orchestra-0.0.12...xen-orchestra-0.0.14) (2022-11-08)
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
-
-- update container image common to v17.2.29[@d7c41a3](https://github.com/d7c41a3) by renovate ([#17545](https://github.com/truecharts/charts/issues/17545))
-
-
-## [xen-orchestra-7.2.12](https://github.com/truecharts/charts/compare/xen-orchestra-7.2.11...xen-orchestra-7.2.12) (2024-01-21)
-
-### Chore
-
-
-
-- update container image common to v17.2.28[@918b4c5](https://github.com/918b4c5) by renovate ([#17478](https://github.com/truecharts/charts/issues/17478))
-
-
-## [xen-orchestra-7.2.11](https://github.com/truecharts/charts/compare/xen-orchestra-7.2.10...xen-orchestra-7.2.11) (2024-01-21)
+## [xen-orchestra-0.0.14](https://github.com/truecharts/charts/compare/xen-orchestra-0.0.12...xen-orchestra-0.0.14) (2022-11-08)
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
-
-- update container image common to v17.2.26[@24c98f7](https://github.com/24c98f7) by renovate ([#17409](https://github.com/truecharts/charts/issues/17409))
-
-
-## [xen-orchestra-7.2.10](https://github.com/truecharts/charts/compare/xen-orchestra-7.2.9...xen-orchestra-7.2.10) (2024-01-21)
-
-### Chore
-
-
-
-- update metadata in chart.yaml ([#17457](https://github.com/truecharts/charts/issues/17457))
-
-
-## [xen-orchestra-7.2.9](https://github.com/truecharts/charts/compare/xen-orchestra-7.2.8...xen-orchestra-7.2.9) (2024-01-21)
+## [xen-orchestra-0.0.14](https://github.com/truecharts/charts/compare/xen-orchestra-0.0.12...xen-orchestra-0.0.14) (2022-11-08)
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
-
-- update container image ronivay/xen-orchestra to 5.132.0[@97af40a](https://github.com/97af40a) by renovate ([#17394](https://github.com/truecharts/charts/issues/17394))
-
-
-## [xen-orchestra-7.2.8](https://github.com/truecharts/charts/compare/xen-orchestra-7.2.7...xen-orchestra-7.2.8) (2024-01-13)
+## [xen-orchestra-0.0.13](https://github.com/truecharts/charts/compare/xen-orchestra-0.0.12...xen-orchestra-0.0.13) (2022-11-07)
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
+## [xen-orchestra-0.0.13](https://github.com/truecharts/charts/compare/xen-orchestra-0.0.12...xen-orchestra-0.0.13) (2022-11-06)
 
-- update container image ronivay/xen-orchestra to 5.132.0[@bf371a0](https://github.com/bf371a0) by renovate ([#17096](https://github.com/truecharts/charts/issues/17096))
+### Chore
 
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+## [xen-orchestra-0.0.12](https://github.com/truecharts/charts/compare/xen-orchestra-0.0.11...xen-orchestra-0.0.12) (2022-11-06)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#4317](https://github.com/truecharts/charts/issues/4317))
+
+## [xen-orchestra-0.0.11](https://github.com/truecharts/charts/compare/xen-orchestra-0.0.10...xen-orchestra-0.0.11) (2022-11-05)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#4308](https://github.com/truecharts/charts/issues/4308))
+
+## [xen-orchestra-0.0.10](https://github.com/truecharts/charts/compare/xen-orchestra-0.0.9...xen-orchestra-0.0.10) (2022-11-02)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#4261](https://github.com/truecharts/charts/issues/4261))
+- update docker general non-major ([#4238](https://github.com/truecharts/charts/issues/4238))
+
+## [xen-orchestra-0.0.9](https://github.com/truecharts/charts/compare/xen-orchestra-0.0.8...xen-orchestra-0.0.9) (2022-10-30)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+
+### Fix
+
+- fix UI ([#4241](https://github.com/truecharts/charts/issues/4241))
+
+## [xen-orchestra-0.0.8](https://github.com/truecharts/charts/compare/xen-orchestra-0.0.7...xen-orchestra-0.0.8) (2022-10-25)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#4182](https://github.com/truecharts/charts/issues/4182))
+
+## [xen-orchestra-0.0.7](https://github.com/truecharts/charts/compare/xen-orchestra-0.0.6...xen-orchestra-0.0.7) (2022-10-24)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- update docker general non-major ([#4171](https://github.com/truecharts/charts/issues/4171))
+
+## [xen-orchestra-0.0.6](https://github.com/truecharts/charts/compare/xen-orchestra-0.0.5...xen-orchestra-0.0.6) (2022-10-19)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#4122](https://github.com/truecharts/charts/issues/4122))
+
+## [xen-orchestra-0.0.5](https://github.com/truecharts/charts/compare/xen-orchestra-0.0.4...xen-orchestra-0.0.5) (2022-10-16)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- update docker general non-major ([#4108](https://github.com/truecharts/charts/issues/4108))
+
+## [xen-orchestra-0.0.4](https://github.com/truecharts/charts/compare/xen-orchestra-0.0.3...xen-orchestra-0.0.4) (2022-10-14)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- update docker general non-major ([#4084](https://github.com/truecharts/charts/issues/4084))
+
+## [xen-orchestra-0.0.3](https://github.com/truecharts/charts/compare/xen-orchestra-0.0.2...xen-orchestra-0.0.3) (2022-10-12)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#4071](https://github.com/truecharts/charts/issues/4071))
+
+## [xen-orchestra-0.0.2](https://github.com/truecharts/charts/compare/xen-orchestra-0.0.1...xen-orchestra-0.0.2) (2022-10-11)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- update docker general non-major ([#4070](https://github.com/truecharts/charts/issues/4070))
+
+## [speedtest-tracker-0.0.2](https://github.com/truecharts/charts/compare/speedtest-tracker-0.0.1...speedtest-tracker-0.0.2) (2022-10-09)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+
+### Feat
+
+- add xen-orchestra ([#4047](https://github.com/truecharts/charts/issues/4047))
+
+## [speedtest-tracker-0.0.1]speedtest-tracker-0.0.1 (2022-10-09)
+
+### Feat
+
+- add speedtest-tracker ([#4048](https://github.com/truecharts/charts/issues/4048))

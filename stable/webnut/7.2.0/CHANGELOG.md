@@ -2,98 +2,126 @@
 title: Changelog
 ---
 
-**Important:**
-*for the complete changelog, please refer to the website*
-
-
-
-
-## [webnut-7.1.11](https://github.com/truecharts/charts/compare/webnut-7.1.10...webnut-7.1.11) (2024-02-03)
+## [webnut-2.0.0](https://github.com/truecharts/charts/compare/webnut-1.0.4...webnut-2.0.0) (2022-11-10)
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Major Change to GUI
+- update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+- update helm general non-major ([#4349](https://github.com/truecharts/charts/issues/4349))
+- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
+### Fix
 
-- update container image common to v17.2.30[@19ad5ec](https://github.com/19ad5ec) by renovate ([#17804](https://github.com/truecharts/charts/issues/17804))
+- change container config label
 
-
-## [webnut-7.1.10](https://github.com/truecharts/charts/compare/webnut-7.1.9...webnut-7.1.10) (2024-01-26)
-
-### Chore
-
-
-
-- update container image common to v17.2.29[@d7c41a3](https://github.com/d7c41a3) by renovate ([#17545](https://github.com/truecharts/charts/issues/17545))
-
-
-## [webnut-7.1.9](https://github.com/truecharts/charts/compare/webnut-7.1.8...webnut-7.1.9) (2024-01-21)
-
-### Chore
-
-
-
-- update container image common to v17.2.28[@918b4c5](https://github.com/918b4c5) by renovate ([#17478](https://github.com/truecharts/charts/issues/17478))
-
-
-## [webnut-7.1.8](https://github.com/truecharts/charts/compare/webnut-7.1.7...webnut-7.1.8) (2024-01-21)
+## [webnut-1.0.7](https://github.com/truecharts/charts/compare/webnut-1.0.4...webnut-1.0.7) (2022-11-08)
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+- update helm general non-major ([#4349](https://github.com/truecharts/charts/issues/4349))
+- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
-
-- update container image common to v17.2.26[@24c98f7](https://github.com/24c98f7) by renovate ([#17409](https://github.com/truecharts/charts/issues/17409))
-
-
-## [webnut-7.1.7](https://github.com/truecharts/charts/compare/webnut-7.1.6...webnut-7.1.7) (2024-01-21)
-
-### Chore
-
-
-
-- update metadata in chart.yaml ([#17457](https://github.com/truecharts/charts/issues/17457))
-
-
-
-
-## [webnut-7.1.6](https://github.com/truecharts/charts/compare/webnut-7.1.5...webnut-7.1.6) (2024-01-09)
+## [webnut-1.0.6](https://github.com/truecharts/charts/compare/webnut-1.0.4...webnut-1.0.6) (2022-11-08)
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
-
-- update container image common to v17.2.22[@e7c9056](https://github.com/e7c9056) by renovate ([#16986](https://github.com/truecharts/charts/issues/16986))
-
-
-## [webnut-7.1.5](https://github.com/truecharts/charts/compare/webnut-7.1.4...webnut-7.1.5) (2024-01-02)
-
-### Chore
-
-
-
-- force bump to ensure up-to-date catalogs
-
-
-## [webnut-7.1.4](https://github.com/truecharts/charts/compare/webnut-7.1.3...webnut-7.1.4) (2024-01-01)
+## [webnut-1.0.6](https://github.com/truecharts/charts/compare/webnut-1.0.4...webnut-1.0.6) (2022-11-08)
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
-
-- increase common version for oci fixes
-
-- remove non-existent template refs ([#16738](https://github.com/truecharts/charts/issues/16738))
-
-
-## [webnut-7.1.3](https://github.com/truecharts/charts/compare/webnut-7.1.0...webnut-7.1.3) (2024-01-01)
+## [webnut-1.0.6](https://github.com/truecharts/charts/compare/webnut-1.0.4...webnut-1.0.6) (2022-11-08)
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
+## [webnut-1.0.5](https://github.com/truecharts/charts/compare/webnut-1.0.4...webnut-1.0.5) (2022-11-07)
 
-- bump all charts for OCI test push
+### Chore
 
-- move everything to consume OCI-hosted common-chart dependency
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
-- update container image common to v17.2.19[@4ebb688](https://github.com/4ebb688) by renovate ([#16733](https://github.com/truecharts/charts/issues/16733))
+## [webnut-1.0.5](https://github.com/truecharts/charts/compare/webnut-1.0.4...webnut-1.0.5) (2022-11-06)
 
-- update container image common to v17.2.18[@085ba3c](https://github.com/085ba3c) by renovate ([#16732](https://github.com/truecharts/charts/issues/16732))
+### Chore
+
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+## [webnut-1.0.4](https://github.com/truecharts/charts/compare/webnut-1.0.3...webnut-1.0.4) (2022-11-06)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#4317](https://github.com/truecharts/charts/issues/4317))
+
+## [webnut-1.0.3](https://github.com/truecharts/charts/compare/webnut-1.0.2...webnut-1.0.3) (2022-11-05)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#4308](https://github.com/truecharts/charts/issues/4308))
+
+## [webnut-1.0.2](https://github.com/truecharts/charts/compare/webnut-1.0.1...webnut-1.0.2) (2022-11-03)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- update docker general non-major ([#4289](https://github.com/truecharts/charts/issues/4289))
+
+## [webnut-1.0.1](https://github.com/truecharts/charts/compare/webnut-1.0.0...webnut-1.0.1) (2022-11-02)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#4261](https://github.com/truecharts/charts/issues/4261))
+
+## [webnut-1.0.0](https://github.com/truecharts/charts/compare/webnut-0.0.1...webnut-1.0.0) (2022-10-27)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+
+## [webnut-1.0.0](https://github.com/truecharts/charts/compare/webnut-0.0.1...webnut-1.0.0) (2022-10-27)
+
+## [webnut-0.0.1]webnut-0.0.1 (2022-10-25)
+
+### Feat
+
+- add webNUT ([#4188](https://github.com/truecharts/charts/issues/4188))

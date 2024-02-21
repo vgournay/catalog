@@ -2,98 +2,412 @@
 title: Changelog
 ---
 
-**Important:**
-*for the complete changelog, please refer to the website*
-
-
-
-
-## [plaxt-7.1.11](https://github.com/truecharts/charts/compare/plaxt-7.1.10...plaxt-7.1.11) (2024-02-03)
+## [plaxt-2.0.0](https://github.com/truecharts/charts/compare/plaxt-1.0.12...plaxt-2.0.0) (2022-11-10)
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Major Change to GUI
+- update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+- update helm general non-major ([#4349](https://github.com/truecharts/charts/issues/4349))
+- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
+### Fix
 
-- update container image common to v17.2.30[@19ad5ec](https://github.com/19ad5ec) by renovate ([#17804](https://github.com/truecharts/charts/issues/17804))
+- change container config label
 
-
-## [plaxt-7.1.10](https://github.com/truecharts/charts/compare/plaxt-7.1.9...plaxt-7.1.10) (2024-01-26)
-
-### Chore
-
-
-
-- update container image common to v17.2.29[@d7c41a3](https://github.com/d7c41a3) by renovate ([#17545](https://github.com/truecharts/charts/issues/17545))
-
-
-## [plaxt-7.1.9](https://github.com/truecharts/charts/compare/plaxt-7.1.8...plaxt-7.1.9) (2024-01-21)
-
-### Chore
-
-
-
-- update container image common to v17.2.28[@918b4c5](https://github.com/918b4c5) by renovate ([#17478](https://github.com/truecharts/charts/issues/17478))
-
-
-## [plaxt-7.1.8](https://github.com/truecharts/charts/compare/plaxt-7.1.7...plaxt-7.1.8) (2024-01-21)
+## [plaxt-1.0.15](https://github.com/truecharts/charts/compare/plaxt-1.0.12...plaxt-1.0.15) (2022-11-08)
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+- update helm general non-major ([#4349](https://github.com/truecharts/charts/issues/4349))
+- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
-
-- update container image common to v17.2.26[@24c98f7](https://github.com/24c98f7) by renovate ([#17409](https://github.com/truecharts/charts/issues/17409))
-
-
-## [plaxt-7.1.7](https://github.com/truecharts/charts/compare/plaxt-7.1.6...plaxt-7.1.7) (2024-01-21)
-
-### Chore
-
-
-
-- update metadata in chart.yaml ([#17457](https://github.com/truecharts/charts/issues/17457))
-
-
-
-
-## [plaxt-7.1.6](https://github.com/truecharts/charts/compare/plaxt-7.1.5...plaxt-7.1.6) (2024-01-09)
+## [plaxt-1.0.14](https://github.com/truecharts/charts/compare/plaxt-1.0.12...plaxt-1.0.14) (2022-11-08)
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
-
-- update container image common to v17.2.22[@e7c9056](https://github.com/e7c9056) by renovate ([#16986](https://github.com/truecharts/charts/issues/16986))
-
-
-## [plaxt-7.1.5](https://github.com/truecharts/charts/compare/plaxt-7.1.4...plaxt-7.1.5) (2024-01-02)
-
-### Chore
-
-
-
-- force bump to ensure up-to-date catalogs
-
-
-## [plaxt-7.1.4](https://github.com/truecharts/charts/compare/plaxt-7.1.3...plaxt-7.1.4) (2024-01-01)
+## [plaxt-1.0.14](https://github.com/truecharts/charts/compare/plaxt-1.0.12...plaxt-1.0.14) (2022-11-08)
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
-
-- increase common version for oci fixes
-
-- remove non-existent template refs ([#16738](https://github.com/truecharts/charts/issues/16738))
-
-
-## [plaxt-7.1.3](https://github.com/truecharts/charts/compare/plaxt-7.1.0...plaxt-7.1.3) (2024-01-01)
+## [plaxt-1.0.14](https://github.com/truecharts/charts/compare/plaxt-1.0.12...plaxt-1.0.14) (2022-11-08)
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
+## [plaxt-1.0.13](https://github.com/truecharts/charts/compare/plaxt-1.0.12...plaxt-1.0.13) (2022-11-07)
 
-- bump all charts for OCI test push
+### Chore
 
-- move everything to consume OCI-hosted common-chart dependency
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
-- update container image common to v17.2.19[@4ebb688](https://github.com/4ebb688) by renovate ([#16733](https://github.com/truecharts/charts/issues/16733))
+## [plaxt-1.0.13](https://github.com/truecharts/charts/compare/plaxt-1.0.12...plaxt-1.0.13) (2022-11-06)
 
-- update container image common to v17.2.18[@085ba3c](https://github.com/085ba3c) by renovate ([#16732](https://github.com/truecharts/charts/issues/16732))
+### Chore
+
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+## [plaxt-1.0.12](https://github.com/truecharts/charts/compare/plaxt-1.0.11...plaxt-1.0.12) (2022-11-06)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#4317](https://github.com/truecharts/charts/issues/4317))
+
+## [plaxt-1.0.11](https://github.com/truecharts/charts/compare/plaxt-1.0.10...plaxt-1.0.11) (2022-11-05)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#4308](https://github.com/truecharts/charts/issues/4308))
+
+## [plaxt-1.0.10](https://github.com/truecharts/charts/compare/plaxt-1.0.9...plaxt-1.0.10) (2022-11-02)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#4261](https://github.com/truecharts/charts/issues/4261))
+
+## [plaxt-1.0.9](https://github.com/truecharts/charts/compare/plaxt-1.0.8...plaxt-1.0.9) (2022-10-25)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#4182](https://github.com/truecharts/charts/issues/4182))
+
+## [plaxt-1.0.8](https://github.com/truecharts/charts/compare/plaxt-1.0.7...plaxt-1.0.8) (2022-10-19)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#4122](https://github.com/truecharts/charts/issues/4122))
+
+## [plaxt-1.0.7](https://github.com/truecharts/charts/compare/plaxt-1.0.6...plaxt-1.0.7) (2022-10-12)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#4071](https://github.com/truecharts/charts/issues/4071))
+
+## [plaxt-1.0.6](https://github.com/truecharts/charts/compare/plaxt-1.0.5...plaxt-1.0.6) (2022-10-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- update helm general non-major
+
+## [plaxt-1.0.6](https://github.com/truecharts/charts/compare/plaxt-1.0.5...plaxt-1.0.6) (2022-10-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- update helm general non-major
+
+## [plaxt-1.0.5](https://github.com/truecharts/charts/compare/plaxt-1.0.4...plaxt-1.0.5) (2022-10-05)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- split addons in smaller templates ([#3979](https://github.com/truecharts/charts/issues/3979))
+- update helm general non-major
+
+## [plaxt-1.0.4](https://github.com/truecharts/charts/compare/plaxt-1.0.3...plaxt-1.0.4) (2022-09-27)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#3918](https://github.com/truecharts/charts/issues/3918))
+
+## [plaxt-1.0.3](https://github.com/truecharts/charts/compare/plaxt-1.0.2...plaxt-1.0.3) (2022-09-25)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#3898](https://github.com/truecharts/charts/issues/3898))
+
+## [plaxt-1.0.2](https://github.com/truecharts/charts/compare/plaxt-1.0.1...plaxt-1.0.2) (2022-09-22)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- refactor Services SCALE GUI
+- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
+- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
+
+## [plaxt-1.0.2](https://github.com/truecharts/charts/compare/plaxt-1.0.1...plaxt-1.0.2) (2022-09-21)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- refactor Services SCALE GUI
+- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
+- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
+
+## [plaxt-1.0.2](https://github.com/truecharts/charts/compare/plaxt-1.0.1...plaxt-1.0.2) (2022-09-21)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- refactor Services SCALE GUI
+- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
+- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
+
+## [plaxt-1.0.2](https://github.com/truecharts/charts/compare/plaxt-1.0.1...plaxt-1.0.2) (2022-09-20)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- refactor Services SCALE GUI
+- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
+- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
+
+## [plaxt-1.0.2](https://github.com/truecharts/charts/compare/plaxt-1.0.1...plaxt-1.0.2) (2022-09-20)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- refactor Services SCALE GUI
+- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
+- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
+
+## [plaxt-1.0.2](https://github.com/truecharts/charts/compare/plaxt-1.0.1...plaxt-1.0.2) (2022-09-19)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- refactor Services SCALE GUI
+- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
+- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
+
+## [plaxt-1.0.2](https://github.com/truecharts/charts/compare/plaxt-1.0.1...plaxt-1.0.2) (2022-09-19)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- refactor Services SCALE GUI
+- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
+- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
+
+## [plaxt-1.0.2](https://github.com/truecharts/charts/compare/plaxt-1.0.1...plaxt-1.0.2) (2022-09-19)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- refactor Services SCALE GUI
+- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
+- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
+
+## [plaxt-1.0.2](https://github.com/truecharts/charts/compare/plaxt-1.0.1...plaxt-1.0.2) (2022-09-17)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- refactor Services SCALE GUI
+- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
+- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
+
+## [plaxt-1.0.2](https://github.com/truecharts/charts/compare/plaxt-1.0.1...plaxt-1.0.2) (2022-09-18)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
+- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
+
+## [plaxt-1.0.2](https://github.com/truecharts/charts/compare/plaxt-1.0.1...plaxt-1.0.2) (2022-09-16)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
+- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
+
+## [plaxt-1.0.2](https://github.com/truecharts/charts/compare/plaxt-1.0.1...plaxt-1.0.2) (2022-09-16)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
+- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
+
+## [plaxt-1.0.2](https://github.com/truecharts/charts/compare/plaxt-1.0.1...plaxt-1.0.2) (2022-09-15)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
+- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
+
+## [plaxt-1.0.2](https://github.com/truecharts/charts/compare/plaxt-1.0.1...plaxt-1.0.2) (2022-09-15)
+
+### Chore
+
+- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
+- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
+
+## [plaxt-1.0.1](https://github.com/truecharts/charts/compare/plaxt-1.0.0...plaxt-1.0.1) (2022-09-12)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#3711](https://github.com/truecharts/charts/issues/3711))
+
+## [plaxt-1.0.1](https://github.com/truecharts/charts/compare/plaxt-1.0.0...plaxt-1.0.1) (2022-09-12)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#3711](https://github.com/truecharts/charts/issues/3711))
+
+## [plaxt-1.0.1](https://github.com/truecharts/charts/compare/plaxt-1.0.0...plaxt-1.0.1) (2022-09-11)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#3711](https://github.com/truecharts/charts/issues/3711))
+
+## [plaxt-1.0.1](https://github.com/truecharts/charts/compare/plaxt-1.0.0...plaxt-1.0.1) (2022-09-11)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#3711](https://github.com/truecharts/charts/issues/3711))
+
+## [plaxt-1.0.1](https://github.com/truecharts/charts/compare/plaxt-1.0.0...plaxt-1.0.1) (2022-09-11)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#3711](https://github.com/truecharts/charts/issues/3711))
+
+## [plaxt-1.0.1](https://github.com/truecharts/charts/compare/plaxt-1.0.0...plaxt-1.0.1) (2022-09-11)
+
+### Chore
+
+- update helm general non-major ([#3711](https://github.com/truecharts/charts/issues/3711))

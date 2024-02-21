@@ -31,6 +31,7 @@ groups:
     description: Postgresql
   - name: Documentation
     description: Documentation
+
 portals:
   open:
     protocols:
@@ -39,6 +40,7 @@ portals:
       - "$kubernetes-resource_configmap_tcportal-open_host"
     ports:
       - "$kubernetes-resource_configmap_tcportal-open_port"
+
 questions:
   - variable: global
     group: General Settings
@@ -53,6 +55,7 @@ questions:
           schema:
             type: boolean
             default: false
+
   - variable: workload
     group: "Workload Settings"
     label: ""
@@ -66,6 +69,7 @@ questions:
             additional_attrs: true
             type: dict
             attrs:
+
               - variable: type
                 label: Type (Advanced)
                 schema:
@@ -76,6 +80,7 @@ questions:
                       description: Deployment
                     - value: DaemonSet
                       description: DaemonSet
+
               - variable: replicas
                 label: Replicas (Advanced)
                 description: Set the number of Replicas
@@ -83,6 +88,7 @@ questions:
                   type: int
                   show_if: [["type", "!=", "DaemonSet"]]
                   default: 1
+
               - variable: podSpec
                 label: ""
                 schema:
@@ -95,12 +101,14 @@ questions:
                         additional_attrs: true
                         type: dict
                         attrs:
+
                           - variable: main
                             label: Main Container
                             schema:
                               additional_attrs: true
                               type: dict
                               attrs:
+
                                 - variable: env
                                   group: "App Configuration"
                                   label: "Image Environment"
@@ -154,6 +162,7 @@ questions:
                                         label: Arg
                                         schema:
                                           type: string
+
                                 - variable: advanced
                                   label: Show Advanced Settings
                                   description: Advanced settings are not covered by TrueCharts Support
@@ -172,6 +181,7 @@ questions:
                                               label: Param
                                               schema:
                                                 type: string
+
   - variable: TZ
     label: Timezone
     group: "General Settings"
@@ -180,6 +190,7 @@ questions:
       default: "Etc/UTC"
       $ref:
         - "definitions/timezone"
+
   - variable: podOptions
     group: "General Settings"
     label: "Global Pod Options (Advanced)"
@@ -298,6 +309,7 @@ questions:
                         type: string
                         required: true
                         default: ""
+
   - variable: service
     group: Networking and Services
     label: Configure Service(s)
@@ -305,6 +317,7 @@ questions:
       additional_attrs: true
       type: dict
       attrs:
+
         - variable: main
           label: "Main Service"
           description: "The Primary service on which the healthcheck runs, often the webUI"
@@ -312,6 +325,7 @@ questions:
             additional_attrs: true
             type: dict
             attrs:
+
               - variable: enabled
                 label: Enable the Service
                 schema:
@@ -329,6 +343,7 @@ questions:
                       description: LoadBalancer (Expose Ports)
                     - value: ClusterIP
                       description: ClusterIP (Do Not Expose Ports)
+
               - variable: loadBalancerIP
                 label: LoadBalancer IP
                 description: "MetalLB Only: Selects the Loadbalancer IP to expose on. Required when using PortalButton with MetalLB"
@@ -342,6 +357,7 @@ questions:
                   additional_attrs: true
                   type: dict
                   attrs:
+
                     - variable: main
                       label: "Main Service Port Configuration"
                       schema:
@@ -379,6 +395,7 @@ questions:
                       description: LoadBalancer (Expose Ports)
                     - value: ClusterIP
                       description: ClusterIP (Do Not Expose Ports)
+
               - variable: loadBalancerIP
                 label: LoadBalancer IP
                 description: "MetalLB Only: Selects the Loadbalancer IP to expose on. Required when using PortalButton with MetalLB"
@@ -392,6 +409,7 @@ questions:
                   additional_attrs: true
                   type: dict
                   attrs:
+
                     - variable: comm
                       label: "Comm Service Port Configuration"
                       schema:
@@ -413,6 +431,7 @@ questions:
       default: false
       show_subquestions_if: true
       subquestions:
+
         - variable: scaleExternalInterface
           description: Add External Interfaces
           label: Add external Interfaces
@@ -491,6 +510,7 @@ questions:
                                           type: ipaddr
                                           cidr: false
                                           required: true
+
         - variable: serviceList
           label: Add Manual Custom Services
           group: Networking and Services
@@ -625,6 +645,7 @@ questions:
                                   schema:
                                     type: int
                                     required: true
+
   - variable: persistence
     label: Integrated Persistent Storage
     description: Integrated Persistent Storage
@@ -633,6 +654,7 @@ questions:
       additional_attrs: true
       type: dict
       attrs:
+
         - variable: configs
           label: "App Config Storage"
           description: "Stores the Application Configuration."
@@ -906,6 +928,7 @@ questions:
                             schema:
                               type: string
                               default: ""
+
         - variable: server
           label: "App Server Data Storage"
           description: "Stores the Application's Server Data."
@@ -1179,6 +1202,7 @@ questions:
                             schema:
                               type: string
                               default: ""
+
         - variable: logs
           label: "App Logs Storage"
           description: "Stores the Application Logs."
@@ -1452,6 +1476,7 @@ questions:
                             schema:
                               type: string
                               default: ""
+
         - variable: transcode-cache
           label: "App Transcode cache"
           description: "Stores the Application Transcode cache."
@@ -1725,6 +1750,7 @@ questions:
                             schema:
                               type: string
                               default: ""
+
         - variable: media
           label: "App Media"
           description: "Stores the Application Media."
@@ -1998,6 +2024,7 @@ questions:
                             schema:
                               type: string
                               default: ""
+
   - variable: persistenceList
     label: Additional App Storage
     group: Storage and Persistence
@@ -2287,6 +2314,7 @@ questions:
                             schema:
                               type: string
                               default: ""
+
   - variable: ingress
     label: ""
     group: Ingress
@@ -2294,6 +2322,7 @@ questions:
       additional_attrs: true
       type: dict
       attrs:
+
         - variable: main
           label: "Main Ingress"
           schema:
@@ -2349,6 +2378,7 @@ questions:
                                                 type: string
                                                 required: true
                                                 default: Prefix
+
                     - variable: integrations
                       label: Integrations
                       description: Connect ingress with other charts
@@ -2573,6 +2603,7 @@ questions:
                                     show_if: [["certificateIssuer", "=", ""]]
                                     type: string
                                     default: ""
+
   - variable: ingressList
     label: Add Manual Custom Ingresses
     group: Ingress
@@ -2815,6 +2846,7 @@ questions:
                               required: true
                               default: "default"
                               show_if: [["enabled", "=", true]]
+
   - variable: securityContext
     group: Security and Permissions
     label: Security Context
@@ -2829,6 +2861,7 @@ questions:
             type: dict
             attrs:
               # Settings from questions.yaml get appended here on a per-app basis
+
               - variable: runAsUser
                 label: "runAsUser"
                 description: "The UserID of the user running the application"
@@ -2855,6 +2888,7 @@ questions:
                 schema:
                   type: string
                   default: "0022"
+
               - variable: advanced
                 label: Show Advanced Settings
                 description: Advanced settings are not covered by TrueCharts Support
@@ -2873,6 +2907,7 @@ questions:
                       schema:
                         type: boolean
                         default: true
+
         - variable: pod
           label: Pod
           schema:
@@ -2900,6 +2935,7 @@ questions:
                       schema:
                         type: int
               # Settings from questions.yaml get appended here on a per-app basis
+
               - variable: fsGroup
                 label: "fsGroup"
                 description: "The group that should own ALL storage."
@@ -3040,6 +3076,7 @@ questions:
                   type: string
                   default: workaround
                   hidden: true
+
 #  - variable: horizontalPodAutoscaler
 #    group: Advanced
 #    label: (Advanced) Horizontal Pod Autoscaler
@@ -3470,6 +3507,7 @@ questions:
                                                   description: UDP
                                                 - value: SCTP
                                                   description: SCTP
+
   - variable: addons
     group: Addons
     label: ""
@@ -3477,6 +3515,7 @@ questions:
       additional_attrs: true
       type: dict
       attrs:
+
         - variable: codeserver
           label: Codeserver
           schema:
@@ -3754,6 +3793,7 @@ questions:
                                   schema:
                                     type: string
                                     required: true
+
         - variable: netshoot
           label: Netshoot
           schema:
@@ -3790,6 +3830,7 @@ questions:
                                   schema:
                                     type: string
                                     required: true
+
         - variable: vpn
           label: VPN
           schema:
@@ -3964,6 +4005,7 @@ questions:
                               type: string
                               required: true
                               max_length: 10240
+
   - variable: docs
     group: Documentation
     label: Please read the documentation at https://truecharts.org
@@ -3993,3 +4035,4 @@ questions:
             type: boolean
             default: true
             hidden: true
+

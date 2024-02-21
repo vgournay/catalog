@@ -31,6 +31,7 @@ groups:
     description: Postgresql
   - name: Documentation
     description: Documentation
+
 portals:
   open:
     protocols:
@@ -39,6 +40,7 @@ portals:
       - "$kubernetes-resource_configmap_tcportal-open_host"
     ports:
       - "$kubernetes-resource_configmap_tcportal-open_port"
+
     path: "$kubernetes-resource_configmap_tcportal-open_path"
 questions:
   - variable: global
@@ -54,6 +56,7 @@ questions:
           schema:
             type: boolean
             default: false
+
   - variable: workload
     group: "Workload Settings"
     label: ""
@@ -67,6 +70,7 @@ questions:
             additional_attrs: true
             type: dict
             attrs:
+
               - variable: type
                 label: Type (Advanced)
                 schema:
@@ -77,6 +81,7 @@ questions:
                       description: Deployment
                     - value: DaemonSet
                       description: DaemonSet
+
               - variable: replicas
                 label: Replicas (Advanced)
                 description: Set the number of Replicas
@@ -84,6 +89,7 @@ questions:
                   type: int
                   show_if: [["type", "!=", "DaemonSet"]]
                   default: 1
+
               - variable: podSpec
                 label: ""
                 schema:
@@ -96,12 +102,14 @@ questions:
                         additional_attrs: true
                         type: dict
                         attrs:
+
                           - variable: main
                             label: Main Container
                             schema:
                               additional_attrs: true
                               type: dict
                               attrs:
+
                                 - variable: envList
                                   label: Extra Environment Variables
                                   description: "Please be aware that some variables are set in the background, adding duplicates here might cause issues or prevent the app from starting..."
@@ -133,6 +141,7 @@ questions:
                                         label: Arg
                                         schema:
                                           type: string
+
                                 - variable: advanced
                                   label: Show Advanced Settings
                                   description: Advanced settings are not covered by TrueCharts Support
@@ -151,6 +160,7 @@ questions:
                                               label: Param
                                               schema:
                                                 type: string
+
   - variable: TZ
     label: Timezone
     group: "General Settings"
@@ -159,6 +169,7 @@ questions:
       default: "Etc/UTC"
       $ref:
         - "definitions/timezone"
+
   - variable: podOptions
     group: "General Settings"
     label: "Global Pod Options (Advanced)"
@@ -277,6 +288,7 @@ questions:
                         type: string
                         required: true
                         default: ""
+
   - variable: expertIngressClass
     label: Expert Mode
     group: App Configuration
@@ -485,6 +497,7 @@ questions:
                                     type: string
                                     required: true
                                     default: ""
+
         - variable: forwardAuth
           label: forwardAuth
           schema:
@@ -555,6 +568,7 @@ questions:
                             schema:
                               type: string
                               default: ""
+
         - variable: buffering
           label: Buffering
           schema:
@@ -606,6 +620,7 @@ questions:
                       schema:
                         type: string
                         default: ""
+
         - variable: customRequestHeaders
           label: Custom Request Headers
           schema:
@@ -649,6 +664,7 @@ questions:
                                   schema:
                                     type: string
                                     default: ""
+
         - variable: customResponseHeaders
           label: Custom Response Headers
           schema:
@@ -692,6 +708,7 @@ questions:
                                   schema:
                                     type: string
                                     default: ""
+
         - variable: rewriteResponseHeaders
           label: Rewrite Response Headers
           schema:
@@ -741,6 +758,7 @@ questions:
                                   schema:
                                     type: string
                                     default: ""
+
         - variable: customFrameOptionsValue
           label: Custom Frame Options Value
           schema:
@@ -765,6 +783,7 @@ questions:
                         type: string
                         required: true
                         default: ""
+
         - variable: chain
           label: Chain
           schema:
@@ -794,6 +813,7 @@ questions:
                               type: string
                               required: true
                               default: ""
+
         - variable: redirectScheme
           label: redirectScheme
           schema:
@@ -827,6 +847,7 @@ questions:
                       schema:
                         type: boolean
                         default: false
+
         - variable: rateLimit
           label: rateLimit
           schema:
@@ -856,6 +877,7 @@ questions:
                         type: int
                         required: true
                         default: 200
+
         - variable: redirectRegex
           label: redirectRegex
           schema:
@@ -890,6 +912,7 @@ questions:
                       schema:
                         type: boolean
                         default: false
+
         - variable: stripPrefixRegex
           label: stripPrefixRegex
           schema:
@@ -919,6 +942,7 @@ questions:
                               type: string
                               required: true
                               default: ""
+
         - variable: ipWhiteList
           label: ipWhiteList
           schema:
@@ -972,6 +996,7 @@ questions:
                                     type: string
                                     required: true
                                     default: ""
+
         - variable: themePark
           label: theme.park
           schema:
@@ -1030,6 +1055,7 @@ questions:
                               type: string
                               required: true
                               default: ""
+
         - variable: realIP
           label: Real IP
           schema:
@@ -1061,6 +1087,7 @@ questions:
                               type: string
                               required: true
                               default: ""
+
         - variable: geoBlock
           label: GeoBlock
           schema:
@@ -1167,6 +1194,7 @@ questions:
                               # Allow only 2 Characters
                               valid_chars: '^[a-zA-Z]{2}$'
                               default: ""
+
         - variable: addPrefix
           label: Add Prefix
           schema:
@@ -1191,6 +1219,7 @@ questions:
                         type: string
                         required: true
                         default: ""
+
         - variable: modsecurity
           label: modsecurity
           schema:
@@ -1232,6 +1261,7 @@ questions:
                         type: int
                         required: true
                         default: 0
+
   - variable: service
     group: "Networking and Services"
     label: "Configure Service Entrypoint"
@@ -1263,6 +1293,7 @@ questions:
                       description: LoadBalancer (Expose Ports)
                     - value: ClusterIP
                       description: ClusterIP (Do Not Expose Ports)
+
               - variable: loadBalancerIP
                 label: LoadBalancer IP
                 description: "MetalLB Only: Selects the Loadbalancer IP to expose on. Required when using PortalButton with MetalLB"
@@ -1276,6 +1307,7 @@ questions:
                   additional_attrs: true
                   type: dict
                   attrs:
+
                     - variable: main
                       label: "Main Entrypoint Configuration"
                       schema:
@@ -1312,6 +1344,7 @@ questions:
                       description: LoadBalancer (Expose Ports)
                     - value: ClusterIP
                       description: ClusterIP (Do Not Expose Ports)
+
               - variable: loadBalancerIP
                 label: LoadBalancer IP
                 description: "MetalLB Only: Selects the Loadbalancer IP to expose on. Required when using PortalButton with MetalLB"
@@ -1325,6 +1358,7 @@ questions:
                   additional_attrs: true
                   type: dict
                   attrs:
+
                     - variable: web
                       label: "web Entrypoint Configuration"
                       schema:
@@ -1385,6 +1419,7 @@ questions:
                                         schema:
                                           type: boolean
                                           default: false
+
                           - variable: proxyProtocol
                             label: Accept Proxy Protocol connections
                             description: If Proxy Protocol header parsing is enabled for the entry point, this entry point can accept connections with or without Proxy Protocol headers.
@@ -1418,6 +1453,7 @@ questions:
                                         schema:
                                           type: boolean
                                           default: false
+
                     - variable: websecure
                       label: "websecure Entrypoints Configuration"
                       schema:
@@ -1477,6 +1513,7 @@ questions:
                                         schema:
                                           type: boolean
                                           default: false
+
                           - variable: proxyProtocol
                             label: Accept Proxy Protocol connections
                             description: If Proxy Protocol header parsing is enabled for the entry point, this entry point can accept connections with or without Proxy Protocol headers.
@@ -1510,6 +1547,7 @@ questions:
                                         schema:
                                           type: boolean
                                           default: false
+
                           - variable: tls
                             label: "websecure Entrypoints Configuration"
                             schema:
@@ -1615,6 +1653,7 @@ questions:
                                         schema:
                                           type: boolean
                                           default: false
+
                           - variable: proxyProtocol
                             label: Accept Proxy Protocol connections
                             description: If Proxy Protocol header parsing is enabled for the entry point, this entry point can accept connections with or without Proxy Protocol headers.
@@ -1648,6 +1687,7 @@ questions:
                                         schema:
                                           type: boolean
                                           default: false
+
   - variable: ingress
     label: ""
     group: Ingress
@@ -1655,6 +1695,7 @@ questions:
       additional_attrs: true
       type: dict
       attrs:
+
         - variable: main
           label: "Main Ingress"
           schema:
@@ -1710,6 +1751,7 @@ questions:
                                                 type: string
                                                 required: true
                                                 default: Prefix
+
                     - variable: integrations
                       label: Integrations
                       description: Connect ingress with other charts
@@ -1934,6 +1976,7 @@ questions:
                                     show_if: [["certificateIssuer", "=", ""]]
                                     type: string
                                     default: ""
+
   - variable: ingressList
     label: Add Manual Custom Ingresses
     group: Ingress
@@ -2176,6 +2219,7 @@ questions:
                               required: true
                               default: "default"
                               show_if: [["enabled", "=", true]]
+
   - variable: securityContext
     group: Security and Permissions
     label: Security Context
@@ -2190,6 +2234,7 @@ questions:
             type: dict
             attrs:
               # Settings from questions.yaml get appended here on a per-app basis
+
               - variable: runAsUser
                 label: "runAsUser"
                 description: "The UserID of the user running the application"
@@ -2216,6 +2261,7 @@ questions:
                 schema:
                   type: string
                   default: "0022"
+
               - variable: advanced
                 label: Show Advanced Settings
                 description: Advanced settings are not covered by TrueCharts Support
@@ -2234,6 +2280,7 @@ questions:
                       schema:
                         type: boolean
                         default: true
+
         - variable: pod
           label: Pod
           schema:
@@ -2261,6 +2308,7 @@ questions:
                       schema:
                         type: int
               # Settings from questions.yaml get appended here on a per-app basis
+
               - variable: fsGroup
                 label: "fsGroup"
                 description: "The group that should own ALL storage."
@@ -2401,6 +2449,7 @@ questions:
                   type: string
                   default: workaround
                   hidden: true
+
   - variable: metrics
     group: Metrics
     label: Prometheus Metrics
@@ -2422,6 +2471,7 @@ questions:
                   default: false
                   show_subquestions_if: true
                   subquestions:
+
                     - variable: prometheusRule
                       label: PrometheusRule
                       description: Enable and configure Prometheus Rules for the App.
@@ -2436,6 +2486,7 @@ questions:
                               type: boolean
                               default: false
                           # TODO: Rule List section
+
 #  - variable: horizontalPodAutoscaler
 #    group: Advanced
 #    label: (Advanced) Horizontal Pod Autoscaler
@@ -2866,6 +2917,7 @@ questions:
                                                   description: UDP
                                                 - value: SCTP
                                                   description: SCTP
+
   - variable: addons
     group: Addons
     label: ""
@@ -2873,6 +2925,7 @@ questions:
       additional_attrs: true
       type: dict
       attrs:
+
         - variable: codeserver
           label: Codeserver
           schema:
@@ -3150,6 +3203,7 @@ questions:
                                   schema:
                                     type: string
                                     required: true
+
         - variable: netshoot
           label: Netshoot
           schema:
@@ -3186,6 +3240,7 @@ questions:
                                   schema:
                                     type: string
                                     required: true
+
         - variable: vpn
           label: VPN
           schema:
@@ -3360,6 +3415,7 @@ questions:
                               type: string
                               required: true
                               max_length: 10240
+
   - variable: docs
     group: Documentation
     label: Please read the documentation at https://truecharts.org
@@ -3389,6 +3445,7 @@ questions:
             type: boolean
             default: true
             hidden: true
+
   - variable: warning
     group: Documentation
     label: 'WARNING: If installed, be sure to move the TrueNAS GUI to another port (not 80 or 443).'

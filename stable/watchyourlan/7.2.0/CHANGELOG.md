@@ -2,98 +2,163 @@
 title: Changelog
 ---
 
-**Important:**
-*for the complete changelog, please refer to the website*
-
-
-
-
-## [watchyourlan-7.1.12](https://github.com/truecharts/charts/compare/watchyourlan-7.1.11...watchyourlan-7.1.12) (2024-02-03)
+## [watchyourlan-1.0.0](https://github.com/truecharts/charts/compare/watchyourlan-0.0.10...watchyourlan-1.0.0) (2022-11-10)
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Major Change to GUI
+- update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+- update helm general non-major ([#4349](https://github.com/truecharts/charts/issues/4349))
+- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
+### Fix
 
-- update container image common to v17.2.30[@19ad5ec](https://github.com/19ad5ec) by renovate ([#17804](https://github.com/truecharts/charts/issues/17804))
+- change container config label
 
-
-## [watchyourlan-7.1.11](https://github.com/truecharts/charts/compare/watchyourlan-7.1.10...watchyourlan-7.1.11) (2024-01-26)
-
-### Chore
-
-
-
-- update container image common to v17.2.29[@d7c41a3](https://github.com/d7c41a3) by renovate ([#17545](https://github.com/truecharts/charts/issues/17545))
-
-
-## [watchyourlan-7.1.10](https://github.com/truecharts/charts/compare/watchyourlan-7.1.9...watchyourlan-7.1.10) (2024-01-21)
-
-### Chore
-
-
-
-- update container image common to v17.2.28[@918b4c5](https://github.com/918b4c5) by renovate ([#17478](https://github.com/truecharts/charts/issues/17478))
-
-
-## [watchyourlan-7.1.9](https://github.com/truecharts/charts/compare/watchyourlan-7.1.8...watchyourlan-7.1.9) (2024-01-21)
+## [watchyourlan-0.0.13](https://github.com/truecharts/charts/compare/watchyourlan-0.0.10...watchyourlan-0.0.13) (2022-11-08)
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+- update helm general non-major ([#4349](https://github.com/truecharts/charts/issues/4349))
+- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
-
-- update container image common to v17.2.26[@24c98f7](https://github.com/24c98f7) by renovate ([#17409](https://github.com/truecharts/charts/issues/17409))
-
-
-## [watchyourlan-7.1.8](https://github.com/truecharts/charts/compare/watchyourlan-7.1.7...watchyourlan-7.1.8) (2024-01-21)
-
-### Chore
-
-
-
-- update metadata in chart.yaml ([#17457](https://github.com/truecharts/charts/issues/17457))
-
-
-
-
-## [watchyourlan-7.1.7](https://github.com/truecharts/charts/compare/watchyourlan-7.1.6...watchyourlan-7.1.7) (2024-01-09)
+## [watchyourlan-0.0.12](https://github.com/truecharts/charts/compare/watchyourlan-0.0.10...watchyourlan-0.0.12) (2022-11-08)
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
-
-- update container image common to v17.2.22[@e7c9056](https://github.com/e7c9056) by renovate ([#16986](https://github.com/truecharts/charts/issues/16986))
-
-
-## [watchyourlan-7.1.6](https://github.com/truecharts/charts/compare/watchyourlan-7.1.5...watchyourlan-7.1.6) (2024-01-08)
-
-### Chore
-
-
-
-- update container image aceberg/watchyourlan to v1.0.6[@c42ce1d](https://github.com/c42ce1d) by renovate ([#16979](https://github.com/truecharts/charts/issues/16979))
-
-
-## [watchyourlan-7.1.5](https://github.com/truecharts/charts/compare/watchyourlan-7.1.4...watchyourlan-7.1.5) (2024-01-02)
+## [watchyourlan-0.0.12](https://github.com/truecharts/charts/compare/watchyourlan-0.0.10...watchyourlan-0.0.12) (2022-11-08)
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
-
-- force bump to ensure up-to-date catalogs
-
-
-## [watchyourlan-7.1.4](https://github.com/truecharts/charts/compare/watchyourlan-7.1.3...watchyourlan-7.1.4) (2024-01-01)
-
-### Chore
-
-
-
-- increase common version for oci fixes
-
-- remove non-existent template refs ([#16738](https://github.com/truecharts/charts/issues/16738))
-
-
-## [watchyourlan-7.1.3](https://github.com/truecharts/charts/compare/watchyourlan-7.1.0...watchyourlan-7.1.3) (2024-01-01)
+## [watchyourlan-0.0.12](https://github.com/truecharts/charts/compare/watchyourlan-0.0.10...watchyourlan-0.0.12) (2022-11-08)
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+## [watchyourlan-0.0.11](https://github.com/truecharts/charts/compare/watchyourlan-0.0.10...watchyourlan-0.0.11) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+## [watchyourlan-0.0.11](https://github.com/truecharts/charts/compare/watchyourlan-0.0.10...watchyourlan-0.0.11) (2022-11-06)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+## [watchyourlan-0.0.10](https://github.com/truecharts/charts/compare/watchyourlan-0.0.9...watchyourlan-0.0.10) (2022-11-06)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#4317](https://github.com/truecharts/charts/issues/4317))
+
+## [watchyourlan-0.0.9](https://github.com/truecharts/charts/compare/watchyourlan-0.0.8...watchyourlan-0.0.9) (2022-11-05)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#4308](https://github.com/truecharts/charts/issues/4308))
+
+## [watchyourlan-0.0.8](https://github.com/truecharts/charts/compare/watchyourlan-0.0.7...watchyourlan-0.0.8) (2022-11-02)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#4261](https://github.com/truecharts/charts/issues/4261))
+
+## [watchyourlan-0.0.7](https://github.com/truecharts/charts/compare/watchyourlan-0.0.6...watchyourlan-0.0.7) (2022-10-25)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#4182](https://github.com/truecharts/charts/issues/4182))
+
+## [watchyourlan-0.0.6](https://github.com/truecharts/charts/compare/watchyourlan-0.0.5...watchyourlan-0.0.6) (2022-10-19)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#4122](https://github.com/truecharts/charts/issues/4122))
+
+## [watchyourlan-0.0.5](https://github.com/truecharts/charts/compare/watchyourlan-0.0.4...watchyourlan-0.0.5) (2022-10-12)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#4071](https://github.com/truecharts/charts/issues/4071))
+
+## [watchyourlan-0.0.4](https://github.com/truecharts/charts/compare/watchyourlan-0.0.3...watchyourlan-0.0.4) (2022-10-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- update helm general non-major
+
+## [watchyourlan-0.0.4](https://github.com/truecharts/charts/compare/watchyourlan-0.0.3...watchyourlan-0.0.4) (2022-10-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- update helm general non-major
+
+## [watchyourlan-0.0.3](https://github.com/truecharts/charts/compare/watchyourlan-0.0.2...watchyourlan-0.0.3) (2022-10-05)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- split addons in smaller templates ([#3979](https://github.com/truecharts/charts/issues/3979))
+- update helm general non-major
+
+## [watchyourlan-0.0.2](https://github.com/truecharts/charts/compare/watchyourlan-0.0.1...watchyourlan-0.0.2) (2022-09-27)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+- Auto-update chart README [skip ci]
+- update helm general non-major ([#3918](https://github.com/truecharts/charts/issues/3918))
+
+## [watchyourlan-0.0.1]watchyourlan-0.0.1 (2022-09-25)
+
+### Feat
+
+- add watchyourlan ([#3889](https://github.com/truecharts/charts/issues/3889))
