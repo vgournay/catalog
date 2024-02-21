@@ -2,542 +2,98 @@
 title: Changelog
 ---
 
-## [adguardhome-sync-1.0.0](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.42...adguardhome-sync-1.0.0) (2022-11-10)
+
+*for the complete changelog, please refer to the website*
+
+**Important:**
+
+
+
+## [adguardhome-sync-5.2.9](https://github.com/truecharts/charts/compare/adguardhome-sync-5.2.8...adguardhome-sync-5.2.9) (2024-02-12)
 
 ### Chore
 
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Major Change to GUI
-- update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
-- update helm general non-major ([#4349](https://github.com/truecharts/charts/issues/4349))
-- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
-- update docker general non-major ([#4347](https://github.com/truecharts/charts/issues/4347))
 
-### Fix
 
-- change container config label
+- update container image ghcr.io/bakito/adguardhome-sync to v0.6.5[@6d68b3c](https://github.com/6d68b3c) by renovate ([#18217](https://github.com/truecharts/charts/issues/18217))
 
-## [adguardhome-sync-0.0.46](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.42...adguardhome-sync-0.0.46) (2022-11-08)
+
+## [adguardhome-sync-5.2.8](https://github.com/truecharts/charts/compare/adguardhome-sync-5.2.7...adguardhome-sync-5.2.8) (2024-02-05)
 
 ### Chore
 
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
-- update helm general non-major ([#4349](https://github.com/truecharts/charts/issues/4349))
-- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
-- update docker general non-major ([#4347](https://github.com/truecharts/charts/issues/4347))
 
-## [adguardhome-sync-0.0.45](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.42...adguardhome-sync-0.0.45) (2022-11-08)
+
+- update container image ghcr.io/bakito/adguardhome-sync to v0.6.4[@219f3f3](https://github.com/219f3f3) by renovate ([#17909](https://github.com/truecharts/charts/issues/17909))
+
+
+## [adguardhome-sync-5.2.7](https://github.com/truecharts/charts/compare/adguardhome-sync-5.2.6...adguardhome-sync-5.2.7) (2024-02-03)
 
 ### Chore
 
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
-- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
-- update docker general non-major ([#4347](https://github.com/truecharts/charts/issues/4347))
 
-## [adguardhome-sync-0.0.45](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.42...adguardhome-sync-0.0.45) (2022-11-08)
+
+- update container image common to v17.2.30[@19ad5ec](https://github.com/19ad5ec) by renovate ([#17804](https://github.com/truecharts/charts/issues/17804))
+
+
+## [adguardhome-sync-5.2.6](https://github.com/truecharts/charts/compare/adguardhome-sync-5.2.5...adguardhome-sync-5.2.6) (2024-01-26)
 
 ### Chore
 
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
-- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
-- update docker general non-major ([#4347](https://github.com/truecharts/charts/issues/4347))
 
-## [adguardhome-sync-0.0.44](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.42...adguardhome-sync-0.0.44) (2022-11-08)
+
+- update container image common to v17.2.29[@d7c41a3](https://github.com/d7c41a3) by renovate ([#17545](https://github.com/truecharts/charts/issues/17545))
+
+
+## [adguardhome-sync-5.2.5](https://github.com/truecharts/charts/compare/adguardhome-sync-5.2.4...adguardhome-sync-5.2.5) (2024-01-21)
 
 ### Chore
 
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
-- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
-## [adguardhome-sync-0.0.43](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.42...adguardhome-sync-0.0.43) (2022-11-07)
 
-### Chore
+- update container image common to v17.2.28[@918b4c5](https://github.com/918b4c5) by renovate ([#17478](https://github.com/truecharts/charts/issues/17478))
 
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
-## [adguardhome-sync-0.0.43](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.42...adguardhome-sync-0.0.43) (2022-11-06)
+## [adguardhome-sync-5.2.4](https://github.com/truecharts/charts/compare/adguardhome-sync-5.2.3...adguardhome-sync-5.2.4) (2024-01-21)
 
 ### Chore
 
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
-## [adguardhome-sync-0.0.42](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.41...adguardhome-sync-0.0.42) (2022-11-06)
 
-### Chore
+- update container image common to v17.2.26[@24c98f7](https://github.com/24c98f7) by renovate ([#17409](https://github.com/truecharts/charts/issues/17409))
 
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#4317](https://github.com/truecharts/charts/issues/4317))
 
-## [adguardhome-sync-0.0.41](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.40...adguardhome-sync-0.0.41) (2022-11-05)
+## [adguardhome-sync-5.2.3](https://github.com/truecharts/charts/compare/adguardhome-sync-5.2.2...adguardhome-sync-5.2.3) (2024-01-21)
 
 ### Chore
 
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#4308](https://github.com/truecharts/charts/issues/4308))
 
-## [adguardhome-sync-0.0.40](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.39...adguardhome-sync-0.0.40) (2022-11-04)
 
-### Chore
+- update metadata in chart.yaml ([#17457](https://github.com/truecharts/charts/issues/17457))
 
-- Auto-update chart README [skip ci]
-- update docker general non-major ([#4293](https://github.com/truecharts/charts/issues/4293))
 
-## [adguardhome-sync-0.0.39](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.38...adguardhome-sync-0.0.39) (2022-11-02)
+## [adguardhome-sync-5.2.2](https://github.com/truecharts/charts/compare/adguardhome-sync-5.2.1...adguardhome-sync-5.2.2) (2024-01-21)
 
 ### Chore
 
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#4261](https://github.com/truecharts/charts/issues/4261))
 
-## [adguardhome-sync-0.0.38](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.37...adguardhome-sync-0.0.38) (2022-10-25)
 
-### Chore
+- update container image ghcr.io/bakito/adguardhome-sync to v0.6.3[@058c6cd](https://github.com/058c6cd) by renovate ([#17415](https://github.com/truecharts/charts/issues/17415))
 
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#4182](https://github.com/truecharts/charts/issues/4182))
 
-## [adguardhome-sync-0.0.37](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.36...adguardhome-sync-0.0.37) (2022-10-19)
+## [adguardhome-sync-5.2.1](https://github.com/truecharts/charts/compare/adguardhome-sync-5.2.0...adguardhome-sync-5.2.1) (2024-01-15)
 
 ### Chore
 
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#4122](https://github.com/truecharts/charts/issues/4122))
 
-## [adguardhome-sync-0.0.36](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.35...adguardhome-sync-0.0.36) (2022-10-12)
 
-### Chore
+- update container image ghcr.io/bakito/adguardhome-sync to v0.6.2[@5efe641](https://github.com/5efe641) by renovate ([#17245](https://github.com/truecharts/charts/issues/17245))
 
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#4071](https://github.com/truecharts/charts/issues/4071))
 
-## [adguardhome-sync-0.0.35](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.34...adguardhome-sync-0.0.35) (2022-10-07)
+## [adguardhome-sync-5.2.0](https://github.com/truecharts/charts/compare/adguardhome-sync-5.1.8...adguardhome-sync-5.2.0) (2024-01-14)
 
 ### Chore
 
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- update helm general non-major
 
-## [adguardhome-sync-0.0.35](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.34...adguardhome-sync-0.0.35) (2022-10-07)
 
-### Chore
-
-- Auto-update chart README [skip ci]
-- update helm general non-major
-
-## [adguardhome-sync-0.0.34](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.33...adguardhome-sync-0.0.34) (2022-10-07)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- update docker general non-major
-
-## [adguardhome-sync-0.0.33](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.32...adguardhome-sync-0.0.33) (2022-10-05)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- update helm general non-major
-
-## [adguardhome-sync-0.0.32](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.31...adguardhome-sync-0.0.32) (2022-10-05)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- split addons in smaller templates ([#3979](https://github.com/truecharts/charts/issues/3979))
-- update docker general non-major ([#4010](https://github.com/truecharts/charts/issues/4010))
-
-## [adguardhome-sync-0.0.31](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.30...adguardhome-sync-0.0.31) (2022-09-27)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#3918](https://github.com/truecharts/charts/issues/3918))
-
-## [adguardhome-sync-0.0.30](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.29...adguardhome-sync-0.0.30) (2022-09-25)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#3898](https://github.com/truecharts/charts/issues/3898))
-
-## [adguardhome-sync-0.0.29](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.28...adguardhome-sync-0.0.29) (2022-09-23)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- update docker general non-major ([#3850](https://github.com/truecharts/charts/issues/3850))
-
-## [adguardhome-sync-0.0.28](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.27...adguardhome-sync-0.0.28) (2022-09-22)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- refactor Services SCALE GUI
-- update docker general non-major ([#3772](https://github.com/truecharts/charts/issues/3772))
-- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
-
-## [adguardhome-sync-0.0.28](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.27...adguardhome-sync-0.0.28) (2022-09-21)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- refactor Services SCALE GUI
-- update docker general non-major ([#3772](https://github.com/truecharts/charts/issues/3772))
-- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
-
-## [adguardhome-sync-0.0.28](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.27...adguardhome-sync-0.0.28) (2022-09-21)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- refactor Services SCALE GUI
-- update docker general non-major ([#3772](https://github.com/truecharts/charts/issues/3772))
-- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
-
-## [adguardhome-sync-0.0.28](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.27...adguardhome-sync-0.0.28) (2022-09-20)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- refactor Services SCALE GUI
-- update docker general non-major ([#3772](https://github.com/truecharts/charts/issues/3772))
-- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
-
-## [adguardhome-sync-0.0.28](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.27...adguardhome-sync-0.0.28) (2022-09-20)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- refactor Services SCALE GUI
-- update docker general non-major ([#3772](https://github.com/truecharts/charts/issues/3772))
-- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
-
-## [adguardhome-sync-0.0.28](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.27...adguardhome-sync-0.0.28) (2022-09-19)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- refactor Services SCALE GUI
-- update docker general non-major ([#3772](https://github.com/truecharts/charts/issues/3772))
-- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
-
-## [adguardhome-sync-0.0.28](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.27...adguardhome-sync-0.0.28) (2022-09-19)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- refactor Services SCALE GUI
-- update docker general non-major ([#3772](https://github.com/truecharts/charts/issues/3772))
-- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
-
-## [adguardhome-sync-0.0.28](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.27...adguardhome-sync-0.0.28) (2022-09-19)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- refactor Services SCALE GUI
-- update docker general non-major ([#3772](https://github.com/truecharts/charts/issues/3772))
-- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
-
-## [adguardhome-sync-0.0.28](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.27...adguardhome-sync-0.0.28) (2022-09-17)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- refactor Services SCALE GUI
-- update docker general non-major ([#3772](https://github.com/truecharts/charts/issues/3772))
-- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
-
-## [adguardhome-sync-0.0.28](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.27...adguardhome-sync-0.0.28) (2022-09-18)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- update docker general non-major ([#3772](https://github.com/truecharts/charts/issues/3772))
-- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
-
-## [adguardhome-sync-0.0.28](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.27...adguardhome-sync-0.0.28) (2022-09-16)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- update docker general non-major ([#3772](https://github.com/truecharts/charts/issues/3772))
-- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
-
-## [adguardhome-sync-0.0.28](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.27...adguardhome-sync-0.0.28) (2022-09-15)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- update docker general non-major ([#3772](https://github.com/truecharts/charts/issues/3772))
-- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
-
-## [adguardhome-sync-0.0.28](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.27...adguardhome-sync-0.0.28) (2022-09-15)
-
-### Chore
-
-- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
-
-## [adguardhome-sync-0.0.27](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.26...adguardhome-sync-0.0.27) (2022-09-12)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#3711](https://github.com/truecharts/charts/issues/3711))
-- update docker general non-major ([#3736](https://github.com/truecharts/charts/issues/3736))
-
-## [adguardhome-sync-0.0.27](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.26...adguardhome-sync-0.0.27) (2022-09-12)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#3711](https://github.com/truecharts/charts/issues/3711))
-- update docker general non-major ([#3736](https://github.com/truecharts/charts/issues/3736))
-
-## [adguardhome-sync-0.0.27](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.26...adguardhome-sync-0.0.27) (2022-09-11)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#3711](https://github.com/truecharts/charts/issues/3711))
-- update docker general non-major ([#3736](https://github.com/truecharts/charts/issues/3736))
-
-## [adguardhome-sync-0.0.27](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.26...adguardhome-sync-0.0.27) (2022-09-11)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#3711](https://github.com/truecharts/charts/issues/3711))
-- update docker general non-major ([#3736](https://github.com/truecharts/charts/issues/3736))
-
-## [adguardhome-sync-0.0.27](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.26...adguardhome-sync-0.0.27) (2022-09-11)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#3711](https://github.com/truecharts/charts/issues/3711))
-- update docker general non-major ([#3736](https://github.com/truecharts/charts/issues/3736))
-
-## [adguardhome-sync-0.0.27](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.26...adguardhome-sync-0.0.27) (2022-09-11)
-
-### Chore
-
-- update helm general non-major ([#3711](https://github.com/truecharts/charts/issues/3711))
-- update docker general non-major ([#3736](https://github.com/truecharts/charts/issues/3736))
-
-## [adguardhome-sync-0.0.26](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.25...adguardhome-sync-0.0.26) (2022-08-30)
-
-### Chore
-
-- update helm general non-major ([#3639](https://github.com/truecharts/charts/issues/3639))
-
-## [adguardhome-sync-0.0.25](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.24...adguardhome-sync-0.0.25) (2022-08-30)
-
-### Chore
-
-- update helm chart common to v10.5.5 ([#3626](https://github.com/truecharts/charts/issues/3626))
-
-## [adguardhome-sync-0.0.24](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.23...adguardhome-sync-0.0.24) (2022-08-29)
-
-### Chore
-
-- update helm general non-major ([#3619](https://github.com/truecharts/charts/issues/3619))
-
-## [adguardhome-sync-0.0.23](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.21...adguardhome-sync-0.0.23) (2022-08-26)
-
-### Fix
-
-- some cleanup ([#3586](https://github.com/truecharts/charts/issues/3586))
-
-## [adguardhome-sync-0.0.21](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.20...adguardhome-sync-0.0.21) (2022-08-26)
-
-### Chore
-
-- update docker general non-major ([#3573](https://github.com/truecharts/charts/issues/3573))
-
-## [adguardhome-sync-0.0.20](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.19...adguardhome-sync-0.0.20) (2022-08-23)
-
-### Chore
-
-- update helm general non-major helm releases ([#3545](https://github.com/truecharts/charts/issues/3545))
-
-## [adguardhome-sync-0.0.19](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.18...adguardhome-sync-0.0.19) (2022-08-19)
-
-### Chore
-
-- update docker general non-major docker tags ([#3512](https://github.com/truecharts/charts/issues/3512))
-
-## [adguardhome-sync-0.0.18](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.17...adguardhome-sync-0.0.18) (2022-08-12)
-
-### Chore
-
-- update helm general non-major helm releases ([#3456](https://github.com/truecharts/charts/issues/3456))
-
-## [adguardhome-sync-0.0.17](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.16...adguardhome-sync-0.0.17) (2022-08-12)
-
-### Chore
-
-- add documentation checkbox/section to all SCALE Apps
-- update docker general non-major ([#3453](https://github.com/truecharts/charts/issues/3453))
-
-### Fix
-
-- move extraArgs from .Values.controller to .Values ([#3447](https://github.com/truecharts/charts/issues/3447))
-
-## [adguardhome-sync-0.0.16](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.15...adguardhome-sync-0.0.16) (2022-08-09)
-
-### Chore
-
-- update docker general non-major ([#3377](https://github.com/truecharts/charts/issues/3377))
-
-## [adguardhome-sync-0.0.15](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.14...adguardhome-sync-0.0.15) (2022-08-08)
-
-### Chore
-
-- update helm general non-major helm releases ([#3376](https://github.com/truecharts/charts/issues/3376))
-- replace questions parts with templates ([#3402](https://github.com/truecharts/charts/issues/3402))
-
-## [adguardhome-sync-0.0.14](https://github.com/truecharts/apps/compare/adguardhome-sync-0.0.13...adguardhome-sync-0.0.14) (2022-07-26)
-
-### Chore
-
-- update home links ([#3291](https://github.com/truecharts/apps/issues/3291))
-- update helm general non-major helm releases ([#3302](https://github.com/truecharts/apps/issues/3302))
-
-## [adguardhome-sync-0.0.13](https://github.com/truecharts/apps/compare/adguardhome-sync-0.0.12...adguardhome-sync-0.0.13) (2022-07-25)
-
-### Chore
-
-- update docker general non-major ([#3300](https://github.com/truecharts/apps/issues/3300))
-
-### Chore
-
-- add fake digest to new incubator Apps to fetch digests
+- update container image ghcr.io/bakito/adguardhome-sync to v0.6.0[@17e9b0e](https://github.com/17e9b0e) by renovate ([#17202](https://github.com/truecharts/charts/issues/17202))

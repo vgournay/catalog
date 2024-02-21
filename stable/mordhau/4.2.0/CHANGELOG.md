@@ -2,151 +2,99 @@
 title: Changelog
 ---
 
-## [money-balancer-1.0.0](https://github.com/truecharts/charts/compare/money-balancer-0.0.9...money-balancer-1.0.0) (2022-11-10)
+
+*for the complete changelog, please refer to the website*
+
+**Important:**
+
+
+
+## [mordhau-4.1.11](https://github.com/truecharts/charts/compare/mordhau-4.1.10...mordhau-4.1.11) (2024-02-03)
 
 ### Chore
 
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Major Change to GUI
-- update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
-- update helm general non-major ([#4349](https://github.com/truecharts/charts/issues/4349))
-- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
-## [money-balancer-0.0.12](https://github.com/truecharts/charts/compare/money-balancer-0.0.9...money-balancer-0.0.12) (2022-11-08)
+
+- update container image common to v17.2.30[@19ad5ec](https://github.com/19ad5ec) by renovate ([#17804](https://github.com/truecharts/charts/issues/17804))
+
+
+## [mordhau-4.1.10](https://github.com/truecharts/charts/compare/mordhau-4.1.9...mordhau-4.1.10) (2024-01-26)
 
 ### Chore
 
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
-- update helm general non-major ([#4349](https://github.com/truecharts/charts/issues/4349))
-- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
-## [money-balancer-0.0.11](https://github.com/truecharts/charts/compare/money-balancer-0.0.9...money-balancer-0.0.11) (2022-11-08)
+
+- update container image common to v17.2.29[@d7c41a3](https://github.com/d7c41a3) by renovate ([#17545](https://github.com/truecharts/charts/issues/17545))
+
+
+## [mordhau-4.1.9](https://github.com/truecharts/charts/compare/mordhau-4.1.8...mordhau-4.1.9) (2024-01-21)
 
 ### Chore
 
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
-- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
-## [money-balancer-0.0.11](https://github.com/truecharts/charts/compare/money-balancer-0.0.9...money-balancer-0.0.11) (2022-11-08)
+
+- update container image common to v17.2.28[@918b4c5](https://github.com/918b4c5) by renovate ([#17478](https://github.com/truecharts/charts/issues/17478))
+
+
+## [mordhau-4.1.8](https://github.com/truecharts/charts/compare/mordhau-4.1.7...mordhau-4.1.8) (2024-01-21)
 
 ### Chore
 
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
-- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
-## [money-balancer-0.0.11](https://github.com/truecharts/charts/compare/money-balancer-0.0.9...money-balancer-0.0.11) (2022-11-08)
+
+- update container image common to v17.2.26[@24c98f7](https://github.com/24c98f7) by renovate ([#17409](https://github.com/truecharts/charts/issues/17409))
+
+
+## [mordhau-4.1.7](https://github.com/truecharts/charts/compare/mordhau-4.1.6...mordhau-4.1.7) (2024-01-21)
 
 ### Chore
 
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
-- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
-## [money-balancer-0.0.10](https://github.com/truecharts/charts/compare/money-balancer-0.0.9...money-balancer-0.0.10) (2022-11-07)
 
-### Chore
+- update metadata in chart.yaml ([#17457](https://github.com/truecharts/charts/issues/17457))
 
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
-## [money-balancer-0.0.10](https://github.com/truecharts/charts/compare/money-balancer-0.0.9...money-balancer-0.0.10) (2022-11-06)
+
+
+## [mordhau-4.1.6](https://github.com/truecharts/charts/compare/mordhau-4.1.5...mordhau-4.1.6) (2024-01-09)
 
 ### Chore
 
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
-## [money-balancer-0.0.9](https://github.com/truecharts/charts/compare/money-balancer-0.0.8...money-balancer-0.0.9) (2022-11-06)
 
-### Chore
+- update container image common to v17.2.22[@e7c9056](https://github.com/e7c9056) by renovate ([#16986](https://github.com/truecharts/charts/issues/16986))
 
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#4317](https://github.com/truecharts/charts/issues/4317))
 
-## [money-balancer-0.0.8](https://github.com/truecharts/charts/compare/money-balancer-0.0.7...money-balancer-0.0.8) (2022-11-05)
+## [mordhau-4.1.5](https://github.com/truecharts/charts/compare/mordhau-4.1.4...mordhau-4.1.5) (2024-01-02)
 
 ### Chore
 
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#4308](https://github.com/truecharts/charts/issues/4308))
 
-## [money-balancer-0.0.7](https://github.com/truecharts/charts/compare/money-balancer-0.0.6...money-balancer-0.0.7) (2022-11-02)
 
-### Chore
+- force bump to ensure up-to-date catalogs
 
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#4261](https://github.com/truecharts/charts/issues/4261))
 
-## [money-balancer-0.0.6](https://github.com/truecharts/charts/compare/money-balancer-0.0.5...money-balancer-0.0.6) (2022-10-25)
+## [mordhau-4.1.4](https://github.com/truecharts/charts/compare/mordhau-4.1.3...mordhau-4.1.4) (2024-01-01)
 
 ### Chore
 
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#4182](https://github.com/truecharts/charts/issues/4182))
 
-## [money-balancer-0.0.5](https://github.com/truecharts/charts/compare/money-balancer-0.0.4...money-balancer-0.0.5) (2022-10-19)
 
-### Chore
+- increase common version for oci fixes
 
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#4122](https://github.com/truecharts/charts/issues/4122))
+- remove non-existent template refs ([#16738](https://github.com/truecharts/charts/issues/16738))
 
-## [money-balancer-0.0.4](https://github.com/truecharts/charts/compare/money-balancer-0.0.3...money-balancer-0.0.4) (2022-10-12)
+
+## [mordhau-4.1.3](https://github.com/truecharts/charts/compare/mordhau-4.1.0...mordhau-4.1.3) (2024-01-01)
 
 ### Chore
 
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#4071](https://github.com/truecharts/charts/issues/4071))
 
-## [money-balancer-0.0.3](https://github.com/truecharts/charts/compare/money-balancer-0.0.2...money-balancer-0.0.3) (2022-10-07)
 
-### Chore
+- bump all charts for OCI test push
 
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- update helm general non-major
+- move everything to consume OCI-hosted common-chart dependency
 
-## [money-balancer-0.0.3](https://github.com/truecharts/charts/compare/money-balancer-0.0.2...money-balancer-0.0.3) (2022-10-07)
+- update container image common to v17.2.19[@4ebb688](https://github.com/4ebb688) by renovate ([#16733](https://github.com/truecharts/charts/issues/16733))
 
-### Chore
-
-- Auto-update chart README [skip ci]
-- update helm general non-major
-
-## [money-balancer-0.0.2](https://github.com/truecharts/charts/compare/money-balancer-0.0.1...money-balancer-0.0.2) (2022-10-07)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- update docker general non-major
-
-## [money-balancer-0.0.1]money-balancer-0.0.1 (2022-10-03)
-
-### Feat
-
-- add money-balancer ([#3996](https://github.com/truecharts/charts/issues/3996))
+- update container image common to v17.2.18[@085ba3c](https://github.com/085ba3c) by renovate ([#16732](https://github.com/truecharts/charts/issues/16732))

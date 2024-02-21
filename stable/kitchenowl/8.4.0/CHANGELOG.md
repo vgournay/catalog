@@ -2,580 +2,98 @@
 title: Changelog
 ---
 
-## [kitchenowl-2.0.0](https://github.com/truecharts/charts/compare/kitchenowl-1.0.19...kitchenowl-2.0.0) (2022-11-10)
+
+*for the complete changelog, please refer to the website*
+
+**Important:**
+
+
+
+## [kitchenowl-8.3.5](https://github.com/truecharts/charts/compare/kitchenowl-8.3.4...kitchenowl-8.3.5) (2024-02-03)
 
 ### Chore
 
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Major Change to GUI
-- update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
-- update helm general non-major ([#4349](https://github.com/truecharts/charts/issues/4349))
-- update docker general non-major ([#4331](https://github.com/truecharts/charts/issues/4331))
-- update docker general non-major ([#4355](https://github.com/truecharts/charts/issues/4355))
-- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+- update container image common to v17.2.30[@19ad5ec](https://github.com/19ad5ec) by renovate ([#17804](https://github.com/truecharts/charts/issues/17804))
+
+
+## [kitchenowl-8.3.4](https://github.com/truecharts/charts/compare/kitchenowl-8.3.3...kitchenowl-8.3.4) (2024-01-26)
+
+### Chore
+
+
+
+- update container image common to v17.2.29[@d7c41a3](https://github.com/d7c41a3) by renovate ([#17545](https://github.com/truecharts/charts/issues/17545))
+
+
+## [kitchenowl-8.3.3](https://github.com/truecharts/charts/compare/kitchenowl-8.3.2...kitchenowl-8.3.3) (2024-01-21)
+
+### Chore
+
+
+
+- update container image common to v17.2.28[@918b4c5](https://github.com/918b4c5) by renovate ([#17478](https://github.com/truecharts/charts/issues/17478))
+
+
+## [kitchenowl-8.3.2](https://github.com/truecharts/charts/compare/kitchenowl-8.3.1...kitchenowl-8.3.2) (2024-01-21)
+
+### Chore
+
+
+
+- update container image common to v17.2.26[@24c98f7](https://github.com/24c98f7) by renovate ([#17409](https://github.com/truecharts/charts/issues/17409))
+
+
+## [kitchenowl-8.3.1](https://github.com/truecharts/charts/compare/kitchenowl-8.3.0...kitchenowl-8.3.1) (2024-01-21)
+
+### Chore
+
+
+
+- update metadata in chart.yaml ([#17457](https://github.com/truecharts/charts/issues/17457))
+
+
+
+
+## [kitchenowl-8.3.0](https://github.com/truecharts/charts/compare/kitchenowl-8.2.2...kitchenowl-8.3.0) (2024-01-12)
 
 ### Fix
 
-- change container config label
 
-## [kitchenowl-1.0.24](https://github.com/truecharts/charts/compare/kitchenowl-1.0.19...kitchenowl-1.0.24) (2022-11-09)
 
-### Chore
+- assign backend environment variables ([#17050](https://github.com/truecharts/charts/issues/17050))
 
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- update docker general non-major ([#4355](https://github.com/truecharts/charts/issues/4355))
-- update helm general non-major ([#4349](https://github.com/truecharts/charts/issues/4349))
-- update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
-- update docker general non-major ([#4331](https://github.com/truecharts/charts/issues/4331))
-- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
-## [kitchenowl-1.0.23](https://github.com/truecharts/charts/compare/kitchenowl-1.0.19...kitchenowl-1.0.23) (2022-11-08)
+## [kitchenowl-8.2.2](https://github.com/truecharts/charts/compare/kitchenowl-8.2.1...kitchenowl-8.2.2) (2024-01-09)
 
 ### Chore
 
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#4349](https://github.com/truecharts/charts/issues/4349))
-- update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
-- update docker general non-major ([#4331](https://github.com/truecharts/charts/issues/4331))
-- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
-## [kitchenowl-1.0.22](https://github.com/truecharts/charts/compare/kitchenowl-1.0.19...kitchenowl-1.0.22) (2022-11-08)
+
+- update container image common to v17.2.22[@e7c9056](https://github.com/e7c9056) by renovate ([#16986](https://github.com/truecharts/charts/issues/16986))
+
+
+## [kitchenowl-8.2.1](https://github.com/truecharts/charts/compare/kitchenowl-8.2.0...kitchenowl-8.2.1) (2024-01-08)
 
 ### Chore
 
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
-- update docker general non-major ([#4331](https://github.com/truecharts/charts/issues/4331))
-- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
-## [kitchenowl-1.0.22](https://github.com/truecharts/charts/compare/kitchenowl-1.0.19...kitchenowl-1.0.22) (2022-11-08)
 
-### Chore
+- update container image tombursch/kitchenowl-web to latest[@8144301](https://github.com/8144301) by renovate ([#16968](https://github.com/truecharts/charts/issues/16968))
 
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
-- update docker general non-major ([#4331](https://github.com/truecharts/charts/issues/4331))
-- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+- update container image tombursch/kitchenowl to latest[@0a4ae56](https://github.com/0a4ae56) by renovate ([#16967](https://github.com/truecharts/charts/issues/16967))
 
-## [kitchenowl-1.0.22](https://github.com/truecharts/charts/compare/kitchenowl-1.0.19...kitchenowl-1.0.22) (2022-11-08)
 
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
-- update docker general non-major ([#4331](https://github.com/truecharts/charts/issues/4331))
-- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
-
-## [kitchenowl-1.0.21](https://github.com/truecharts/charts/compare/kitchenowl-1.0.19...kitchenowl-1.0.21) (2022-11-07)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- update docker general non-major ([#4331](https://github.com/truecharts/charts/issues/4331))
-- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
-
-## [kitchenowl-1.0.20](https://github.com/truecharts/charts/compare/kitchenowl-1.0.19...kitchenowl-1.0.20) (2022-11-06)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
-
-## [kitchenowl-1.0.19](https://github.com/truecharts/charts/compare/kitchenowl-1.0.18...kitchenowl-1.0.19) (2022-11-06)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#4317](https://github.com/truecharts/charts/issues/4317))
-
-## [kitchenowl-1.0.18](https://github.com/truecharts/charts/compare/kitchenowl-1.0.17...kitchenowl-1.0.18) (2022-11-05)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#4308](https://github.com/truecharts/charts/issues/4308))
-
-## [kitchenowl-1.0.17](https://github.com/truecharts/charts/compare/kitchenowl-1.0.16...kitchenowl-1.0.17) (2022-11-02)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#4261](https://github.com/truecharts/charts/issues/4261))
-
-## [kitchenowl-1.0.16](https://github.com/truecharts/charts/compare/kitchenowl-1.0.15...kitchenowl-1.0.16) (2022-10-30)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- update docker general non-major ([#4238](https://github.com/truecharts/charts/issues/4238))
-
-## [kitchenowl-1.0.15](https://github.com/truecharts/charts/compare/kitchenowl-1.0.14...kitchenowl-1.0.15) (2022-10-25)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#4182](https://github.com/truecharts/charts/issues/4182))
-
-## [kitchenowl-1.0.14](https://github.com/truecharts/charts/compare/kitchenowl-1.0.13...kitchenowl-1.0.14) (2022-10-22)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- update docker general non-major ([#4155](https://github.com/truecharts/charts/issues/4155))
-
-## [kitchenowl-1.0.13](https://github.com/truecharts/charts/compare/kitchenowl-1.0.12...kitchenowl-1.0.13) (2022-10-21)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- update docker general non-major ([#4139](https://github.com/truecharts/charts/issues/4139))
-
-## [kitchenowl-1.0.12](https://github.com/truecharts/charts/compare/kitchenowl-1.0.11...kitchenowl-1.0.12) (2022-10-19)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#4122](https://github.com/truecharts/charts/issues/4122))
-
-## [kitchenowl-1.0.11](https://github.com/truecharts/charts/compare/kitchenowl-1.0.10...kitchenowl-1.0.11) (2022-10-12)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#4071](https://github.com/truecharts/charts/issues/4071))
-
-## [kitchenowl-1.0.10](https://github.com/truecharts/charts/compare/kitchenowl-1.0.9...kitchenowl-1.0.10) (2022-10-07)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- update helm general non-major
-
-## [kitchenowl-1.0.10](https://github.com/truecharts/charts/compare/kitchenowl-1.0.9...kitchenowl-1.0.10) (2022-10-07)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- update helm general non-major
-
-## [kitchenowl-1.0.9](https://github.com/truecharts/charts/compare/kitchenowl-1.0.8...kitchenowl-1.0.9) (2022-10-07)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- update docker general non-major
-
-## [kitchenowl-1.0.8](https://github.com/truecharts/charts/compare/kitchenowl-1.0.7...kitchenowl-1.0.8) (2022-10-05)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- split addons in smaller templates ([#3979](https://github.com/truecharts/charts/issues/3979))
-- update helm general non-major
-
-## [kitchenowl-1.0.7](https://github.com/truecharts/charts/compare/kitchenowl-1.0.6...kitchenowl-1.0.7) (2022-09-27)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#3918](https://github.com/truecharts/charts/issues/3918))
-
-## [kitchenowl-1.0.6](https://github.com/truecharts/charts/compare/kitchenowl-1.0.5...kitchenowl-1.0.6) (2022-09-25)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#3898](https://github.com/truecharts/charts/issues/3898))
-
-## [kitchenowl-1.0.5](https://github.com/truecharts/charts/compare/kitchenowl-1.0.4...kitchenowl-1.0.5) (2022-09-23)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- update docker general non-major ([#3850](https://github.com/truecharts/charts/issues/3850))
-
-## [kitchenowl-1.0.4](https://github.com/truecharts/charts/compare/kitchenowl-1.0.1...kitchenowl-1.0.4) (2022-09-22)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- refactor Services SCALE GUI
-- update docker general non-major ([#3790](https://github.com/truecharts/charts/issues/3790))
-- update docker general non-major ([#3772](https://github.com/truecharts/charts/issues/3772))
-- update docker general non-major ([#3827](https://github.com/truecharts/charts/issues/3827))
-- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
-
-## [kitchenowl-1.0.4](https://github.com/truecharts/charts/compare/kitchenowl-1.0.1...kitchenowl-1.0.4) (2022-09-21)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- refactor Services SCALE GUI
-- update docker general non-major ([#3827](https://github.com/truecharts/charts/issues/3827))
-- update docker general non-major ([#3772](https://github.com/truecharts/charts/issues/3772))
-- update docker general non-major ([#3790](https://github.com/truecharts/charts/issues/3790))
-- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
-
-## [kitchenowl-1.0.3](https://github.com/truecharts/charts/compare/kitchenowl-1.0.1...kitchenowl-1.0.3) (2022-09-21)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- refactor Services SCALE GUI
-- update docker general non-major ([#3772](https://github.com/truecharts/charts/issues/3772))
-- update docker general non-major ([#3790](https://github.com/truecharts/charts/issues/3790))
-- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
-
-## [kitchenowl-1.0.3](https://github.com/truecharts/charts/compare/kitchenowl-1.0.1...kitchenowl-1.0.3) (2022-09-20)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- refactor Services SCALE GUI
-- update docker general non-major ([#3772](https://github.com/truecharts/charts/issues/3772))
-- update docker general non-major ([#3790](https://github.com/truecharts/charts/issues/3790))
-- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
-
-## [kitchenowl-1.0.3](https://github.com/truecharts/charts/compare/kitchenowl-1.0.1...kitchenowl-1.0.3) (2022-09-20)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- refactor Services SCALE GUI
-- update docker general non-major ([#3772](https://github.com/truecharts/charts/issues/3772))
-- update docker general non-major ([#3790](https://github.com/truecharts/charts/issues/3790))
-- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
-
-## [kitchenowl-1.0.3](https://github.com/truecharts/charts/compare/kitchenowl-1.0.1...kitchenowl-1.0.3) (2022-09-19)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- refactor Services SCALE GUI
-- update docker general non-major ([#3772](https://github.com/truecharts/charts/issues/3772))
-- update docker general non-major ([#3790](https://github.com/truecharts/charts/issues/3790))
-- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
-
-## [kitchenowl-1.0.3](https://github.com/truecharts/charts/compare/kitchenowl-1.0.1...kitchenowl-1.0.3) (2022-09-19)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- refactor Services SCALE GUI
-- update docker general non-major ([#3790](https://github.com/truecharts/charts/issues/3790))
-- update docker general non-major ([#3772](https://github.com/truecharts/charts/issues/3772))
-- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
-
-## [kitchenowl-1.0.3](https://github.com/truecharts/charts/compare/kitchenowl-1.0.1...kitchenowl-1.0.3) (2022-09-19)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- refactor Services SCALE GUI
-- update docker general non-major ([#3790](https://github.com/truecharts/charts/issues/3790))
-- update docker general non-major ([#3772](https://github.com/truecharts/charts/issues/3772))
-- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
-
-## [kitchenowl-1.0.2](https://github.com/truecharts/charts/compare/kitchenowl-1.0.1...kitchenowl-1.0.2) (2022-09-17)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- refactor Services SCALE GUI
-- update docker general non-major ([#3772](https://github.com/truecharts/charts/issues/3772))
-- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
-
-## [kitchenowl-1.0.2](https://github.com/truecharts/charts/compare/kitchenowl-1.0.1...kitchenowl-1.0.2) (2022-09-18)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- update docker general non-major ([#3772](https://github.com/truecharts/charts/issues/3772))
-- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
-
-## [kitchenowl-1.0.2](https://github.com/truecharts/charts/compare/kitchenowl-1.0.1...kitchenowl-1.0.2) (2022-09-16)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- update docker general non-major ([#3772](https://github.com/truecharts/charts/issues/3772))
-- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
-
-## [kitchenowl-1.0.2](https://github.com/truecharts/charts/compare/kitchenowl-1.0.1...kitchenowl-1.0.2) (2022-09-16)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- update docker general non-major ([#3772](https://github.com/truecharts/charts/issues/3772))
-- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
-
-## [kitchenowl-1.0.2](https://github.com/truecharts/charts/compare/kitchenowl-1.0.1...kitchenowl-1.0.2) (2022-09-15)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- update docker general non-major ([#3772](https://github.com/truecharts/charts/issues/3772))
-- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
-
-## [kitchenowl-1.0.2](https://github.com/truecharts/charts/compare/kitchenowl-1.0.1...kitchenowl-1.0.2) (2022-09-15)
-
-### Chore
-
-- update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-- split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
-
-## [kitchenowl-1.0.1](https://github.com/truecharts/charts/compare/kitchenowl-1.0.0...kitchenowl-1.0.1) (2022-09-12)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#3711](https://github.com/truecharts/charts/issues/3711))
-
-## [kitchenowl-1.0.1](https://github.com/truecharts/charts/compare/kitchenowl-1.0.0...kitchenowl-1.0.1) (2022-09-12)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#3711](https://github.com/truecharts/charts/issues/3711))
-
-## [kitchenowl-1.0.1](https://github.com/truecharts/charts/compare/kitchenowl-1.0.0...kitchenowl-1.0.1) (2022-09-11)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#3711](https://github.com/truecharts/charts/issues/3711))
-
-## [kitchenowl-1.0.1](https://github.com/truecharts/charts/compare/kitchenowl-1.0.0...kitchenowl-1.0.1) (2022-09-11)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#3711](https://github.com/truecharts/charts/issues/3711))
-
-## [kitchenowl-1.0.1](https://github.com/truecharts/charts/compare/kitchenowl-1.0.0...kitchenowl-1.0.1) (2022-09-11)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#3711](https://github.com/truecharts/charts/issues/3711))
-
-## [kitchenowl-1.0.1](https://github.com/truecharts/charts/compare/kitchenowl-1.0.0...kitchenowl-1.0.1) (2022-09-11)
-
-### Chore
-
-- update helm general non-major ([#3711](https://github.com/truecharts/charts/issues/3711))
-
-## [kitchenowl-1.0.0](https://github.com/truecharts/charts/compare/kitchenowl-0.0.13...kitchenowl-1.0.0) (2022-09-04)
+## [kitchenowl-8.2.0](https://github.com/truecharts/charts/compare/kitchenowl-8.1.5...kitchenowl-8.2.0) (2024-01-03)
 
 ### Feat
 
-- move to stable ([#3687](https://github.com/truecharts/charts/issues/3687))
 
-## [kitchenowl-0.0.13](https://github.com/truecharts/charts/compare/kitchenowl-0.0.11...kitchenowl-0.0.13) (2022-08-30)
 
-### Chore
+- Add OIDC providers ([#16748](https://github.com/truecharts/charts/issues/16748))
 
-- Auto-update chart README [skip ci]
-- update helm general non-major ([#3639](https://github.com/truecharts/charts/issues/3639))
-- update helm chart common to v10.5.5 ([#3626](https://github.com/truecharts/charts/issues/3626))
 
-## [kitchenowl-0.0.12](https://github.com/truecharts/charts/compare/kitchenowl-0.0.11...kitchenowl-0.0.12) (2022-08-30)
+## [kitchenowl-8.1.5](https://github.com/truecharts/charts/compare/kitchenowl-8.1.4...kitchenowl-8.1.5) (2024-01-02)
 
 ### Chore
-
-- update helm chart common to v10.5.5 ([#3626](https://github.com/truecharts/charts/issues/3626))
-
-## [kitchenowl-0.0.11](https://github.com/truecharts/charts/compare/kitchenowl-0.0.10...kitchenowl-0.0.11) (2022-08-29)
-
-### Chore
-
-- update helm general non-major ([#3619](https://github.com/truecharts/charts/issues/3619))
-
-## [kitchenowl-0.0.10](https://github.com/truecharts/charts/compare/kitchenowl-0.0.8...kitchenowl-0.0.10) (2022-08-26)
-
-### Fix
-
-- some cleanup ([#3586](https://github.com/truecharts/charts/issues/3586))
-
-## [kitchenowl-0.0.8](https://github.com/truecharts/charts/compare/kitchenowl-0.0.7...kitchenowl-0.0.8) (2022-08-23)
-
-### Chore
-
-- update helm general non-major helm releases ([#3545](https://github.com/truecharts/charts/issues/3545))
-
-## [kitchenowl-0.0.7](https://github.com/truecharts/charts/compare/kitchenowl-0.0.6...kitchenowl-0.0.7) (2022-08-12)
-
-### Chore
-
-- add documentation checkbox/section to all SCALE Apps
-- update helm general non-major helm releases ([#3456](https://github.com/truecharts/charts/issues/3456))
-
-### Fix
-
-- move extraArgs from .Values.controller to .Values ([#3447](https://github.com/truecharts/charts/issues/3447))
-
-## [kitchenowl-0.0.6](https://github.com/truecharts/charts/compare/kitchenowl-0.0.5...kitchenowl-0.0.6) (2022-08-10)
-
-### Chore
-
-- update docker general non-major ([#3421](https://github.com/truecharts/charts/issues/3421))
-
-## [kitchenowl-0.0.5](https://github.com/truecharts/charts/compare/kitchenowl-0.0.4...kitchenowl-0.0.5) (2022-08-09)
-
-### Chore
-
-- update docker general non-major ([#3377](https://github.com/truecharts/charts/issues/3377))
-
-## [kitchenowl-0.0.4](https://github.com/truecharts/charts/compare/kitchenowl-0.0.2...kitchenowl-0.0.4) (2022-08-08)
-
-### Chore
-
-- update helm general non-major helm releases ([#3376](https://github.com/truecharts/charts/issues/3376))
-- update docker general non-major ([#3356](https://github.com/truecharts/charts/issues/3356))
-- replace questions parts with templates ([#3402](https://github.com/truecharts/charts/issues/3402))
-
-## [kitchenowl-0.0.2](https://github.com/truecharts/apps/compare/kitchenowl-0.0.1...kitchenowl-0.0.2) (2022-08-01)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-
-### Fix
-
-- Specify FRONT_URL env var ([#3371](https://github.com/truecharts/apps/issues/3371))
-
-## [kitchenowl-0.0.1]kitchenowl-0.0.1 (2022-07-30)
-
-### Feat
-
-- add kitchenowl ([#3353](https://github.com/truecharts/apps/issues/3353))
