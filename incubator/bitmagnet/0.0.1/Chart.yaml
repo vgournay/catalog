@@ -5,9 +5,9 @@ annotations:
   truecharts.org/category: media
   truecharts.org/max_helm_version: "3.14"
   truecharts.org/min_helm_version: "3.12"
-  truecharts.org/train: stable
+  truecharts.org/train: incubator
 apiVersion: v2
-appVersion: 1.4.2
+appVersion: 0.7.5
 dependencies:
   - name: common
     version: 17.5.0
@@ -17,26 +17,21 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Bazarr is a companion application to Sonarr and Radarr. It manages and downloads subtitles based on your requirements
-home: https://truecharts.org/charts/stable/bazarr
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/bazarr.png
+description: A self-hosted BitTorrent indexer, DHT crawler, content classifier and torrent search engine with web UI, GraphQL API and Servarr stack integration.
+home: https://truecharts.org/charts/incubator/bitmagnet
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/bitmagnet.png
 keywords:
-  - bazarr
-  - radarr
-  - sonarr
-  - subtitles
-  - usenet
   - torrent
+  - bitmagnet
 kubeVersion: ">=1.24.0-0"
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: bazarr
+name: bitmagnet
 sources:
-  - https://github.com/morpheus65535/bazarr
-  - https://github.com/truecharts/charts/tree/master/charts/stable/bazarr
-  - https://ghcr.io/onedr0p/bazarr
-  - https://ghcr.io/onedr0p/exportarr
+  - https://bitmagnet.io
+  - https://github.com/bitmagnet-io/bitmagnet
+  - https://github.com/truecharts/charts/tree/master/charts/incubator/bitmagnet
 type: application
-version: 17.3.0
+version: 0.0.1
