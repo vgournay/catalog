@@ -32,7 +32,7 @@ configmap:
         apiVersion: 1
         datasources:
         - name: Mimir
-          type: Prometheus
+          type: prometheus
           uid: {{ .Values.grafana.datasource.uid | default "prometheus" }}
           url: http://{{ if ne .Release.Name "mimir" }}{{ .Release.Name }}-{{ end }}mimir-nginx.{{ .Release.Namespace }}/prometheus
           access: proxy
@@ -58,6 +58,7 @@ mimir:
     # Dashboard configuration for deploying Grafana dashboards for Mimir
     dashboards:
       enabled: true
+      annotations: {}
     serviceMonitor:
       enabled: true
       
@@ -152,7 +153,7 @@ mimir:
     enabled: true
   
   minio:
-    enabled: false
+    enabled: true
   
   overrides_exporter:
     replicas: 1
@@ -227,29 +228,12 @@ mimir:
   
     zoneAwareReplication:
       topologyKey: 'kubernetes.io/hostname'
-  
+  chunks-cache:
+    resources:
+      requests:
+        cpu: 20m
+        memory: 10Mi
   nginx:
-    replicas: 1
-    resources:
-      limits:
-        cpu: 1.4
-        memory: 731Mi
-      requests:
-        cpu: 20m
-        memory: 10Mi
-  
-  # Grafana Enterprise Metrics feature related
-  admin_api:
-    replicas: 1
-    resources:
-      limits:
-        cpu: 200m
-        memory: 128Mi
-      requests:
-        cpu: 20m
-        memory: 10Mi
-  
-  gateway:
     replicas: 1
     resources:
       limits:
