@@ -12,6 +12,10 @@ title: Changelog
 
 
 
+
+
+
+
 ## [wyoming-piper-3.1.11](https://github.com/truecharts/charts/compare/wyoming-piper-3.1.10...wyoming-piper-3.1.11) (2024-02-03)
 
 ### Chore
@@ -93,7 +97,3 @@ title: Changelog
 ### Chore
 
 
-
-- bump all charts for OCI test push
-
-- move everything to consume OCI-hosted common-chart dependency
