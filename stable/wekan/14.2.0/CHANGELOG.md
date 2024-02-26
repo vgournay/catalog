@@ -16,6 +16,10 @@ title: Changelog
 
 
 
+
+
+
+
 ## [wekan-13.4.1](https://github.com/truecharts/charts/compare/wekan-13.4.0...wekan-13.4.1) (2024-02-03)
 
 ### Chore
@@ -93,7 +97,3 @@ title: Changelog
 
 
 ## [wekan-13.3.1](https://github.com/truecharts/charts/compare/wekan-13.3.0...wekan-13.3.1) (2024-01-09)
-
-### Chore
-
-
