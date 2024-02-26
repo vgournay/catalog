@@ -18,6 +18,10 @@ title: Changelog
 
 
 
+
+
+
+
 ## [gitea-17.1.18](https://github.com/truecharts/charts/compare/gitea-17.1.17...gitea-17.1.18) (2024-02-03)
 
 ### Chore
@@ -93,7 +97,3 @@ title: Changelog
 
 
 ## [gitea-17.1.10](https://github.com/truecharts/charts/compare/gitea-17.1.9...gitea-17.1.10) (2024-01-09)
-
-### Chore
-
-

@@ -13,6 +13,10 @@ title: Changelog
 
 
 
+
+
+
+
 ## [cops-7.1.18](https://github.com/truecharts/charts/compare/cops-7.1.17...cops-7.1.18) (2024-02-12)
 
 ### Chore
@@ -93,7 +97,3 @@ title: Changelog
 
 - update container image lscr.io/linuxserver/cops to 2.2.1[@06ce711](https://github.com/06ce711) by renovate ([#17238](https://github.com/truecharts/charts/issues/17238))
 
-
-
-
-## [cops-7.1.9](https://github.com/truecharts/charts/compare/cops-7.1.8...cops-7.1.9) (2024-01-09)
