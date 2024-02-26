@@ -32,6 +32,10 @@ title: Changelog
 
 
 
+
+
+
+
 ## [rsshub-11.2.7](https://github.com/truecharts/charts/compare/rsshub-11.2.6...rsshub-11.2.7) (2024-02-12)
 
 ### Chore
@@ -93,8 +97,3 @@ title: Changelog
 
 
 - update container image diygod/rsshub to latest[@912b8a5](https://github.com/912b8a5) by renovate ([#17741](https://github.com/truecharts/charts/issues/17741))
-
-
-## [rsshub-11.2.0](https://github.com/truecharts/charts/compare/rsshub-11.1.32...rsshub-11.2.0) (2024-01-29)
-
-### Chore
