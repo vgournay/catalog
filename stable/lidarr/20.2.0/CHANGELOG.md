@@ -11,6 +11,10 @@ title: Changelog
 
 
 
+
+
+
+
 ## [lidarr-19.1.19](https://github.com/truecharts/charts/compare/lidarr-19.1.18...lidarr-19.1.19) (2024-02-12)
 
 ### Chore
@@ -93,7 +97,3 @@ title: Changelog
 
 
 ## [lidarr-19.1.10](https://github.com/truecharts/charts/compare/lidarr-19.1.9...lidarr-19.1.10) (2024-01-21)
-
-### Chore
-
-
