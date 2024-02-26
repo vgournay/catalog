@@ -19,6 +19,10 @@ title: Changelog
 
 
 
+
+
+
+
 ## [plausible-8.2.9](https://github.com/truecharts/charts/compare/plausible-8.2.8...plausible-8.2.9) (2024-02-03)
 
 ### Chore
@@ -93,8 +97,3 @@ title: Changelog
 
 
 - update helm general non-major by renovate ([#17057](https://github.com/truecharts/charts/issues/17057))
-
-
-## [plausible-8.2.2](https://github.com/truecharts/charts/compare/plausible-8.2.1...plausible-8.2.2) (2024-01-02)
-
-### Chore
