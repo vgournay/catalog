@@ -544,7 +544,7 @@ questions:
                 schema:
                   type: list
                   default:
-                    - EpicApp=PalServer
+                    - -publiclobby
                   required: true
                   items:
                     - variable: param
