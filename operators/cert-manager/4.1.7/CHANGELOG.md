@@ -21,6 +21,10 @@ title: Changelog
 
 
 
+
+
+
+
 ## [cert-manager-3.1.16](https://github.com/truecharts/charts/compare/cert-manager-3.1.15...cert-manager-3.1.16) (2024-02-12)
 
 ### Chore
@@ -93,8 +97,3 @@ title: Changelog
 
 
 - update container image common to v17.2.22[@e7c9056](https://github.com/e7c9056) by renovate ([#16986](https://github.com/truecharts/charts/issues/16986))
-
-
-## [cert-manager-3.1.8](https://github.com/truecharts/charts/compare/cert-manager-3.1.7...cert-manager-3.1.8) (2024-01-02)
-
-### Chore
