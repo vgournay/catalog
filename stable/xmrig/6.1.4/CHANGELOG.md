@@ -13,6 +13,10 @@ title: Changelog
 
 
 
+
+
+
+
 ## [xmrig-4.1.12](https://github.com/truecharts/charts/compare/xmrig-4.1.11...xmrig-4.1.12) (2024-02-03)
 
 ### Chore
@@ -93,8 +97,3 @@ title: Changelog
 
 ### Chore
 
-
-
-- bump all charts for OCI test push
-
-- move everything to consume OCI-hosted common-chart dependency
