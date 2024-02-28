@@ -307,13 +307,18 @@ configmap:
         {{ .Files.Get "dashboard.json" | indent 8 }}
       blockypostgres.json: >-
         {{ .Files.Get "dashboardpsql.json" | indent 8 }}
+  datasource:
+    enabled: true
+    labels:
+      grafana_datasources: "1"
+    data:
       datasourceblockypsql.yaml: |-
         apiVersion: 1
         datasources:
-        - name: BlockyPostgresql
-          type: postgresql
-          uid: blockypostgresql
-          url: {{ .Values.cnpg.main.creds.portHost | default "na" }}
+        - name: BlockyPostgres
+          type: postgres
+          uid: blockypostgres
+          url: {{ printf "%s:5432" (.Values.cnpg.main.creds.host | trimAll "\"") }}
           access: proxy
           user: {{ .Values.cnpg.main.user }}
           secureJsonData:
@@ -370,6 +375,7 @@ queryLog:
   creationAttempts: 3
   # optional: Time between the creation attempts, default: 2s
   creationCooldown: 2s
+
 cnpg:
   main:
     enabled: true
