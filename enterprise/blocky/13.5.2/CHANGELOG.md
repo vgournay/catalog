@@ -23,6 +23,10 @@ title: Changelog
 
 
 
+
+
+
+
 ## [blocky-12.2.7](https://github.com/truecharts/charts/compare/blocky-12.2.6...blocky-12.2.7) (2024-02-03)
 
 ### Chore
@@ -93,8 +97,3 @@ title: Changelog
 ### Chore
 
 
-
-- update container image spx01/blocky to v0.23[@24855b6](https://github.com/24855b6) by renovate ([#17023](https://github.com/truecharts/charts/issues/17023))
-
-
-## [blocky-12.1.8](https://github.com/truecharts/charts/compare/blocky-12.1.7...blocky-12.1.8) (2024-01-02)
