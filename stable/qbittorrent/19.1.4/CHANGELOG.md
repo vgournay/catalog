@@ -12,6 +12,10 @@ title: Changelog
 
 
 
+
+
+
+
 ## [qbittorrent-18.1.12](https://github.com/truecharts/charts/compare/qbittorrent-18.1.11...qbittorrent-18.1.12) (2024-02-03)
 
 ### Chore
@@ -93,8 +97,3 @@ title: Changelog
 
 
 - increase common version for oci fixes
-
-- remove non-existent template refs ([#16738](https://github.com/truecharts/charts/issues/16738))
-
-
-## [qbittorrent-18.1.3](https://github.com/truecharts/charts/compare/qbittorrent-18.1.0...qbittorrent-18.1.3) (2024-01-01)
