@@ -17,6 +17,10 @@ title: Changelog
 
 
 
+
+
+
+
 ## [authelia-22.2.7](https://github.com/truecharts/charts/compare/authelia-22.2.6...authelia-22.2.7) (2024-02-03)
 
 ### Chore
@@ -93,8 +97,3 @@ title: Changelog
 ### Feat
 
 
-
-- Update authelia questions.yaml ([#17082](https://github.com/truecharts/charts/issues/17082))
-
-
-## [authelia-22.1.9](https://github.com/truecharts/charts/compare/authelia-22.1.8...authelia-22.1.9) (2024-01-09)

@@ -42,6 +42,10 @@ title: Changelog
 
 
 
+
+
+
+
 ## [wordpress-6.1.23](https://github.com/truecharts/charts/compare/wordpress-6.1.22...wordpress-6.1.23) (2024-02-12)
 
 ### Chore
@@ -94,6 +98,3 @@ title: Changelog
 
 
 - update container image bitnami/wordpress to 6.4.2[@de43215](https://github.com/de43215) by renovate ([#17581](https://github.com/truecharts/charts/issues/17581))
-
-
-## [wordpress-6.1.17](https://github.com/truecharts/charts/compare/wordpress-6.1.16...wordpress-6.1.17) (2024-01-27)
