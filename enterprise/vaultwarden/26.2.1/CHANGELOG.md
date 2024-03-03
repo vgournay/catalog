@@ -13,6 +13,10 @@ title: Changelog
 
 
 
+
+
+
+
 ## [vaultwarden-25.1.15](https://github.com/truecharts/charts/compare/vaultwarden-25.1.14...vaultwarden-25.1.15) (2024-02-03)
 
 ### Chore
@@ -94,6 +98,3 @@ title: Changelog
 
 
 - update container image common to v17.2.22[@e7c9056](https://github.com/e7c9056) by renovate ([#16986](https://github.com/truecharts/charts/issues/16986))
-
-
-## [vaultwarden-25.1.6](https://github.com/truecharts/charts/compare/vaultwarden-25.1.5...vaultwarden-25.1.6) (2024-01-02)
