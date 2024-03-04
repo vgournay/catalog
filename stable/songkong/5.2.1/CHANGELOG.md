@@ -13,6 +13,10 @@ title: Changelog
 
 
 
+
+
+
+
 ## [songkong-4.1.13](https://github.com/truecharts/charts/compare/songkong-4.1.12...songkong-4.1.13) (2024-02-03)
 
 ### Chore
@@ -94,6 +98,3 @@ title: Changelog
 
 
 - increase common version for oci fixes
-
-- remove non-existent template refs ([#16738](https://github.com/truecharts/charts/issues/16738))
-
