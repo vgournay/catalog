@@ -14,6 +14,10 @@ title: Changelog
 
 
 
+
+
+
+
 ## [zwavejs2mqtt-18.3.3](https://github.com/truecharts/charts/compare/zwavejs2mqtt-18.3.2...zwavejs2mqtt-18.3.3) (2024-02-12)
 
 ### Chore
@@ -93,8 +97,3 @@ title: Changelog
 
 
 - update container image zwavejs/zwave-js-ui to v9.7.1[@19549d9](https://github.com/19549d9) by renovate ([#17440](https://github.com/truecharts/charts/issues/17440))
-
-
-## [zwavejs2mqtt-18.2.0](https://github.com/truecharts/charts/compare/zwavejs2mqtt-18.1.6...zwavejs2mqtt-18.2.0) (2024-01-15)
-
-### Chore
