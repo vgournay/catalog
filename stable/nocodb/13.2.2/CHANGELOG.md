@@ -19,6 +19,10 @@ title: Changelog
 
 
 
+
+
+
+
 ## [nocodb-12.3.6](https://github.com/truecharts/charts/compare/nocodb-12.3.5...nocodb-12.3.6) (2024-02-03)
 
 ### Chore
@@ -94,6 +98,3 @@ title: Changelog
 
 
 ## [nocodb-12.2.8](https://github.com/truecharts/charts/compare/nocodb-12.2.7...nocodb-12.2.8) (2024-01-02)
-
-### Chore
-
