@@ -13,6 +13,10 @@ title: Changelog
 
 
 
+
+
+
+
 ## [syncthing-17.1.13](https://github.com/truecharts/charts/compare/syncthing-17.1.12...syncthing-17.1.13) (2024-02-12)
 
 ### Chore
@@ -94,6 +98,3 @@ title: Changelog
 
 
 - force bump to ensure up-to-date catalogs
-
-
-## [syncthing-17.1.4](https://github.com/truecharts/charts/compare/syncthing-17.1.3...syncthing-17.1.4) (2024-01-01)
