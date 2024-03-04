@@ -13,6 +13,10 @@ title: Changelog
 
 
 
+
+
+
+
 ## [qbitmanage-7.1.13](https://github.com/truecharts/charts/compare/qbitmanage-7.1.12...qbitmanage-7.1.13) (2024-02-03)
 
 ### Chore
@@ -94,6 +98,3 @@ title: Changelog
 
 
 - force bump to ensure up-to-date catalogs
-
-
-## [qbitmanage-7.1.4](https://github.com/truecharts/charts/compare/qbitmanage-7.1.3...qbitmanage-7.1.4) (2024-01-01)
