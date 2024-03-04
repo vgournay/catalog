@@ -23,6 +23,11 @@ title: Changelog
 
 
 
+
+
+
+
+
 ## [ispy-agent-dvr-8.2.9](https://github.com/truecharts/charts/compare/ispy-agent-dvr-8.2.8...ispy-agent-dvr-8.2.9) (2024-02-12)
 
 ### Chore
@@ -93,8 +98,3 @@ title: Changelog
 
 
 - update container image doitandbedone/ispyagentdvr to v5.2.3.0[@a27ece7](https://github.com/a27ece7) by renovate ([#17410](https://github.com/truecharts/charts/issues/17410))
-
-
-## [ispy-agent-dvr-8.2.1](https://github.com/truecharts/charts/compare/ispy-agent-dvr-8.2.0...ispy-agent-dvr-8.2.1) (2024-01-15)
-
-### Chore
