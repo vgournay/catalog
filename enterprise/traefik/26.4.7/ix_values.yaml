@@ -438,8 +438,8 @@ middlewares:
   #   modSecurityUrl: modSecurity container URL
   #   timeoutMillis: Configurated  timeout
   #   maxBodySize: maxBodySize
-  crowdsecBouncer: []
-  # - name: modsecurityName
+  bouncer: []
+  # - name: bouncer
   #   enabled: false
   #   logLevel: DEBUG
   #   updateIntervalSeconds: 60
@@ -487,7 +487,7 @@ persistence:
     mountPath: "/plugins-storage"
     type: emptyDir
   crowdsec-bouncer-tls:
-    enabled: "{{ if .Values.middlewares.crowdsecBouncer }}true{{ else }}false{{ end }}"
+    enabled: "{{ if .Values.middlewares.bouncer }}true{{ else }}false{{ end }}"
     mountPath: "/etc/traefik/crowdsec-certs"
     type: secret
     expandObjectName: false
