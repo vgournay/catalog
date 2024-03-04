@@ -24,6 +24,10 @@ title: Changelog
 
 
 
+
+
+
+
 ## [libremdb-6.1.23](https://github.com/truecharts/charts/compare/libremdb-6.1.22...libremdb-6.1.23) (2024-02-03)
 
 ### Chore
@@ -92,8 +96,4 @@ title: Changelog
 ## [libremdb-6.1.16](https://github.com/truecharts/charts/compare/libremdb-6.1.15...libremdb-6.1.16) (2024-01-09)
 
 ### Chore
-
-
-
-- update container image common to v17.2.22[@e7c9056](https://github.com/e7c9056) by renovate ([#16986](https://github.com/truecharts/charts/issues/16986))
 
