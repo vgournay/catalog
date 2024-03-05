@@ -1,9 +1,0 @@
-
-
-## [dillinger-9.2.4](https://github.com/truecharts/charts/compare/dillinger-9.2.3...dillinger-9.2.4) (2024-03-05)
-
-### Chore
-
-
-
-- bump everything to force helm release again
