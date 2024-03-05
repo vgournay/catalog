@@ -188,12 +188,12 @@ service:
   tcp:
     enabled: true
     type: LoadBalancer
+    externalTrafficPolicy: Local
     ports:
       web:
         enabled: true
         port: 80
         protocol: http
-        externalTrafficPolicy: local
         redirectTo: websecure
         # Options: Empty, 0 (ingore), or positive int
         # redirectPort:
@@ -215,7 +215,6 @@ service:
         enabled: true
         port: 443
         protocol: https
-        externalTrafficPolicy: local
         # -- Configure (Forwarded Headers)[https://doc.traefik.io/traefik/routing/entrypoints/#forwarded-headers] Support
         forwardedHeaders:
           enabled: false
@@ -438,8 +437,8 @@ middlewares:
   #   modSecurityUrl: modSecurity container URL
   #   timeoutMillis: Configurated  timeout
   #   maxBodySize: maxBodySize
-  crowdsecBouncer: []
-  # - name: modsecurityName
+  bouncer: []
+  # - name: bouncer
   #   enabled: false
   #   logLevel: DEBUG
   #   updateIntervalSeconds: 60
@@ -460,10 +459,10 @@ middlewares:
   #     - crowdsecurity/http-path-traversal-probing
   #     - crowdsecurity/http-xss-probing
   #     - crowdsecurity/http-generic-bf
-  #   forwardedHeadersTrustedIPs: 
+  #   forwardedHeadersTrustedIPs:
   #     - 10.0.10.23/32
   #     - 10.0.20.0/24
-  #   clientTrustedIPs: 
+  #   clientTrustedIPs:
   #     - 192.168.1.0/24
   #   forwardedHeadersCustomName: X-Custom-Header
   #   redisCacheEnabled: false
@@ -487,7 +486,7 @@ persistence:
     mountPath: "/plugins-storage"
     type: emptyDir
   crowdsec-bouncer-tls:
-    enabled: "{{ if .Values.middlewares.crowdsecBouncer }}true{{ else }}false{{ end }}"
+    enabled: "{{ if .Values.middlewares.bouncer }}true{{ else }}false{{ end }}"
     mountPath: "/etc/traefik/crowdsec-certs"
     type: secret
     expandObjectName: false
