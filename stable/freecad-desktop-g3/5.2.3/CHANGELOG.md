@@ -8,6 +8,28 @@ title: Changelog
 **Important:**
 
 
+## [freecad-desktop-g3-5.2.3](https://github.com/truecharts/charts/compare/freecad-desktop-g3-5.2.2...freecad-desktop-g3-5.2.3) (2024-03-05)
+
+### Chore
+
+
+
+- update container image accetto/ubuntu-vnc-xfce-freecad-g3 to latest[@394e667](https://github.com/394e667) by renovate ([#18752](https://github.com/truecharts/charts/issues/18752))
+
+
+## [freecad-desktop-g3-5.2.2](https://github.com/truecharts/charts/compare/freecad-desktop-g3-5.2.0...freecad-desktop-g3-5.2.2) (2024-03-05)
+
+### Chore
+
+
+
+- force rereleases
+
+- update container image common to v18.1.6[@904d84b](https://github.com/904d84b) by renovate ([#18835](https://github.com/truecharts/charts/issues/18835))
+
+
+
+
 
 
 
@@ -75,25 +97,3 @@ title: Changelog
 ### Chore
 
 
-
-- update container image common to v17.2.22[@e7c9056](https://github.com/e7c9056) by renovate ([#16986](https://github.com/truecharts/charts/issues/16986))
-
-
-## [freecad-desktop-g3-4.1.5](https://github.com/truecharts/charts/compare/freecad-desktop-g3-4.1.4...freecad-desktop-g3-4.1.5) (2024-01-02)
-
-### Chore
-
-
-
-- force bump to ensure up-to-date catalogs
-
-
-## [freecad-desktop-g3-4.1.4](https://github.com/truecharts/charts/compare/freecad-desktop-g3-4.1.3...freecad-desktop-g3-4.1.4) (2024-01-01)
-
-### Chore
-
-
-
-- increase common version for oci fixes
-
-- remove non-existent template refs ([#16738](https://github.com/truecharts/charts/issues/16738))
