@@ -1,0 +1,9 @@
+
+
+## [piaware-12.2.3](https://github.com/truecharts/charts/compare/piaware-12.2.2...piaware-12.2.3) (2024-03-05)
+
+### Chore
+
+
+
+- bump everything to force helm release again

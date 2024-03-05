@@ -1,0 +1,100 @@
+---
+title: Changelog
+---
+
+
+*for the complete changelog, please refer to the website*
+
+**Important:**
+
+
+## [duplicacy-6.2.4](https://github.com/truecharts/charts/compare/duplicacy-6.2.3...duplicacy-6.2.4) (2024-03-05)
+
+### Chore
+
+
+
+- bump everything to force helm release again
+
+
+## [duplicacy-6.2.3](https://github.com/truecharts/charts/compare/duplicacy-6.2.1...duplicacy-6.2.3) (2024-03-05)
+
+### Chore
+
+
+
+- force rereleases
+
+- update container image common to v18.1.6[@904d84b](https://github.com/904d84b) by renovate ([#18835](https://github.com/truecharts/charts/issues/18835))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## [duplicacy-5.1.17](https://github.com/truecharts/charts/compare/duplicacy-5.1.16...duplicacy-5.1.17) (2024-02-12)
+
+### Chore
+
+
+
+- update container image ghcr.io/hotio/duplicacy to release-1.7.2[@b778759](https://github.com/b778759) by renovate ([#18210](https://github.com/truecharts/charts/issues/18210))
+
+
+## [duplicacy-5.1.16](https://github.com/truecharts/charts/compare/duplicacy-5.1.15...duplicacy-5.1.16) (2024-02-12)
+
+### Chore
+
+
+
+- update container image ghcr.io/hotio/duplicacy to release-1.7.2[@3233802](https://github.com/3233802) by renovate ([#18048](https://github.com/truecharts/charts/issues/18048))
+
+
+## [duplicacy-5.1.15](https://github.com/truecharts/charts/compare/duplicacy-5.1.14...duplicacy-5.1.15) (2024-02-05)
+
+### Chore
+
+
+
+- update container image ghcr.io/hotio/duplicacy to release-1.7.2[@77c4b99](https://github.com/77c4b99) by renovate ([#17836](https://github.com/truecharts/charts/issues/17836))
+
+
+## [duplicacy-5.1.14](https://github.com/truecharts/charts/compare/duplicacy-5.1.13...duplicacy-5.1.14) (2024-02-03)
+
+### Chore
+
+
+
+- update container image common to v17.2.30[@19ad5ec](https://github.com/19ad5ec) by renovate ([#17804](https://github.com/truecharts/charts/issues/17804))
+
+
+## [duplicacy-5.1.13](https://github.com/truecharts/charts/compare/duplicacy-5.1.12...duplicacy-5.1.13) (2024-01-29)
+
+### Chore

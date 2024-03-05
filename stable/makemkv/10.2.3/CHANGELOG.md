@@ -1,0 +1,99 @@
+---
+title: Changelog
+---
+
+
+*for the complete changelog, please refer to the website*
+
+**Important:**
+
+
+## [makemkv-10.2.3](https://github.com/truecharts/charts/compare/makemkv-10.2.2...makemkv-10.2.3) (2024-03-05)
+
+### Chore
+
+
+
+- bump everything to force helm release again
+
+
+## [makemkv-10.2.2](https://github.com/truecharts/charts/compare/makemkv-10.2.0...makemkv-10.2.2) (2024-03-05)
+
+### Chore
+
+
+
+- force rereleases
+
+- update container image common to v18.1.6[@904d84b](https://github.com/904d84b) by renovate ([#18835](https://github.com/truecharts/charts/issues/18835))
+
+
+
+
+
+
+
+
+
+
+## [makemkv-9.0.1](https://github.com/truecharts/charts/compare/makemkv-9.0.0...makemkv-9.0.1) (2024-02-03)
+
+### Chore
+
+
+
+- update container image common to v17.2.30[@19ad5ec](https://github.com/19ad5ec) by renovate ([#17804](https://github.com/truecharts/charts/issues/17804))
+
+
+## [makemkv-9.0.0](https://github.com/truecharts/charts/compare/makemkv-8.1.10...makemkv-9.0.0) (2024-01-29)
+
+### Chore
+
+
+
+- update container image jlesage/makemkv to v24.01.1[@7e7e6a0](https://github.com/7e7e6a0) by renovate ([#17708](https://github.com/truecharts/charts/issues/17708))
+
+
+## [makemkv-8.1.10](https://github.com/truecharts/charts/compare/makemkv-8.1.9...makemkv-8.1.10) (2024-01-26)
+
+### Chore
+
+
+
+- update container image common to v17.2.29[@d7c41a3](https://github.com/d7c41a3) by renovate ([#17545](https://github.com/truecharts/charts/issues/17545))
+
+
+## [makemkv-8.1.9](https://github.com/truecharts/charts/compare/makemkv-8.1.8...makemkv-8.1.9) (2024-01-21)
+
+### Chore
+
+
+
+- update container image common to v17.2.28[@918b4c5](https://github.com/918b4c5) by renovate ([#17478](https://github.com/truecharts/charts/issues/17478))
+
+
+## [makemkv-8.1.8](https://github.com/truecharts/charts/compare/makemkv-8.1.7...makemkv-8.1.8) (2024-01-21)
+
+### Chore
+
+
+
+- update container image common to v17.2.26[@24c98f7](https://github.com/24c98f7) by renovate ([#17409](https://github.com/truecharts/charts/issues/17409))
+
+
+## [makemkv-8.1.7](https://github.com/truecharts/charts/compare/makemkv-8.1.6...makemkv-8.1.7) (2024-01-21)
+
+### Chore
+
+
+
+- update metadata in chart.yaml ([#17457](https://github.com/truecharts/charts/issues/17457))
+
+
+
+
+## [makemkv-8.1.6](https://github.com/truecharts/charts/compare/makemkv-8.1.5...makemkv-8.1.6) (2024-01-09)
+
+### Chore
+
+
