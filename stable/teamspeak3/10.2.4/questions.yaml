@@ -289,8 +289,8 @@ questions:
       attrs:
 
         - variable: main
-          label: "Server Query Service"
-          description: "The server query service of teamspeak3"
+          label: "Server Query Service RAW"
+          description: "The server query (RAW) service of teamspeak3"
           schema:
             additional_attrs: true
             type: dict
@@ -328,7 +328,7 @@ questions:
                   attrs:
 
                     - variable: main
-                      label: "Server Query Service Port Configuration"
+                      label: "Server Query (RAW) Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict
@@ -340,6 +340,59 @@ questions:
                               type: int
                               default: 10011
                               required: true
+        - variable: query
+          label: "Server Query Service SSH"
+          description: "The server query (SSH) service of teamspeak3"
+          schema:
+            additional_attrs: true
+            type: dict
+            attrs:
+              - variable: enabled
+                label: Enable the Service
+                schema:
+                  type: boolean
+                  default: true
+                  hidden: true
+              - variable: type
+                label: Service Type
+                description: "ClusterIP's are only internally available and Loadbalancer exposes the service using the system loadbalancer"
+                schema:
+                  type: string
+                  default: LoadBalancer
+                  enum:
+                    - value: LoadBalancer
+                      description: LoadBalancer (Expose Ports)
+                    - value: ClusterIP
+                      description: ClusterIP (Do Not Expose Ports)
+
+              - variable: loadBalancerIP
+                label: LoadBalancer IP
+                description: "MetalLB Only: Selects the Loadbalancer IP to expose on. Required when using PortalButton with MetalLB"
+                schema:
+                  show_if: [["type", "=", "LoadBalancer"]]
+                  type: string
+                  default: ""
+              - variable: ports
+                label: "Service's Port(s) Configuration"
+                schema:
+                  additional_attrs: true
+                  type: dict
+                  attrs:
+
+                    - variable: query
+                      label: "Server Query (SSH) Service Port Configuration"
+                      schema:
+                        additional_attrs: true
+                        type: dict
+                        attrs:
+                          - variable: port
+                            label: "Port"
+                            description: "This port exposes the container port on the service"
+                            schema:
+                              type: int
+                              default: 10022
+                              required: true
+
         - variable: voice
           label: "Voice Service"
           description: "The voice service of teamspeak3"
