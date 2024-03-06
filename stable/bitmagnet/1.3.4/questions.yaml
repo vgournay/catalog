@@ -2087,7 +2087,6 @@ questions:
                               type: string
                               default: ""
 
-
   - variable: metrics
     group: Metrics
     label: Prometheus Metrics

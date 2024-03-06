@@ -1909,7 +1909,6 @@ questions:
                               type: string
                               default: ""
 
-
 #  - variable: horizontalPodAutoscaler
 #    group: Advanced
 #    label: (Advanced) Horizontal Pod Autoscaler
